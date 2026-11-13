@@ -47,5 +47,15 @@ FOTO_SENADOR = "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador{i
 # Legislaturas (início, fim) — mandatos de senador cobrem duas.
 LEGISLATURAS = {53: (2007, 2011), 54: (2011, 2015), 55: (2015, 2019), 56: (2019, 2023), 57: (2023, 2027), 58: (2027, 2031)}
 
+# ------------------------------------------------ Receita Federal (CNPJ)
+# Mesma configuração do repositório dos deputados (pastas AAAA-MM mensais).
+RECEITA_FONTES = [
+    {"tipo": "indice", "url": "https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/"},
+    {"tipo": "indice", "url": "https://dadosabertos.rfb.gov.br/CNPJ/dados_abertos_cnpj/"},
+    {"tipo": "webdav", "url": "https://arquivos.receitafederal.gov.br/public.php/webdav/", "token": "YggdBLfdninEJX9"},
+]
+# Limite anual de faturamento do MEI (alerta "MEI acima do limite")
+MEI_LIMITE = 81000.0
+
 IPCA_SGS = ("https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados"
             "?formato=json&dataInicial=01/01/{ano}")

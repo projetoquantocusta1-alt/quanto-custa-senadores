@@ -1,0 +1,51 @@
+name: Receita Federal
+
+on:
+  schedule:
+    - cron: "17 12 * * 0"   # todo domingo às 09:17 (horário de Brasília)
+  workflow_dispatch:         # botão "Run workflow"
+    inputs:
+      forcar:
+        description: "Digite sim para refazer mesmo sem base nova"
+        required: false
+        default: "nao"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-senadores   # mesma fila do robô diário: um espera o outro
+  cancel-in-progress: false
+
+jobs:
+  rodar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Liberar espaço em disco (os arquivos da Receita são grandes)
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL || true
+          df -h /
+      - name: Receita Federal (cadastro e sócios dos fornecedores)
+        env:
+          FORCAR: ${{ github.event.inputs.forcar }}
+        run: |
+          if [ "$FORCAR" = "sim" ]; then python receita.py --forcar; else python receita.py; fi
+      - name: Publicar
+        if: always()
+        run: |
+          git config user.name  "robo-quanto-custa"
+          git config user.email "actions@users.noreply.github.com"
+          mkdir -p docs/dados dados_brutos
+          git add docs/dados dados_brutos
+          if ! git diff --cached --quiet; then
+            git commit -m "receita federal ($(date -u +%Y-%m-%d))"
+            git pull --rebase -X ours origin main || true
+            git push
+          fi

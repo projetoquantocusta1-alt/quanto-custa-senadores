@@ -148,7 +148,32 @@ async function rFornecedores() {
   $("#f-mais").hidden = linhas.length <= E.limF;
   E.fornAtual = { L, nomes };
 }
-function fichaFornecedor(ch) {
+// Receita Federal (cadastro, sócios e alertas), quando o robô "Receita Federal" já rodou
+const RF = {};
+const rfGet = (u) => RF[u] || (RF[u] = getJSON(u).catch(() => null));
+async function blocoReceita(ch) {
+  if (!/^\d{14}$/.test(ch)) return "";
+  const [meta, grupo, al] = await Promise.all([rfGet("dados/receita/meta.json"), rfGet(`dados/receita/cadastro/${ch.slice(0, 2)}.json`), rfGet("dados/receita/alertas.json")]);
+  if (!meta) return `<p class="sub">O cadastro na Receita Federal aparece aqui depois que o robô “Receita Federal” rodar.</p>`;
+  const c = grupo?.[ch];
+  if (!c) return `<p class="sub">CNPJ não consultado na base da Receita de ${esc(meta.base)} (fornecedor novo: entra na próxima base).</p>`;
+  if (c.nao_encontrado) return `<p class="aviso-comprovante">CNPJ não encontrado na base da Receita Federal de ${esc(meta.base)}${c.cnpj_valido === false ? " (o dígito verificador do CNPJ informado é inválido)" : ""}.</p>`;
+  const alertas = (al?.linhas || []).filter((a) => a[0] === ch);
+  const e = c.end || {}, sim = c.simples || {};
+  const linha = (r, v) => (v ? `<tr><td>${r}</td><td class="quebra">${v}</td></tr>` : "");
+  return `${alertas.length ? `<div class="aviso-comprovante"><b>Pontos de atenção</b> (fatos do cadastro, não são acusação):<ul>${alertas.map((a) => `<li>${esc(a[2])}</li>`).join("")}</ul></div>` : ""}
+    <table class="ranking"><tbody>
+    ${linha("Razão social", esc(c.razao))}${linha("Nome fantasia", esc(c.fantasia))}
+    ${linha("Situação", `${esc(c.situacao)}${c.data_situacao ? " desde " + dataBR(c.data_situacao) : ""}${c.motivo ? " · " + esc(c.motivo) : ""}`)}
+    ${linha("Abertura", dataBR(c.abertura))}${linha("Atividade principal", c.cnae ? esc(c.cnae[0] + " · " + c.cnae[1]) : "")}
+    ${linha("Natureza jurídica", esc(c.natureza))}${linha("Porte", esc(c.porte))}${linha("Capital social", c.capital != null ? brl(c.capital, 2) : "")}
+    ${linha("Simples / MEI", sim.mei ? `MEI desde ${dataBR(sim.mei_desde)}${sim.mei_ate ? " até " + dataBR(sim.mei_ate) : ""}` : sim.simples ? `Simples Nacional desde ${dataBR(sim.simples_desde)}` : "Não optante")}
+    ${linha("Endereço", esc([e.logradouro, e.numero, e.complemento, e.bairro, e.municipio && e.municipio + "-" + e.uf, e.cep].filter(Boolean).join(", ")))}
+    </tbody></table>
+    ${(c.socios || []).length ? `<h3 class="d-sec">Sócios (${nf(c.socios.length)})</h3><div class="tabela-rolagem"><table class="ranking"><thead><tr><th>Nome</th><th>Documento</th><th>Qualificação</th><th>Desde</th></tr></thead><tbody>${c.socios.map((x) => `<tr><td class="quebra">${esc(x[1])}${x[5] ? `<div class="sub">${esc(x[5])}</div>` : ""}</td><td>${esc(x[2])}</td><td class="quebra sub">${esc(x[3])}</td><td>${dataBR(x[4])}</td></tr>`).join("")}</tbody></table></div>` : `<p class="sub">Sem sócios no cadastro (empresário individual ou MEI).</p>`}
+    <p class="sub">Fonte: dados abertos do CNPJ da Receita Federal, base ${esc(meta.base)}. CPF dos sócios aparece mascarado pela própria Receita.</p>`;
+}
+async function fichaFornecedor(ch) {
   const f = E.fornAtual?.L.find((x) => x.ch === ch); if (!f) return;
   const nomes = E.fornAtual.nomes;
   const ss = [...f.sens.entries()].sort((a, b) => b[1][0] - a[1][0]);
@@ -159,7 +184,10 @@ function fichaFornecedor(ch) {
     <div><h3 class="d-sec">Por tipo de gasto</h3><table class="ranking"><tbody>${Object.entries(f.tipos).sort((a, b) => b[1] - a[1]).map(([t, v]) => `<tr><td class="quebra">${esc(t)}</td><td class="num">${brl(v, 2)}</td></tr>`).join("")}</tbody></table></div></div>
     <h3 class="d-sec">Maiores notas</h3><table class="ranking"><thead><tr><th>Data</th><th>Senador</th><th>Documento</th><th>Detalhe</th><th class="num">Valor</th></tr></thead><tbody>${f.maiores.sort((a, b) => b[1] - a[1]).slice(0, 30).map((m) => { const x = nomes.get(String(m[2]));
       return `<tr><td>${dataBR(m[0])}</td><td>${esc(x?.nome || m[2])}</td><td>${esc(m[3] || "")}</td><td class="quebra sub">${esc(m[4] || "")}</td><td class="num">${brl(m[1], 2)}</td></tr>`; }).join("")}</tbody></table>
-    <p class="sub">Para ver todas as notas deste fornecedor com um senador, abra a ficha do senador.</p>`);
+    <p class="sub">Para ver todas as notas deste fornecedor com um senador, abra a ficha do senador.</p>
+    <h3 class="d-sec">Cadastro na Receita Federal</h3><div id="ff-receita"><p class="sub">Carregando…</p></div>`);
+  const rf = await blocoReceita(ch);
+  if ($("#ff-receita")) $("#ff-receita").innerHTML = rf;
 }
 
 // ---------------------------------------------------------------- ficha do senador

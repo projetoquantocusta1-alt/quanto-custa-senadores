@@ -63,3 +63,17 @@ def test_passageiros():
          "JOSÉ D'ÁVILA (Matrícula 12, PARLAMENTAR), Voo: 3768 - BSB/MCP - 17/07/2025;")
     assert S.passageiros(d) == [("KAROL PONTES MONTEIRO", "COMISSIONADO"), ("JOSÉ D'ÁVILA", "PARLAMENTAR")]
     assert S.passageiros("Passagem terrestre de servidor a serviço") == []
+
+
+def test_alertas_receita():
+    import receita as R
+    cad = {"11222333000181": {"abertura": "2025-01-10", "situacao": "BAIXADA", "data_situacao": "2026-02-01",
+                              "simples": {"mei": True}},
+           "99888777000166": {"abertura": "2010-01-01", "situacao": "ATIVA", "simples": {"mei": False}},
+           "55444333000122": {"nao_encontrado": True}}
+    pags = {"11222333000181": {"anos": {2025: 90000.0}, "primeira": "2025-03-01"},
+            "99888777000166": {"anos": {2025: 500000.0}, "primeira": "2019-03-01"}}
+    al = R.alertas(cad, pags)
+    tipos = sorted(a[1] for a in al)
+    assert tipos == ["aberta_antes", "mei_limite", "situacao"]
+    assert "R$ 90.000,00" in next(a[2] for a in al if a[1] == "mei_limite")
