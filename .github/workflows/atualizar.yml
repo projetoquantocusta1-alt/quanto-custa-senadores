@@ -34,6 +34,11 @@ jobs:
           git add docs/dados dados_brutos
           if ! git diff --cached --quiet; then
             git commit -m "senadores: dados de $(date -u +%Y-%m-%d)"
-            git pull --rebase -X ours origin main || true
-            git push
+            # tenta salvar até 5 vezes (o GitHub recusa se outro envio chegou no mesmo instante)
+            for i in 1 2 3 4 5; do
+              git pull --rebase -X ours origin main || true
+              if git push; then break; fi
+              echo "Envio recusado; nova tentativa em $((i*20)) s"; sleep $((i*20))
+              [ $i = 5 ] && exit 1
+            done
           fi
