@@ -24,3 +24,10 @@ main { padding: 20px; }
 .ranking td.quebra { white-space: normal; min-width: 220px; }
 .ranking tfoot td { font-weight: 800; border-top: 2px solid var(--line-2); }
 @media (max-width: 760px) { .d-grade2 { grid-template-columns: 1fr; } .ficha-caixa { padding: 16px; } .ficha-cab h2 { font-size: 22px; } main { padding: 12px; } }
+/* celular: nome em duas linhas para o valor principal caber na tela */
+@media (max-width: 600px) {
+  #s-tab td:nth-child(2), #v-tab td:nth-child(2) { white-space: normal; min-width: 120px; }
+  #s-tab td:nth-child(2) .sub, #v-tab td:nth-child(2) .sub { display: block; }
+  #s-tab td, #v-tab td, #f-tab td { padding-left: 5px; padding-right: 5px; }
+  #f-tab td.quebra { min-width: 120px; }
+}

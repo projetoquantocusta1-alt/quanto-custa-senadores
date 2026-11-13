@@ -8,7 +8,7 @@ const E = { meta: null, ano: null, pag: "inicio", res: {}, forn: {}, ord: ["cust
 const brl = (v, d = 0) => (v || 0).toLocaleString("pt-BR", { style: "currency", currency: "BRL", minimumFractionDigits: d, maximumFractionDigits: d });
 const curto = (v) => { const a = Math.abs(v || 0);
   if (a >= 1e9) return "R$ " + (v / 1e9).toLocaleString("pt-BR", { maximumFractionDigits: 2 }) + " bi";
-  if (a >= 1e6) return "R$ " + (v / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: 2 }) + " mi";
+  if (a >= 999_500) return "R$ " + (v / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: 2 }) + " mi";
   if (a >= 1e3) return "R$ " + (v / 1e3).toLocaleString("pt-BR", { maximumFractionDigits: 0 }) + " mil";
   return brl(v); };
 const nf = (v, d = 0) => (v || 0).toLocaleString("pt-BR", { minimumFractionDigits: d, maximumFractionDigits: d });
@@ -24,7 +24,14 @@ const VINCULOS = { PARLAMENTAR: "Parlamentar", COMISSIONADO: "Comissionado", EFE
 const rotVinculo = (v) => VINCULOS[v] || (v ? v.charAt(0) + v.slice(1).toLowerCase() : "Não informado");
 const fatorDe = (r) => (corrigir() ? r?.fator_ipca || 1 : 1);
 
-async function resumo(a) { return E.res[a] || (E.res[a] = await getJSON(`dados/${a}/resumo.json`).catch(() => null)); }
+// fotos oficiais vêm com http:// e o navegador bloqueia em site https
+const https = (u) => String(u || "").replace(/^http:\/\//, "https://");
+async function resumo(a) {
+  if (E.res[a]) return E.res[a];
+  const r = await getJSON(`dados/${a}/resumo.json`).catch(() => null);
+  r?.senadores.forEach((s) => (s.foto = https(s.foto)));
+  return (E.res[a] = r);
+}
 
 // resumo do ano escolhido; em "Todos os anos", soma os anos (já corrigidos pelo IPCA de cada ano)
 async function dados() {
@@ -83,7 +90,9 @@ async function rInicio() {
   const cats = {}; D.forEach((s) => Object.entries(s.categorias || {}).forEach(([k, v]) => (cats[k] = (cats[k] || 0) + v * (tot() ? 1 : s.F))));
   const cs = Object.entries(cats).sort((a, b) => b[1] - a[1]);
   grafico("g-cat", { type: "bar", data: { labels: cs.map((x) => x[0]), datasets: [{ data: cs.map((x) => x[1]), backgroundColor: css("--accent") }] },
-    options: { indexAxis: "y", maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: tipBRL }, scales: { x: { ticks: { callback: (v) => curto(v) } } } } });
+    options: { indexAxis: "y", maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: tipBRL },
+      scales: { x: { ticks: { callback: (v) => curto(v), maxRotation: 0, autoSkip: true, maxTicksLimit: innerWidth < 600 ? 4 : 10 } },
+                y: { ticks: { callback(v) { const t = this.getLabelForValue(v); return innerWidth < 600 && t.length > 24 ? t.slice(0, 23) + "…" : t; } } } } } });
 }
 
 // ---------------------------------------------------------------- senadores
@@ -93,11 +102,11 @@ async function rSenadores() {
     ["Custo médio por mês", brl(soma(D.map((s) => s.vc)) / Math.max(1, soma(D.map((s) => s.meses)))), "por senador"]]);
   const [k, d] = E.ord;
   D.sort((a, b) => ((a[k] ?? 0) > (b[k] ?? 0) ? 1 : (a[k] ?? 0) < (b[k] ?? 0) ? -1 : 0) * d);
-  const col = [["pos", "#"], ["nome", "Senador"], ["meses", "Meses"], ["vs", "Salário"], ["vce", "Cota (CEAPS)"], ["vc", "Custo total"], ["mm", "Por mês"], ["notas", "Notas"]];
+  const col = [["pos", "#"], ["nome", "Senador"], ["vc", "Custo total"], ["mm", "Por mês"], ["vs", "Salário"], ["vce", "Cota (CEAPS)"], ["meses", "Meses"], ["notas", "Notas"]];
   $("#s-tab").innerHTML = `<thead><tr>${col.map(([c, t], i) => `<th class="${i > 1 ? "num" : ""}" data-k="${c}" ${c === k ? `aria-sort="${d < 0 ? "descending" : "ascending"}"` : ""} style="cursor:pointer">${t}</th>`).join("")}</tr></thead><tbody>` +
     D.slice(0, E.lim).map((s, i) => `<tr><td class="num">${i + 1}º</td><td><button class="link-dep" data-sen="${s.id}">${esc(s.nome)}</button> <span class="sub">${esc(s.partido)}${s.uf ? "-" + esc(s.uf) : ""}</span></td>
-      <td class="num">${nf(s.meses)}</td><td class="num">${brl(s.vs)}</td><td class="num">${brl(s.vce)}</td><td class="num"><b>${brl(s.vc)}</b></td><td class="num">${brl(s.mm)}</td><td class="num">${nf(s.notas)}</td></tr>`).join("") +
-    `</tbody><tfoot><tr><td></td><td>Total (${nf(D.length)})</td><td class="num">${nf(soma(D.map((s) => s.meses)))}</td><td class="num">${brl(soma(D.map((s) => s.vs)))}</td><td class="num">${brl(soma(D.map((s) => s.vce)))}</td><td class="num">${brl(soma(D.map((s) => s.vc)))}</td><td></td><td class="num">${nf(soma(D.map((s) => s.notas)))}</td></tr></tfoot>`;
+      <td class="num"><b>${brl(s.vc)}</b></td><td class="num">${brl(s.mm)}</td><td class="num">${brl(s.vs)}</td><td class="num">${brl(s.vce)}</td><td class="num">${nf(s.meses)}</td><td class="num">${nf(s.notas)}</td></tr>`).join("") +
+    `</tbody><tfoot><tr><td></td><td>Total (${nf(D.length)})</td><td class="num">${brl(soma(D.map((s) => s.vc)))}</td><td></td><td class="num">${brl(soma(D.map((s) => s.vs)))}</td><td class="num">${brl(soma(D.map((s) => s.vce)))}</td><td class="num">${nf(soma(D.map((s) => s.meses)))}</td><td class="num">${nf(soma(D.map((s) => s.notas)))}</td></tr></tfoot>`;
   $$("#s-tab th").forEach((th) => (th.onclick = () => { if (th.dataset.k === "pos") return; E.ord = [th.dataset.k, th.dataset.k === k ? -d : -1]; rSenadores(); }));
   $("#s-mais").hidden = D.length <= E.lim;
 }
@@ -141,10 +150,10 @@ async function rFornecedores() {
   kpis("#f-kpis", [["Pago a fornecedores", curto(total), `${rotAno()}${tipo ? " · " + tipo : ""}`], ["Fornecedores diferentes", nf(linhas.length)],
     ["Notas", nf(soma(linhas.map((f) => f.nn)))], ["Os 10 maiores levaram", nf(total ? (soma(linhas.slice(0, 10).map((f) => f.vv)) / total) * 100 : 0, 1) + "%"]]);
   $("#f-info").textContent = (ids ? `Só as notas dos ${nf(ids.size)} senadores do filtro. ` : "") + (tipo && ids ? "Com filtro de senador e de tipo, o valor por tipo é proporcional. " : "");
-  $("#f-tab").innerHTML = `<thead><tr><th>#</th><th>Fornecedor</th><th>Principal gasto</th><th class="num">Senadores</th><th class="num">Notas</th><th class="num">Recebido</th></tr></thead><tbody>` +
-    linhas.slice(0, E.limF).map((f, i) => `<tr><td class="num">${i + 1}º</td><td class="quebra"><button class="link-dep" data-forn="${esc(f.ch)}">${esc(f.nome)}</button><div class="sub">${esc(f.doc || (f.tp === "PF" ? "pessoa física" : ""))}</div></td>
-      <td class="quebra sub">${esc(Object.entries(f.tipos).sort((a, b) => b[1] - a[1])[0]?.[0] || "")}</td><td class="num">${nf(f.ns)}</td><td class="num">${nf(f.nn)}</td><td class="num"><b>${brl(f.vv, 2)}</b></td></tr>`).join("") +
-    `</tbody><tfoot><tr><td></td><td>Total (${nf(linhas.length)} fornecedores)</td><td></td><td></td><td class="num">${nf(soma(linhas.map((f) => f.nn)))}</td><td class="num">${brl(total, 2)}</td></tr></tfoot>`;
+  $("#f-tab").innerHTML = `<thead><tr><th>#</th><th>Fornecedor</th><th class="num">Recebido</th><th class="num">Notas</th><th class="num">Senadores</th><th>Principal gasto</th></tr></thead><tbody>` +
+    linhas.slice(0, E.limF).map((f, i) => `<tr><td class="num">${i + 1}º</td><td class="quebra"><button class="link-dep" data-forn="${esc(f.ch)}">${esc(f.nome || "(fornecedor não informado pelo Senado)")}</button><div class="sub">${esc(f.doc || (f.tp === "PF" ? "pessoa física" : ""))}</div></td>
+      <td class="num"><b>${brl(f.vv, 2)}</b></td><td class="num">${nf(f.nn)}</td><td class="num">${nf(f.ns)}</td><td class="quebra sub">${esc(Object.entries(f.tipos).sort((a, b) => b[1] - a[1])[0]?.[0] || "")}</td></tr>`).join("") +
+    `</tbody><tfoot><tr><td></td><td>Total (${nf(linhas.length)} fornecedores)</td><td class="num">${brl(total, 2)}</td><td class="num">${nf(soma(linhas.map((f) => f.nn)))}</td><td></td><td></td></tr></tfoot>`;
   $("#f-mais").hidden = linhas.length <= E.limF;
   E.fornAtual = { L, nomes };
 }
@@ -177,7 +186,7 @@ async function fichaFornecedor(ch) {
   const f = E.fornAtual?.L.find((x) => x.ch === ch); if (!f) return;
   const nomes = E.fornAtual.nomes;
   const ss = [...f.sens.entries()].sort((a, b) => b[1][0] - a[1][0]);
-  abrirFicha(`<div class="ficha-cab"><div><p class="selo">Fornecedor · ${rotAno()}</p><h2>${esc(f.nome)}</h2><p class="sub">${esc(f.doc || "")} ${f.tp === "PJ" ? `· <a href="https://casadosdados.com.br/solucao/cnpj/${esc(f.ch)}" target="_blank" rel="noopener">consultar CNPJ</a>` : ""}</p></div></div>
+  abrirFicha(`<div class="ficha-cab"><div><p class="selo">Fornecedor · ${rotAno()}</p><h2>${esc(f.nome || "(fornecedor não informado pelo Senado)")}</h2><p class="sub">${esc(f.doc || "")} ${f.tp === "PJ" ? `· <a href="https://casadosdados.com.br/solucao/cnpj/${esc(f.ch)}" target="_blank" rel="noopener">consultar CNPJ</a>` : ""}</p></div></div>
     <div class="kpis">${[["Recebido", brl(f.v, 2)], ["Notas", nf(f.n)], ["Senadores que pagaram", nf(ss.length)], ["Valor médio por nota", brl(f.v / Math.max(1, f.n), 2)]].map(([r, v]) => `<div class="kpi"><div class="rot">${r}</div><div class="val num">${v}</div></div>`).join("")}</div>
     <div class="d-grade2"><div><h3 class="d-sec">Quem pagou</h3><table class="ranking"><tbody>${ss.map(([s, [v, n]]) => { const x = nomes.get(String(s));
       return `<tr><td class="quebra">${x ? `<button class="link-dep" data-sen="${esc(s)}">${esc(x.nome)}</button> <span class="sub">${esc(x.partido)}${x.uf ? "-" + esc(x.uf) : ""}</span>` : esc(s)}</td><td class="num">${nf(n)} nota(s)</td><td class="num">${brl(v, 2)}</td></tr>`; }).join("")}</tbody></table></div>
@@ -236,10 +245,10 @@ async function rViagens() {
   $("#v-vinc").innerHTML = `<tbody>${Object.entries(por).sort((a, b) => b[1] - a[1]).map(([k, v]) => `<tr><td>${esc(rotVinculo(k))}</td><td class="num">${brl(v)}</td><td class="num">${t ? nf((v / t) * 100, 1) : 0}%</td></tr>`).join("")}</tbody>`;
   const [k, d] = E.ordV;
   D.sort((a, b) => ((a[k] ?? 0) > (b[k] ?? 0) ? 1 : (a[k] ?? 0) < (b[k] ?? 0) ? -1 : 0) * d);
-  const col = [["pos", "#"], ["nome", "Senador"], ["vt", "Passagens"], ["vp", "Para o senador"], ["vo", "Para outras pessoas"], ["pct", "% outras pessoas"], ["tre", "Trechos"]];
+  const col = [["pos", "#"], ["nome", "Senador"], ["vo", "Para outras pessoas"], ["pct", "% outras pessoas"], ["vp", "Para o senador"], ["vt", "Passagens"], ["tre", "Trechos"]];
   $("#v-tab").innerHTML = `<thead><tr>${col.map(([c, tt], i) => `<th class="${i > 1 ? "num" : ""}" data-k="${c}" ${c === k ? `aria-sort="${d < 0 ? "descending" : "ascending"}"` : ""} style="cursor:pointer">${tt}</th>`).join("")}</tr></thead><tbody>` +
     D.slice(0, E.limV).map((s, i) => `<tr><td class="num">${i + 1}º</td><td><button class="link-dep" data-sen="${s.id}">${esc(s.nome)}</button> <span class="sub">${esc(s.partido)}${s.uf ? "-" + esc(s.uf) : ""}</span></td>
-      <td class="num">${brl(s.vt)}</td><td class="num">${brl(s.vp)}</td><td class="num">${brl(s.vo)}</td><td class="num">${nf(s.pct, 1)}%</td><td class="num">${nf(s.tre)}</td></tr>`).join("") + `</tbody>`;
+      <td class="num"><b>${brl(s.vo)}</b></td><td class="num">${nf(s.pct, 1)}%</td><td class="num">${brl(s.vp)}</td><td class="num">${brl(s.vt)}</td><td class="num">${nf(s.tre)}</td></tr>`).join("") + `</tbody>`;
   $$("#v-tab th").forEach((th) => (th.onclick = () => { if (th.dataset.k === "pos") return; E.ordV = [th.dataset.k, th.dataset.k === k ? -d : -1]; rViagens(); }));
   $("#v-mais").hidden = D.length <= E.limV;
 }
