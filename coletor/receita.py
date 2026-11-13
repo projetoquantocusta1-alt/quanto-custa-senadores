@@ -42,6 +42,7 @@ import requests
 
 import config
 from coletor import http
+from coletor.privacidade import mascarar_cpf_no_texto
 
 log = logging.getLogger("qcd")
 
@@ -117,7 +118,8 @@ def normalizar(nome: str) -> str:
 
 
 def limpo(s) -> str:
-    return re.sub(r"\s+", " ", str(s or "")).strip()
+    """Texto sem espaços sobrando e com CPF mascarado (razão social de MEI traz o CPF do dono)."""
+    return mascarar_cpf_no_texto(re.sub(r"\s+", " ", str(s or "")).strip())
 
 
 # ------------------------------------------------------------ descoberta

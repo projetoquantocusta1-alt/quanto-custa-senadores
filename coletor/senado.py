@@ -12,6 +12,7 @@ import unicodedata
 from datetime import date
 
 import config
+from coletor.privacidade import mascarar_cpf_no_texto
 
 
 def norm(s: str) -> str:
@@ -41,7 +42,9 @@ def chave_e_doc(doc_bruto: str, nome: str) -> tuple[str, str, str]:
     if len(d) == 14:
         return d, f"{d[:2]}.{d[2:5]}.{d[5:8]}/{d[8:12]}-{d[12:]}", "PJ"
     if len(d) == 11:
-        return "pf" + hashlib.sha1(d.encode()).hexdigest()[:12], f"***.{d[3:6]}.{d[6:9]}-**", "PF"
+        # a chave NÃO usa o CPF inteiro (um resumo do CPF pode ser revertido testando ~1.000
+        # combinações, já que os 6 dígitos do meio são públicos): usa só o que já é público.
+        return "pf" + hashlib.sha1(f"{d[3:9]}|{norm(nome)}".encode()).hexdigest()[:12], f"***.{d[3:6]}.{d[6:9]}-**", "PF"
     base = re.sub(r"[^a-z0-9]+", "-", str(nome).lower()).strip("-")[:24] or "sem-nome"
     return "sd-" + base, "", "—"
 
@@ -75,13 +78,13 @@ def ler_ceaps(conteudo: bytes) -> list[dict]:
         if not sen:
             continue
         valor = br_float(r.get("VALOR_REEMBOLSADO") or r.get("VALOR"))
-        forn = re.sub(r"\s+", " ", r.get("FORNECEDOR", "")).strip()
+        forn = mascarar_cpf_no_texto(re.sub(r"\s+", " ", r.get("FORNECEDOR", "")).strip())
         chave, doc, td = chave_e_doc(r.get("CNPJ_CPF", ""), forn)
         out.append({
             "ano": int(_dig(r.get("ANO")) or 0), "mes": int(_dig(r.get("MES")) or 0), "senador": sen, "senador_norm": norm(sen),
             "tipo": re.sub(r"\s+", " ", r.get("TIPO_DESPESA", "")).strip(), "chave": chave, "doc": doc, "tipo_doc": td,
             "fornecedor": forn, "documento": r.get("DOCUMENTO", "")[:40], "data": _data(r.get("DATA", "")),
-            "detalhe": re.sub(r"\s+", " ", r.get("DETALHAMENTO", "")).strip()[:600], "valor": round(valor, 2),
+            "detalhe": mascarar_cpf_no_texto(re.sub(r"\s+", " ", r.get("DETALHAMENTO", "")).strip()[:600]), "valor": round(valor, 2),
             "cod": r.get("COD_DOCUMENTO", ""), "passageiros": passageiros(r.get("DETALHAMENTO", "")),
         })
     return out

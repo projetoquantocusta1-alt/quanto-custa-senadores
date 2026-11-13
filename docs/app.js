@@ -291,9 +291,10 @@ async function iniciar() {
   // links vindos de fora (ex.: hub): ?uf=CE&partido=PT e #sen-123 (abre a ficha do senador)
   const q = new URL(location).searchParams;
   ["uf", "partido"].forEach((k) => { const v = q.get(k); if (v && [...$("#f-" + k).options].some((o) => o.value === v)) $("#f-" + k).value = v; });
-  const h = location.hash.slice(1), ms = h.match(/^sen-(\d+)$/);
-  irPara(ms ? "senadores" : ["inicio", "senadores", "fornecedores", "viagens", "dava", "metodo"].includes(h) ? h : "inicio");
+  const h = location.hash.slice(1), ms = h.match(/^sen-(\d+)$/), mf = h.match(/^forn-(.+)$/);
+  irPara(ms ? "senadores" : mf ? "fornecedores" : ["inicio", "senadores", "fornecedores", "viagens", "dava", "metodo"].includes(h) ? h : "inicio");
   if (ms) fichaSenador(ms[1]);
+  if (mf) { await rFornecedores(); fichaFornecedor(decodeURIComponent(mf[1])); }
 }
 document.addEventListener("click", (e) => {
   const s = e.target.closest("[data-sen]"); if (s) { fichaSenador(s.dataset.sen); return; }

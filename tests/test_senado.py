@@ -77,3 +77,12 @@ def test_alertas_receita():
     tipos = sorted(a[1] for a in al)
     assert tipos == ["aberta_antes", "mei_limite", "situacao"]
     assert "R$ 90.000,00" in next(a[2] for a in al if a[1] == "mei_limite")
+
+
+def test_privacidade():
+    from coletor.privacidade import mascarar_cpf_no_texto as m
+    assert m("WEVERSON SARMENTO DA PAIXAO 96106697272") == "WEVERSON SARMENTO DA PAIXAO ***.066.972-**"
+    ch, doc, tp = S.chave_e_doc("123.456.789-01", "JOAO")
+    assert tp == "PF" and doc == "***.456.789-**" and ch == S.chave_e_doc("12345678901", "João")[0]
+    import hashlib
+    assert ch != "pf" + hashlib.sha1(b"12345678901").hexdigest()[:12]

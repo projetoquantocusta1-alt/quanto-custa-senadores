@@ -33,7 +33,7 @@ APELIDOS_CEAPS = {
 }
 
 # Versão do formato dos arquivos do site: anos gerados por versão anterior são refeitos.
-VERSAO = 2
+VERSAO = 3   # 3: chave de pessoa física sem o CPF inteiro; CPF mascarado em nomes de MEI
 
 # --- Fontes (Senado Federal — dados abertos) ---
 CEAPS_CSV = "https://www.senado.leg.br/transparencia/LAI/verba/despesa_ceaps_{ano}.csv"
