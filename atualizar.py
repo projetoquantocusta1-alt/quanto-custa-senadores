@@ -181,6 +181,7 @@ def processar_ano(ano: int, hoje: date, fatores: dict) -> dict:
             "mensal_ceaps": [round(v, 2) for v in mes_cota], "notas": len(ns),
             "viagens": {k: [round(v[0], 2), v[1]] for k, v in sorted(viag.items(), key=lambda x: -x[1][0])},
             "casado": isinstance(sid, int),
+            "previsao": S.prever(ano, ult, meses, mes_cota, isinstance(sid, int) and S.ativo_no_fim(ex, ano, hoje)) if not fechado else None,
             "url": config.URL_SENADOR.format(id=sid) if isinstance(sid, int) else "",
         })
         # notas nota a nota: [data, mês, tipo, chave, valor, documento, detalhe]
@@ -222,12 +223,43 @@ def processar_ano(ano: int, hoje: date, fatores: dict) -> dict:
                       {k: round(v, 2) for k, v in sorted(f["tipos"].items(), key=lambda x: -x[1])},
                       sorted(f["maiores"], key=lambda x: -x[1])[:10]])
     gravar(SAIDA / str(ano) / "fornecedores.json", {"ano": ano, "linhas": lista})
-    resumo = {"ano": ano, "versao": config.VERSAO, "meses_decorridos": ult, "fechado": fechado, "senadores": linhas,
+    prev = None
+    if not fechado:
+        rest = sum((l.get("previsao") or {}).get("restante", 0) for l in linhas)
+        ja = sum(l["custo"] for l in linhas)
+        prev = {"ja_gasto": round(ja, 2), "restante": round(rest, 2), "total_ano": round(ja + rest, 2),
+                "ceaps_restante": round(sum((l.get("previsao") or {}).get("ceaps", 0) for l in linhas), 2)}
+        gravar_semana(linhas_c, casam, por_id, ano, hoje)
+    resumo = {"ano": ano, "versao": config.VERSAO, "meses_decorridos": ult, "fechado": fechado, "senadores": linhas, "previsao": prev,
               "total": round(sum(l["custo"] for l in linhas), 2), "total_ceaps": round(sum(l["custos"]["ceaps"] for l in linhas), 2),
               "fator_ipca": fatores.get(str(ano), fatores.get(ano, 1.0)), "sem_casar": {k: round(v, 2) for k, v in sem_casar.items()}}
     gravar(SAIDA / str(ano) / "resumo.json", resumo)
     log.info("%s: %d senadores, CEAPS R$ %.2f, custo R$ %.2f", ano, len(linhas), resumo["total_ceaps"], resumo["total"])
     return resumo
+
+
+def gravar_semana(linhas_c: list[dict], casam: dict, por_id: dict, ano: int, hoje: date, dias: int = 7):
+    """Notas da semana: as emitidas nos 7 dias que terminam na nota mais recente já publicada (até hoje).
+    docs/dados/AAAA/semana.json -> [data, id, nome, partido, UF, tipo, fornecedor, documento do fornecedor,
+                                    valor, nº do documento, detalhamento]"""
+    from datetime import timedelta
+    datas = [l["data"] for l in linhas_c if l["data"] and l["data"] <= hoje.isoformat()]
+    if not datas:
+        return
+    fim = max(datas)
+    ini = (date.fromisoformat(fim) - timedelta(days=dias - 1)).isoformat()
+    notas = []
+    for l in linhas_c:
+        if not l["data"] or not (ini <= l["data"] <= fim):
+            continue
+        sid = casam.get(l["senador_norm"]) or sid_sem_casar(l["senador_norm"])
+        s = por_id.get(sid) or {}
+        notas.append([l["data"], sid, s.get("nome") or l["senador"].title(), s.get("partido", ""), s.get("uf", ""),
+                      S.tipo_curto(l["tipo"]), l["fornecedor"], l["doc"], l["valor"], l["documento"], l["detalhe"]])
+    notas.sort(key=lambda x: (x[0], -x[8]), reverse=True)
+    gravar(SAIDA / str(ano) / "semana.json", {"ano": ano, "de": ini, "ate": fim, "gerado_em": datetime.now(timezone.utc).isoformat(timespec="minutes"),
+                                              "total": round(sum(n[8] for n in notas), 2), "notas": notas})
+    log.info("%s: notas da semana de %s a %s: %d notas", ano, ini, fim, len(notas))
 
 
 def main(argv=None):

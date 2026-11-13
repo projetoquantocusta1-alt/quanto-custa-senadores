@@ -4,7 +4,7 @@
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 const MESES = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
-const E = { meta: null, ano: null, pag: "inicio", res: {}, forn: {}, ord: ["custo", -1], ordV: ["vo", -1], lim: 30, limF: 50, limV: 30, graf: {} };
+const E = { meta: null, ano: null, pag: "inicio", res: {}, forn: {}, ord: ["custo", -1], ordV: ["vo", -1], lim: 30, limF: 50, limV: 30, limW: 50, tick: 0, graf: {} };
 const brl = (v, d = 0) => (v || 0).toLocaleString("pt-BR", { style: "currency", currency: "BRL", minimumFractionDigits: d, maximumFractionDigits: d });
 const curto = (v) => { const a = Math.abs(v || 0);
   if (a >= 1e9) return "R$ " + (v / 1e9).toLocaleString("pt-BR", { maximumFractionDigits: 2 }) + " bi";
@@ -79,10 +79,24 @@ async function rInicio() {
   const D = (await dados()).filter(passa);
   const t = soma(D.map((s) => V(s, "custo"))), c = soma(D.map((s) => V(s, "ceaps")));
   $("#i-rot").textContent = `${temFiltro() ? "Os senadores do filtro custaram" : "Os senadores custaram"} em ${rotAno()}`;
-  $("#i-total").textContent = brl(t);
-  $("#i-nota").innerHTML = `${corrigir() ? "em valores de hoje, <b>corrigidos pela inflação (IPCA)</b>" : "em valores da época"} · salário + cota parlamentar (CEAPS) · é um piso: a equipe do gabinete ainda não entra`;
+  const r = tot() ? null : E.res[E.ano], prevAtiva = r && !r.fechado && r.previsao;
+  const rest = prevAtiva ? soma(D.map((s) => (s.previsao?.restante || 0) * s.F)) : 0;
+  cancelAnimationFrame(E.tick);
+  if (prevAtiva && rest > 0) {
+    // corre em tempo real: do 1º dia depois dos dados publicados até 31/12, no ritmo da previsão
+    const ini = new Date(r.ano, r.meses_decorridos, 1).getTime(), fim = new Date(r.ano + 1, 0, 1).getTime();
+    const porSeg = rest / ((fim - ini) / 1000);
+    const passo = () => { $("#i-total").textContent = brl(Math.min(t + rest, t + Math.max(0, (Date.now() - ini) / 1000) * porSeg));
+      if (E.pag === "inicio") E.tick = requestAnimationFrame(passo); };
+    passo();
+    $("#i-nota").innerHTML = `${corrigir() ? "em valores de hoje, <b>corrigidos pela inflação (IPCA)</b>" : "em valores da época"} · salário + cota parlamentar (CEAPS) · é um piso: a equipe do gabinete ainda não entra<br>
+      <span class="ritmo">O valor avança em tempo real, no ritmo previsto: <b>+${brl(porSeg, 2)} por segundo</b> · ${curto(porSeg * 86400)} por dia · previsão para ${r.ano}: <b>${curto(t + rest)}</b> (estimativa)</span>`;
+  } else {
+    $("#i-total").textContent = brl(t);
+    $("#i-nota").innerHTML = `${corrigir() ? "em valores de hoje, <b>corrigidos pela inflação (IPCA)</b>" : "em valores da época"} · salário + cota parlamentar (CEAPS) · é um piso: a equipe do gabinete ainda não entra`;
+  }
   const meses = soma(D.map((s) => s.meses));
-  kpis("#i-kpis", [["Cota parlamentar (CEAPS)", curto(c), `${nf(soma(D.map((s) => s.notas)))} notas`], ["Salários", curto(soma(D.map((s) => V(s, "salario")))), "subsídio + 13º"],
+  kpis("#i-kpis", [...(rest > 0 ? [["Previsão até dezembro", "+" + curto(rest), `${r.ano} deve fechar em ${curto(t + rest)}`]] : []), ["Cota parlamentar (CEAPS)", curto(c), `${nf(soma(D.map((s) => s.notas)))} notas`], ["Salários", curto(soma(D.map((s) => V(s, "salario")))), "subsídio + 13º"],
     ["Custo médio por mês", brl(meses ? t / meses : 0), "por senador em exercício"], ["Senadores", nf(D.length), "com mandato no período (inclui suplentes)"]]);
   mapa($("#i-mapa"), D);
   const top = [...D].sort((a, b) => V(b, "custo") - V(a, "custo")).slice(0, 5);
@@ -97,16 +111,18 @@ async function rInicio() {
 
 // ---------------------------------------------------------------- senadores
 async function rSenadores() {
-  const D = (await dados()).filter(passa).map((s) => ({ ...s, vc: V(s, "custo"), vs: V(s, "salario"), vce: V(s, "ceaps"), mm: s.meses ? V(s, "custo") / s.meses : 0 }));
-  kpis("#s-kpis", [["Custo somado", curto(soma(D.map((s) => s.vc))), rotAno()], ["Cota (CEAPS)", curto(soma(D.map((s) => s.vce)))], ["Senadores", nf(D.length)],
+  const D = (await dados()).filter(passa).map((s) => ({ ...s, vc: V(s, "custo"), vs: V(s, "salario"), vce: V(s, "ceaps"), mm: s.meses ? V(s, "custo") / s.meses : 0,
+    pr: (s.previsao?.restante || 0) * s.F }));
+  const temPrev = !tot() && D.some((s) => s.pr > 0);
+  kpis("#s-kpis", [...(temPrev ? [["Previsão até dezembro", "+" + curto(soma(D.map((s) => s.pr))), `fecha o ano em ${curto(soma(D.map((s) => s.vc + s.pr)))}`]] : []), ["Custo somado", curto(soma(D.map((s) => s.vc))), rotAno()], ["Cota (CEAPS)", curto(soma(D.map((s) => s.vce)))], ["Senadores", nf(D.length)],
     ["Custo médio por mês", brl(soma(D.map((s) => s.vc)) / Math.max(1, soma(D.map((s) => s.meses)))), "por senador"]]);
   const [k, d] = E.ord;
   D.sort((a, b) => ((a[k] ?? 0) > (b[k] ?? 0) ? 1 : (a[k] ?? 0) < (b[k] ?? 0) ? -1 : 0) * d);
-  const col = [["pos", "#"], ["nome", "Senador"], ["vc", "Custo total"], ["mm", "Por mês"], ["vs", "Salário"], ["vce", "Cota (CEAPS)"], ["meses", "Meses"], ["notas", "Notas"]];
+  const col = [["pos", "#"], ["nome", "Senador"], ["vc", "Custo total"], ["mm", "Por mês"], ["vs", "Salário"], ["vce", "Cota (CEAPS)"], ...(temPrev ? [["pr", "Previsão até dez"]] : []), ["meses", "Meses"], ["notas", "Notas"]];
   $("#s-tab").innerHTML = `<thead><tr>${col.map(([c, t], i) => `<th class="${i > 1 ? "num" : ""}" data-k="${c}" ${c === k ? `aria-sort="${d < 0 ? "descending" : "ascending"}"` : ""} style="cursor:pointer">${t}</th>`).join("")}</tr></thead><tbody>` +
     D.slice(0, E.lim).map((s, i) => `<tr><td class="num">${i + 1}º</td><td><button class="link-dep" data-sen="${s.id}">${esc(s.nome)}</button> <span class="sub">${esc(s.partido)}${s.uf ? "-" + esc(s.uf) : ""}</span></td>
-      <td class="num"><b>${brl(s.vc)}</b></td><td class="num">${brl(s.mm)}</td><td class="num">${brl(s.vs)}</td><td class="num">${brl(s.vce)}</td><td class="num">${nf(s.meses)}</td><td class="num">${nf(s.notas)}</td></tr>`).join("") +
-    `</tbody><tfoot><tr><td></td><td>Total (${nf(D.length)})</td><td class="num">${brl(soma(D.map((s) => s.vc)))}</td><td></td><td class="num">${brl(soma(D.map((s) => s.vs)))}</td><td class="num">${brl(soma(D.map((s) => s.vce)))}</td><td class="num">${nf(soma(D.map((s) => s.meses)))}</td><td class="num">${nf(soma(D.map((s) => s.notas)))}</td></tr></tfoot>`;
+      <td class="num"><b>${brl(s.vc)}</b></td><td class="num">${brl(s.mm)}</td><td class="num">${brl(s.vs)}</td><td class="num">${brl(s.vce)}</td>${temPrev ? `<td class="num prev">${s.pr ? "+" + curto(s.pr) : "—"}</td>` : ""}<td class="num">${nf(s.meses)}</td><td class="num">${nf(s.notas)}</td></tr>`).join("") +
+    `</tbody><tfoot><tr><td></td><td>Total (${nf(D.length)})</td><td class="num">${brl(soma(D.map((s) => s.vc)))}</td><td></td><td class="num">${brl(soma(D.map((s) => s.vs)))}</td><td class="num">${brl(soma(D.map((s) => s.vce)))}</td>${temPrev ? `<td class="num">+${curto(soma(D.map((s) => s.pr)))}</td>` : ""}<td class="num">${nf(soma(D.map((s) => s.meses)))}</td><td class="num">${nf(soma(D.map((s) => s.notas)))}</td></tr></tfoot>`;
   $$("#s-tab th").forEach((th) => (th.onclick = () => { if (th.dataset.k === "pos") return; E.ord = [th.dataset.k, th.dataset.k === k ? -d : -1]; rSenadores(); }));
   $("#s-mais").hidden = D.length <= E.lim;
 }
@@ -209,7 +225,8 @@ async function fichaSenador(id) {
   const hist = (await Promise.all(E.meta.anos.map(resumo))).filter(Boolean).map((x) => [x.ano, x.senadores.find((y) => String(y.id) === String(id)), fatorDe(x)]).filter(([, y]) => y);
   abrirFicha(`<div class="ficha-cab"><img src="${esc(s.foto)}" alt="" onerror="this.style.visibility='hidden'"><div><p class="selo">Senador(a) · ${rotAno()}</p><h2>${esc(s.nome)}</h2>
       <p class="sub">${esc(s.partido)}${s.uf ? "-" + esc(s.uf) : ""} · ${nf(s.meses)} meses em exercício ${s.url ? `· <a href="${esc(s.url)}" target="_blank" rel="noopener">página oficial</a>` : ""}</p></div></div>
-    <div class="kpis">${[["Custo", brl(V(s, "custo"))], ["Salário", brl(V(s, "salario"))], ["Cota (CEAPS)", brl(V(s, "ceaps"))], ["Por mês", brl(s.meses ? V(s, "custo") / s.meses : 0)]].map(([a, b]) => `<div class="kpi"><div class="rot">${a}</div><div class="val num">${b}</div></div>`).join("")}</div>
+    <div class="kpis">${[["Custo", brl(V(s, "custo"))], ["Salário", brl(V(s, "salario"))], ["Cota (CEAPS)", brl(V(s, "ceaps"))], ["Por mês", brl(s.meses ? V(s, "custo") / s.meses : 0)],
+      ...(!tot() && s.previsao?.restante ? [["Previsão até dezembro", "+" + brl(s.previsao.restante * s.F)]] : [])].map(([a, b]) => `<div class="kpi"><div class="rot">${a}</div><div class="val num">${b}</div></div>`).join("")}</div>
     <div class="d-grade2"><div><h3 class="d-sec">Cota por mês em ${anoN}</h3><div class="canvas-box"><canvas id="g-f-mes"></canvas></div></div>
       <div><h3 class="d-sec">Ano a ano</h3><div class="canvas-box"><canvas id="g-f-hist"></canvas></div></div></div>
     <h3 class="d-sec">Cota por tipo de gasto (${rotAno()})</h3><table class="ranking"><tbody>${Object.entries(s.categorias).sort((a, b) => b[1] - a[1]).map(([k, v]) => `<tr><td class="quebra">${esc(k)}</td><td class="num">${brl(v * (tot() ? 1 : s.F), 2)}</td></tr>`).join("")}</tbody></table>
@@ -231,6 +248,26 @@ async function fichaSenador(id) {
         `</tbody><tfoot><tr><td colspan="5">Total (${nf(ns.length)} notas)</td><td class="num">${brl(soma(ns.map((n) => n[4] * F)), 2)}</td></tr></tfoot>`; };
     $("#n-q").oninput = desenhar; desenhar();
   }
+}
+
+// ---------------------------------------------------------------- notas da semana
+async function rSemana() {
+  const anoS = E.meta.anos[E.meta.anos.length - 1];
+  const W = E.semana || (E.semana = await getJSON(`dados/${anoS}/semana.json`).catch(() => null));
+  if (!W || !W.notas?.length) { $("#w-info").textContent = "As notas da semana aparecem aqui depois da próxima atualização do robô."; $("#w-tab").innerHTML = ""; kpis("#w-kpis", []); return; }
+  const q = semAcento($("#w-q").value.trim()), uf = $("#f-uf").value, pa = $("#f-partido").value, bs = semAcento($("#f-busca").value.trim());
+  const ns = W.notas.filter((n) => (!uf || n[4] === uf) && (!pa || n[3] === pa) && (!bs || semAcento(n[2]).includes(bs))
+    && (!q || semAcento(`${n[2]} ${n[5]} ${n[6]} ${n[7]} ${n[9]} ${n[10]}`).includes(q)));
+  const ord = $("#w-ord").value === "valor" ? ns.slice().sort((a, b) => b[8] - a[8]) : ns;
+  const maior = ns.slice().sort((a, b) => b[8] - a[8])[0], senadores = new Set(ns.map((n) => n[1]));
+  kpis("#w-kpis", [["Gasto na semana", curto(soma(ns.map((n) => n[8]))), `${dataBR(W.de)} a ${dataBR(W.ate)}`], ["Notas", nf(ns.length)], ["Senadores", nf(senadores.size)],
+    ["Maior nota", maior ? brl(maior[8], 2) : "—", maior ? `${esc(maior[2])} · ${esc(maior[5])}` : ""]]);
+  $("#w-info").innerHTML = `Notas emitidas de <b>${dataBR(W.de)}</b> a <b>${dataBR(W.ate)}</b>: os 7 dias que terminam na nota mais recente que o Senado já publicou (o Senado publica com atraso). Valores como publicados, sem correção.${temFiltro() ? " Com os filtros do topo." : ""}`;
+  $("#w-tab").innerHTML = `<thead><tr><th>Data</th><th>Senador</th><th class="num">Valor</th><th>Tipo</th><th>Fornecedor</th><th>Detalhe</th></tr></thead><tbody>` +
+    ord.slice(0, E.limW).map((n) => `<tr><td class="data">${dataBR(n[0])}</td><td class="quebra">${typeof n[1] === "number" ? `<button class="link-dep" data-sen="${n[1]}">${esc(n[2])}</button>` : esc(n[2])} <span class="sub">${esc(n[3])}${n[4] ? "-" + esc(n[4]) : ""}</span></td>
+      <td class="num"><b>${brl(n[8], 2)}</b></td><td class="quebra sub">${esc(n[5])}</td><td class="quebra">${esc(n[6] || "(não informado)")}<div class="sub">${esc(n[7] || "")}</div></td><td class="quebra sub">${esc(n[10] || "")}</td></tr>`).join("") +
+    `</tbody><tfoot><tr><td></td><td>Total (${nf(ns.length)} notas)</td><td class="num">${brl(soma(ns.map((n) => n[8])), 2)}</td><td colspan="3"></td></tr></tfoot>`;
+  $("#w-mais").hidden = ns.length <= E.limW;
 }
 
 // ---------------------------------------------------------------- quem viaja com a cota
@@ -275,7 +312,7 @@ async function rDava() {
 
 // ---------------------------------------------------------------- navegação
 async function render() {
-  try { await ({ inicio: rInicio, senadores: rSenadores, fornecedores: rFornecedores, viagens: rViagens, dava: rDava, metodo: async () => {} })[E.pag](); }
+  try { await ({ inicio: rInicio, senadores: rSenadores, fornecedores: rFornecedores, semana: rSemana, viagens: rViagens, dava: rDava, metodo: async () => {} })[E.pag](); }
   catch (e) { console.error(e); }
 }
 function irPara(p) {
@@ -301,7 +338,7 @@ async function iniciar() {
   const q = new URL(location).searchParams;
   ["uf", "partido"].forEach((k) => { const v = q.get(k); if (v && [...$("#f-" + k).options].some((o) => o.value === v)) $("#f-" + k).value = v; });
   const h = location.hash.slice(1), ms = h.match(/^sen-(\d+)$/), mf = h.match(/^forn-(.+)$/);
-  irPara(ms ? "senadores" : mf ? "fornecedores" : ["inicio", "senadores", "fornecedores", "viagens", "dava", "metodo"].includes(h) ? h : "inicio");
+  irPara(ms ? "senadores" : mf ? "fornecedores" : ["inicio", "senadores", "semana", "fornecedores", "viagens", "dava", "metodo"].includes(h) ? h : "inicio");
   if (ms) fichaSenador(ms[1]);
   if (mf) { await rFornecedores(); fichaFornecedor(decodeURIComponent(mf[1])); }
 }
@@ -318,6 +355,9 @@ $("#f-q").oninput = () => { E.limF = 50; rFornecedores(); };
 $("#f-tipo").onchange = () => { E.limF = 50; rFornecedores(); };
 $("#s-mais").onclick = () => { E.lim += 50; rSenadores(); };
 $("#v-mais").onclick = () => { E.limV += 50; rViagens(); };
+$("#w-mais").onclick = () => { E.limW += 100; rSemana(); };
+$("#w-q").oninput = () => { E.limW = 50; rSemana(); };
+$("#w-ord").onchange = () => rSemana();
 $("#f-mais").onclick = () => { E.limF += 100; rFornecedores(); };
 $("#ficha-fechar").onclick = () => ($("#ficha").hidden = true);
 $("#ficha").onclick = (e) => { if (e.target.id === "ficha") $("#ficha").hidden = true; };

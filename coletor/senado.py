@@ -260,3 +260,32 @@ def custo(ano: int, meses: list[int], ceaps_total: float, ano_fechado: bool) -> 
     decimo = (subs[-1] * len(meses) / 12) if (subs and ano_fechado) else 0.0
     return {"salario": round(salario + decimo, 2), "ceaps": round(ceaps_total, 2),
             "total": round(salario + decimo + ceaps_total, 2)}
+
+
+# ------------------------------------------------------------- previsão até dezembro
+def ativo_no_fim(exercicios: list[tuple[str, str]], ano: int, hoje: date) -> bool:
+    """Está em exercício agora e sem data de saída antes do fim do ano."""
+    for ini, fim in exercicios:
+        if ini <= hoje.isoformat() and (not fim or fim >= f"{ano}-12-31"):
+            return True
+    return False
+
+
+def prever(ano: int, ult: int, meses: list[int], mensal_ceaps: list[float], ativo: bool) -> dict:
+    """Quanto o senador ainda deve custar até 31/12.
+    Salário: subsídio × meses que faltam + 13º do ano (pago em dezembro), se continua no cargo.
+    Cota: ritmo médio mensal dos meses fechados (o último mês publicado costuma vir incompleto),
+    descontando o que já foi gasto. É estimativa."""
+    if not ativo or ult >= 12:
+        return {"ativo": False, "restante": 0.0, "salario": 0.0, "ceaps": 0.0}
+    faltam = list(range(ult + 1, 13))
+    subs = [config.valor_vigente(config.SUBSIDIO, date(ano, m, 1)) for m in faltam]
+    n_meses = len(meses) + len(faltam)
+    decimo = (subs[-1] if subs else 0.0) * n_meses / 12
+    base = [v for i, v in enumerate(mensal_ceaps[:ult]) if (i + 1) in meses]
+    fechados = base[:-1] if len(base) > 1 else base
+    ritmo = sum(fechados) / len(fechados) if fechados else 0.0
+    ceaps_rest = max(0.0, ritmo * (len(meses) + len(faltam)) - sum(base))
+    sal = sum(subs) + decimo
+    return {"ativo": True, "restante": round(sal + ceaps_rest, 2), "salario": round(sal, 2), "ceaps": round(ceaps_rest, 2),
+            "ritmo_ceaps": round(ritmo, 2)}

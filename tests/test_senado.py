@@ -86,3 +86,14 @@ def test_privacidade():
     assert tp == "PF" and doc == "***.456.789-**" and ch == S.chave_e_doc("12345678901", "João")[0]
     import hashlib
     assert ch != "pf" + hashlib.sha1(b"12345678901").hexdigest()[:12]
+
+
+def test_previsao():
+    from datetime import date
+    assert S.ativo_no_fim([("2023-02-01", "")], 2026, date(2026, 11, 13))
+    assert not S.ativo_no_fim([("2023-02-01", "2026-06-30")], 2026, date(2026, 11, 13))
+    p = S.prever(2026, 10, list(range(1, 11)), [100.0] * 9 + [40.0, 0, 0], True)
+    # 2 meses de salário + 13º (12/12); cota no ritmo de 100/mês o ano todo: 12×100 − 940 já gastos
+    sub = 46366.19
+    assert p["ativo"] and p["salario"] == round(sub * 2 + sub, 2) and p["ceaps"] == 260.0 and p["restante"] == round(sub * 3 + 260, 2)
+    assert S.prever(2026, 10, [1, 2], [0] * 12, False)["restante"] == 0
