@@ -43,55 +43,98 @@ def anos_feitos():
     return sorted(int(p.parent.name) for p in SAIDA.glob("*/resumo.json") if p.parent.name.isdigit())
 
 
+def versao_do_ano(a: int) -> int:
+    r = ler(SAIDA / str(a) / "resumo.json", {}) or {}
+    return int(r.get("versao") or 1)
+
+
 def fila(hoje: date) -> list[int]:
+    """Ano atual, ano passado (até março), anos que faltam e anos gerados por versão antiga (do mais novo ao mais antigo)."""
     feitos = set(anos_feitos())
-    faltam = sorted((a for a in range(config.ANO_INICIAL, hoje.year) if a not in feitos), reverse=True)
-    return [hoje.year] + ([hoje.year - 1] if hoje.month <= 3 and hoje.year - 1 not in faltam else []) + faltam
+    faltam = sorted((a for a in range(config.ANO_INICIAL, hoje.year)
+                     if a not in feitos or versao_do_ano(a) < config.VERSAO), reverse=True)
+    return [hoje.year] + ([hoje.year - 1] if hoje.month <= 3 and hoje.year - 1 not in faltam else []) + [a for a in faltam if a != hoje.year]
 
 
-def senadores_do_ano(ano: int) -> list[dict]:
+_LISTAS_DO_DIA: set[int] = set()   # legislaturas já baixadas nesta execução
+
+
+def senadores_do_ano(ano: int) -> tuple[list[dict], list[dict]]:
+    """(senadores das legislaturas do ano, todos os senadores já vistos), com partido e UF da legislatura do ano."""
     cache_p = BRUTOS / "senadores.json"
     cache = {int(k): v for k, v in (ler(cache_p, {}) or {}).items()}
     legs = [n for n, (i, f) in config.LEGISLATURAS.items() if i <= ano <= f]
     for n in legs:
+        if n in _LISTAS_DO_DIA:
+            continue
         try:
             for s in S.ler_lista_senadores(http.get(config.LISTA_LEGISLATURA.format(ini=n, fim=n),
-                                                    headers={"Accept": "application/json"}, timeout=90).json()):
-                s["legislaturas"] = sorted(set((cache.get(s["id"], {}).get("legislaturas") or []) + [n]))
-                cache[s["id"]] = {**cache.get(s["id"], {}), **{k: v for k, v in s.items() if v}}
+                                                    headers={"Accept": "application/json"}, timeout=90).json(), leg=n):
+                c = cache.get(s["id"], {})
+                s["legislaturas"] = sorted(set((c.get("legislaturas") or []) + [n]))
+                # partido e UF guardados por legislatura (o partido muda ao longo da carreira)
+                s["partido_leg"] = {**(c.get("partido_leg") or {}), **({str(n): s["partido"]} if s["partido"] else {})}
+                s["uf_leg"] = {**(c.get("uf_leg") or {}), **({str(n): s["uf"]} if s["uf"] else {})}
+                cache[s["id"]] = {**c, **{k: v for k, v in s.items() if v}}
+            _LISTAS_DO_DIA.add(n)
         except Exception as e:  # noqa: BLE001
             log.warning("lista de senadores da legislatura %s indisponível (%s): usando o guardado", n, e)
     gravar(cache_p, {str(k): v for k, v in cache.items()})
-    return [v for v in cache.values() if set(v.get("legislaturas") or []) & set(legs)]
+
+    def do_ano(v: dict) -> dict:
+        v = dict(v)
+        for n in sorted(legs, reverse=True):
+            if (v.get("partido_leg") or {}).get(str(n)):
+                v["partido"] = v["partido_leg"][str(n)]
+                break
+        for n in sorted(legs, reverse=True):
+            if (v.get("uf_leg") or {}).get(str(n)):
+                v["uf"] = v["uf_leg"][str(n)]
+                break
+        return v
+    todos = [do_ano(v) for v in cache.values()]
+    return [v for v in todos if set(v.get("legislaturas") or []) & set(legs)], todos
 
 
-def exercicios(sid: int, renovar: bool) -> list[tuple[str, str]]:
+def exercicios(sid: int, renovar: bool) -> tuple[list[tuple[str, str]], str]:
+    """(períodos em exercício, UF do mandato). Guardado em dados_brutos/exercicios/{id}.json."""
     p = BRUTOS / "exercicios" / f"{sid}.json"
     guardado = ler(p)
-    if guardado is not None and not renovar:
-        return [tuple(x) for x in guardado]
+    if isinstance(guardado, list):          # formato antigo (só os períodos, sem a UF): baixa de novo
+        guardado = {"ex": guardado, "uf": None}
+    if guardado is not None and guardado.get("uf") is not None and not renovar:
+        return [tuple(x) for x in guardado["ex"]], guardado["uf"]
     try:
-        ex = S.ler_exercicios(http.get(config.MANDATOS.format(id=sid), headers={"Accept": "application/json"}, timeout=60).json())
-        gravar(p, ex)
-        return ex
+        js = http.get(config.MANDATOS.format(id=sid), headers={"Accept": "application/json"}, timeout=60).json()
+        ex, uf = S.ler_exercicios(js), S.ler_uf_mandatos(js)
+        gravar(p, {"ex": ex, "uf": uf})
+        return ex, uf
     except Exception as e:  # noqa: BLE001
         log.warning("mandatos do senador %s indisponíveis (%s)", sid, e)
-        return [tuple(x) for x in (guardado or [])]
+        g = guardado or {}
+        return [tuple(x) for x in (g.get("ex") or [])], g.get("uf") or ""
+
+
+def sid_sem_casar(nome_norm: str) -> str:
+    return "n-" + nome_norm.lower().replace(" ", "-")[:40]
 
 
 def processar_ano(ano: int, hoje: date, fatores: dict) -> dict:
     ult = 12 if ano < hoje.year else max(hoje.month - 1, 1)
     fechado = ano < hoje.year
     linhas_c = S.ler_ceaps(http.get(config.CEAPS_CSV.format(ano=ano), timeout=300).content)
-    sens = senadores_do_ano(ano)
-    casam = S.casar_nomes({l["senador_norm"] for l in linhas_c}, sens)
+    sens, todos = senadores_do_ano(ano)
+    casam = S.casar_nomes({l["senador_norm"] for l in linhas_c}, sens, todos, config.APELIDOS_CEAPS)
     por_id = {s["id"]: s for s in sens}
+    por_id_todos = {s["id"]: s for s in todos}
+    for sid in set(casam.values()) - set(por_id):      # suplente fora da lista da legislatura, ou apelido
+        por_id[sid] = por_id_todos.get(sid) or {"id": sid, "nome": "", "partido": "", "uf": "", "foto": ""}
     notas_dep = defaultdict(list)
     sem_casar = defaultdict(float)
     for l in linhas_c:
         sid = casam.get(l["senador_norm"])
         if sid is None:
-            sid = "n-" + l["senador_norm"].lower().replace(" ", "-")[:40]
+            sid = sid_sem_casar(l["senador_norm"])
             sem_casar[l["senador"]] += l["valor"]
             por_id.setdefault(sid, {"id": sid, "nome": l["senador"].title(), "partido": "", "uf": "", "foto": ""})
         notas_dep[sid].append(l)
@@ -101,11 +144,13 @@ def processar_ano(ano: int, hoje: date, fatores: dict) -> dict:
     linhas = []
     for sid, s in por_id.items():
         ns = notas_dep.get(sid, [])
-        ex = exercicios(sid, renovar=(ano >= hoje.year - 1)) if isinstance(sid, int) else []
+        ex, uf_mand = exercicios(sid, renovar=(ano >= hoje.year - 1)) if isinstance(sid, int) else ([], "")
         meses = S.meses_em_exercicio(ex, ano, ult) if ex else []
-        if not meses and ns:     # sem dados de mandato: meses com despesas, preenchendo buracos
+        if not meses and ns and isinstance(sid, int):
+            # sem período de exercício neste ano (ex.: suplente que assumiu): meses com despesas, preenchendo buracos
             ms = sorted({n["mes"] for n in ns if 1 <= n["mes"] <= ult})
             meses = list(range(ms[0], ms[-1] + 1)) if ms else []
+        # nome da CEAPS sem senador correspondente: só a cota entra (sem salário, para não contar o mesmo senador duas vezes)
         if not meses and not ns:
             continue
         tot = round(sum(n["valor"] for n in ns), 2)
@@ -116,12 +161,26 @@ def processar_ano(ano: int, hoje: date, fatores: dict) -> dict:
             if 1 <= n["mes"] <= 12:
                 mes_cota[n["mes"] - 1] += n["valor"]
         c = S.custo(ano, meses, tot, fechado)
+        # quem viajou com a cota: valor da passagem dividido entre os passageiros citados
+        viag = defaultdict(lambda: [0.0, 0])
+        pax = {}
+        for n in ns:
+            ps = n.get("passageiros") or []
+            for nome, vinc in ps:
+                v = n["valor"] / len(ps)
+                viag[vinc][0] += v
+                viag[vinc][1] += 1
+                q = pax.setdefault((nome, vinc), [nome, vinc, 0, 0.0])
+                q[2] += 1
+                q[3] += v
         linhas.append({
-            "id": sid, "nome": s.get("nome", ""), "partido": s.get("partido", ""), "uf": s.get("uf", ""),
+            "id": sid, "nome": s.get("nome", ""), "partido": s.get("partido", ""), "uf": s.get("uf", "") or uf_mand,
             "foto": s.get("foto") or (config.FOTO_SENADOR.format(id=sid) if isinstance(sid, int) else ""),
             "meses": len(meses), "custos": {"salario": c["salario"], "ceaps": c["ceaps"]}, "custo": c["total"],
             "categorias": {k: round(v, 2) for k, v in sorted(cats.items(), key=lambda x: -x[1])},
             "mensal_ceaps": [round(v, 2) for v in mes_cota], "notas": len(ns),
+            "viagens": {k: [round(v[0], 2), v[1]] for k, v in sorted(viag.items(), key=lambda x: -x[1][0])},
+            "casado": isinstance(sid, int),
             "url": config.URL_SENADOR.format(id=sid) if isinstance(sid, int) else "",
         })
         # notas nota a nota: [data, mês, tipo, chave, valor, documento, detalhe]
@@ -132,7 +191,14 @@ def processar_ano(ano: int, hoje: date, fatores: dict) -> dict:
             "fornecedores": forn,
             "notas": sorted([[n["data"], n["mes"], S.tipo_curto(n["tipo"]), n["chave"], n["valor"], n["documento"], n["detalhe"]]
                              for n in ns], key=lambda x: (x[0] or "", -x[4])),
+            # passageiros das passagens pagas pela cota: [nome, vínculo, trechos, valor]
+            "passageiros": sorted([[a, b, c_, round(d, 2)] for a, b, c_, d in pax.values()], key=lambda x: -x[3]),
         })
+    # apaga notas de senadores que não estão mais no ano (ex.: nome que antes não casava)
+    feitos_ids = {f"{l['id']}.json" for l in linhas}
+    for p in (SAIDA / str(ano) / "notas").glob("*.json"):
+        if p.name not in feitos_ids:
+            p.unlink()
     linhas.sort(key=lambda x: -x["custo"])
     for i, l in enumerate(linhas, 1):
         l["posicao"] = i
@@ -140,7 +206,7 @@ def processar_ano(ano: int, hoje: date, fatores: dict) -> dict:
     # fornecedores: todos, com quem pagou e as maiores notas
     fz = {}
     for l in linhas_c:
-        sid = casam.get(l["senador_norm"]) or "n-" + l["senador_norm"].lower().replace(" ", "-")[:40]
+        sid = casam.get(l["senador_norm"]) or sid_sem_casar(l["senador_norm"])
         f = fz.setdefault(l["chave"], {"chave": l["chave"], "nome": l["fornecedor"], "doc": l["doc"], "tipo": l["tipo_doc"],
                                        "valor": 0.0, "notas": 0, "senadores": defaultdict(lambda: [0.0, 0]), "tipos": defaultdict(float), "maiores": []})
         f["valor"] += l["valor"]
@@ -156,7 +222,7 @@ def processar_ano(ano: int, hoje: date, fatores: dict) -> dict:
                       {k: round(v, 2) for k, v in sorted(f["tipos"].items(), key=lambda x: -x[1])},
                       sorted(f["maiores"], key=lambda x: -x[1])[:10]])
     gravar(SAIDA / str(ano) / "fornecedores.json", {"ano": ano, "linhas": lista})
-    resumo = {"ano": ano, "meses_decorridos": ult, "fechado": fechado, "senadores": linhas,
+    resumo = {"ano": ano, "versao": config.VERSAO, "meses_decorridos": ult, "fechado": fechado, "senadores": linhas,
               "total": round(sum(l["custo"] for l in linhas), 2), "total_ceaps": round(sum(l["custos"]["ceaps"] for l in linhas), 2),
               "fator_ipca": fatores.get(str(ano), fatores.get(ano, 1.0)), "sem_casar": {k: round(v, 2) for k, v in sem_casar.items()}}
     gravar(SAIDA / str(ano) / "resumo.json", resumo)

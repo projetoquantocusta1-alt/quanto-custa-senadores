@@ -8,9 +8,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=1">
-<link rel="stylesheet" href="tema.css?v=1">
-<link rel="stylesheet" href="senadores.css?v=1">
+<link rel="stylesheet" href="style.css?v=2">
+<link rel="stylesheet" href="tema.css?v=2">
+<link rel="stylesheet" href="senadores.css?v=2">
 </head>
 <body>
 <aside class="menu" id="menu" aria-label="Menu">
@@ -19,6 +19,7 @@
     <button data-pag="inicio">Início</button>
     <button data-pag="senadores">Senadores</button>
     <button data-pag="fornecedores">Fornecedores</button>
+    <button data-pag="viagens">Quem viaja com a cota</button>
     <button data-pag="dava">O que dava pra fazer?</button>
     <button data-pag="metodo">Metodologia</button>
   </nav>
@@ -80,6 +81,21 @@
         <button class="btn-sec mais" id="f-mais" type="button" hidden>Mostrar mais</button></article>
     </section>
 
+    <!-- QUEM VIAJA COM A COTA -->
+    <section class="pagina" data-pag="viagens">
+      <div class="kpis" id="v-kpis"></div>
+      <div class="grade">
+        <article class="visual span-4"><header><h2>Por vínculo do passageiro</h2></header><div class="tabela-rolagem"><table class="ranking" id="v-vinc"></table></div>
+          <p class="dica">“Parlamentar” é o próprio senador (ou outro parlamentar); “Comissionado” é servidor de livre nomeação; “Efetivo” é servidor concursado.</p></article>
+        <article class="visual span-8 texto"><header><h2>Como ler</h2></header>
+          <p>Nas passagens aéreas pagas pela cota (CEAPS), o Senado informa o nome de cada passageiro e o vínculo dele. Aqui somamos quanto da cota de cada senador pagou viagens <b>do próprio senador</b> e quanto pagou viagens <b>de outras pessoas</b> (assessores e servidores).</p>
+          <p>Quando uma nota tem mais de um passageiro, o valor é dividido igualmente entre eles. Passagens sem passageiro informado (anos antigos, passagens terrestres) não entram nesta página. Clique no nome do senador para ver cada passageiro.</p></article>
+      </div>
+      <article class="visual"><header><h2>Senadores: quanto da cota pagou viagem de outras pessoas</h2><span class="dica">clique no título da coluna para ordenar</span></header>
+        <div class="tabela-rolagem"><table class="ranking" id="v-tab"></table></div>
+        <button class="btn-sec mais" id="v-mais" type="button" hidden>Mostrar mais</button></article>
+    </section>
+
     <!-- O QUE DAVA PRA FAZER -->
     <section class="pagina" data-pag="dava">
       <div class="selos-legenda"><span class="selo-t t-es">Análise</span><small>Comparação ilustrativa com a regra provisória do projeto: 80% do que a cota gastou com locomoção, hospedagem, alimentação, passagens e divulgação. Não é um cálculo oficial de desperdício.</small></div>
@@ -103,7 +119,9 @@
         <h2>O que entra no custo</h2>
         <p><b>Salário</b> (subsídio mensal × meses em exercício, mais o 13º proporcional em ano fechado — o mesmo valor dos deputados federais) + <b>cota parlamentar (CEAPS)</b>.</p>
         <p><b>Ainda não entram</b>: a equipe do gabinete (o Senado não publica um valor por senador em formato aberto), auxílio-moradia, imóvel funcional e ajudas de custo. Por isso o custo mostrado é um <b>piso</b>.</p>
-        <p>CPF de pessoas físicas aparece mascarado. Quando o nome na planilha da cota não bate com nenhum senador da lista oficial, ele aparece pelo nome, sem partido nem estado.</p>
+        <p>CPF de pessoas físicas aparece mascarado. O nome que aparece na planilha da cota é ligado ao cadastro oficial do senador (nome idêntico, ou todas as palavras do nome contidas no nome completo, sem ambiguidade, ou uma tabela de apelidos conferida à mão). Se ainda assim um nome não casar, ele aparece pelo nome, sem partido nem estado, e só a cota entra no custo (sem salário), para não contar o mesmo senador duas vezes.</p>
+        <p><b>Comprovantes</b>: o Senado não publica a imagem das notas fiscais e recibos da cota, diferente da Câmara dos Deputados. Só os dados digitados ficam disponíveis; o comprovante pode ser pedido pela Lei de Acesso à Informação.</p>
+        <p><b>Quem viaja com a cota</b>: nas passagens, o Senado informa o nome e o vínculo de cada passageiro (parlamentar, comissionado ou efetivo). Quando a nota tem mais de um passageiro, o valor é dividido igualmente entre eles.</p>
       </article>
     </section>
   </main>
@@ -116,7 +134,7 @@
 
 <script src="vendor/chart.umd.js"></script>
 <script src="vendor/mapa-brasil.js"></script>
-<script src="referencias.js?v=1"></script>
-<script src="app.js?v=1"></script>
+<script src="referencias.js?v=2"></script>
+<script src="app.js?v=2"></script>
 </body>
 </html>

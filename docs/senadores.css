@@ -6,8 +6,15 @@ main { padding: 20px; }
 .top5 img, .foto { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; background: #E6F0F9; }
 .top5 .v { font: 700 14px var(--mono); }
 .top5 .s { display: block; color: var(--muted); font-size: 12px; }
-.veu-ficha { position: fixed; inset: 0; background: rgba(20,40,63,.55); z-index: 70; display: grid; place-items: start center; padding: 24px 12px; overflow: auto; }
-.ficha-caixa { position: relative; background: #fff; border-radius: 16px; width: min(1000px, 100%); padding: 24px; }
+.veu-ficha { position: fixed; inset: 0; background: rgba(20,40,63,.55); z-index: 70; display: grid; grid-template-columns: minmax(0, 1fr); justify-items: center; align-items: start; padding: 24px 12px; overflow: auto; }
+.ficha-caixa { position: relative; background: #fff; border-radius: 16px; width: 100%; max-width: 1000px; min-width: 0; padding: 24px; }
+.ficha-caixa .tabela-rolagem { max-width: 100%; }
+.ficha-caixa .kpis, .ficha-caixa .d-grade2 > div { min-width: 0; }
+.notas-tab td.data { white-space: nowrap; min-width: 86px; }
+.notas-tab td.quebra { min-width: 160px; }
+.notas-tab td.doc { white-space: normal; word-break: break-all; min-width: 90px; max-width: 160px; }
+.aviso-comprovante { background: #FFF6E5; border: 1px solid #D69A32; border-radius: 10px; padding: 10px 12px; font-size: 13px; margin: 8px 0 12px; }
+.passageiros td.quebra { min-width: 180px; }
 .ficha-caixa .fechar { position: absolute; top: 12px; right: 12px; }
 .ficha-cab { display: flex; gap: 16px; align-items: center; margin-bottom: 14px; }
 .ficha-cab img { width: 84px; height: 84px; border-radius: 14px; object-fit: cover; background: #E6F0F9; }

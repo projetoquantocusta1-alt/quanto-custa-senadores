@@ -25,6 +25,16 @@ def valor_vigente(tabela, dia: date) -> float:
     return atual
 
 
+# Nomes da planilha da CEAPS que não batem com o cadastro do Senado (apelidos).
+# Chave: nome como aparece na CEAPS; valor: código do senador na API do Senado.
+APELIDOS_CEAPS = {
+    "GIM ARGELLO": 4776,       # Jorge Afonso Argello
+    "WEVERTON ROCHA": 5411,    # Weverton Rocha Marques de Sousa
+}
+
+# Versão do formato dos arquivos do site: anos gerados por versão anterior são refeitos.
+VERSAO = 2
+
 # --- Fontes (Senado Federal — dados abertos) ---
 CEAPS_CSV = "https://www.senado.leg.br/transparencia/LAI/verba/despesa_ceaps_{ano}.csv"
 API_SENADO = "https://legis.senado.leg.br/dadosabertos"

@@ -4,7 +4,7 @@
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 const MESES = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
-const E = { meta: null, ano: null, pag: "inicio", res: {}, forn: {}, ord: ["custo", -1], lim: 30, limF: 50, graf: {} };
+const E = { meta: null, ano: null, pag: "inicio", res: {}, forn: {}, ord: ["custo", -1], ordV: ["vo", -1], lim: 30, limF: 50, limV: 30, graf: {} };
 const brl = (v, d = 0) => (v || 0).toLocaleString("pt-BR", { style: "currency", currency: "BRL", minimumFractionDigits: d, maximumFractionDigits: d });
 const curto = (v) => { const a = Math.abs(v || 0);
   if (a >= 1e9) return "R$ " + (v / 1e9).toLocaleString("pt-BR", { maximumFractionDigits: 2 }) + " bi";
@@ -20,6 +20,8 @@ const dataBR = (s) => (s ? s.split("-").reverse().join("/") : "—");
 const getJSON = async (u) => { const r = await fetch(u, { cache: "no-cache" }); if (!r.ok) throw new Error(u + " " + r.status); return r.json(); };
 const tot = () => E.ano === "total";
 const corrigir = () => $("#f-ipca").checked;
+const VINCULOS = { PARLAMENTAR: "Parlamentar", COMISSIONADO: "Comissionado", EFETIVO: "Efetivo" };
+const rotVinculo = (v) => VINCULOS[v] || (v ? v.charAt(0) + v.slice(1).toLowerCase() : "Não informado");
 const fatorDe = (r) => (corrigir() ? r?.fator_ipca || 1 : 1);
 
 async function resumo(a) { return E.res[a] || (E.res[a] = await getJSON(`dados/${a}/resumo.json`).catch(() => null)); }
@@ -31,7 +33,8 @@ async function dados() {
   const m = new Map();
   rs.forEach((r) => { const F = fatorDe(r); r.senadores.forEach((s) => {
     let o = m.get(s.id);
-    if (!o) m.set(s.id, (o = { ...s, custo: 0, custos: { salario: 0, ceaps: 0 }, categorias: {}, notas: 0, meses: 0, F: 1, anos: [] }));
+    if (!o) m.set(s.id, (o = { ...s, custo: 0, custos: { salario: 0, ceaps: 0 }, categorias: {}, viagens: {}, notas: 0, meses: 0, F: 1, anos: [] }));
+    Object.entries(s.viagens || {}).forEach(([k, [v, n]]) => { const q = (o.viagens[k] = o.viagens[k] || [0, 0]); q[0] += v * F; q[1] += n; });
     Object.assign(o, { nome: s.nome, partido: s.partido, uf: s.uf, foto: s.foto, url: s.url });
     o.custo += s.custo * F; o.custos.salario += s.custos.salario * F; o.custos.ceaps += s.custos.ceaps * F; o.notas += s.notas; o.meses += s.meses; o.anos.push(r.ano);
     Object.entries(s.categorias || {}).forEach(([k, v]) => (o.categorias[k] = (o.categorias[k] || 0) + v * F));
@@ -173,8 +176,13 @@ async function fichaSenador(id) {
     <div class="d-grade2"><div><h3 class="d-sec">Cota por mês em ${anoN}</h3><div class="canvas-box"><canvas id="g-f-mes"></canvas></div></div>
       <div><h3 class="d-sec">Ano a ano</h3><div class="canvas-box"><canvas id="g-f-hist"></canvas></div></div></div>
     <h3 class="d-sec">Cota por tipo de gasto (${rotAno()})</h3><table class="ranking"><tbody>${Object.entries(s.categorias).sort((a, b) => b[1] - a[1]).map(([k, v]) => `<tr><td class="quebra">${esc(k)}</td><td class="num">${brl(v * (tot() ? 1 : s.F), 2)}</td></tr>`).join("")}</tbody></table>
+    ${s.casado === false ? `<p class="aviso-comprovante">Este nome aparece na planilha da cota, mas não foi encontrado na lista oficial de senadores. Por isso só a cota (CEAPS) entra no custo, sem salário.</p>` : ""}
+    ${nd?.passageiros?.length ? `<h3 class="d-sec">Quem viajou com a cota em ${anoN}</h3>
+      <p class="sub">Passageiros citados no detalhamento das passagens. Quando a nota tem mais de um passageiro, o valor é dividido igualmente entre eles. “Parlamentar” é o próprio senador ou outro parlamentar; “Comissionado” é servidor de livre nomeação; “Efetivo” é servidor concursado.</p>
+      <div class="tabela-rolagem passageiros"><table class="ranking"><thead><tr><th>Passageiro</th><th>Vínculo</th><th class="num">Trechos</th><th class="num">Valor</th></tr></thead><tbody>${nd.passageiros.map(([n, v, q, x]) => `<tr><td class="quebra">${esc(n)}</td><td>${esc(rotVinculo(v))}</td><td class="num">${nf(q)}</td><td class="num">${brl(x * F, 2)}</td></tr>`).join("")}</tbody></table></div>` : ""}
     <h3 class="d-sec">Todas as notas de ${anoN}, nota a nota</h3>
-    ${nd ? `<div class="filtros-tabela"><input id="n-q" class="mini-busca" type="search" placeholder="Fornecedor, documento ou detalhe"></div><div class="tabela-rolagem"><table class="ranking" id="n-tab"></table></div>` : `<p class="sub">Sem notas neste ano.</p>`}`);
+    <p class="aviso-comprovante"><b>O Senado não publica a imagem dos comprovantes</b> (notas fiscais e recibos), diferente da Câmara dos Deputados. Aqui aparecem só os dados digitados pelo Senado. O comprovante de uma nota pode ser pedido pela Lei de Acesso à Informação, no Serviço de Informação ao Cidadão (SIC) do Senado.</p>
+    ${nd ? `<div class="filtros-tabela"><input id="n-q" class="mini-busca" type="search" placeholder="Fornecedor, documento, passageiro ou detalhe"></div><div class="tabela-rolagem"><table class="ranking notas-tab" id="n-tab"></table></div>` : `<p class="sub">Sem notas neste ano.</p>`}`);
   if (sa) grafico("g-f-mes", { type: "bar", data: { labels: MESES, datasets: [{ label: "Cota", data: (sa.mensal_ceaps || []).map((v) => v * F), backgroundColor: css("--accent") }] }, options: { maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: tipBRL }, scales: { y: { ticks: { callback: (v) => curto(v) } } } } });
   grafico("g-f-hist", { type: "bar", data: { labels: hist.map((h) => h[0]), datasets: [{ label: "Salário", data: hist.map(([, y, f]) => y.custos.salario * f), backgroundColor: "#14283F" }, { label: "Cota", data: hist.map(([, y, f]) => y.custos.ceaps * f), backgroundColor: "#2475B8" }] },
     options: { maintainAspectRatio: false, plugins: { tooltip: tipBRL }, scales: { x: { stacked: true }, y: { stacked: true, ticks: { callback: (v) => curto(v) } } } } });
@@ -182,10 +190,30 @@ async function fichaSenador(id) {
     const desenhar = () => { const q = semAcento($("#n-q").value.trim());
       const ns = nd.notas.filter((n) => { const fo = nd.fornecedores[n[3]] || []; return !q || semAcento(`${fo[1]} ${fo[2]} ${n[5]} ${n[6]} ${n[2]}`).includes(q); });
       $("#n-tab").innerHTML = `<thead><tr><th>Data</th><th>Tipo</th><th>Fornecedor</th><th>Documento</th><th>Detalhe</th><th class="num">Valor</th></tr></thead><tbody>` +
-        ns.map((n) => { const fo = nd.fornecedores[n[3]] || []; return `<tr><td>${dataBR(n[0])}</td><td class="quebra sub">${esc(n[2])}</td><td class="quebra">${esc(fo[1] || "")}<div class="sub">${esc(fo[2] || "")}</div></td><td>${esc(n[5] || "")}</td><td class="quebra sub">${esc(n[6] || "")}</td><td class="num">${brl(n[4] * F, 2)}</td></tr>`; }).join("") +
+        ns.map((n) => { const fo = nd.fornecedores[n[3]] || []; return `<tr><td class="data">${dataBR(n[0])}</td><td class="quebra sub">${esc(n[2])}</td><td class="quebra">${esc(fo[1] || "")}<div class="sub">${esc(fo[2] || "")}</div></td><td class="doc">${esc(n[5] || "")}</td><td class="quebra sub">${esc(n[6] || "")}</td><td class="num">${brl(n[4] * F, 2)}</td></tr>`; }).join("") +
         `</tbody><tfoot><tr><td colspan="5">Total (${nf(ns.length)} notas)</td><td class="num">${brl(soma(ns.map((n) => n[4] * F)), 2)}</td></tr></tfoot>`; };
     $("#n-q").oninput = desenhar; desenhar();
   }
+}
+
+// ---------------------------------------------------------------- quem viaja com a cota
+async function rViagens() {
+  const D = (await dados()).filter(passa).map((s) => { const vg = s.viagens || {}, k = (tot() ? 1 : s.F);
+    const t = soma(Object.values(vg).map((x) => x[0])) * k, prop = (vg.PARLAMENTAR?.[0] || 0) * k;
+    return { ...s, vt: t, vp: prop, vo: t - prop, tre: soma(Object.values(vg).map((x) => x[1])), pct: t ? ((t - prop) / t) * 100 : 0 }; }).filter((s) => s.vt > 0);
+  const t = soma(D.map((s) => s.vt)), p = soma(D.map((s) => s.vp)), por = {};
+  D.forEach((s) => Object.entries(s.viagens || {}).forEach(([k, [v]]) => (por[k] = (por[k] || 0) + v * (tot() ? 1 : s.F))));
+  kpis("#v-kpis", [["Passagens com passageiro informado", curto(t), rotAno()], ["Para o próprio parlamentar", t ? nf((p / t) * 100, 1) + "%" : "—", curto(p)],
+    ["Para outras pessoas", t ? nf(((t - p) / t) * 100, 1) + "%" : "—", curto(t - p)], ["Senadores com passagens", nf(D.length)]]);
+  $("#v-vinc").innerHTML = `<tbody>${Object.entries(por).sort((a, b) => b[1] - a[1]).map(([k, v]) => `<tr><td>${esc(rotVinculo(k))}</td><td class="num">${brl(v)}</td><td class="num">${t ? nf((v / t) * 100, 1) : 0}%</td></tr>`).join("")}</tbody>`;
+  const [k, d] = E.ordV;
+  D.sort((a, b) => ((a[k] ?? 0) > (b[k] ?? 0) ? 1 : (a[k] ?? 0) < (b[k] ?? 0) ? -1 : 0) * d);
+  const col = [["pos", "#"], ["nome", "Senador"], ["vt", "Passagens"], ["vp", "Para o senador"], ["vo", "Para outras pessoas"], ["pct", "% outras pessoas"], ["tre", "Trechos"]];
+  $("#v-tab").innerHTML = `<thead><tr>${col.map(([c, tt], i) => `<th class="${i > 1 ? "num" : ""}" data-k="${c}" ${c === k ? `aria-sort="${d < 0 ? "descending" : "ascending"}"` : ""} style="cursor:pointer">${tt}</th>`).join("")}</tr></thead><tbody>` +
+    D.slice(0, E.limV).map((s, i) => `<tr><td class="num">${i + 1}º</td><td><button class="link-dep" data-sen="${s.id}">${esc(s.nome)}</button> <span class="sub">${esc(s.partido)}${s.uf ? "-" + esc(s.uf) : ""}</span></td>
+      <td class="num">${brl(s.vt)}</td><td class="num">${brl(s.vp)}</td><td class="num">${brl(s.vo)}</td><td class="num">${nf(s.pct, 1)}%</td><td class="num">${nf(s.tre)}</td></tr>`).join("") + `</tbody>`;
+  $$("#v-tab th").forEach((th) => (th.onclick = () => { if (th.dataset.k === "pos") return; E.ordV = [th.dataset.k, th.dataset.k === k ? -d : -1]; rViagens(); }));
+  $("#v-mais").hidden = D.length <= E.limV;
 }
 
 // ---------------------------------------------------------------- o que dava pra fazer
@@ -193,9 +221,9 @@ async function rDava() {
   const R = window.REFERENCIAS; if (!R) return;
   const D = (await dados()).filter(passa), aviso = tot() && !corrigir();
   const regs = R.excesso.grupos.map(([n, re]) => [n, new RegExp(re, "i")]), gr = regs.map(([n]) => ({ n, v: 0 }));
-  D.forEach((s) => Object.entries(s.categorias || {}).forEach(([c, v]) => { const i = regs.findIndex(([, re]) => re.test(c)); if (i >= 0) gr[i].v += v * (tot() ? 1 : (E.res[E.ano]?.fator_ipca || 1)); }));
+  D.forEach((s) => Object.entries(s.categorias || {}).forEach(([c, v]) => { const i = regs.findIndex(([, re]) => re.test(c)); if (i >= 0) gr[i].v += v * (tot() ? 1 : s.F); }));
   const base = soma(gr.map((g) => g.v)), exc = base * R.excesso.percentual, pct = nf(R.excesso.percentual * 100) + "%";
-  $("#dv-sub").textContent = `${pct} do que a cota ${temFiltro() ? "dos senadores do filtro" : "dos senadores"} gastou nesses grupos em ${rotAno()}, em valores de hoje:`;
+  $("#dv-sub").textContent = `${pct} do que a cota ${temFiltro() ? "dos senadores do filtro" : "dos senadores"} gastou nesses grupos em ${rotAno()}, ${corrigir() ? "em valores de hoje" : "em valores da época"}:`;
   $("#dv-total").textContent = aviso ? "ligue “Valores de hoje”" : brl(exc);
   $("#dv-regra").textContent = `Base: ${brl(base)} × ${pct}.`;
   const n = (x) => (x >= 10 ? nf(Math.floor(x)) : nf(x, 1));
@@ -210,7 +238,7 @@ async function rDava() {
 
 // ---------------------------------------------------------------- navegação
 async function render() {
-  try { await ({ inicio: rInicio, senadores: rSenadores, fornecedores: rFornecedores, dava: rDava, metodo: async () => {} })[E.pag](); }
+  try { await ({ inicio: rInicio, senadores: rSenadores, fornecedores: rFornecedores, viagens: rViagens, dava: rDava, metodo: async () => {} })[E.pag](); }
   catch (e) { console.error(e); }
 }
 function irPara(p) {
@@ -233,7 +261,7 @@ async function iniciar() {
   $("#f-uf").innerHTML = `<option value="">Todos</option>` + [...new Set(todos.map((s) => s.uf).filter(Boolean))].sort().map((u) => `<option>${u}</option>`).join("");
   $("#f-partido").innerHTML = `<option value="">Todos</option>` + [...new Set(todos.map((s) => s.partido).filter(Boolean))].sort().map((u) => `<option>${u}</option>`).join("");
   const h = location.hash.slice(1);
-  irPara(["inicio", "senadores", "fornecedores", "dava", "metodo"].includes(h) ? h : "inicio");
+  irPara(["inicio", "senadores", "fornecedores", "viagens", "dava", "metodo"].includes(h) ? h : "inicio");
 }
 document.addEventListener("click", (e) => {
   const s = e.target.closest("[data-sen]"); if (s) { fichaSenador(s.dataset.sen); return; }
@@ -242,11 +270,12 @@ document.addEventListener("click", (e) => {
   const b = e.target.closest(".menu nav button"); if (b) irPara(b.dataset.pag);
 });
 $("#f-ano").onchange = (e) => { E.ano = e.target.value === "total" ? "total" : +e.target.value; $("#f-tipo").innerHTML = ""; irPara(E.pag); };
-["#f-uf", "#f-partido", "#f-ipca"].forEach((k) => ($(k).onchange = () => { E.lim = 30; E.limF = 50; render(); }));
+["#f-uf", "#f-partido", "#f-ipca"].forEach((k) => ($(k).onchange = () => { E.lim = 30; E.limF = 50; E.limV = 30; render(); }));
 $("#f-busca").oninput = () => { E.lim = 30; render(); };
 $("#f-q").oninput = () => { E.limF = 50; rFornecedores(); };
 $("#f-tipo").onchange = () => { E.limF = 50; rFornecedores(); };
 $("#s-mais").onclick = () => { E.lim += 50; rSenadores(); };
+$("#v-mais").onclick = () => { E.limV += 50; rViagens(); };
 $("#f-mais").onclick = () => { E.limF += 100; rFornecedores(); };
 $("#ficha-fechar").onclick = () => ($("#ficha").hidden = true);
 $("#ficha").onclick = (e) => { if (e.target.id === "ficha") $("#ficha").hidden = true; };

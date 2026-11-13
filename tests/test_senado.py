@@ -33,3 +33,33 @@ def test_exercicios_e_custo():
     assert S.meses_em_exercicio(ex, 2025, 12) == [1, 2, 3, 4, 8, 9, 10, 11, 12]
     c = S.custo(2025, [1, 2, 3], 1000.0, True)
     assert c["salario"] == round(44008.52 + 46366.19 * 2 + 46366.19 * 3 / 12, 2) and c["total"] == round(c["salario"] + 1000, 2)
+
+
+def _sen(i, nome, completo, **kw):
+    return {"id": i, "nome": nome, "nome_completo": completo, **kw}
+
+
+def test_casamento_endurecido():
+    pool = [_sen(1, "Weverton", "Weverton Rocha Marques de Sousa"), _sen(2, "Eduardo Braga", "Carlos Eduardo de Souza Braga"),
+            _sen(3, "Dr. Samuel Araújo", "Samuel Pereira de Araujo"), _sen(4, "Eduardo Girão", "Luis Eduardo Grangeiro Girão")]
+    todos = pool + [_sen(5, "Wilder Morais", "Wilder Pedro de Morais"), _sen(6, "Jorge Afonso Argello", "Jorge Afonso Argello")]
+    m = S.casar_nomes({"WEVERTON ROCHA", "EDUARDO SILVA", "EDUARDO", "SAMUEL ARAUJO", "WILDER MORAIS", "GIM ARGELLO"},
+                      pool, todos, {"GIM ARGELLO": 6})
+    assert m == {"WEVERTON ROCHA": 1, "SAMUEL ARAUJO": 3, "WILDER MORAIS": 5, "GIM ARGELLO": 6}
+
+
+def test_uf_nas_listas_antigas():
+    js = {"ListaParlamentarLegislatura": {"Parlamentares": {"Parlamentar": [
+        {"IdentificacaoParlamentar": {"CodigoParlamentar": "9", "NomeParlamentar": "Fulano"},
+         "Mandatos": {"Mandato": [{"UfParlamentar": "PI", "PrimeiraLegislaturaDoMandato": {"NumeroLegislatura": "50"}},
+                                  {"UfParlamentar": "PA", "PrimeiraLegislaturaDoMandato": {"NumeroLegislatura": "53"},
+                                   "SegundaLegislaturaDoMandato": {"NumeroLegislatura": "54"}}]}}]}}}
+    assert S.ler_lista_senadores(js, leg=54)[0]["uf"] == "PA"
+    assert S.ler_uf_mandatos({"MandatoParlamentar": {"Parlamentar": js["ListaParlamentarLegislatura"]["Parlamentares"]["Parlamentar"][0]}}) == "PA"
+
+
+def test_passageiros():
+    d = ("Companhia Aérea: LATAM, Localizador: AGTHGD. Passageiros: KAROL PONTES MONTEIRO (Matrícula 356685, COMISSIONADO), "
+         "JOSÉ D'ÁVILA (Matrícula 12, PARLAMENTAR), Voo: 3768 - BSB/MCP - 17/07/2025;")
+    assert S.passageiros(d) == [("KAROL PONTES MONTEIRO", "COMISSIONADO"), ("JOSÉ D'ÁVILA", "PARLAMENTAR")]
+    assert S.passageiros("Passagem terrestre de servidor a serviço") == []

@@ -81,8 +81,8 @@ def ler_ceaps(conteudo: bytes) -> list[dict]:
             "ano": int(_dig(r.get("ANO")) or 0), "mes": int(_dig(r.get("MES")) or 0), "senador": sen, "senador_norm": norm(sen),
             "tipo": re.sub(r"\s+", " ", r.get("TIPO_DESPESA", "")).strip(), "chave": chave, "doc": doc, "tipo_doc": td,
             "fornecedor": forn, "documento": r.get("DOCUMENTO", "")[:40], "data": _data(r.get("DATA", "")),
-            "detalhe": re.sub(r"\s+", " ", r.get("DETALHAMENTO", "")).strip()[:200], "valor": round(valor, 2),
-            "cod": r.get("COD_DOCUMENTO", ""),
+            "detalhe": re.sub(r"\s+", " ", r.get("DETALHAMENTO", "")).strip()[:600], "valor": round(valor, 2),
+            "cod": r.get("COD_DOCUMENTO", ""), "passageiros": passageiros(r.get("DETALHAMENTO", "")),
         })
     return out
 
@@ -119,7 +119,24 @@ def _lista(obj, *caminho):
     return obj if isinstance(obj, list) else [obj]
 
 
-def ler_lista_senadores(js: dict) -> list[dict]:
+def _uf_dos_mandatos(p: dict, leg: int | None = None) -> str:
+    """UF do mandato (as listas por legislatura antigas só trazem a UF dentro de Mandatos/Mandato)."""
+    ufs = []
+    for m in _lista(p, "Mandatos", "Mandato"):
+        uf = (m.get("UfParlamentar") or "").strip()
+        if not uf:
+            continue
+        legs = set()
+        for k in ("PrimeiraLegislaturaDoMandato", "SegundaLegislaturaDoMandato"):
+            n = str((m.get(k) or {}).get("NumeroLegislatura") or "").strip()
+            if n.isdigit():
+                legs.add(int(n))
+        ufs.append((leg in legs if leg else False, uf))
+    ufs.sort(key=lambda x: not x[0])
+    return ufs[0][1] if ufs else ""
+
+
+def ler_lista_senadores(js: dict, leg: int | None = None) -> list[dict]:
     """Aceita a lista atual e a lista por legislatura da API do Senado."""
     parl = (_lista(js, "ListaParlamentarLegislatura", "Parlamentares", "Parlamentar")
             or _lista(js, "ListaParlamentarEmExercicio", "Parlamentares", "Parlamentar"))
@@ -130,7 +147,7 @@ def ler_lista_senadores(js: dict) -> list[dict]:
         if not cod.isdigit():
             continue
         out.append({"id": int(cod), "nome": i.get("NomeParlamentar") or "", "nome_completo": i.get("NomeCompletoParlamentar") or "",
-                    "partido": i.get("SiglaPartidoParlamentar") or "", "uf": i.get("UfParlamentar") or "",
+                    "partido": i.get("SiglaPartidoParlamentar") or "", "uf": i.get("UfParlamentar") or _uf_dos_mandatos(p, leg),
                     "sexo": i.get("SexoParlamentar") or "", "foto": i.get("UrlFotoParlamentar") or ""})
     return out
 
@@ -146,6 +163,14 @@ def ler_exercicios(js: dict) -> list[tuple[str, str]]:
     return sorted(set(out))
 
 
+def ler_uf_mandatos(js: dict) -> str:
+    """UF do mandato mais recente a partir de /senador/{id}/mandatos."""
+    p = (js.get("MandatoParlamentar") or {}).get("Parlamentar") or {}
+    ms = _lista(p, "Mandatos", "Mandato")
+    ms = sorted(ms, key=lambda m: str((m.get("PrimeiraLegislaturaDoMandato") or {}).get("NumeroLegislatura") or ""), reverse=True)
+    return next(((m.get("UfParlamentar") or "").strip() for m in ms if (m.get("UfParlamentar") or "").strip()), "")
+
+
 def meses_em_exercicio(exercicios: list[tuple[str, str]], ano: int, ultimo_mes: int) -> list[int]:
     meses = set()
     for ini, fim in exercicios:
@@ -158,18 +183,69 @@ def meses_em_exercicio(exercicios: list[tuple[str, str]], ano: int, ultimo_mes: 
     return sorted(meses)
 
 
-def casar_nomes(ceaps_nomes: set[str], senadores: list[dict]) -> dict[str, int]:
-    """Nome que aparece na CEAPS -> código do senador (nome parlamentar ou completo, sem acento)."""
-    idx = {}
-    for s in senadores:
-        for n in (s["nome"], s["nome_completo"]):
-            if n:
-                idx.setdefault(norm(n), set()).add(s["id"])
+PALAVRAS_VAZIAS = {"DE", "DA", "DO", "DAS", "DOS", "E", "DR", "DRA", "SENADOR", "SENADORA"}
+
+
+def _palavras(n: str) -> set[str]:
+    return {w for w in norm(n).split() if w not in PALAVRAS_VAZIAS and len(w) > 1}
+
+
+def casar_nomes(ceaps_nomes: set[str], senadores: list[dict], todos: list[dict] | None = None,
+                apelidos: dict[str, int] | None = None) -> dict[str, int]:
+    """Nome que aparece na CEAPS -> código do senador. Só casa quando não há ambiguidade.
+
+    1. tabela manual de apelidos (config.APELIDOS_CEAPS);
+    2. nome parlamentar ou completo idêntico (sem acento);
+    3. todas as palavras do nome da CEAPS aparecem no nome completo (ou parlamentar) de um único senador
+       — "WEVERTON ROCHA" -> "Weverton Rocha Marques de Sousa"; "EDUARDO SILVA" não casa com "Eduardo Braga".
+    Os passos 2 e 3 olham primeiro os senadores das legislaturas do ano e, se nada casar,
+    todos os senadores já vistos (suplentes que assumiram fora da lista da legislatura).
+    """
+    apelidos = {norm(k): v for k, v in (apelidos or {}).items()}
+
+    def tentar(n: str, pool: list[dict]):
+        exato = {s["id"] for s in pool for x in (s.get("nome"), s.get("nome_completo")) if x and norm(x) == n}
+        if len(exato) == 1:
+            return next(iter(exato))
+        if exato:
+            return None
+        ws = _palavras(n)
+        if len(ws) < 2:
+            return None
+        cont = {s["id"] for s in pool for x in (s.get("nome_completo"), s.get("nome")) if x and ws <= _palavras(x)}
+        return next(iter(cont)) if len(cont) == 1 else None
+
     out = {}
     for n in ceaps_nomes:
-        ids = idx.get(n)
-        if ids and len(ids) == 1:
-            out[n] = next(iter(ids))
+        if n in apelidos:
+            out[n] = apelidos[n]
+            continue
+        sid = tentar(n, senadores)
+        if sid is None and todos:
+            sid = tentar(n, todos)
+        if sid is not None:
+            out[n] = sid
+    return out
+
+
+# ------------------------------------------------------------- passageiros
+_PASSAGEIRO = re.compile(r"([A-ZÀ-Ý][A-ZÀ-Ý'´`.\- ]+?)\s*\(\s*Matr[íi]cula\s*\d*\s*,\s*([^)]+?)\s*\)", re.I)
+
+
+def passageiros(detalhe: str) -> list[tuple[str, str]]:
+    """[(nome, vínculo)] citados no detalhamento das passagens ("Passageiros: FULANO (Matrícula 123, COMISSIONADO)")."""
+    txt = detalhe or ""
+    i = txt.upper().find("PASSAGEIRO")
+    if i < 0:
+        return []
+    txt = txt[i:]
+    txt = txt[txt.find(":") + 1:] if ":" in txt[:15] else txt[len("PASSAGEIROS"):]
+    out = []
+    for m in _PASSAGEIRO.finditer(txt):
+        nome = re.sub(r"\s+", " ", m.group(1)).strip(" ,;.-")
+        nome = re.sub(r"^(E|,)\s+", "", nome)
+        if nome:
+            out.append((nome.upper(), m.group(2).strip().upper()))
     return out
 
 
