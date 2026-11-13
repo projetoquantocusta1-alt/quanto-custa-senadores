@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projeto Quanto Custa — Senadores</title>
+<meta name="description" content="Projeto Quanto Custa: quanto custa cada senador, desde 2009 — salário e cota parlamentar (CEAPS), nota a nota, com fornecedores e valores corrigidos pela inflação. Dados oficiais do Senado Federal.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=1">
+<link rel="stylesheet" href="tema.css?v=1">
+<link rel="stylesheet" href="senadores.css?v=1">
+</head>
+<body>
+<aside class="menu" id="menu" aria-label="Menu">
+  <div class="marca"><span class="logo" aria-hidden="true">R$</span><div><strong>Projeto Quanto Custa</strong><small class="marca-sub">Senadores</small></div></div>
+  <nav>
+    <button data-pag="inicio">Início</button>
+    <button data-pag="senadores">Senadores</button>
+    <button data-pag="fornecedores">Fornecedores</button>
+    <button data-pag="dava">O que dava pra fazer?</button>
+    <button data-pag="metodo">Metodologia</button>
+  </nav>
+  <p class="menu-rodape" id="atualizado"></p>
+</aside>
+<div class="veu" id="veu" hidden></div>
+
+<div class="conteudo">
+  <header class="topo-movel">
+    <button class="hamburguer" id="abrir-menu" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <strong>Projeto Quanto Custa · Senadores</strong>
+  </header>
+  <section class="segmentacoes" aria-label="Filtros">
+    <label>Ano<select id="f-ano"></select></label>
+    <label>Estado<select id="f-uf"><option value="">Todos</option></select></label>
+    <label>Partido<select id="f-partido"><option value="">Todos</option></select></label>
+    <label class="busca">Senador<input id="f-busca" type="search" placeholder="Nome do senador" autocomplete="off"></label>
+    <label class="chave"><input id="f-ipca" type="checkbox" checked><span>Valores de hoje<small id="ipca-ref">corrigidos pelo IPCA</small></span></label>
+  </section>
+  <p class="aviso" id="aviso" hidden></p>
+
+  <main>
+    <!-- INÍCIO -->
+    <section class="pagina" data-pag="inicio">
+      <div class="destaque">
+        <p class="selo">Transparência independente · dados oficiais do Senado</p>
+        <h1>Quanto custa manter um senador?</h1>
+        <p class="hero-sub">São 81 senadores, eleitos para mandatos de 8 anos. Veja quanto cada um custa em salário e na cota parlamentar (CEAPS), nota a nota.</p>
+        <p class="destaque-rot" id="i-rot"></p>
+        <div class="destaque-valor" id="i-total">—</div>
+        <p class="destaque-nota" id="i-nota"></p>
+      </div>
+      <div class="kpis" id="i-kpis"></div>
+      <div class="grade">
+        <article class="visual span-7"><header><h2>Custo médio por senador, por estado</h2><span class="dica">toque no estado para filtrar</span></header>
+          <div class="mapa-br" id="i-mapa"></div></article>
+        <article class="visual span-5"><header><h2>Os 5 mais caros</h2><span class="dica" id="i-top-dica"></span></header><ol class="top5" id="i-top"></ol></article>
+        <article class="visual span-12"><header><h2>Para onde vai a cota (CEAPS)</h2></header><div class="canvas-box alto"><canvas id="g-cat"></canvas></div></article>
+      </div>
+    </section>
+
+    <!-- SENADORES -->
+    <section class="pagina" data-pag="senadores">
+      <div class="kpis" id="s-kpis"></div>
+      <article class="visual"><header><h2>Ranking dos senadores</h2><span class="dica">clique no título da coluna para ordenar · no nome para abrir a ficha</span></header>
+        <div class="tabela-rolagem"><table class="ranking" id="s-tab"></table></div>
+        <button class="btn-sec mais" id="s-mais" type="button" hidden>Mostrar mais</button></article>
+    </section>
+
+    <!-- FORNECEDORES -->
+    <section class="pagina" data-pag="fornecedores">
+      <div class="kpis" id="f-kpis"></div>
+      <p class="sub" id="f-info"></p>
+      <article class="visual"><header><h2>Quem recebeu da cota dos senadores</h2>
+        <span class="filtros-tabela"><input id="f-q" class="mini-busca" type="search" placeholder="Empresa, CNPJ ou pessoa">
+        <select id="f-tipo" class="mini"><option value="">Todos os tipos de gasto</option></select></span>
+        <span class="dica">clique no nome para ver cada nota</span></header>
+        <div class="tabela-rolagem"><table class="ranking" id="f-tab"></table></div>
+        <button class="btn-sec mais" id="f-mais" type="button" hidden>Mostrar mais</button></article>
+    </section>
+
+    <!-- O QUE DAVA PRA FAZER -->
+    <section class="pagina" data-pag="dava">
+      <div class="selos-legenda"><span class="selo-t t-es">Análise</span><small>Comparação ilustrativa com a regra provisória do projeto: 80% do que a cota gastou com locomoção, hospedagem, alimentação, passagens e divulgação. Não é um cálculo oficial de desperdício.</small></div>
+      <div class="dava-topo visual"><p class="sub" id="dv-sub"></p><div class="destaque-valor" id="dv-total">—</div><p class="sub" id="dv-regra"></p></div>
+      <div class="dava-cards" id="dv-cards"></div>
+      <div class="grade">
+        <article class="visual span-6"><header><h2>De onde vem o valor</h2></header><div class="tabela-rolagem"><table class="ranking" id="dv-grupos"></table></div><p class="dica" id="dv-nota"></p></article>
+        <article class="visual span-6 texto"><header><h2>Custos de referência e fontes</h2></header><div id="dv-fontes"></div></article>
+      </div>
+    </section>
+
+    <!-- MÉTODO -->
+    <section class="pagina texto" data-pag="metodo">
+      <article class="visual">
+        <h2>De onde vêm os dados</h2>
+        <ul>
+          <li><b>Cota parlamentar dos senadores (CEAPS)</b>: arquivo anual de despesas do Portal da Transparência do Senado, nota a nota.</li>
+          <li><b>Senadores e mandatos</b>: dados abertos do Senado (lista por legislatura e períodos em exercício).</li>
+          <li><b>IPCA</b>: Banco Central, para trazer valores antigos para preços de hoje.</li>
+        </ul>
+        <h2>O que entra no custo</h2>
+        <p><b>Salário</b> (subsídio mensal × meses em exercício, mais o 13º proporcional em ano fechado — o mesmo valor dos deputados federais) + <b>cota parlamentar (CEAPS)</b>.</p>
+        <p><b>Ainda não entram</b>: a equipe do gabinete (o Senado não publica um valor por senador em formato aberto), auxílio-moradia, imóvel funcional e ajudas de custo. Por isso o custo mostrado é um <b>piso</b>.</p>
+        <p>CPF de pessoas físicas aparece mascarado. Quando o nome na planilha da cota não bate com nenhum senador da lista oficial, ele aparece pelo nome, sem partido nem estado.</p>
+      </article>
+    </section>
+  </main>
+  <p class="rodape">Projeto Quanto Custa · projeto independente, sem vínculo com o Senado Federal. Dados públicos; código aberto.</p>
+</div>
+
+<div class="veu-ficha" id="ficha" hidden role="dialog" aria-modal="true">
+  <div class="ficha-caixa"><button class="fechar" id="ficha-fechar" type="button" aria-label="Fechar">×</button><div id="ficha-corpo"></div></div>
+</div>
+
+<script src="vendor/chart.umd.js"></script>
+<script src="vendor/mapa-brasil.js"></script>
+<script src="referencias.js?v=1"></script>
+<script src="app.js?v=1"></script>
+</body>
+</html>

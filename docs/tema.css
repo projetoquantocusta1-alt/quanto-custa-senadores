@@ -1,0 +1,115 @@
+/* =====================================================================
+   Projeto Quanto Custa — identidade visual v12
+   Carregado depois do style.css: troca paleta, tipografia e navegação.
+   O MAPA DO BRASIL mantém exatamente as cores anteriores (fixadas no fim).
+   ===================================================================== */
+:root {
+  --bg: #F0F3F6; --panel: #FFFFFF; --panel-2: #F7F9FB; --line: #DDE3EA; --line-2: #C3CDD8;
+  --ink: #1B2733; --muted: #5B6878; --accent: #2475B8; --accent-esc: #1B5C93; --danger: #C84C4C; --ok: #16865D;
+  --atencao: #D69A32; --marinho: #14283F;
+  --menu: #14283F; --menu-ink: #FFFFFF; --menu-muted: #C9D4E2;
+  --c-salario: #14283F; --c-ajuda: #8FA3B8; --c-auxilio: #D69A32; --c-cota: #2475B8; --c-gabinete: #16865D; --c-emenda: #6B8E23;
+  --imp: #14283F;
+  --radius: 10px; --serif: "Source Serif 4", "Iowan Old Style", Georgia, serif;
+  --sombra: 0 1px 2px rgba(20,40,63,.05);
+  --topo-h: 60px;
+}
+h1, h2, .titulo-secao, .visual h2, .destaque h1 { font-family: var(--serif); color: var(--marinho); letter-spacing: -.01em; }
+.visual h2 { font-size: 17px; }
+.titulo-secao { font-size: 22px; }
+.kpi { border-radius: var(--radius); box-shadow: none; }
+.kpi .val { color: var(--marinho); }
+.visual { border-radius: var(--radius); box-shadow: none; }
+.btn { background: var(--accent); border-radius: 9px; }
+.btn-sec { border-radius: 9px; }
+.aviso { background: #FBF4E6; border-color: #EFD9AE; color: #6E4B0C; border-radius: 9px; }
+
+/* ------------------------------------------------ navegação no topo (desktop) */
+.marca-sub { display: block; font-size: 11px; font-weight: 500; color: var(--menu-muted); margin-top: 1px; }
+.logo { background: #fff; color: var(--marinho); border-radius: 8px; }
+.menu nav .grupo-rot { display: none; }
+@media (min-width: 861px) {
+  .menu { inset: 0 0 auto 0; width: auto; height: var(--topo-h); flex-direction: row; align-items: center; overflow: visible; padding: 0 20px; gap: 18px; }
+  .marca { border: 0; padding: 0; flex: none; }
+  .marca strong { font-size: 15px; white-space: nowrap; }
+  .menu nav { flex-direction: row; align-items: center; padding: 0; gap: 2px; flex-wrap: nowrap; }
+  .menu nav button, .menu nav .grupo-rot { padding: 8px 11px; font-size: 14px; color: var(--menu-muted); border-radius: 7px; white-space: nowrap; }
+  .menu nav button svg { display: none; }
+  .menu nav button:hover, .menu nav .grupo-rot:hover { background: rgba(255,255,255,.08); color: #fff; }
+  .menu nav button[aria-current="page"], .menu nav .grupo:has([aria-current]) > .grupo-rot { color: #fff; background: rgba(255,255,255,.1); box-shadow: inset 0 -2px 0 #fff; }
+  .menu nav .grupo { position: relative; }
+  .menu nav .grupo-rot { display: block; font-weight: 600; cursor: pointer; }
+  .menu nav .grupo-rot::after { content: " ▾"; font-size: 10px; }
+  .menu nav .grupo-itens { display: none; position: absolute; top: 100%; left: 0; min-width: 230px; background: var(--marinho);
+    border-radius: 0 0 10px 10px; padding: 6px; box-shadow: 0 8px 24px rgba(0,0,0,.25); }
+  .menu nav .grupo:hover .grupo-itens, .menu nav .grupo:focus-within .grupo-itens { display: flex; flex-direction: column; }
+  .menu nav .grupo-itens button { width: 100%; }
+  .menu nav .grupo-itens button[aria-current="page"] { box-shadow: inset 3px 0 0 #fff; }
+  .menu-rodape { margin: 0 0 0 auto; padding: 0; font-size: 11px; white-space: nowrap; }
+  .conteudo { margin-left: 0; padding-top: var(--topo-h); }
+  .segmentacoes { top: var(--topo-h); }
+  main { max-width: 1280px; margin: 0 auto; }
+  .segmentacoes { padding-left: max(20px, calc((100% - 1240px) / 2)); padding-right: max(20px, calc((100% - 1240px) / 2)); }
+}
+@media (min-width: 861px) and (max-width: 1180px) { .menu-rodape { display: none; } .marca-sub { display: none; } }
+/* celular: grupos abertos dentro da gaveta */
+@media (max-width: 860px) {
+  .menu nav .grupo-rot { display: block; color: var(--menu-muted); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; font-weight: 700; padding: 12px 12px 4px; }
+  .menu nav .grupo-itens { display: flex; flex-direction: column; gap: 2px; }
+  .menu nav button { min-height: 44px; }
+}
+
+/* ------------------------------------------------ início */
+.destaque { background: #fff; border-radius: 16px; }
+.destaque h1 { font-size: clamp(28px, 4vw, 44px); margin-bottom: 8px; }
+.destaque .hero-sub { margin: 0 auto 18px; max-width: 640px; color: var(--muted); font-size: 17px; }
+.destaque .selo { color: var(--accent); letter-spacing: .1em; }
+.destaque-valor { color: #C84C4C; font-family: "Roboto Mono", ui-monospace, monospace; letter-spacing: -.04em; }
+.busca-grande { display: flex; align-items: center; gap: 10px; max-width: 620px; margin: 0 auto 24px; background: #fff;
+  border: 2px solid var(--marinho); border-radius: 12px; padding: 4px 4px 4px 14px; }
+.busca-grande svg { width: 20px; height: 20px; fill: none; stroke: var(--muted); stroke-width: 2; flex: none; }
+.busca-grande input { flex: 1; min-width: 0; border: 0 !important; outline: 0 !important; font: 500 16px Inter, system-ui, sans-serif; padding: 10px 0; background: transparent; min-height: 0; }
+.busca-grande button { background: var(--marinho); color: #fff; border: 0; border-radius: 9px; padding: 11px 18px; font-weight: 700; cursor: pointer; min-height: 44px; }
+#i-kpis { margin-top: var(--gap); }
+.atalhos button { border-radius: var(--radius); }
+
+/* ------------------------------------------------ etiquetas: oficial × estatística × atenção × inconsistência */
+.selos-legenda { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 var(--gap); }
+.selos-legenda small { color: var(--muted); font-size: 12.5px; }
+.selo-t { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; border-radius: 999px; padding: 3px 10px; border: 1px solid; }
+.selo-t::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.t-of { color: #1B5C93; background: #EDF4FB; border-color: #C6DCF0; }
+.t-es { color: #5B4BB7; background: #F1EFFB; border-color: #D8D2F3; }
+.t-at { color: #8A5D0C; background: #FBF4E6; border-color: #EFD9AE; }
+.t-in { color: #A83A3A; background: #FBEDED; border-color: #F0CACA; }
+
+/* ------------------------------------------------ mapa do Brasil: cores da versão anterior (não mudar) */
+.mapa-br path:hover, .mapa-br path:focus-visible { fill: #ffd84d !important; }
+.mapa-br path.sel { fill: #0b5cad; }
+.mapa-br .uf-rot { fill: #1f2a44; font-family: Inter, sans-serif; }
+.mapa-br .uf-rot.claro { fill: #fff; }
+.mapa-br .uf-rot.fora.sel { fill: #0b5cad; }
+.mapa-br .uf-linha { stroke: #8a8886; }
+
+/* ------------------------------------------------ boas-vindas */
+.bv-fundo { position: fixed; inset: 0; background: rgba(20,40,63,.55); z-index: 80; display: grid; place-items: center; padding: 16px; }
+.bv-caixa { position: relative; background: #fff; border-radius: 16px; max-width: 620px; width: 100%; padding: 28px 28px 20px; max-height: 88vh; overflow: auto; box-shadow: 0 20px 60px rgba(0,0,0,.3); }
+.bv-caixa h2 { font-size: 26px; margin: 4px 0 12px; }
+.bv-caixa .fechar { position: absolute; top: 12px; right: 12px; }
+/* ------------------------------------------------ presença e projetos */
+.pr-dias { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 4px; }
+.pr-dia { font: 600 12px var(--mono); background: #FBEDED; color: #A83A3A; border: 1px solid #F0CACA; border-radius: 6px; padding: 2px 7px; text-decoration: none; }
+.pr-dia:hover { background: #F6DADA; }
+.pj-nivel { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; }
+.pj-autores { font-size: 12.5px; color: var(--muted); }
+.barra-taxa { display: inline-block; width: 70px; height: 6px; border-radius: 3px; background: #E3E8EE; vertical-align: middle; margin-left: 6px; overflow: hidden; }
+.barra-taxa i { display: block; height: 100%; background: var(--ok); }
+
+/* ------------------------------------------------ o que dava pra fazer */
+.dava-topo { text-align: center; margin-bottom: var(--gap); }
+.dava-topo .destaque-valor { margin: 6px 0; }
+.dava-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: var(--gap); margin-bottom: var(--gap); }
+.dv-card { background: #fff; border: 1px solid var(--line); border-top: 4px solid var(--ok); border-radius: var(--radius); padding: 16px 18px; }
+.dv-num { display: block; font: 800 40px/1.1 "Roboto Mono", ui-monospace, monospace; color: var(--ok); }
+.dv-rot { display: block; font-weight: 800; color: var(--marinho); margin: 2px 0 6px; }
+.dv-card p { margin: 0 0 6px; font-size: 14px; }
