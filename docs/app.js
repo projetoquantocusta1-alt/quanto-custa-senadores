@@ -18,6 +18,13 @@ const soma = (a) => a.reduce((s, x) => s + (x || 0), 0);
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const dataBR = (s) => (s ? s.split("-").reverse().join("/") : "—");
 const getJSON = async (u) => { const r = await fetch(u, { cache: "no-cache" }); if (!r.ok) throw new Error(u + " " + r.status); return r.json(); };
+// valor por extenso para ler números grandes: 2.193.266.731 -> "≈ 2,19 bilhões de reais"
+const porExtenso = (v) => { const a = Math.abs(v || 0);
+  for (const [b, um, varios] of [[1e12, "trilhão", "trilhões"], [1e9, "bilhão", "bilhões"], [1e6, "milhão", "milhões"], [1e3, "mil", "mil"]]) {
+    if (a < b) continue;
+    const x = v / b, t = x.toLocaleString("pt-BR", { maximumFractionDigits: Math.abs(x) < 10 ? 2 : Math.abs(x) < 100 ? 1 : 0 });
+    return b === 1e3 ? `≈ ${t} mil reais` : `≈ ${t} ${Math.abs(x) < 2 ? um : varios} de reais`; }
+  return ""; };
 const tot = () => E.ano === "total";
 const corrigir = () => $("#f-ipca").checked;
 const VINCULOS = { PARLAMENTAR: "Parlamentar", COMISSIONADO: "Comissionado", EFETIVO: "Efetivo" };
@@ -86,13 +93,13 @@ async function rInicio() {
     // corre em tempo real: do 1º dia depois dos dados publicados até 31/12, no ritmo da previsão
     const ini = new Date(r.ano, r.meses_decorridos, 1).getTime(), fim = new Date(r.ano + 1, 0, 1).getTime();
     const porSeg = rest / ((fim - ini) / 1000);
-    const passo = () => { $("#i-total").textContent = brl(Math.min(t + rest, t + Math.max(0, (Date.now() - ini) / 1000) * porSeg));
+    const passo = () => { const v = Math.min(t + rest, t + Math.max(0, (Date.now() - ini) / 1000) * porSeg); $("#i-total").textContent = brl(v); $("#i-ext").textContent = porExtenso(v);
       if (E.pag === "inicio") E.tick = requestAnimationFrame(passo); };
     passo();
     $("#i-nota").innerHTML = `${corrigir() ? "em valores de hoje, <b>corrigidos pela inflação (IPCA)</b>" : "em valores da época"} · salário + cota parlamentar (CEAPS) · é um piso: a equipe do gabinete ainda não entra<br>
       <span class="ritmo">O valor avança em tempo real, no ritmo previsto: <b>+${brl(porSeg, 2)} por segundo</b> · ${curto(porSeg * 86400)} por dia · previsão para ${r.ano}: <b>${curto(t + rest)}</b> (estimativa)</span>`;
   } else {
-    $("#i-total").textContent = brl(t);
+    $("#i-total").textContent = brl(t); $("#i-ext").textContent = porExtenso(t);
     $("#i-nota").innerHTML = `${corrigir() ? "em valores de hoje, <b>corrigidos pela inflação (IPCA)</b>" : "em valores da época"} · salário + cota parlamentar (CEAPS) · é um piso: a equipe do gabinete ainda não entra`;
   }
   const meses = soma(D.map((s) => s.meses));
@@ -299,6 +306,7 @@ async function rDava() {
   const base = soma(gr.map((g) => g.v)), exc = base * R.excesso.percentual, pct = nf(R.excesso.percentual * 100) + "%";
   $("#dv-sub").textContent = `${pct} do que a cota ${temFiltro() ? "dos senadores do filtro" : "dos senadores"} gastou nesses grupos em ${rotAno()}, ${corrigir() ? "em valores de hoje" : "em valores da época"}:`;
   $("#dv-total").textContent = aviso ? "ligue “Valores de hoje”" : brl(exc);
+  $("#dv-ext").textContent = aviso ? "" : porExtenso(exc);
   $("#dv-regra").textContent = `Base: ${brl(base)} × ${pct}.`;
   const n = (x) => (x >= 10 ? nf(Math.floor(x)) : nf(x, 1));
   $("#dv-cards").innerHTML = aviso ? "" : R.itens.map((it) => { const q = exc / (it.construcao + it.ano_funcionando), so = exc / it.construcao;

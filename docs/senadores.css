@@ -37,3 +37,7 @@ main { padding: 20px; }
 .destaque-nota .ritmo { display: inline-block; margin-top: 6px; color: var(--muted); }
 .destaque-nota .ritmo b { color: #C84C4C; }
 td.prev { color: #6b4fa0; }
+
+/* leitura por extenso abaixo dos números grandes */
+.extenso { margin: 2px 0 6px; font-size: 15px; font-weight: 700; color: #C84C4C; letter-spacing: .01em; }
+.extenso:empty { display: none; }
