@@ -167,5 +167,16 @@
 <script src="app.js?v=8"></script>
 <!-- contador de visitas sem cookies e sem dados pessoais (GoatCounter) -->
 <script data-goatcounter="https://quantocustaum.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<script>/* número de visitas no rodapé (some sozinho se o GoatCounter não responder) */
+(function () {
+  fetch("https://quantocustaum.goatcounter.com/counter/TOTAL.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+    var n = d && parseInt(String(d.count || "").replace(/\D/g, ""), 10), rod = document.querySelector(".rodape");
+    if (!n || !rod) return;
+    var s = document.createElement("span"); s.id = "qc-visitas";
+    s.textContent = " · " + n.toLocaleString("pt-BR") + (n === 1 ? " visita" : " visitas");
+    rod.appendChild(s);
+  }).catch(function () {});
+})();
+</script>
 </body>
 </html>
