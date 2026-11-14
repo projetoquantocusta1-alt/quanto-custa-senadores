@@ -1,0 +1,131 @@
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>EMPENHO</th>
+            <th>DESCRIÇÃO</th>
+            <th>CNPJ</th>
+            <th>CREDOR</th>
+            <th>VALOR</th>
+        </tr>
+    </thead>
+    <tbody>
+                <tr>
+            <td class="">2025NE007083</td>
+            <td class="">REFERE-SE AO REEMBOLSO DE DESPESAS INDENIZATORIAS CONFORME ATO NORMATIVO 343/24 DIVULGACAO DAS ATIVIDADES PARLAMENTARES </td>
+            <td class="">***.382.333-**</td>
+            <td class="">HEITOR CORREIA FERRER</td>
+            <td class="">10.000,00</td>
+        </tr>
+                <tr>
+            <td class="">2025NE007099</td>
+            <td class="">REFERE-SE AO REEMBOLSO DE DESPESAS INDENIZATORIAS CONFORME ATO NORMATIVO 343/24 INTERNET</td>
+            <td class="">***.382.333-**</td>
+            <td class="">HEITOR CORREIA FERRER</td>
+            <td class="">407,70</td>
+        </tr>
+                <tr>
+            <td class="">2025NE007101</td>
+            <td class="">REFERE-SE AO REEMBOLSO DE DESPESAS INDENIZATORIAS CONFORME ATO NORMATIVO 343/24 INTERNET</td>
+            <td class="">***.382.333-**</td>
+            <td class="">HEITOR CORREIA FERRER</td>
+            <td class="">340,80</td>
+        </tr>
+                <tr>
+            <td class="">2025NE007103</td>
+            <td class="">REFERE-SE AO REEMBOLSO DE DESPESAS INDENIZATORIAS CONFORME ATO NORMATIVO 343/24 TELEFONIA MOVEL</td>
+            <td class="">***.382.333-**</td>
+            <td class="">HEITOR CORREIA FERRER</td>
+            <td class="">137,98</td>
+        </tr>
+                <tr>
+            <td class="">2025NE007179</td>
+            <td class="">REFERE-SE A IMPRESSÕES GRÁFICAS, CONFORME EDITAL DE CREDENCIAMENTO 141/2023 IL, ITEM 89, E ATO NORMATIVO 343/2024.</td>
+            <td class="">07097989000142</td>
+            <td class="">CIRLENE MARIA FERREIRA DE SOUSA - ME</td>
+            <td class="">13.914,00</td>
+        </tr>
+                <tr>
+            <td class="">2025NE007238</td>
+            <td class="">REFERE-SE AOS SERVICOS DE ASSESSORIA E CONSULTORIA JURIDICA CONFORME EDITAL DE CREDENCIAMENTO 135/2023 - IL E ATO NORMATIVO 343/24</td>
+            <td class="">27796695000116</td>
+            <td class="">ALCIMOR  SILVEIRA FIGUEIREDO SA &amp; BRAGA ADVOGADOS</td>
+            <td class="">6.500,00</td>
+        </tr>
+                <tr>
+            <td class="">2025NE007588</td>
+            <td class="">REFERE-SE AO CONTRATO 13/2025 DE GERENCIAMENTO E ADMINISTRAÇÃO DE CARTÕES ELETRÔNICOS, PARA ABASTECIMENTO DE COMBUSTÍVEIS, EM DEZEMBRO/2025, CONFORME FATURA ANEXA E ATO NORMATIVO 343/2024. PREGÃO ELETRÔNICO 142/2024</td>
+            <td class="">03506307000157</td>
+            <td class="">TICKET SOLUCOES HDFGT S/A</td>
+            <td class="">2.855,70</td>
+        </tr>
+                <tr>
+            <td class="text-danger">2025NE007649</td>
+            <td class="text-danger">REFERE-SE A ANULACAO TOTAL DA AD 091100011 NE 005108 POR SOLICITACAO DO DEPUTADO AOS SERVICOS DE ASSESSORIA E CONSULTORIA ADMINISTRATIVA CONFORME EDITAL DE CREDENCIAMENTO 135/2023- IL E ATO NORMATIVO 343/24 # DEP HEITOR FERRER</td>
+            <td class="text-danger">53576616000171</td>
+            <td class="text-danger">PERPETUITY CONSULTORIA EMPRESARIAL LTDA</td>
+            <td class="text-danger">-12.000,00</td>
+        </tr>
+                <tr>
+            <td class="">2025NE007680</td>
+            <td class="">REFERE-SE A DISPONIBILIZACAO DO BENEFICIO ALIMENTACAO DE JANEIRO/2026 CONFORME 1º TERMO DE CREDENCIAMENTO -EDITAL DE CREDENCIAMENTO 24/2024 E ATO NORMATIVO 343/2024. MEMO 343/2025-DAF ALECE.</td>
+            <td class="">47866934000174</td>
+            <td class="">TICKET SERVIÇOS S/A</td>
+            <td class="">2.800,00</td>
+        </tr>
+                <tr>
+            <td class="">2025NE007765</td>
+            <td class="">REFERE-SE AO CONTRATO 59/2024, DOS SERVIÇOS DE TELEFONIA MÓVEL COM PACOTE DE DADOS, EM DEZEMBRO/2025 (POR ESTIMATIVA), CONFORME DOCUMENTACAO ANEXA E ATO NORMATIVO 343/2024. TJIL 114/2024.</td>
+            <td class="">02558157000162</td>
+            <td class="">TELEFONICA BRASIL S.A.</td>
+            <td class="">33,32</td>
+        </tr>
+                <tr>
+            <td class="text-danger">2025NE007777</td>
+            <td class="text-danger">REFERE-SE A ANULACAO TOTAL DA AD 111200048, 2025N007098POR SOLICITACAO DO DEPUTADO. # DEP HEITOR FERRER</td>
+            <td class="text-danger">***.382.333-**</td>
+            <td class="text-danger">HEITOR CORREIA FERRER</td>
+            <td class="text-danger">-79,90</td>
+        </tr>
+                <tr>
+            <td class="text-danger">2025NE007828</td>
+            <td class="text-danger">REFERE-SE A ANULACAO PARCIAL PARA AJUSTE DE VALOR DA AD 111200050 NE 007099 REEMBOLSO DE DESPESAS INDENIZATORIAS CONFORME ATO NORMATIVO 343/24 INTERNET # DEP HEITOR FERRER</td>
+            <td class="text-danger">***.382.333-**</td>
+            <td class="text-danger">HEITOR CORREIA FERRER</td>
+            <td class="text-danger">-0,34</td>
+        </tr>
+                <tr>
+            <td class="text-danger">2025NE007913</td>
+            <td class="text-danger">REFERE-SE ANULACAO PARCIAL DA AD 111200059 NE 007099 PARA AJUSTE DO VALOR NA FATURA AO REEMBOLSO DE DESPESAS INDENIZATORIAS CONFORME ATO NORMATIVO 343/24 INTERNET # DEP HEITOR FERRER</td>
+            <td class="text-danger">***.382.333-**</td>
+            <td class="text-danger">HEITOR CORREIA FERRER</td>
+            <td class="text-danger">-0,67</td>
+        </tr>
+                <tr>
+            <td class="">2025NE007928</td>
+            <td class="">REFERE-SE À SUPLEMENTAÇÃO DA NE 2025NE007099, DO REEMBOLSO DE DESPESAS INDENIZATORIAS CONFORME ATO NORMATIVO 343/24 INTERNET.</td>
+            <td class="">***.382.333-**</td>
+            <td class="">HEITOR CORREIA FERRER</td>
+            <td class="">0,67</td>
+        </tr>
+                <tr>
+            <th colspan="4">TOTAL GERAL</th>
+            <td>24.909,26</td>
+        </tr>
+    </tbody>
+</table>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="B1ye20mlKwaajY27SiQvLpr12aHmzQVU26QkgD53">
+
+    <title>Verba de Desempenho Parlamentar</title>
+
+    <!-- Scripts -->
+    <link rel="preload" as="style" href="https://transparencia.al.ce.gov.br/build/assets/app-d3c2f7c6.css" /><link rel="modulepreload" href="https://transparencia.al.ce.gov.br/build/assets/app-fe4166f5.js" /><link rel="stylesheet" href="https://transparencia.al.ce.gov.br/build/assets/app-d3c2f7c6.css" /><script type="module" src="https://transparencia.al.ce.gov.br/build/assets/app-fe4166f5.js"></script></head>
+<body>
+    </body>
+</html>

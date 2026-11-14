@@ -1,0 +1,104 @@
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>EMPENHO</th>
+            <th>DESCRIÇÃO</th>
+            <th>CNPJ</th>
+            <th>CREDOR</th>
+            <th>VALOR</th>
+        </tr>
+    </thead>
+    <tbody>
+                <tr>
+            <td class="">2026NE006061</td>
+            <td class="">REFERE-SE À DISPONIBILIZAÇÃO DO BENEFÍCIO ALIMENTAÇÃO DE OUTUBRO/2026, CONFORME DOCUMENTAÇÃO ANEXA. TERMO DE CREDENCIAMENTO 01/2026 - EDITAL DE CREDENCIAMENTO 24/2024 E ATO NORMATIVO 343/2024.</td>
+            <td class="">47866934000174</td>
+            <td class="">TICKET SERVIÇOS S/A</td>
+            <td class="">4.000,00</td>
+        </tr>
+                <tr>
+            <td class="">2026NE006062</td>
+            <td class="">REFERE-SE À DISPONIBILIZAÇÃO DO BENEFÍCIO REFEIÇÃO DE OUTUBRO/2026. CONFORME DOCUMENTAÇÃO ANEXA. TERMO DE CREDENCIAMENTO 01/2026 - EDITAL DE CREDENCIAMENTO 24/2024. CONFORME ATO NORMATIVO 343/2024.</td>
+            <td class="">47866934000174</td>
+            <td class="">TICKET SERVIÇOS S/A</td>
+            <td class="">1.000,00</td>
+        </tr>
+                <tr>
+            <td class="">2026NE006279</td>
+            <td class="">REFERE-SE AO CONTRATO 60/2024 DOS SERVIÇOS DE TELEFONIA MÓVEL PESSOAL - SMP E INTERNET MOVEL COM TECNOLOGIA 4G OU SUPERIOR EM OUTUBRO/2026 CONFORME ATO NORMATIVO 343/2024. TJIL 114/2024.
+</td>
+            <td class="">02421421000111</td>
+            <td class="">TIM S A</td>
+            <td class="">99,96</td>
+        </tr>
+                <tr>
+            <td class="">2026NE006288</td>
+            <td class="">REFERE-SE AO CONTRATO 13/2025, DE FORNECIMENTO DE CARTÕES ELETRÔNICOS COM CHIP PARA ABASTECIMENTO DE COMBUSTÍVEIS, DE SETEMBRO/2026, CONFORME MEMO Nº 626/2026/DAF/ALECE/TICKET COMBUSTIVEL E ATO NORMATIVO 343/2024. PREGAO ELETRONICO Nº142/2024.</td>
+            <td class="">03506307000157</td>
+            <td class="">TICKET SOLUCOES HDFGT S/A</td>
+            <td class="">5.711,40</td>
+        </tr>
+                <tr>
+            <td class="">2026NE006296</td>
+            <td class="">SERVIÇOS DE TELECOMUNICAÇÕES - PACOTE DE DADOS. REFERE-SE AO CONTRATO 59/2024, DOS SERVIÇOS DE TELEFONIA MÓVEL COM PACOTE DE DADOS, EM OUTUBRO/2026 CONFORME DOCUMENTACAO ANEXA E ATO NORMATIVO 343/2024. TJIL 114/2024.</td>
+            <td class="">02558157000162</td>
+            <td class="">TELEFONICA BRASIL S.A.</td>
+            <td class="">166,60</td>
+        </tr>
+                <tr>
+            <td class="">2026NE006328</td>
+            <td class="">REFERE-SE AO CONTRATO 13/2025, DE FORNECIMENTO DE CARTÕES ELETRÔNICOS COM CHIP PARA ABASTECIMENTO DE COMBUSTÍVEIS, DE OUTUBRO/2026, CONFORME MEMO Nº 626/2026/DAF/ALECE/TICKET COMBUSTIVEL E ATO NORMATIVO 343/2024. PREGAO ELETRONICO Nº142/2024.</td>
+            <td class="">03506307000157</td>
+            <td class="">TICKET SOLUCOES HDFGT S/A</td>
+            <td class="">5.711,40</td>
+        </tr>
+                <tr>
+            <td class="text-danger">2026NE006332</td>
+            <td class="text-danger">ANULACAO TOTAL DA 2026NE006288 PARA ACERTO NA DESCRICAO. REFERE-SE AO CONTRATO 13/2025, DE FORNECIMENTO DE CARTÕES ELETRÔNICOS COM CHIP PARA ABASTECIMENTO DE COMBUSTÍVEIS, DE SETEMBRO/2026, CONFORME MEMO Nº 626/2026/DAF/ALECE/TICKET COMBUSTIVEL E ATO NORMATIVO 343/2024</td>
+            <td class="text-danger">03506307000157</td>
+            <td class="text-danger">TICKET SOLUCOES HDFGT S/A</td>
+            <td class="text-danger">-5.711,40</td>
+        </tr>
+                <tr>
+            <td class="">2026NE006379</td>
+            <td class="">REFERE-SE AO REEMBOLSO DE DESPESAS INDENIZATORIAS CONFORME ATO NORMATIVO 343/;24 SEGURO DE VIDA</td>
+            <td class="">***.737.453-**</td>
+            <td class="">AGENOR GOMES DE ARAUJO NETO</td>
+            <td class="">8.811,86</td>
+        </tr>
+                <tr>
+            <td class="">2026NE006556</td>
+            <td class="">CONSULTORIA E ACOMPANHAMENTO DE RECURSOS CONSIGNADOS NO ORCAMENTO DO ESTADO PARA OS MUNICIPIOS DE OROS, JUCAS, CARIUS, QUIXELO E IGUATU CONFORME EDITAL DE CREDENCIAMENTO 135/2023 - IL E ATO NORMATIVO 343/24</td>
+            <td class="">58149940000127</td>
+            <td class="">GP &amp; SERVIÇOS ADMINISTRATIVOS LT</td>
+            <td class="">9.000,00</td>
+        </tr>
+                <tr>
+            <td class="">2026NE006560</td>
+            <td class="">REFERENTE A SERVICOS DE CONSULTORIA JURIDICA CONFORME EDITAL DE CREDENCIAMENTO 135/2023 - IL E ATO NORMATIVO 343/24</td>
+            <td class="">58149940000127</td>
+            <td class="">GP &amp; SERVIÇOS ADMINISTRATIVOS LT</td>
+            <td class="">9.000,00</td>
+        </tr>
+                <tr>
+            <th colspan="4">TOTAL GERAL</th>
+            <td>37.789,82</td>
+        </tr>
+    </tbody>
+</table>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="B1ye20mlKwaajY27SiQvLpr12aHmzQVU26QkgD53">
+
+    <title>Verba de Desempenho Parlamentar</title>
+
+    <!-- Scripts -->
+    <link rel="preload" as="style" href="https://transparencia.al.ce.gov.br/build/assets/app-d3c2f7c6.css" /><link rel="modulepreload" href="https://transparencia.al.ce.gov.br/build/assets/app-fe4166f5.js" /><link rel="stylesheet" href="https://transparencia.al.ce.gov.br/build/assets/app-d3c2f7c6.css" /><script type="module" src="https://transparencia.al.ce.gov.br/build/assets/app-fe4166f5.js"></script></head>
+<body>
+    </body>
+</html>
