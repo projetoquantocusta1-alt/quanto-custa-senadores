@@ -175,7 +175,7 @@ def processar_ano(ano: int, hoje: date, fatores: dict) -> dict:
                 q[3] += v
         linhas.append({
             "id": sid, "nome": s.get("nome", ""), "partido": s.get("partido", ""), "uf": s.get("uf", "") or uf_mand,
-            "foto": s.get("foto") or (config.FOTO_SENADOR.format(id=sid) if isinstance(sid, int) else ""),
+            "foto": (s.get("foto") or (config.FOTO_SENADOR.format(id=sid) if isinstance(sid, int) else "")).replace("http://", "https://", 1),
             "meses": len(meses), "custos": {"salario": c["salario"], "ceaps": c["ceaps"]}, "custo": c["total"],
             "categorias": {k: round(v, 2) for k, v in sorted(cats.items(), key=lambda x: -x[1])},
             "mensal_ceaps": [round(v, 2) for v in mes_cota], "notas": len(ns),
@@ -301,6 +301,25 @@ def main(argv=None):
         except Exception as e:  # noqa: BLE001
             foto["escritorios_apoio_erro"] = str(e)
         gravar(BRUTOS / "gabinetes" / f"{hoje:%Y-%m}.json", foto)
+        # publica a equipe de cada gabinete, ligada ao senador (mesmo casamento de nomes da CEAPS)
+        sens, todos = senadores_do_ano(hoje.year)
+        eq = G.equipes(serv)
+        cas = S.casar_nomes(set(eq) | {S.norm(a["nome"]) for a in foto["auxilio_imovel"]}, sens, todos, config.APELIDOS_CEAPS)
+        por = {}
+        for g, pessoas in eq.items():
+            sid = cas.get(g)
+            if sid is None:
+                continue
+            r = foto["gabinetes"].get(g, {})
+            por[str(sid)] = {"gabinete": g, "total": len(pessoas), "comissionados": r.get("comissionados", 0),
+                             "efetivos": r.get("efetivos", 0), "funcoes": r.get("funcoes", {}), "pessoas": pessoas}
+        for a in foto["auxilio_imovel"]:
+            sid = cas.get(S.norm(a["nome"]))
+            if sid is not None:
+                por.setdefault(str(sid), {}).update({"auxilio_moradia": a["auxilio_moradia"], "imovel_funcional": a["imovel_funcional"]})
+        gravar(SAIDA / "gabinetes.json", {"data": hoje.isoformat(), "fonte": "Senado Federal — dados abertos administrativos",
+                                          "auxilio_moradia_valor": 5500.0, "por_senador": por,
+                                          "sem_casar": sorted(g for g in eq if g not in cas)})
         log.info("gabinetes: %d servidores, %d gabinetes, %d senadores na lista de auxílio/imóvel",
                  len(serv), len(foto["gabinetes"]), len(foto["auxilio_imovel"]))
     except Exception as e:  # noqa: BLE001

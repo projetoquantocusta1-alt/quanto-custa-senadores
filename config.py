@@ -30,6 +30,7 @@ def valor_vigente(tabela, dia: date) -> float:
 APELIDOS_CEAPS = {
     "GIM ARGELLO": 4776,       # Jorge Afonso Argello
     "WEVERTON ROCHA": 5411,    # Weverton Rocha Marques de Sousa
+    "NELSINHO TRAD FILHO": 5985,  # lista de auxílio-moradia/imóvel funcional
 }
 
 # Versão do formato dos arquivos do site: anos gerados por versão anterior são refeitos.

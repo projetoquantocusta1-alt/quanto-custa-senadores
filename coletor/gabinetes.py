@@ -7,7 +7,8 @@ Fontes (adm.senado.gov.br):
                                                        -> por senador: recebe auxílio-moradia (S/N), ocupa imóvel funcional (S/N)
   /ergon-ng-reports/api/v1/escritorios-apoio?formato=json -> escritórios de apoio nos estados
 A API só traz a situação de hoje (não tem histórico): o robô guarda uma fotografia por mês.
-Nomes de servidores não são guardados: só contagens por gabinete, vínculo e função.
+Os nomes dos servidores dos gabinetes são públicos (o Senado publica a lista) e aparecem no site, com função,
+vínculo e data de admissão. Nada além disso (CPF, endereço etc.) é guardado.
 """
 import re
 import unicodedata
@@ -50,3 +51,14 @@ def ler_auxilio(js: dict) -> list[dict]:
     return [{"nome": d.get("nomeParlamentar") or "", "uf": d.get("estadoEleito") or "", "partido": d.get("partidoEleito") or "",
              "auxilio_moradia": (d.get("auxilioMoradia") or "").upper() == "S", "imovel_funcional": (d.get("imovelFuncional") or "").upper() == "S"}
             for d in (js or {}).get("data") or []]
+
+
+def equipes(servidores: list[dict]) -> dict:
+    """{gabinete: [[nome, função, vínculo, admissão], ...]} dos servidores lotados em gabinetes de senadores."""
+    out: dict[str, list] = defaultdict(list)
+    for s in servidores or []:
+        g = gabinete_de(s.get("hierarquiaCompleta"))
+        if g:
+            out[g].append([re.sub(r"\s+", " ", s.get("nome") or "").strip(), s.get("funcao") or "", s.get("tipoVinculo") or "",
+                           s.get("dataAdmissao") or ""])
+    return {g: sorted(v, key=lambda x: (x[1], x[0])) for g, v in out.items()}

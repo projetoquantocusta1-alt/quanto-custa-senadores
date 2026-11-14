@@ -41,3 +41,6 @@ td.prev { color: #6b4fa0; }
 /* leitura por extenso abaixo dos números grandes */
 .extenso { margin: 2px 0 6px; font-size: 15px; font-weight: 700; color: #C84C4C; letter-spacing: .01em; }
 .extenso:empty { display: none; }
+
+details.equipe { margin: 8px 0 14px; }
+details.equipe summary { cursor: pointer; font-weight: 700; color: #1B5C93; }

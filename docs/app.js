@@ -121,15 +121,18 @@ async function rSenadores() {
   const D = (await dados()).filter(passa).map((s) => ({ ...s, vc: V(s, "custo"), vs: V(s, "salario"), vce: V(s, "ceaps"), mm: s.meses ? V(s, "custo") / s.meses : 0,
     pr: (s.previsao?.restante || 0) * s.F }));
   const temPrev = !tot() && D.some((s) => s.pr > 0);
+  const G = await gabinetes(), anoAtual = !tot() && E.ano === E.meta.anos[E.meta.anos.length - 1];
+  D.forEach((s) => (s.eq = anoAtual ? G?.por_senador?.[String(s.id)]?.total ?? 0 : 0));
+  const temEq = anoAtual && G;
   kpis("#s-kpis", [...(temPrev ? [["Previsão até dezembro", "+" + curto(soma(D.map((s) => s.pr))), `fecha o ano em ${curto(soma(D.map((s) => s.vc + s.pr)))}`]] : []), ["Custo somado", curto(soma(D.map((s) => s.vc))), rotAno()], ["Cota (CEAPS)", curto(soma(D.map((s) => s.vce)))], ["Senadores", nf(D.length)],
     ["Custo médio por mês", brl(soma(D.map((s) => s.vc)) / Math.max(1, soma(D.map((s) => s.meses)))), "por senador"]]);
   const [k, d] = E.ord;
   D.sort((a, b) => ((a[k] ?? 0) > (b[k] ?? 0) ? 1 : (a[k] ?? 0) < (b[k] ?? 0) ? -1 : 0) * d);
-  const col = [["pos", "#"], ["nome", "Senador"], ["vc", "Custo total"], ["mm", "Por mês"], ["vs", "Salário"], ["vce", "Cota (CEAPS)"], ...(temPrev ? [["pr", "Previsão até dez"]] : []), ["meses", "Meses"], ["notas", "Notas"]];
+  const col = [["pos", "#"], ["nome", "Senador"], ["vc", "Custo total"], ["mm", "Por mês"], ["vs", "Salário"], ["vce", "Cota (CEAPS)"], ...(temPrev ? [["pr", "Previsão até dez"]] : []), ...(temEq ? [["eq", "Equipe do gabinete"]] : []), ["meses", "Meses"], ["notas", "Notas"]];
   $("#s-tab").innerHTML = `<thead><tr>${col.map(([c, t], i) => `<th class="${i > 1 ? "num" : ""}" data-k="${c}" ${c === k ? `aria-sort="${d < 0 ? "descending" : "ascending"}"` : ""} style="cursor:pointer">${t}</th>`).join("")}</tr></thead><tbody>` +
     D.slice(0, E.lim).map((s, i) => `<tr><td class="num">${i + 1}º</td><td><button class="link-dep" data-sen="${s.id}">${esc(s.nome)}</button> <span class="sub">${esc(s.partido)}${s.uf ? "-" + esc(s.uf) : ""}</span></td>
-      <td class="num"><b>${brl(s.vc)}</b></td><td class="num">${brl(s.mm)}</td><td class="num">${brl(s.vs)}</td><td class="num">${brl(s.vce)}</td>${temPrev ? `<td class="num prev">${s.pr ? "+" + curto(s.pr) : "—"}</td>` : ""}<td class="num">${nf(s.meses)}</td><td class="num">${nf(s.notas)}</td></tr>`).join("") +
-    `</tbody><tfoot><tr><td></td><td>Total (${nf(D.length)})</td><td class="num">${brl(soma(D.map((s) => s.vc)))}</td><td></td><td class="num">${brl(soma(D.map((s) => s.vs)))}</td><td class="num">${brl(soma(D.map((s) => s.vce)))}</td>${temPrev ? `<td class="num">+${curto(soma(D.map((s) => s.pr)))}</td>` : ""}<td class="num">${nf(soma(D.map((s) => s.meses)))}</td><td class="num">${nf(soma(D.map((s) => s.notas)))}</td></tr></tfoot>`;
+      <td class="num"><b>${brl(s.vc)}</b></td><td class="num">${brl(s.mm)}</td><td class="num">${brl(s.vs)}</td><td class="num">${brl(s.vce)}</td>${temPrev ? `<td class="num prev">${s.pr ? "+" + curto(s.pr) : "—"}</td>` : ""}${temEq ? `<td class="num">${s.eq ? nf(s.eq) + " pessoas" : "—"}</td>` : ""}<td class="num">${nf(s.meses)}</td><td class="num">${nf(s.notas)}</td></tr>`).join("") +
+    `</tbody><tfoot><tr><td></td><td>Total (${nf(D.length)})</td><td class="num">${brl(soma(D.map((s) => s.vc)))}</td><td></td><td class="num">${brl(soma(D.map((s) => s.vs)))}</td><td class="num">${brl(soma(D.map((s) => s.vce)))}</td>${temPrev ? `<td class="num">+${curto(soma(D.map((s) => s.pr)))}</td>` : ""}${temEq ? `<td class="num">${nf(soma(D.map((s) => s.eq)))}</td>` : ""}<td class="num">${nf(soma(D.map((s) => s.meses)))}</td><td class="num">${nf(soma(D.map((s) => s.notas)))}</td></tr></tfoot>`;
   $$("#s-tab th").forEach((th) => (th.onclick = () => { if (th.dataset.k === "pos") return; E.ord = [th.dataset.k, th.dataset.k === k ? -d : -1]; rSenadores(); }));
   $("#s-mais").hidden = D.length <= E.lim;
 }
@@ -222,6 +225,25 @@ async function fichaFornecedor(ch) {
   if ($("#ff-receita")) $("#ff-receita").innerHTML = rf;
 }
 
+// ---------------------------------------------------------------- equipe do gabinete (fotografia do mês)
+const gabinetes = () => E.gab || (E.gab = getJSON("dados/gabinetes.json").catch(() => null));
+async function blocoGabinete(id) {
+  const G = await gabinetes(), g = G?.por_senador?.[String(id)];
+  if (!G) return "";
+  const mes = new Date(G.data + "T12:00").toLocaleDateString("pt-BR", { month: "long", year: "numeric" });
+  if (!g) return `<h3 class="d-sec">Equipe do gabinete</h3><p class="sub">Sem gabinete na lista de servidores do Senado de ${mes} (senador fora de exercício).</p>`;
+  const mor = g.imovel_funcional ? "mora em <b>imóvel funcional</b> do Senado" : g.auxilio_moradia ? `recebe <b>auxílio-moradia</b> (${brl(G.auxilio_moradia_valor)} por mês)` : g.imovel_funcional === false ? "não usa imóvel funcional nem auxílio-moradia" : "";
+  const fun = Object.entries(g.funcoes || {}).map(([f, n]) => `${esc(f.toLowerCase())}: ${n}`).join(" · ");
+  return `<h3 class="d-sec">Equipe do gabinete (${mes})</h3>
+    <div class="kpis">${[["Pessoas na equipe", nf(g.total || 0)], ["Comissionados (sem concurso)", nf(g.comissionados || 0)], ["Servidores efetivos", nf(g.efetivos || 0)]].map(([a, b]) => `<div class="kpi"><div class="rot">${a}</div><div class="val num">${b}</div></div>`).join("")}</div>
+    ${mor ? `<p>Moradia em Brasília: ${mor}.</p>` : ""}
+    <p class="aviso-comprovante"><b>O Senado não divulga em arquivo o salário de cada assessor</b> (só consulta nome por nome no site), por isso o custo da equipe ainda não entra no total deste senador.</p>
+    ${fun ? `<p class="sub">Funções: ${fun}.</p>` : ""}
+    ${(g.pessoas || []).length ? `<details class="equipe"><summary>Ver os ${nf(g.pessoas.length)} nomes da equipe</summary>
+      <div class="tabela-rolagem"><table class="ranking"><thead><tr><th>Nome</th><th>Função</th><th>Vínculo</th><th>Desde</th></tr></thead><tbody>${g.pessoas.map(([n, f, v, d]) => `<tr><td class="quebra">${esc(n)}</td><td class="quebra sub">${esc(f)}</td><td class="sub">${esc((v || "").toLowerCase())}</td><td>${esc(d)}</td></tr>`).join("")}</tbody></table></div>
+      <p class="sub">Fonte: lista de servidores do Senado Federal (dados abertos), ${mes}. Nomes de servidores públicos são informação pública.</p></details>` : ""}`;
+}
+
 // ---------------------------------------------------------------- ficha do senador
 function abrirFicha(html) { $("#ficha-corpo").innerHTML = html; $("#ficha").hidden = false; $("#ficha").scrollTop = 0; }
 async function fichaSenador(id) {
@@ -236,6 +258,7 @@ async function fichaSenador(id) {
       ...(!tot() && s.previsao?.restante ? [["Previsão até dezembro", "+" + brl(s.previsao.restante * s.F)]] : [])].map(([a, b]) => `<div class="kpi"><div class="rot">${a}</div><div class="val num">${b}</div></div>`).join("")}</div>
     <div class="d-grade2"><div><h3 class="d-sec">Cota por mês em ${anoN}</h3><div class="canvas-box"><canvas id="g-f-mes"></canvas></div></div>
       <div><h3 class="d-sec">Ano a ano</h3><div class="canvas-box"><canvas id="g-f-hist"></canvas></div></div></div>
+    <div id="ficha-gab"></div>
     <h3 class="d-sec">Cota por tipo de gasto (${rotAno()})</h3><table class="ranking"><tbody>${Object.entries(s.categorias).sort((a, b) => b[1] - a[1]).map(([k, v]) => `<tr><td class="quebra">${esc(k)}</td><td class="num">${brl(v * (tot() ? 1 : s.F), 2)}</td></tr>`).join("")}</tbody></table>
     ${s.casado === false ? `<p class="aviso-comprovante">Este nome aparece na planilha da cota, mas não foi encontrado na lista oficial de senadores. Por isso só a cota (CEAPS) entra no custo, sem salário.</p>` : ""}
     ${nd?.passageiros?.length ? `<h3 class="d-sec">Quem viajou com a cota em ${anoN}</h3>
@@ -244,6 +267,7 @@ async function fichaSenador(id) {
     <h3 class="d-sec">Todas as notas de ${anoN}, nota a nota</h3>
     <p class="aviso-comprovante"><b>O Senado não publica a imagem dos comprovantes</b> (notas fiscais e recibos), diferente da Câmara dos Deputados. Aqui aparecem só os dados digitados pelo Senado. O comprovante de uma nota pode ser pedido pela Lei de Acesso à Informação, no Serviço de Informação ao Cidadão (SIC) do Senado.</p>
     ${nd ? `<div class="filtros-tabela"><input id="n-q" class="mini-busca" type="search" placeholder="Fornecedor, documento, passageiro ou detalhe"></div><div class="tabela-rolagem"><table class="ranking notas-tab" id="n-tab"></table></div>` : `<p class="sub">Sem notas neste ano.</p>`}`);
+  blocoGabinete(id).then((h) => { const el = $("#ficha-gab"); if (el) el.innerHTML = h; });
   if (sa) grafico("g-f-mes", { type: "bar", data: { labels: MESES, datasets: [{ label: "Cota", data: (sa.mensal_ceaps || []).map((v) => v * F), backgroundColor: css("--accent") }] }, options: { maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: tipBRL }, scales: { y: { ticks: { callback: (v) => curto(v) } } } } });
   grafico("g-f-hist", { type: "bar", data: { labels: hist.map((h) => h[0]), datasets: [{ label: "Salário", data: hist.map(([, y, f]) => y.custos.salario * f), backgroundColor: "#14283F" }, { label: "Cota", data: hist.map(([, y, f]) => y.custos.ceaps * f), backgroundColor: "#2475B8" }] },
     options: { maintainAspectRatio: false, plugins: { tooltip: tipBRL }, scales: { x: { stacked: true }, y: { stacked: true, ticks: { callback: (v) => curto(v) } } } } });
