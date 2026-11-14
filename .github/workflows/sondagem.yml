@@ -1,0 +1,45 @@
+name: Sondagem (descobrir fontes)
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "Endereços extras, separados por espaço (opcional)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-senadores
+  cancel-in-progress: false
+
+jobs:
+  rodar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Sondar páginas do Senado
+        env:
+          URLS: ${{ github.event.inputs.urls }}
+        run: python sondar.py $URLS
+      - name: Publicar
+        run: |
+          git config user.name  "robo-quanto-custa"
+          git config user.email "actions@users.noreply.github.com"
+          git add dados_brutos/sondagem
+          if ! git diff --cached --quiet; then
+            git commit -m "sondagem ($(date -u +%Y-%m-%d))"
+            for i in 1 2 3 4 5; do
+              git pull --rebase -X ours origin main || true
+              if git push; then break; fi
+              sleep $((i*20))
+            done
+          fi
