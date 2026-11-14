@@ -10,6 +10,13 @@
     if (a >= 999500) return "R$ " + (v / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: 1 }) + " mi";
     if (a >= 1e3) return "R$ " + Math.round(v / 1e3).toLocaleString("pt-BR") + " mil";
     return brl(v); };
+  // valor por extenso: 1.451.070 -> "≈ 1,45 milhão de reais"
+  const porExtenso = (v) => { const a = Math.abs(v || 0);
+    for (const [b, um, varios] of [[1e12, "trilhão", "trilhões"], [1e9, "bilhão", "bilhões"], [1e6, "milhão", "milhões"], [1e3, "mil", "mil"]]) {
+      if (a < b) continue;
+      const x = v / b, t = x.toLocaleString("pt-BR", { maximumFractionDigits: Math.abs(x) < 10 ? 2 : Math.abs(x) < 100 ? 1 : 0 });
+      return b === 1e3 ? `≈ ${t} mil reais` : `≈ ${t} ${Math.abs(x) < 2 ? um : varios} de reais`; }
+    return ""; };
   let C = { fmt: "feed", dados: null, img: null };
 
   function dialogo() {
@@ -94,22 +101,24 @@
     // valor
     ctx.fillStyle = "#605e5c"; ctx.font = "600 30px Inter, sans-serif"; ctx.fillText(D.valorRot || "Custou aos cofres públicos", 60, y);
     y += story ? 110 : 96; ctx.fillStyle = "#c4161c"; ajustar(ctx, brl(D.valor), W - 120, story ? 120 : 104); ctx.fillText(brl(D.valor), 60, y);
-    if (D.valorSub) { y += 52; ctx.fillStyle = "#252423"; ctx.font = "600 30px Inter, sans-serif"; ctx.fillText(cortar(ctx, D.valorSub, W - 120), 60, y); }
+    const ext = porExtenso(D.valor);
+    if (ext) { y += story ? 50 : 42; ctx.fillStyle = "#c4161c"; ctx.font = `700 ${story ? 34 : 30}px Inter, sans-serif`; ctx.fillText(ext, 60, y); }
+    if (D.valorSub) { y += story ? 52 : 44; ctx.fillStyle = "#252423"; ctx.font = "600 30px Inter, sans-serif"; ctx.fillText(cortar(ctx, D.valorSub, W - 120), 60, y); }
     y += story ? 70 : 44;
     // destaques (sem a barra de composição, sobra mais espaço)
     const comps = (D.composicao || []).filter(([, v]) => v > 0);
     (D.destaques || []).forEach(([t1, t2, cor]) => {
-      const hb = story ? 110 : 92;
-      if (y + hb > H - (comps.length ? 260 : 140)) return;
+      const hb = story ? 110 : 86;
+      if (y + hb > H - (comps.length ? 215 : 140)) return;
       ctx.fillStyle = "#ffffff"; ctx.beginPath(); ctx.roundRect(60, y, W - 120, hb, 14); ctx.fill();
       ctx.fillStyle = cor || "#118dff"; ctx.beginPath(); ctx.roundRect(60, y, 10, hb, 5); ctx.fill();
-      ctx.fillStyle = "#252423"; ctx.font = `800 ${story ? 32 : 29}px Inter, sans-serif`; ctx.fillText(cortar(ctx, t1, W - 170), 90, y + (story ? 46 : 39));
-      ctx.fillStyle = "#605e5c"; ctx.font = `500 ${story ? 25 : 23}px Inter, sans-serif`; ctx.fillText(cortar(ctx, t2 || "", W - 170), 90, y + (story ? 86 : 73));
-      y += hb + (story ? 22 : 14);
+      ctx.fillStyle = "#252423"; ctx.font = `800 ${story ? 32 : 29}px Inter, sans-serif`; ctx.fillText(cortar(ctx, t1, W - 170), 90, y + (story ? 46 : 37));
+      ctx.fillStyle = "#605e5c"; ctx.font = `500 ${story ? 25 : 23}px Inter, sans-serif`; ctx.fillText(cortar(ctx, t2 || "", W - 170), 90, y + (story ? 86 : 69));
+      y += hb + (story ? 22 : 12);
     });
     // composição do custo
     if (comps.length) {
-      y += story ? 40 : 26;
+      y += story ? 40 : 10;
       const tot = comps.reduce((a, [, v]) => a + v, 0) || 1; let bx = 60;
       comps.forEach(([, v, cor]) => { const w = (W - 120) * v / tot; ctx.fillStyle = cor; ctx.fillRect(bx, y, Math.max(2, w), story ? 30 : 24); bx += w; });
       y += (story ? 30 : 24) + (story ? 44 : 36);
@@ -146,5 +155,5 @@
     try { desenhar(); } catch (e) { C.img = null; desenhar(); }   // foto de outro site pode "sujar" o canvas
     try { d.querySelector("canvas").toDataURL(); } catch (e) { C.img = null; desenhar(); }
   }
-  window.CartaoQC = { abrir, compacto };
+  window.CartaoQC = { abrir, compacto, porExtenso };
 })();
