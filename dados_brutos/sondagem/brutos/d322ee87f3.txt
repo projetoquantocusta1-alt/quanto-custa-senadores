@@ -67,7 +67,7 @@
         rel="stylesheet"
     >
     <link
-        href="https://www.al.ce.gov.br/css/style.min.css?v=1794632275"
+        href="https://www.al.ce.gov.br/css/style.min.css?v=1794632335"
         rel="stylesheet">
     <link
         href="https://www.al.ce.gov.br/css/nav.css?v=1793984744"
@@ -2722,169 +2722,827 @@
     <main id="main-content" class="main_page homepage container">
                     <nav class="breadcrumbs mb-3" aria-label="Breadcrumb">
         <a  href="https://www.al.ce.gov.br">Início</a> &raquo;
-        <a href="https://www.al.ce.gov.br/deputados">Deputados</a> &raquo;
-        <span>Agenor Neto</span>
+        <span>Deputados</span>
     </nav>
-            <div class="row mb-4">
-        <div class="col-12 mb-md-4">
-            <h1 class="fw-bold"> Agenor Neto </h1>
-        </div>
-        <div class="s-font-1 container mb-5 rounded">
-            <div class="row">
-                <div class="col-md-3 border-right">
-                    <div class="d-flex flex-column align-items-center p-3 py-5 text-center">
-                                                                            <img
-                                class="mt-5"
-                                width="150"
-                                src="https://www.al.ce.gov.br/image/389109"
-                                alt="Agenor Neto"
-                            >
-                                                <div class="d-flex flex-column">
-                            <span class="font-weight-bold"> Nome Completo </span>
-                            <span class="text-gray-accessible"> Agenor Gomes de Araújo Neto </span>
-                        </div>
+                <div class="main_page deputado_page container">
+        <div class="row d-flex justify-content-between">
+            <h1 class="main_page--title">Em Exercício e <span style="color:red">Licenciados</span></h1>
+            
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/389109"
+                        alt="Foto de Agenor Neto"
+                    >
 
-                        <div class="d-flex flex-column mt-2">
-                            <span class="font-weight-bold"> Nome Parlamentar </span>
-                            <span class="text-gray-accessible"> Agenor Neto </span>
-                        </div>
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/agenor-neto">                            Agenor Neto </a></p>
+                    <p class="deputado_card--partido s-font-1"> MDB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/392721"
+                        alt="Foto de Alcides Fernandes"
+                    >
 
-                        <div class="d-flex flex-column mt-2">
-                            <span class="font-weight-bold"> Partido </span>
-                            <span class="text-gray-accessible"> MDB </span>
-                        </div>
-                                                    <div class="d-flex flex-column mt-2">
-                                <span class="font-weight-bold"> Profissão </span>
-                                <span class="text-gray-accessible"> Engenheiro Civil </span>
-                            </div>
-                        
-                                                    <div class="d-flex flex-column mt-2">
-                                <span class="font-weight-bold"> Votos </span>
-                                <span class="text-gray-accessible"> 68.289 </span>
-                            </div>
-                        
-                                                    <div class="d-flex flex-column mt-2">
-                                <span class="font-weight-bold"> Aniversário </span>
-                                <span class="text-gray-accessible"> 17/02 </span>
-                            </div>
-                        
-                        
-                                                    <div class="d-flex flex-column mt-2">
-                                <span class="font-weight-bold"> Site Pessoal </span>
-                                <span class="text-gray-accessible"> www.deputadoagenorneto.com </span>
-                            </div>
-                        
-                                                    <div class="d-flex flex-column mt-2">
-                                <span class="font-weight-bold"> E-mails </span>
-                                                                    <span class="text-gray-accessible"> gabdepagenor.neto@al.ce.gov.br </span>
-                                                            </div>
-                        
-                                                    <div class="d-flex flex-column mt-2">
-                                <span class="font-weight-bold"> Telefones </span>
-                                                                    <span class="text-gray-accessible"> 3277 2572 / 3277 2503 / 3277 2636 </span>
-                                                            </div>
-                        
-                                                
-                        
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/alcides-fernandes">                            Alcides Fernandes </a></p>
+                    <p class="deputado_card--partido s-font-1"> PL </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/396876"
+                        alt="Foto de Alysson Aguiar"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/alysson-aguiar">                            Alysson Aguiar </a></p>
+                    <p class="deputado_card--partido s-font-1"> PCdoB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384241"
+                        alt="Foto de Antônio Henrique"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/antonio-henrique">                            Antônio Henrique </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSDB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384242"
+                        alt="Foto de Ap Luiz Henrique"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/ap-luiz-henrique">                            Ap Luiz Henrique </a></p>
+                    <p class="deputado_card--partido s-font-1"> MDB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384244"
+                        alt="Foto de Bruno Pedrosa"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/bruno-pedrosa">                            Bruno Pedrosa </a></p>
+                    <p class="deputado_card--partido s-font-1"> PT </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/386905"
+                        alt="Foto de Carmelo Bolsonaro"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/carmelo-bolsonaro">                            Carmelo Bolsonaro </a></p>
+                    <p class="deputado_card--partido s-font-1"> PL </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/392036"
+                        alt="Foto de Cláudio Pinho"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/claudio-pinho">                            Cláudio Pinho </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSDB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/396121"
+                        alt="Foto de Danniel Oliveira"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/danniel-oliveira">                            Danniel Oliveira </a></p>
+                    <p class="deputado_card--partido s-font-1"> MDB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/390252"
+                        alt="Foto de Davi de Raimundão"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/davi-de-raimundao">                            Davi de Raimundão </a></p>
+                    <p class="deputado_card--partido s-font-1"> MDB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/395349"
+                        alt="Foto de David Durand"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/david-durand">                            David Durand </a></p>
+                    <p class="deputado_card--partido s-font-1"> Republicanos </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/396107"
+                        alt="Foto de De Assis Diniz"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/de-assis-diniz">                            De Assis Diniz </a></p>
+                    <p class="deputado_card--partido s-font-1"> PT </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/392034"
+                        alt="Foto de Dra. Silvana"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/dra-silvana">                            Dra. Silvana </a></p>
+                    <p class="deputado_card--partido s-font-1"> PL </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384298"
+                        alt="Foto de Emilia Pessoa"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/emilia-pessoa">                            Emilia Pessoa </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSDB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384302"
+                        alt="Foto de Felipe Mota"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/felipe-mota">                            Felipe Mota </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSDB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384336"
+                        alt="Foto de Fernando Hugo"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/fernando-hugo">                            Fernando Hugo </a></p>
+                    <p class="deputado_card--partido s-font-1"> Republicanos </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384427"
+                        alt="Foto de Fernando Santana"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/fernando-santana">                            Fernando Santana </a></p>
+                    <p class="deputado_card--partido s-font-1"> PT </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384430"
+                        alt="Foto de Firmo Camurça"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/firmo-camurca">                            Firmo Camurça </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSD </p>
+                </div>
+                            <div
+                    class="deputado_card licenciado"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384431"
+                        alt="Foto de Guilherme Landim"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/guilherme-landim">                            Guilherme Landim </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/392033"
+                        alt="Foto de Heitor Férrer"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/heitor-ferrer">                            Heitor Férrer </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSDB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/396128"
+                        alt="Foto de Jeová Mota"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/jeova-mota">                            Jeová Mota </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/387585"
+                        alt="Foto de João Jaime"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/joao-jaime">                            João Jaime </a></p>
+                    <p class="deputado_card--partido s-font-1"> PV </p>
+                </div>
+                            <div
+                    class="deputado_card licenciado"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384471"
+                        alt="Foto de Juliana Lucena"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/juliana-lucena">                            Juliana Lucena </a></p>
+                    <p class="deputado_card--partido s-font-1"> PDT </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/400053"
+                        alt="Foto de Jô Farias"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/jo-farias">                            Jô Farias </a></p>
+                    <p class="deputado_card--partido s-font-1"> PT </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384472"
+                        alt="Foto de Júlio César Filho"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/julio-cesar-filho">                            Júlio César Filho </a></p>
+                    <p class="deputado_card--partido s-font-1"> PT </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/396108"
+                        alt="Foto de Larissa Gaspar"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/larissa-gaspar">                            Larissa Gaspar </a></p>
+                    <p class="deputado_card--partido s-font-1"> PT </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384476"
+                        alt="Foto de Leonardo Pinheiro"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/leonardo-pinheiro">                            Leonardo Pinheiro </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384481"
+                        alt="Foto de Lia Gomes"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/lia-gomes">                            Lia Gomes </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384489"
+                        alt="Foto de Luana Régia"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/luana-regia">                            Luana Régia </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSD </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/392037"
+                        alt="Foto de Lucinildo Frota"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/lucinildo-frota">                            Lucinildo Frota </a></p>
+                    <p class="deputado_card--partido s-font-1"> PL </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384496"
+                        alt="Foto de Lucílvio Girão"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/lucilvio-girao">                            Lucílvio Girão </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/392216"
+                        alt="Foto de Marcos Sobreira"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/marcos-sobreira">                            Marcos Sobreira </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384603"
+                        alt="Foto de Marta Gonçalves"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/marta-goncalves">                            Marta Gonçalves </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSB </p>
+                </div>
+                            <div
+                    class="deputado_card licenciado"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384604"
+                        alt="Foto de Missias Dias"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/missias-dias">                            Missias Dias </a></p>
+                    <p class="deputado_card--partido s-font-1"> PT </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384605"
+                        alt="Foto de Moisés Braz"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/moises-braz">                            Moisés Braz </a></p>
+                    <p class="deputado_card--partido s-font-1"> PT </p>
+                </div>
+                            <div
+                    class="deputado_card licenciado"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384606"
+                        alt="Foto de Oriel Filho"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/oriel-filho">                            Oriel Filho </a></p>
+                    <p class="deputado_card--partido s-font-1"> PT </p>
+                </div>
+                            <div
+                    class="deputado_card licenciado"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384609"
+                        alt="Foto de Osmar Baquit"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/osmar-baquit">                            Osmar Baquit </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384610"
+                        alt="Foto de Queiroz Filho"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/queiroz-filho">                            Queiroz Filho </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSDB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/391876"
+                        alt="Foto de Renato Roseno"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/renato-roseno">                            Renato Roseno </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSOL </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384612"
+                        alt="Foto de Romeu Aldigueri"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/romeu-aldigueri">                            Romeu Aldigueri </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384614"
+                        alt="Foto de Salmito"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/salmito">                            Salmito </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSB </p>
+                </div>
+                            <div
+                    class="deputado_card licenciado"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/392032"
+                        alt="Foto de Sargento Reginauro"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/sargento-reginauro">                            Sargento Reginauro </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSDB </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/389111"
+                        alt="Foto de Simão Pedro"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/simao-pedro">                            Simão Pedro </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSD </p>
+                </div>
+                            <div
+                    class="deputado_card licenciado"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/389107"
+                        alt="Foto de Stuart Castro"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/stuart-castro">                            Stuart Castro </a></p>
+                    <p class="deputado_card--partido s-font-1"> Republicanos </p>
+                </div>
+                            <div
+                    class="deputado_card "
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/392217"
+                        alt="Foto de Sérgio Aguiar"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/sergio-aguiar">                            Sérgio Aguiar </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSB </p>
+                </div>
+                            <div
+                    class="deputado_card licenciado"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/400629"
+                        alt="Foto de Zezinho Albuquerque"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/zezinho-albuquerque">                            Zezinho Albuquerque </a></p>
+                    <p class="deputado_card--partido s-font-1"> Progressistas </p>
+                </div>
                     </div>
+
+        <div class="row d-flex justify-content-between">
+            <h2 class="main_page--title mt-lg-5">Suplentes em Exercício</h2>
+                            <div
+                    class="deputado_card"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/390248"
+                        alt="Foto de Almir Bié"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/almir-bie">                            Almir Bié </a></p>
+                    <p class="deputado_card--partido s-font-1"> Progressistas </p>
                 </div>
-                <div class="col-md-5 border-right ">
-                    <div class="p-3 py-5">
-                        <div class="d-flex justify-content-between align-items-center mb-3">
-                            <h2 class="text-right s-font-1 fs-4 fw-bold">Perfil</h2>
-                        </div>
-                        <div class="row mt-2">
+                            <div
+                    class="deputado_card"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/390247"
+                        alt="Foto de Antônio Granja"
+                    >
 
-                            <div class="col-md-12 s-font-1">
-                                <p><meta charset="utf-8"></p><p>Agenor Gomes de Araújo Neto nasceu na cidade de Iguatu, em 17 de fevereiro de 1966. É filho do médico e político, José Ilo Alves Dantas e Gláucia Mendonça Araújo Alves. É casado com Hercília Gomes Araújo, com quem teve três filhos: José Ilo Neto, Agenor Araújo Filho e Víctor Araújo Alves.</p><p>Agenor Neto fez os primeiros estudos em sua terra natal, concluindo o curso superior na Capital do Estado onde cursou a Universidade de Fortaleza – UNIFOR, vindo a graduar-se em engenharia civil, em 1989, passando de início, a trabalhar ao lado do pai, tornando-se logo um empresário competente na área da construção civil.<br>Iniciou a carreira política em 1992, candidatando-se ao cargo de prefeito de Iguatu. Em 2000, já com a vida empresarial definida, e, conhecendo detalhadamente os problemas de Iguatu, disputou novamente a Prefeitura de Iguatu pelo Partido da Social Democracia Brasileira (PSDB). As suas ideias aos poucos foram sendo assimiladas pela população, faltando pouco para atingir o seu objetivo. Conseguiu ao final da sua campanha um percentual de 47% dos votos válidos.</p><p>No ano de 2002, candidatou-se ao cargo de deputado estadual, sendo eleito com 43.826 votos.</p><p>Em 2004, afastou-se da Assembleia Legislativa para concorrer novamente ao cargo de prefeito de Iguatu, sendo eleito com a maior votação da história política do município, obtendo 25.526 votos. Em 2008 disputou a reeleição, e foi reconduzido ao cargo, derrotando a sua principal adversária com uma maioria de mais de 12 mil votos.<br>Em oito anos de mandato, Agenor Neto instaurou profundas mudanças no município de Iguatu. Construiu inúmeras obras, dando prioridade sempre aos mais necessitados. No setor da saúde, construiu e reformou unidades básicas de saúde, ampliou e melhorou o sistema de Atenção Básica na zona urbana e rural do município. Em 2010, a sua administração alcançou um dois maiores feitos na área da saúde: a diminuição na taxa da mortalidade infantil para 8,6 por mil nascidos vivos.</p><p>Agenor Neto criou programas no âmbito da Assistência Social, como o Agente do Bem e o Natal de Luz, com a distribuição de brinquedos para todas as crianças do município na faixa de idade de 0 a 12 anos. Na Educação, estruturou a rede educacional e criou o Programa Agente da Educação, programa de reforço escolar reconhecido pela UNESCO.</p><p>A eficiência da sua gestão lhe rendeu reconhecimento internacional; dois Selos UNICEF e o prêmio Prefeito Amigo da Criança. Também recebeu várias honrarias no âmbito nacional. Ao entregar o mandato ao seu sucessor, em 31 de dezembro de 2012, gozava de uma imensa aprovação popular, com 92% de aprovação, índice constatado pelo Instituto Brasileiro de Opinião Pública e Estatística – IBOPE.</p><p>Em 2014, percebendo, mais uma vez a sua imensa responsabilidade com a defesa dos direitos das pessoas mais necessitadas, resolveu candidatar-se novamente a uma vaga no legislativo estadual, obtendo uma votação expressiva de 78.868 mil votos, ficando na sétima posição entre os 46 deputados eleitos no Ceará.</p><p style="-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);box-sizing:border-box;color:rgb(33, 37, 41);font-family:system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;;font-size:14px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;margin-bottom:1rem;margin-top:0px;orphans:2;text-align:start;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">&nbsp;</p><p style="text-align:justify;"><span style="color:rgb(0,0,0);"><strong>HISTÓRICO DE ATIVIDADE PARLAMENTAR:</strong></span></p><figure class="table" style="width:98.69%;"><table class="ck-table-resized" style="border-color:hsl(0, 0%, 100%);border-style:solid;"><colgroup><col style="width:100%;"></colgroup><tbody><tr><td><figure class="image"><a href="/userfiles/files/AGENOR%20NETO(5).pdf"><img style="aspect-ratio:190/240;" src="https://www2.al.ce.gov.br/legislativo/tramit2025/iconepequeno.jpg" width="190" height="240"></a></figure><p>&nbsp;</p></td></tr></tbody></table></figure><p style="text-align:justify;"><strong>Confira, em vídeo, a identificação do deputado pela Língua Brasileira de Sinais (Libras):</strong></p><div class="raw-html-embed"><div style="display:flex;justify-content:center;"><video height="500" controls="">
-   <source src="/userfiles/files/Agenor%20Neto.mp4" type="video/mp4">
- </video></div></div>
-                            </div>
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/antonio-granja">                            Antônio Granja </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSB </p>
+                </div>
+                            <div
+                    class="deputado_card"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/392218"
+                        alt="Foto de Guilherme Bismarck"
+                    >
 
-                        </div>
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/guilherme-bismarck">                            Guilherme Bismarck </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSB </p>
+                </div>
+                            <div
+                    class="deputado_card"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/384624"
+                        alt="Foto de Guilherme Sampaio"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/guilherme-sampaio">                            Guilherme Sampaio </a></p>
+                    <p class="deputado_card--partido s-font-1"> PT </p>
+                </div>
+                            <div
+                    class="deputado_card"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/390244"
+                        alt="Foto de Tin Gomes"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/tin-gomes">                            Tin Gomes </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSB </p>
+                </div>
+                            <div
+                    class="deputado_card"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/400054"
+                        alt="Foto de Tomaz Holanda"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/tomaz-holanda">                            Tomaz Holanda </a></p>
+                    <p class="deputado_card--partido s-font-1"> Mobiliza </p>
+                </div>
+                            <div
+                    class="deputado_card"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/397150"
+                        alt="Foto de Tony Brito"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/tony-brito">                            Tony Brito </a></p>
+                    <p class="deputado_card--partido s-font-1"> PSD </p>
+                </div>
+                            <div
+                    class="deputado_card"
+                    style="max-width: 300px"
+                >
+                    <img
+                        width="100%"
+                        height="230"
+                        style="object-fit: cover"
+                        src="https://www.al.ce.gov.br/image/400051"
+                        alt="Foto de Walter Cavalcante"
+                    >
+
+                    <p class="deputado_card--nome s-font-1"><a href="https://www.al.ce.gov.br/deputados/walter-cavalcante">                            Walter Cavalcante </a></p>
+                    <p class="deputado_card--partido s-font-1"> PV </p>
+                </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-3 py-5">
-                        <div class="d-flex justify-content-between align-items-center experience">
-                            <span class="add-experience mb-3 border p-1 px-3 s-font-1">
-                                Proposições (Produção Legislativa)
-                            </span>
-                        </div>
-
-                        <div class='table-responsive'>
-<table class='table'>
-  <thead>
-    <tr>
-      <th scope="col" class="visually-hidden">Tipo de Proposição</th>
-      <th scope="col" class="visually-hidden">Proposições Deliberadas</th>
-      <th scope="col" class="visually-hidden">Proposições Tramitando</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr class='tr'>
-    <th scope='row'><strong class='s-font-1'>Projeto de Lei</strong></th>
-    <td><a class='s-font-1' href="https://www2.al.ce.gov.br/legislativo/proposicoes/busca_nova.php?descricao=1&nome=31_legislatura&opcao=D&escolha=autor&pesquisa=QUdFTk9SIE5FVE8="
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Deliberados</a></td>
-    <td><a class='s-font-1' href="https://www2.al.ce.gov.br/legislativo/proposicoes/busca_nova.php?descricao=1&nome=31_legislatura&opcao=T&escolha=autor&pesquisa=QUdFTk9SIE5FVE8="
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Tramitando</a></td>
-  </tr>
-  <tr class='tr'>
-    <th scope='row'><strong class='s-font-1'>Projeto de Indicação</strong></th>
-    <td><a class='s-font-1' href="https://www2.al.ce.gov.br/legislativo/proposicoes/busca_nova.php?descricao=2&nome=31_legislatura&opcao=D&escolha=autor&pesquisa=QUdFTk9SIE5FVE8="
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Deliberados</a></td>
-    <td><a class='s-font-1' href="https://www2.al.ce.gov.br/legislativo/proposicoes/busca_nova.php?descricao=2&nome=31_legislatura&opcao=T&escolha=autor&pesquisa=QUdFTk9SIE5FVE8="
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Tramitando</a></td>
-  </tr>
-  <tr class='tr'>
-    <th scope='row'><strong class='s-font-1'>Projeto de Decreto Legislativo</strong></th>
-    <td><a class='s-font-1' href="https://www2.al.ce.gov.br/legislativo/proposicoes/busca_nova.php?descricao=3&nome=31_legislatura&opcao=D&escolha=autor&pesquisa=QUdFTk9SIE5FVE8="
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Deliberados</a></td>
-    <td><a class='s-font-1' href="https://www2.al.ce.gov.br/legislativo/proposicoes/busca_nova.php?descricao=3&nome=31_legislatura&opcao=T&escolha=autor&pesquisa=QUdFTk9SIE5FVE8="
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Tramitando</a></td>
-  </tr>
-  <tr class='tr'>
-    <th scope='row'><strong class='s-font-1'>Projeto de Lei Complementar</strong></th>
-    <td><a class='s-font-1' href="https://www2.al.ce.gov.br/legislativo/proposicoes/busca_nova.php?descricao=4&nome=31_legislatura&opcao=D&escolha=autor&pesquisa=QUdFTk9SIE5FVE8="
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Deliberados</a></td>
-    <td><a class='s-font-1' href="https://www2.al.ce.gov.br/legislativo/proposicoes/busca_nova.php?descricao=4&nome=31_legislatura&opcao=T&escolha=autor&pesquisa=QUdFTk9SIE5FVE8="
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Tramitando</a></td>
-  </tr>
-  <tr class='tr'>
-    <th scope='row'><strong class='s-font-1'>Proposta de Emenda Constitucional</strong></th>
-    <td><a class='s-font-1' href="https://www2.al.ce.gov.br/legislativo/proposicoes/busca_nova.php?descricao=5&nome=31_legislatura&opcao=D&escolha=autor&pesquisa=QUdFTk9SIE5FVE8="
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Deliberados</a></td>
-    <td><a class='s-font-1' href="https://www2.al.ce.gov.br/legislativo/proposicoes/busca_nova.php?descricao=5&nome=31_legislatura&opcao=T&escolha=autor&pesquisa=QUdFTk9SIE5FVE8="
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Tramitando</a></td>
-  </tr>
-  <tr class='tr'>
-    <th scope='row'><strong class='s-font-1'>Projeto de Resolução</strong></th>
-    <td><a class='s-font-1' href="https://www2.al.ce.gov.br/legislativo/proposicoes/busca_nova.php?descricao=6&nome=31_legislatura&opcao=D&escolha=autor&pesquisa=QUdFTk9SIE5FVE8="
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Deliberados</a></td>
-    <td><a class='s-font-1' href="https://www2.al.ce.gov.br/legislativo/proposicoes/busca_nova.php?descricao=6&nome=31_legislatura&opcao=T&escolha=autor&pesquisa=QUdFTk9SIE5FVE8="
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Tramitando</a></td>
-  </tr>
-  <tr class='tr'>
-    <th scope='row'><strong class='s-font-1'>Requerimento</strong></th>
-    <td>
-  <a class='s-font-1' href="https://www2.al.ce.gov.br/pdr/consultas.php?opcao=9&pg=publico&autor=119&situacao=APR"
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Aprovados</a><br />
-  <a class='s-font-1' href="https://www2.al.ce.gov.br/pdr/consultas.php?opcao=9&pg=publico&autor=119&situacao=REJ"
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Rejeitados</a><br />
-  <a class='s-font-1' href="https://www2.al.ce.gov.br/pdr/consultas.php?opcao=9&pg=publico&autor=119&situacao=RET"
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Retirados</a><br />
-  <a class='s-font-1' href="https://www2.al.ce.gov.br/pdr/consultas.php?opcao=9&pg=publico&autor=119&situacao=PRE"
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Prejudicados</a>
-    </td>
-    <td><a class='s-font-1' href="https://www2.al.ce.gov.br/pdr/consultas.php?opcao=9&pg=publico&autor=119"
-   onclick="window.open(this.href,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=SomeSize, height=SomeSize'); return false;">Tramitando</a></td>
-  </tr>
-  </tbody>
-</table>
-</div>                    </div>
-                </div>
-            </div>
-        </div>
     </div>
     </main>
     <aside aria-label="Acessibilidade Libras">
@@ -3186,68 +3844,7 @@
         crossorigin="anonymous"
     ></script>
 
-        <script
-        async
-        charset="utf-8"
-        src="//cdn.embedly.com/widgets/platform.js"
-    ></script>
-    <script>
-        document.querySelectorAll('oembed[url]').forEach(element => {
-            const anchor = document.createElement('a');
-
-            anchor.setAttribute('href', element.getAttribute('url'));
-            anchor.className = 'embedly-card';
-
-            element.appendChild(anchor);
-        });
-
-        document.addEventListener('DOMContentLoaded', function () {
-            // Imagens sem alt
-            document.querySelectorAll('img:not([alt])').forEach(function (img) {
-                img.setAttribute('alt', '');
-            });
-            // Links sem texto acessível
-            document.querySelectorAll('a').forEach(function (link) {
-                if (!link.textContent.trim() && !link.getAttribute('aria-label') && !link.getAttribute('aria-labelledby')) {
-                    var href = link.getAttribute('href') || '';
-                    var filename = href.split('/').pop().split('?')[0] || 'documento';
-                    link.setAttribute('aria-label', decodeURIComponent(filename));
-                }
-            });
-            // Remove atributos ARIA proibidos de elementos não-interativos no conteúdo dinâmico
-            var prohibited = ['aria-pressed', 'aria-checked', 'aria-required', 'aria-selected'];
-            var interactiveTags = ['BUTTON', 'INPUT', 'SELECT', 'TEXTAREA'];
-            var interactiveRoles = ['button', 'checkbox', 'combobox', 'option', 'radio', 'switch', 'tab', 'menuitem'];
-            document.querySelectorAll(prohibited.map(function(a){ return '[' + a + ']'; }).join(',')).forEach(function (el) {
-                var role = el.getAttribute('role') || '';
-                var isInteractive = interactiveTags.indexOf(el.tagName) > -1 || interactiveRoles.indexOf(role) > -1 || (el.tagName === 'A' && role === 'button');
-                if (!isInteractive) {
-                    prohibited.forEach(function (attr) { el.removeAttribute(attr); });
-                }
-            });
-            // Corrige contraste de cores inline no conteúdo do perfil
-            function srgbToLinear(c) { c /= 255; return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4); }
-            function relativeLuminance(r, g, b) { return 0.2126 * srgbToLinear(r) + 0.7152 * srgbToLinear(g) + 0.0722 * srgbToLinear(b); }
-            function contrastWithWhite(r, g, b) { return 1.05 / (relativeLuminance(r, g, b) + 0.05); }
-            document.querySelectorAll('.col-md-5 [style*="color"], .col-md-12 [style*="color"]').forEach(function (el) {
-                var colorMatch = (el.getAttribute('style') || '').match(/(?:^|;)\s*color:\s*([^;]+)/i);
-                if (!colorMatch) return;
-                var color = colorMatch[1].trim();
-                var rgb = color.match(/rgb\((\d+),\s*(\d+),\s*(\d+)\)/i);
-                var hex = color.match(/^#([0-9a-f]{3}|[0-9a-f]{6})$/i);
-                var r, g, b;
-                if (rgb) { r = +rgb[1]; g = +rgb[2]; b = +rgb[3]; }
-                else if (hex) {
-                    var h = hex[1].length === 3 ? hex[1].replace(/(.)/g, '$1$1') : hex[1];
-                    r = parseInt(h.substr(0,2),16); g = parseInt(h.substr(2,2),16); b = parseInt(h.substr(4,2),16);
-                }
-                if (r !== undefined && contrastWithWhite(r, g, b) < 4.5) {
-                    el.style.removeProperty('color');
-                }
-            });
-        });
-    </script>
-        <script>
+            <script>
         // Função para alternar o modo de alto contraste
         function toggleContrast() {
             var currentContrast = localStorage.getItem('data-contrast');
