@@ -462,3 +462,7 @@ tfoot .linha-total td { border-top: 2px solid var(--line-2); background: var(--p
   .rf-chips button { flex: none; }
   .rf-painel .filtros-tabela > * { flex: 1 1 100%; width: 100%; }
 }
+
+/* caixas de escolha e busca nunca mais largas que a tela (opções com nomes longos estouravam no celular) */
+select, input { max-width: 100%; }
+.filtros-tabela select, .filtros-tabela input { min-width: 0; }
