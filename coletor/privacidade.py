@@ -6,7 +6,9 @@ históricos de notas às vezes citam CPF. Aqui o CPF é mascarado como em todo o
 """
 import re
 
-CPF_NO_TEXTO = re.compile(r"(?<![\d./-])(\d{3})\.?(\d{3})\.?(\d{3})-?(\d{2})(?![\d./-]*\d)")
+# não começa logo depois de um dígito (nem de "dígito + pontuação", que é parte de outro número), mas pode vir
+# colado em letra, ponto ou traço: "CPF.123.456.789-01", "MARIA-123.456.789-01"
+CPF_NO_TEXTO = re.compile(r"(?<!\d)(?<!\d[./-])(\d{3})\.?(\d{3})\.?(\d{3})-?(\d{2})(?![\d./-]*\d)")
 _LETRA = re.compile(r"[A-Za-zÀ-ÿ]")
 _CPF_MASCARA_CNPJ = re.compile(r"^(\d{3})\.(\d{3})\.(\d{3})/(\d{2})\s*-?\s*$")
 _CPF_FORMATADO = re.compile(r"^\d{3}\.\d{3}\.\d{3}-\d{2}$")
@@ -23,7 +25,29 @@ def mascarar_cpf_no_texto(s):
         return CPF_NO_TEXTO.sub(lambda m: f"***.{m.group(2)}.{m.group(3)}-**", s)
     if not _LETRA.search(s):                     # número puro sem pontuação: nº de documento, não mexe
         return s
-    return CPF_NO_TEXTO.sub(lambda m: f"***.{m.group(2)}.{m.group(3)}-**", s)
+    return CPF_NO_TEXTO.sub(_trocar, s)
+
+
+def cpf_valido(d: str) -> bool:
+    """Dígitos verificadores do CPF (11 dígitos)."""
+    if len(d) != 11 or len(set(d)) == 1:
+        return False
+    for n in (9, 10):
+        soma = sum(int(d[i]) * (n + 1 - i) for i in range(n))
+        if (soma * 10 % 11) % 10 != int(d[n]):
+            return False
+    return True
+
+
+def _trocar(m):
+    """Com pontuação de CPF (123.456.789-01) mascara sempre; 11 dígitos colados só se forem um CPF válido —
+    números de processo e documento ("20250101001SEME", colados em letra) ficam como estão."""
+    txt, s, a, b = m.group(0), m.string, m.start(), m.end()
+    if not ("." in txt or "-" in txt):
+        colado_em_letra = (a > 0 and s[a - 1].isalpha()) or (b < len(s) and s[b].isalpha())   # "20240516001G"
+        if colado_em_letra or not cpf_valido(re.sub(r"\D", "", txt)):
+            return txt
+    return f"***.{m.group(2)}.{m.group(3)}-**"
 
 
 def limpar_json(obj):

@@ -12,7 +12,7 @@ import unicodedata
 from datetime import date
 
 import config
-from coletor.privacidade import mascarar_cpf_no_texto
+from coletor.privacidade import cpf_valido, mascarar_cpf_no_texto
 
 
 def norm(s: str) -> str:
@@ -83,7 +83,7 @@ def ler_ceaps(conteudo: bytes) -> list[dict]:
         out.append({
             "ano": int(_dig(r.get("ANO")) or 0), "mes": int(_dig(r.get("MES")) or 0), "senador": sen, "senador_norm": norm(sen),
             "tipo": re.sub(r"\s+", " ", r.get("TIPO_DESPESA", "")).strip(), "chave": chave, "doc": doc, "tipo_doc": td,
-            "fornecedor": forn, "documento": r.get("DOCUMENTO", "")[:40], "data": _data(r.get("DATA", "")),
+            "fornecedor": forn, "documento": numero_documento(r.get("DOCUMENTO", ""))[:40], "data": _data(r.get("DATA", "")),
             "detalhe": mascarar_cpf_no_texto(re.sub(r"\s+", " ", r.get("DETALHAMENTO", "")).strip()[:600]), "valor": round(valor, 2),
             "cod": r.get("COD_DOCUMENTO", ""), "passageiros": passageiros(r.get("DETALHAMENTO", "")),
         })
@@ -100,6 +100,16 @@ TIPOS_CURTOS = [
     ("passagens aereas", "Passagens aéreas, aquáticas e terrestres"),
     ("seguranca", "Serviços de segurança privada"),
 ]
+
+
+def numero_documento(s: str) -> str:
+    """Nº do documento da nota. Em aluguéis pagos a pessoa física, às vezes vem o CPF do dono do imóvel:
+    CPF com pontuação, ou 11 dígitos que formam um CPF válido, sai mascarado."""
+    s = mascarar_cpf_no_texto((s or "").strip())
+    d = re.sub(r"\D", "", s)
+    if len(d) == 11 and d == s.replace(".", "").replace("-", "").strip() and cpf_valido(d):
+        return f"***.{d[3:6]}.{d[6:9]}-**"
+    return s
 
 
 def tipo_curto(t: str) -> str:
