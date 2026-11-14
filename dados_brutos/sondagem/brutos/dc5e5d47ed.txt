@@ -1,0 +1,1288 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API Portal da Transparência",
+        "description": "API pública do Portal da Transparência da ALECE",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "https://transparencia.al.ce.gov.br",
+            "description": "Servidor Local"
+        }
+    ],
+    "paths": {
+        "/api/contratos": {
+            "get": {
+                "tags": [
+                    "Contratos"
+                ],
+                "summary": "Lista contratos",
+                "description": "Retorna uma lista paginada de contratos.",
+                "operationId": "bc801166f8bb4acad4f58b5bb47854bb",
+                "parameters": [
+                    {
+                        "name": "numero_contrato",
+                        "in": "query",
+                        "description": "Número do contrato",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "ano_contrato",
+                        "in": "query",
+                        "description": "Ano do contrato",
+                        "required": false,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{4}$"
+                        }
+                    },
+                    {
+                        "name": "doe_contrato",
+                        "in": "query",
+                        "description": "Número ou referência do Diário Oficial do Estado",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "especie_contrato",
+                        "in": "query",
+                        "description": "Espécie do contrato",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "objeto_contrato",
+                        "in": "query",
+                        "description": "Objeto do contrato",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "cpfcnpj_contrato",
+                        "in": "query",
+                        "description": "CPF ou CNPJ do contratado",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "fiscalgestor_contrato",
+                        "in": "query",
+                        "description": "Nome do fiscal ou gestor do contrato",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "contratado_contrato",
+                        "in": "query",
+                        "description": "Nome do contratado",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "iniciovigencia_contrato",
+                        "in": "query",
+                        "description": "Data de início da vigência",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "fimvigencia_contrato",
+                        "in": "query",
+                        "description": "Data de fim da vigência",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "valorvencedor_contrato",
+                        "in": "query",
+                        "description": "Valor vencedor",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "inicio_contrato",
+                        "in": "query",
+                        "description": "Data inicial para consulta",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Contratos encontrados com sucesso.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ContratoListResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/empenhos": {
+            "get": {
+                "tags": [
+                    "Empenhos"
+                ],
+                "summary": "Lista empenhos",
+                "description": "Retorna uma lista paginada de empenhos.",
+                "operationId": "af57ed299ed0838500ca75c2d15cb9a1",
+                "parameters": [
+                    {
+                        "name": "numero_empenho",
+                        "in": "query",
+                        "description": "Número do empenho",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "numero_contrato",
+                        "in": "query",
+                        "description": "Número do contrato",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "descricao_empenho",
+                        "in": "query",
+                        "description": "Descrição da nota de empenho",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "credor_empenho",
+                        "in": "query",
+                        "description": "Credor",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "natureza_empenho",
+                        "in": "query",
+                        "description": "Natureza",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "grupo_despesa_empenho",
+                        "in": "query",
+                        "description": "Grupo de despesa",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "funcao_empenho",
+                        "in": "query",
+                        "description": "Função Legislativa",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "sub_funcao_empenho",
+                        "in": "query",
+                        "description": "Sub-função",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "programa_empenho",
+                        "in": "query",
+                        "description": "Programa",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "acao_empenho",
+                        "in": "query",
+                        "description": "Ação",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "modalidade_licitacao_empenho",
+                        "in": "query",
+                        "description": "Modalidade de Licitação",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "modalidade_aplicacao_empenho",
+                        "in": "query",
+                        "description": "Modalidade de Aplicação",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "item_despesa_empenho",
+                        "in": "query",
+                        "description": "Item de Despesa",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "fonte_recurso_empenho",
+                        "in": "query",
+                        "description": "Fonte de Recurso",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "data_empenho",
+                        "in": "query",
+                        "description": "Data do Empenho no formato DD/MM/AAAA",
+                        "required": false,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{2}/\\d{2}/\\d{4}$"
+                        }
+                    },
+                    {
+                        "name": "empenhado_empenho",
+                        "in": "query",
+                        "description": "Empenhado",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "suplementado_empenho",
+                        "in": "query",
+                        "description": "Suplementado",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "anulado_empenho",
+                        "in": "query",
+                        "description": "Anulado",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "pago_empenho",
+                        "in": "query",
+                        "description": "Pago",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Empenhos encontrados com sucesso.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/EmpenhoListResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/licitacoes": {
+            "get": {
+                "tags": [
+                    "Licitações"
+                ],
+                "summary": "Lista licitações",
+                "description": "Retorna uma lista paginada de licitações.",
+                "operationId": "1719957eaff2145fd9b75ab245865611",
+                "parameters": [
+                    {
+                        "name": "numero_edital",
+                        "in": "query",
+                        "description": "Número do edital",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "ano_edital",
+                        "in": "query",
+                        "description": "Ano do edital",
+                        "required": false,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{4}$"
+                        }
+                    },
+                    {
+                        "name": "numeroprocesso_edital",
+                        "in": "query",
+                        "description": "Número do processo",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "anoprocesso_edital",
+                        "in": "query",
+                        "description": "Ano do processo",
+                        "required": false,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{4}$"
+                        }
+                    },
+                    {
+                        "name": "objeto_edital",
+                        "in": "query",
+                        "description": "Objeto da licitação",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "naturezaaquisicao_edital",
+                        "in": "query",
+                        "description": "Natureza da aquisição",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "modalidade_edital",
+                        "in": "query",
+                        "description": "Modalidade da licitação",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "situacao_edital",
+                        "in": "query",
+                        "description": "Situação da licitação",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "inicio_edital",
+                        "in": "query",
+                        "description": "Número usado para especificar o inicio de registros a retornar",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Licitações encontradas com sucesso.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/LicitacaoListResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/pagamentos": {
+            "get": {
+                "tags": [
+                    "Pagamentos"
+                ],
+                "summary": "Lista pagamentos",
+                "description": "Retorna uma lista paginada de pagamentos.",
+                "operationId": "c8dd07c835157ddcfdf8c85617ff560a",
+                "parameters": [
+                    {
+                        "name": "numero_empenho",
+                        "in": "query",
+                        "description": "Número do empenho",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "nota_pagamento",
+                        "in": "query",
+                        "description": "Nº Nota de Pagamento",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "nomecredor_pagamento",
+                        "in": "query",
+                        "description": "Nome do Credor",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "data_pagamento",
+                        "in": "query",
+                        "description": "Data do Pagamento no formato DD/MM/AAAA",
+                        "required": false,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{2}/\\d{2}/\\d{4}$"
+                        }
+                    },
+                    {
+                        "name": "valor_pagamento",
+                        "in": "query",
+                        "description": "Valor",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Pagamentos encontrados com sucesso.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/PagamentoListResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/termos-credenciamento": {
+            "get": {
+                "tags": [
+                    "Termos de Credenciamento"
+                ],
+                "summary": "Lista termos de credenciamento",
+                "description": "Retorna uma lista paginada de termos de credenciamento.",
+                "operationId": "b6ebb223c4bce4a5e09ca5af3a56c2fd",
+                "parameters": [
+                    {
+                        "name": "numero_credenciamento",
+                        "in": "query",
+                        "description": "Número do credenciamento",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "ano_credenciamento",
+                        "in": "query",
+                        "description": "Ano do credenciamento",
+                        "required": false,
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^\\d{4}$"
+                        }
+                    },
+                    {
+                        "name": "doe_credenciamento",
+                        "in": "query",
+                        "description": "Número ou referência do DOE",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "objeto_credenciamento",
+                        "in": "query",
+                        "description": "Objeto do credenciamento",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "cpfcnpj_credenciamento",
+                        "in": "query",
+                        "description": "CPF ou CNPJ do credenciado",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "credenciado_credenciamento",
+                        "in": "query",
+                        "description": "Nome do credenciado",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "iniciovigencia_credenciamento",
+                        "in": "query",
+                        "description": "Data de início da vigência",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "fimvigencia_credenciamento",
+                        "in": "query",
+                        "description": "Data de fim da vigência",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "inicio_credenciamento",
+                        "in": "query",
+                        "description": "Data inicial para consulta",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Termos de credenciamento encontrados com sucesso.",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/TermoCredenciamentoListResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Pagination": {
+                "title": "Paginação",
+                "description": "Informações da paginação da resposta",
+                "properties": {
+                    "current_page": {
+                        "type": "integer",
+                        "example": 1
+                    },
+                    "last_page": {
+                        "type": "integer",
+                        "example": 1703
+                    },
+                    "per_page": {
+                        "type": "integer",
+                        "example": 15
+                    },
+                    "total": {
+                        "type": "integer",
+                        "example": 1703
+                    }
+                },
+                "type": "object"
+            },
+            "Contrato": {
+                "title": "Contrato",
+                "description": "Dados de um contrato",
+                "properties": {
+                    "id_contrato": {
+                        "type": "integer",
+                        "example": "1186"
+                    },
+                    "numero_contrato": {
+                        "type": "string",
+                        "example": "35"
+                    },
+                    "ano_contrato": {
+                        "type": "string",
+                        "example": "2026"
+                    },
+                    "doe_contrato": {
+                        "type": "string",
+                        "example": "-"
+                    },
+                    "especie_contrato": {
+                        "type": "string",
+                        "example": "ATA DE REGISTRO DE PREÇOS"
+                    },
+                    "objeto_contrato": {
+                        "type": "string",
+                        "example": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE UTENSÍLIOS PARA COPA."
+                    },
+                    "cpfcnpj_contrato": {
+                        "type": "string",
+                        "example": "53385500000155"
+                    },
+                    "fiscalgestor_contrato": {
+                        "type": "string",
+                        "example": "DAIANA RODRIGUES DE ALBUQUERQ"
+                    },
+                    "contratado_contrato": {
+                        "type": "string",
+                        "example": "NOVA MESA UTILIDADES LTDA"
+                    },
+                    "iniciovigencia_contrato": {
+                        "type": "string",
+                        "example": "24/07/2026"
+                    },
+                    "fimvigencia_contrato": {
+                        "type": "string",
+                        "example": "23/07/2027"
+                    },
+                    "valorvencedor_contrato": {
+                        "type": "string",
+                        "example": "4.620,00"
+                    },
+                    "lotes": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Lote"
+                        }
+                    },
+                    "aditivos": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Aditivo"
+                        }
+                    }
+                },
+                "type": "object"
+            },
+            "Lote": {
+                "title": "Lote",
+                "description": "Lote relacionado ao contrato",
+                "properties": {
+                    "idlotes": {
+                        "type": "integer",
+                        "example": "13281"
+                    },
+                    "idcontrato": {
+                        "type": "integer",
+                        "example": "1186"
+                    },
+                    "numerolote": {
+                        "type": "integer",
+                        "example": "4052"
+                    },
+                    "descricao": {
+                        "type": "string",
+                        "example": "ITEM 11"
+                    },
+                    "valorvencedor": {
+                        "type": "string",
+                        "example": "4.620,00"
+                    },
+                    "cpfcnpj": {
+                        "type": "string",
+                        "example": "53385500000155"
+                    }
+                },
+                "type": "object"
+            },
+            "Aditivo": {
+                "title": "Aditivo",
+                "description": "Aditivo relacionado ao contrato",
+                "properties": {
+                    "idcontrato": {
+                        "type": "integer",
+                        "example": 1186
+                    },
+                    "numeroaditivo": {
+                        "type": "string",
+                        "example": "1"
+                    },
+                    "numerovdoc": {
+                        "type": "string",
+                        "example": "123/2026"
+                    },
+                    "tipoaditivo": {
+                        "type": "string",
+                        "example": "PRORROGAÇÃO"
+                    },
+                    "orgaosolicitante": {
+                        "type": "string",
+                        "example": "ALECE"
+                    },
+                    "precoaditivo": {
+                        "type": "string",
+                        "example": "10.000,00"
+                    }
+                },
+                "type": "object"
+            },
+            "ContratoListResponse": {
+                "title": "Resposta da lista de contratos",
+                "properties": {
+                    "success": {
+                        "type": "boolean",
+                        "example": true
+                    },
+                    "message": {
+                        "type": "string",
+                        "example": "Contratos encontrados com sucesso."
+                    },
+                    "data": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Contrato"
+                        }
+                    }
+                },
+                "type": "object"
+            },
+            "ContratoResponse": {
+                "title": "Resposta do contrato",
+                "properties": {
+                    "success": {
+                        "type": "boolean",
+                        "example": true
+                    },
+                    "message": {
+                        "type": "string",
+                        "example": "Contrato encontrado com sucesso."
+                    },
+                    "data": {
+                        "$ref": "#/components/schemas/Contrato"
+                    }
+                },
+                "type": "object"
+            },
+            "Empenho": {
+                "title": "Empenho",
+                "description": "Dados de um empenho",
+                "properties": {
+                    "numero_empenho": {
+                        "type": "string",
+                        "example": "2026NE000123"
+                    },
+                    "numero_contrato": {
+                        "type": "string",
+                        "example": "35"
+                    },
+                    "descricao_empenho": {
+                        "type": "string",
+                        "example": "AQUISIÇÃO DE UTENSÍLIOS PARA COPA."
+                    },
+                    "credor_empenho": {
+                        "type": "string",
+                        "example": "NOVA MESA UTILIDADES LTDA"
+                    },
+                    "natureza_empenho": {
+                        "type": "string",
+                        "example": "339030"
+                    },
+                    "grupo_despesa_empenho": {
+                        "type": "string",
+                        "example": "3"
+                    },
+                    "funcao_empenho": {
+                        "type": "string",
+                        "example": "01"
+                    },
+                    "sub_funcao_empenho": {
+                        "type": "string",
+                        "example": "031"
+                    },
+                    "programa_empenho": {
+                        "type": "string",
+                        "example": "500"
+                    },
+                    "acao_empenho": {
+                        "type": "string",
+                        "example": "2001"
+                    },
+                    "modalidade_licitacao_empenho": {
+                        "type": "string",
+                        "example": "PREGÃO ELETRÔNICO"
+                    },
+                    "modalidade_aplicacao_empenho": {
+                        "type": "string",
+                        "example": "APLICAÇÃO DIRETA"
+                    },
+                    "item_despesa_empenho": {
+                        "type": "string",
+                        "example": "MATERIAL DE CONSUMO"
+                    },
+                    "fonte_recurso_empenho": {
+                        "type": "string",
+                        "example": "1500000000"
+                    },
+                    "data_empenho": {
+                        "type": "string",
+                        "example": "01/01/2026"
+                    },
+                    "empenhado_empenho": {
+                        "type": "string",
+                        "example": "4620,00"
+                    },
+                    "suplementado_empenho": {
+                        "type": "string",
+                        "example": "0,00"
+                    },
+                    "anulado_empenho": {
+                        "type": "string",
+                        "example": "0,00"
+                    },
+                    "pago_empenho": {
+                        "type": "string",
+                        "example": "4620,00"
+                    }
+                },
+                "type": "object"
+            },
+            "EmpenhoListResponse": {
+                "title": "Resposta da lista de empenhos",
+                "properties": {
+                    "success": {
+                        "type": "boolean",
+                        "example": true
+                    },
+                    "message": {
+                        "type": "string",
+                        "example": "Empenhos encontrados com sucesso."
+                    },
+                    "data": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Empenho"
+                        }
+                    }
+                },
+                "type": "object"
+            },
+            "EmpenhoResponse": {
+                "title": "Resposta do empenho",
+                "properties": {
+                    "success": {
+                        "type": "boolean",
+                        "example": true
+                    },
+                    "message": {
+                        "type": "string",
+                        "example": "Empenho encontrado com sucesso."
+                    },
+                    "data": {
+                        "$ref": "#/components/schemas/Empenho"
+                    }
+                },
+                "type": "object"
+            },
+            "Licitacao": {
+                "title": "Licitação",
+                "description": "Dados de uma licitação",
+                "properties": {
+                    "id_edital": {
+                        "type": "integer",
+                        "example": 1186
+                    },
+                    "numero_edital": {
+                        "type": "string",
+                        "example": "35"
+                    },
+                    "ano_edital": {
+                        "type": "string",
+                        "example": "2026"
+                    },
+                    "numeroprocesso_edital": {
+                        "type": "string",
+                        "example": "12345"
+                    },
+                    "anoprocesso_edital": {
+                        "type": "string",
+                        "example": "2026"
+                    },
+                    "objeto_edital": {
+                        "type": "string",
+                        "example": "Aquisição de equipamentos de informática."
+                    },
+                    "naturezaaquisicao_edital": {
+                        "type": "string",
+                        "example": "Material Permanente"
+                    },
+                    "modalidade_edital": {
+                        "type": "string",
+                        "example": "Pregão Eletrônico"
+                    },
+                    "situacao_edital": {
+                        "type": "string",
+                        "example": "Homologada"
+                    },
+                    "inicio_edital": {
+                        "type": "string",
+                        "example": "01/08/2026"
+                    },
+                    "lotes": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/LicitacaoLote"
+                        }
+                    }
+                },
+                "type": "object"
+            },
+            "LicitacaoLote": {
+                "title": "Lote da Licitação",
+                "description": "Lote pertencente à licitação",
+                "properties": {
+                    "idlotes": {
+                        "type": "integer",
+                        "example": 13281
+                    },
+                    "idedital": {
+                        "type": "integer",
+                        "example": 1186
+                    },
+                    "numerolote": {
+                        "type": "integer",
+                        "example": 1
+                    },
+                    "idedital_lote": {
+                        "type": "string",
+                        "example": "1186-1"
+                    },
+                    "valorvencedor": {
+                        "type": "string",
+                        "example": "4.620,00"
+                    },
+                    "cnpjcpfvencedor": {
+                        "type": "string",
+                        "example": "53385500000155"
+                    },
+                    "resultado": {
+                        "type": "string",
+                        "example": "VENCEDOR"
+                    }
+                },
+                "type": "object"
+            },
+            "LicitacaoListResponse": {
+                "title": "Resposta da lista de licitações",
+                "properties": {
+                    "success": {
+                        "type": "boolean",
+                        "example": true
+                    },
+                    "message": {
+                        "type": "string",
+                        "example": "Licitações encontradas com sucesso."
+                    },
+                    "data": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Licitacao"
+                        }
+                    },
+                    "pagination": {
+                        "$ref": "#/components/schemas/Pagination"
+                    }
+                },
+                "type": "object"
+            },
+            "LicitacaoResponse": {
+                "title": "Resposta da licitação",
+                "properties": {
+                    "success": {
+                        "type": "boolean",
+                        "example": true
+                    },
+                    "message": {
+                        "type": "string",
+                        "example": "Licitação encontrada com sucesso."
+                    },
+                    "data": {
+                        "$ref": "#/components/schemas/Licitacao"
+                    },
+                    "pagination": {
+                        "type": "object",
+                        "example": null,
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "Pagamento": {
+                "title": "Pagamento",
+                "description": "Dados de um pagamento",
+                "properties": {
+                    "numero_empenho": {
+                        "description": "Número do empenho",
+                        "type": "string",
+                        "example": "2024NE001234"
+                    },
+                    "nota_pagamento": {
+                        "description": "Número da nota de pagamento",
+                        "type": "string",
+                        "example": "2024NP000123"
+                    },
+                    "nomecredor_pagamento": {
+                        "description": "Nome do credor",
+                        "type": "string",
+                        "example": "EMPRESA EXEMPLO LTDA"
+                    },
+                    "data_pagamento": {
+                        "description": "Data do pagamento",
+                        "type": "string",
+                        "example": "26/01/2024"
+                    },
+                    "valor_pagamento": {
+                        "description": "Valor do pagamento",
+                        "type": "number",
+                        "format": "double",
+                        "example": 15000.5
+                    }
+                },
+                "type": "object"
+            },
+            "PagamentoListResponse": {
+                "title": "Resposta da lista de pagamentos",
+                "properties": {
+                    "success": {
+                        "type": "boolean",
+                        "example": true
+                    },
+                    "message": {
+                        "type": "string",
+                        "example": "Pagamentos encontrados com sucesso."
+                    },
+                    "data": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Pagamento"
+                        }
+                    },
+                    "pagination": {
+                        "$ref": "#/components/schemas/Pagination"
+                    }
+                },
+                "type": "object"
+            },
+            "PagamentoResponse": {
+                "title": "Resposta do pagamento",
+                "properties": {
+                    "success": {
+                        "type": "boolean",
+                        "example": true
+                    },
+                    "message": {
+                        "type": "string",
+                        "example": "Pagamento encontrado com sucesso."
+                    },
+                    "data": {
+                        "$ref": "#/components/schemas/Pagamento"
+                    },
+                    "pagination": {
+                        "type": "object",
+                        "example": null,
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "TermoCredenciamento": {
+                "title": "Termo de Credenciamento",
+                "description": "Dados de um termo de credenciamento",
+                "properties": {
+                    "id_credenciamento": {
+                        "type": "integer",
+                        "example": 1186
+                    },
+                    "numero_credenciamento": {
+                        "type": "string",
+                        "example": "35"
+                    },
+                    "ano_credenciamento": {
+                        "type": "string",
+                        "example": "2026"
+                    },
+                    "doe_credenciamento": {
+                        "type": "string",
+                        "example": "DOE Nº 145"
+                    },
+                    "objeto_credenciamento": {
+                        "type": "string",
+                        "example": "Credenciamento de empresas especializadas."
+                    },
+                    "cpfcnpj_credenciamento": {
+                        "type": "string",
+                        "example": "53385500000155"
+                    },
+                    "credenciado_credenciamento": {
+                        "type": "string",
+                        "example": "EMPRESA XYZ LTDA"
+                    },
+                    "iniciovigencia_credenciamento": {
+                        "type": "string",
+                        "example": "01/01/2026"
+                    },
+                    "fimvigencia_credenciamento": {
+                        "type": "string",
+                        "example": "31/12/2026"
+                    },
+                    "inicio_credenciamento": {
+                        "type": "string",
+                        "example": "01/01/2026"
+                    },
+                    "lotes": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/CredenciamentoLote"
+                        }
+                    }
+                },
+                "type": "object"
+            },
+            "CredenciamentoLote": {
+                "title": "Lote do Credenciamento",
+                "properties": {
+                    "idlotes": {
+                        "type": "integer",
+                        "example": 15
+                    },
+                    "idedital": {
+                        "type": "integer",
+                        "example": 1186
+                    },
+                    "numerolote": {
+                        "type": "integer",
+                        "example": 1
+                    },
+                    "cpfcnpjcredenciado": {
+                        "type": "string",
+                        "example": "53385500000155"
+                    },
+                    "credenciado": {
+                        "type": "string",
+                        "example": "EMPRESA XYZ LTDA"
+                    }
+                },
+                "type": "object"
+            },
+            "TermoCredenciamentoListResponse": {
+                "properties": {
+                    "success": {
+                        "type": "boolean",
+                        "example": true
+                    },
+                    "message": {
+                        "type": "string",
+                        "example": "Termos de credenciamento encontrados com sucesso."
+                    },
+                    "data": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/TermoCredenciamento"
+                        }
+                    }
+                },
+                "type": "object"
+            },
+            "TermoCredenciamentoResponse": {
+                "properties": {
+                    "success": {
+                        "type": "boolean",
+                        "example": true
+                    },
+                    "message": {
+                        "type": "string",
+                        "example": "Termo de credenciamento encontrado com sucesso."
+                    },
+                    "data": {
+                        "$ref": "#/components/schemas/TermoCredenciamento"
+                    }
+                },
+                "type": "object"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Contratos",
+            "description": "Contratos"
+        },
+        {
+            "name": "Empenhos",
+            "description": "Empenhos"
+        },
+        {
+            "name": "Licitações",
+            "description": "Licitações"
+        },
+        {
+            "name": "Pagamentos",
+            "description": "Pagamentos"
+        },
+        {
+            "name": "Termos de Credenciamento",
+            "description": "Termos de Credenciamento"
+        }
+    ]
+}
