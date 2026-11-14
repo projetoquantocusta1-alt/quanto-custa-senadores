@@ -71,7 +71,7 @@ def test_alertas_receita():
                               "simples": {"mei": True}},
            "99888777000166": {"abertura": "2010-01-01", "situacao": "ATIVA", "simples": {"mei": False}},
            "55444333000122": {"nao_encontrado": True}}
-    pags = {"11222333000181": {"anos": {2025: 90000.0}, "primeira": "2025-03-01"},
+    pags = {"11222333000181": {"anos": {2025: 90000.0}, "primeira": "2025-03-01", "ultima": "2026-03-01"},
             "99888777000166": {"anos": {2025: 500000.0}, "primeira": "2019-03-01"}}
     al = R.alertas(cad, pags)
     tipos = sorted(a[1] for a in al)

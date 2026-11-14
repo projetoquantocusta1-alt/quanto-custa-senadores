@@ -54,7 +54,7 @@ def grupo(c14: str) -> str:
 
 def pagamentos_por_cnpj() -> dict[str, dict]:
     """{cnpj14: {"anos": {ano: valor}, "primeira": data da 1ª nota}} a partir das notas publicadas."""
-    out: dict[str, dict] = defaultdict(lambda: {"anos": defaultdict(float), "primeira": None, "senadores": set()})
+    out: dict[str, dict] = defaultdict(lambda: {"anos": defaultdict(float), "primeira": None, "ultima": None, "senadores": set()})
     for p in SAIDA.glob("*/notas/*.json"):
         if not p.parent.parent.name.isdigit():
             continue
@@ -70,6 +70,8 @@ def pagamentos_por_cnpj() -> dict[str, dict]:
             x["senadores"].add(p.stem)
             if n[0] and (x["primeira"] is None or n[0] < x["primeira"]):
                 x["primeira"] = n[0]
+            if n[0] and (x["ultima"] is None or n[0] > x["ultima"]):
+                x["ultima"] = n[0]
     return out
 
 
@@ -94,9 +96,10 @@ def alertas(cadastro: dict, pags: dict) -> list[list]:
                 out.append([c14, "aberta_antes", f"Empresa aberta em {br(ab)}, {dias} dia(s) antes da primeira nota paga pela cota ({br(pri)})."])
             elif dias is not None and dias < 0:
                 out.append([c14, "pago_antes_abertura", f"Primeira nota ({br(pri)}) com data anterior à abertura da empresa ({br(ab)})."])
-        sit = (cad.get("situacao") or "").upper()
-        if sit and sit != "ATIVA":
-            out.append([c14, "situacao", f"Situação na Receita: {sit}" + (f" desde {br(cad['data_situacao'])}" if cad.get("data_situacao") else "") + "."])
+        # só é ponto de atenção se a empresa já não estava ativa quando recebeu (fechar anos depois é normal)
+        sit, dsit, ult = (cad.get("situacao") or "").upper(), cad.get("data_situacao"), pg.get("ultima")
+        if sit and sit != "ATIVA" and dsit and ult and dsit <= ult:
+            out.append([c14, "situacao", f"Recebeu da cota em {br(ult)}, mas está {sit} na Receita desde {br(dsit)}."])
         sim = cad.get("simples") or {}
         if sim.get("mei"):
             for ano, v in sorted(pg["anos"].items()):
@@ -104,6 +107,20 @@ def alertas(cadastro: dict, pags: dict) -> list[list]:
                     out.append([c14, "mei_limite", f"MEI que recebeu R$ {v:,.2f} da cota em {ano}, acima do limite anual de faturamento do MEI (R$ {config.MEI_LIMITE:,.2f})."
                                 .replace(",", "X").replace(".", ",").replace("X", ".")])
     return out
+
+
+def refazer_alertas() -> int:
+    """Refaz alertas.json com o cadastro já publicado (sem baixar a Receita de novo)."""
+    pasta = SAIDA / "receita"
+    cad = {}
+    for p in (pasta / "cadastro").glob("*.json"):
+        cad.update(ler(p, {}) or {})
+    meta = ler(pasta / "meta.json", {}) or {}
+    al = alertas(cad, pagamentos_por_cnpj())
+    gravar(pasta / "alertas.json", {"base": meta.get("base"), "linhas": al})
+    meta["alertas"] = len(al)
+    gravar(pasta / "meta.json", meta)
+    return len(al)
 
 
 def main(argv=None):
