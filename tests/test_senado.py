@@ -97,3 +97,15 @@ def test_previsao():
     sub = 46366.19
     assert p["ativo"] and p["salario"] == round(sub * 2 + sub, 2) and p["ceaps"] == 260.0 and p["restante"] == round(sub * 3 + 260, 2)
     assert S.prever(2026, 10, [1, 2], [0] * 12, False)["restante"] == 0
+
+
+def test_gabinetes():
+    from coletor import gabinetes as G
+    serv = [{"tipoVinculo": "COMISSIONADO", "funcao": "AUXILIAR PARLAMENTAR JÚNIOR", "hierarquiaCompleta": [{"nome": "SF - Senado Federal"},
+             {"nome": "GABSEN - GABINETES DOS SENADORES"}, {"nome": "GSBFARO - GABINETE DO SENADOR BETO FARO"}]},
+            {"tipoVinculo": "EFETIVO", "funcao": "CHEFE DE GABINETE", "hierarquiaCompleta": [{"nome": "GSX - GABINETE DA SENADORA FULANA DE TAL"}]},
+            {"tipoVinculo": "EFETIVO", "funcao": "CHEFE DE SERVIÇO", "hierarquiaCompleta": [{"nome": "DGER - Diretoria-Geral"}]}]
+    r = G.resumir_servidores(serv)
+    assert set(r) == {"BETO FARO", "FULANA DE TAL"} and r["BETO FARO"]["comissionados"] == 1 and r["FULANA DE TAL"]["efetivos"] == 1
+    a = G.ler_auxilio({"data": [{"nomeParlamentar": "X", "estadoEleito": "CE", "auxilioMoradia": "N", "imovelFuncional": "S"}]})
+    assert a[0]["imovel_funcional"] and not a[0]["auxilio_moradia"]

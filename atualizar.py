@@ -288,6 +288,23 @@ def main(argv=None):
             status[ano] = f"erro: {e}"
             log.error("%s falhou: %s", ano, e)
             traceback.print_exc()
+    # fotografia do mês: equipe dos gabinetes, auxílio-moradia e imóvel funcional (a API não tem histórico)
+    try:
+        from coletor import gabinetes as G
+        foto = {"data": hoje.isoformat()}
+        serv = http.get(G.API + "/servidores?formato=json", timeout=300).json().get("data") or []
+        foto["servidores_total"] = len(serv)
+        foto["gabinetes"] = G.resumir_servidores(serv)
+        foto["auxilio_imovel"] = G.ler_auxilio(http.get(G.API + "/senadores/auxilio-moradia-imoveis-funcionais?formato=json", timeout=120).json())
+        try:
+            foto["escritorios_apoio"] = http.get(G.ERGON + "/escritorios-apoio?formato=json", timeout=120).json().get("data")
+        except Exception as e:  # noqa: BLE001
+            foto["escritorios_apoio_erro"] = str(e)
+        gravar(BRUTOS / "gabinetes" / f"{hoje:%Y-%m}.json", foto)
+        log.info("gabinetes: %d servidores, %d gabinetes, %d senadores na lista de auxílio/imóvel",
+                 len(serv), len(foto["gabinetes"]), len(foto["auxilio_imovel"]))
+    except Exception as e:  # noqa: BLE001
+        log.warning("fotografia dos gabinetes indisponível: %s", e)
     # fator de cada ano já publicado (o IPCA muda todo mês)
     for a in anos_feitos():
         r = ler(SAIDA / str(a) / "resumo.json")
