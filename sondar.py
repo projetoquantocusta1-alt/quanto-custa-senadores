@@ -35,7 +35,7 @@ def main():
     # com endereços pedidos, consulta só eles e guarda o conteúdo inteiro (até 2 MB) para estudo
     for u in (extras or PAGINAS):
         try:
-            r = http.get(u, timeout=60)
+            r = http.get(u, timeout=25)
             txt = r.text
             links = sorted({urljoin(u, m) for m in re.findall(r'href="([^"]+)"', txt)
                             if re.search(r"csv|json|xml|xls|ods|dados|servidor|lotac|moradia|imove|gabinete|remunera|senador|beneficio|despesa", m, re.I)})
@@ -47,6 +47,8 @@ def main():
                 res[u]["bruto"] = f"brutos/{nome}.txt"
         except Exception as e:  # noqa: BLE001
             res[u] = {"erro": str(e)}
+        # salva a cada endereço: se a sondagem for interrompida, o que já foi lido não se perde
+        (SAIDA / "paginas.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), "utf-8")
     (SAIDA / "paginas.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), "utf-8")
     print({u: (v.get("status"), len(v.get("links") or []), v.get("erro")) for u, v in res.items()})
 

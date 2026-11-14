@@ -18,7 +18,7 @@ concurrency:
 jobs:
   rodar:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,10 +27,12 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Sondar páginas do Senado
+        timeout-minutes: 35
         env:
           URLS: ${{ github.event.inputs.urls }}
         run: python sondar.py $URLS
       - name: Publicar
+        if: always()
         run: |
           git config user.name  "robo-quanto-custa"
           git config user.email "actions@users.noreply.github.com"
