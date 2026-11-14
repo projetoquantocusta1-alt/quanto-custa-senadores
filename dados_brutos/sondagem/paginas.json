@@ -1,26 +1,82 @@
 {
- "https://www.al.sp.gov.br/repositorioDados/deputados/despesas_gabinetes.xml": {
-  "erro": "HTTPSConnectionPool(host='www.al.sp.gov.br', port=443): Max retries exceeded with url: /repositorioDados/deputados/despesas_gabinetes.xml (Caused by ResponseError('too many 503 error responses'))"
+ "https://transparencia.al.ce.gov.br/despesas/verba-desempenho-parlamentar?mes=10&ano=2026": {
+  "status": 200,
+  "tipo": "text/html; charset=UTF-8",
+  "tamanho": 137384,
+  "links": [
+   "https://transparencia.al.ce.gov.br/despesas/despesas-classificacao-orcamentaria",
+   "https://transparencia.al.ce.gov.br/despesas/despesas-classificacao-orcamentaria            ",
+   "https://transparencia.al.ce.gov.br/despesas/despesas-diarias",
+   "https://transparencia.al.ce.gov.br/despesas/despesas-diarias            ",
+   "https://transparencia.al.ce.gov.br/despesas/despesas-notas-empenho",
+   "https://transparencia.al.ce.gov.br/despesas/despesas-notas-empenho            ",
+   "https://transparencia.al.ce.gov.br/despesas/fpp/desp-class-orc",
+   "https://transparencia.al.ce.gov.br/despesas/fpp/desp-class-orc            ",
+   "https://transparencia.al.ce.gov.br/despesas/fpp/desp-nota-emp",
+   "https://transparencia.al.ce.gov.br/despesas/fpp/desp-nota-emp            ",
+   "https://transparencia.al.ce.gov.br/despesas/fpp/receitas",
+   "https://transparencia.al.ce.gov.br/despesas/fpp/receitas            ",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos            ",
+   "https://transparencia.al.ce.gov.br/despesas/repasses-tesouro-estadual",
+   "https://transparencia.al.ce.gov.br/despesas/repasses-tesouro-estadual            ",
+   "https://transparencia.al.ce.gov.br/despesas/transferencias-voluntarias-realizadas",
+   "https://transparencia.al.ce.gov.br/despesas/transferencias-voluntarias-realizadas            ",
+   "https://transparencia.al.ce.gov.br/despesas/transferencias-voluntarias-recebidas",
+   "https://transparencia.al.ce.gov.br/despesas/transferencias-voluntarias-recebidas            ",
+   "https://transparencia.al.ce.gov.br/despesas/verba-desempenho-parlamentar",
+   "https://transparencia.al.ce.gov.br/despesas/verba-desempenho-parlamentar            ",
+   "https://transparencia.al.ce.gov.br/despesas/verba-desempenho-parlamentar/csv?mes=10&amp;ano=2026",
+   "https://transparencia.al.ce.gov.br/despesas/verba-desempenho-parlamentar?mes=10&amp;ano=2026&amp;page=2",
+   "https://transparencia.al.ce.gov.br/gestao-de-pessoas/estrutura-remuneratoria",
+   "https://transparencia.al.ce.gov.br/gestao-de-pessoas/estrutura-remuneratoria            "
+  ],
+  "texto": " window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-5CG4TQT1GT'); Verbas de Desempenho Parlamentar #box_libras { display: none !important; } #vlibras-access-wrapper { display: none !important; } Conteúdo Principal Institucional Organograma Mesa Diretora Deputados Estrutura Administrativa Carta de Serviços da Alece Diário Oficial Acesso à Informação Perguntas Frequentes Ouvidoria e SIC Fale Conosco Política de Privacidade e Proteção de Dados Governo Digital API - Interface de Programação de Aplicativos Informações Sigilosas Pesquisa de Satisfação do Portal da Transparência Política de Segurança da Informação Legislativo Votações Nominais Comissões Permanentes Constituição, Emendas, Leis, Normativos Internos e Resoluções Plenário Expediente Ordem do dia Avulso de requerimento Avulso de Projeto Oradores Atas Frentes Parlamentares Proposições Mapa de Leis Históricas Orçamento e Gestão Peças Orçamentárias Plano Plurianual Diretrizes Orçamentárias Orçamentos Anuais Balanço Geral Planejamento Estratégico Gestão Fiscal Desempenho da Gestão Julgamento de Contas Julgamento das Contas de Governo pela Alece Julgamento das Contas de Gestão da Alece pelo TCE Julgamento das Contas de Gestão do FPP pelo TCE Índice de Satisfação dos Serviços Prestados Transparência e Rastreabilidade de Emendas Auditoria Interna Receitas Assembleia Legislativa do Ceará - Alece Repasses do Tesouro Estadual Transferências Voluntarias Recebidas Fundo de Previdência Parlamentar - FPP Receitas Despesas Assembleia Legislativa do Ceará - Alece Despesas Por Classificação Orçamentária Despesas por Notas de Empenho Verbas de Desempenho Parlamentar Despesas com Diárias Pagamentos Transferências Voluntárias Realizadas Fundo de Previdência Parlamentar - FPP Despesas Por Classificação Orçamentária Despesas Por Notas de Empenho Licitações, Contratos e Convênios Plano de Contratações Anual - PCA Licitações Contratos Convênios com Transferência de Recursos Termos de Credenciamento Acordos e Convênios sem Transferências de Recursos Licitantes e Contratados Sancionados Obras Gestão de Pessoas Estrutura Remuneratória Estagiários Membros e Servidores Concursos Públicos Seleção de Estagiários Início Institucional Organograma Mesa Diretora Deputados Estrutura Administrativa Carta de Serviços da Alece Diário Oficial Acesso à Informação Perguntas Frequentes Ouvidoria e SIC Fale Conosco Política de Privacidade e Proteção de Dados Governo Digital API - Interface de Programação de Aplicativos Informações Sigilosas Pesquisa de Satisfação do Portal da Transparência Política de Segurança da Informação Legislativo Votações Nominais Comissões Permanentes Constituição, Emendas, Leis, Normativos Internos e Resoluções Plenário Expediente Ordem do dia Avulso de requerimento Avulso de Projeto Oradores Atas Frentes Parlamentares Proposições Mapa de Leis Históricas Orçamento e Gestão Peças Orçamentárias Plano Plurianual Diretrizes Orçamentárias Orçamentos Anuais Balanço Geral Planejamento Estratégico Gestão Fiscal Desempenho da Gestão Julgamento de Contas Julgamento das Contas de Governo pela Alece Julgamento das Contas de Gestão da Alece pelo TCE Julgamento das Contas de Gestão do FPP pelo TCE Índice de Satisfação dos Serviços Prestados Transparência e Rastreabilidade de Emendas Auditoria Interna Receitas Assembleia Legislativa do Ceará - Alece Repasses do Tesouro Estadual Transferências Voluntarias Recebidas Fundo de Previdência Parlamentar - FPP Receitas Despesas Assembleia Legislativa do Ceará - Alece Despesas Por Classificação Orçamentária Despesas por Notas de Empenho Verbas de Desempenho Parlamentar Despesas com Diárias Pagamentos Transferências Voluntárias Realizadas Fundo de Previdência Parlamentar - FPP Despesas Por Classificação Orçamentária Despesas Por Notas de Empenho Licitações, Contratos e Convênios Plano de Contratações Anual - PCA Licitações Contratos Convênios com Transferência de Recursos Termos de Credenciamento Acordos e Convênios sem Transferências de Recursos Licitantes e Contratados Sancionados Obras Gestão de Pessoas Estrutura Remuneratória Estagiários Membros e Servidores Concursos Públicos Seleção de Estagiários Você está aqui: Página principal Despesas Assembleia Legislativa do Ceará - Alece Verbas de Desempenho Parlamentar Verbas de Desempenho Parlamentar Verbas de Desempenho Parlamentar A Verba de Desempenho Parlamentar (VDP) é uma verba mensal destinada às despesas de custeio dos gabinetes dos Deputados Estaduais, para viabilizar o exercício do mandato parlamentar. A VDP é disciplinada, na Alece, pelos seguintes normativos: Resolução nº 287, de 25 de junho de 1992 (revogada) Ato Normativo nº 225, de 11 de junho de 2003 (revogado) Ato Normativo nº 231, de 01 de janeiro de 2005 (revogado) Ato Deliberativo nº 929, de 14 de março de 2023 (vigente) Resolução nº 762, de 21 de dezembro de 2023 &nbsp;(vigente) Ato Normativo nº 343, de 05 de fevereiro de 2024 (vigente) Ato Deliberativo nº 1001/2026 (vigente) &nbsp;Aqui, é possível acessar as despesas de VDP por parlamentar. Mês Janeiro Fevereiro Março Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro Ano 2026 2025 2024 2023 2022 2021 Nome CONTEÚDO PESQUISADO Outubro 2026 Dados Abertos Baixar em formato CSV NOME DETALHE DEP AGENOR NETO DEP ALCIDES FERNANDES DEP ALYSSON AGUIAR DEP ANTONIO GRANJA DEP ANTONIO HEMRIQUE DEP ANTONIO HENRIQUE DEP AP LUIZ HENRIQUE DEP BRUNO PEDROSA DEP CARMELO BOLSONARO DEP CLAUDIO PINHO DEP CLAUDIO PINHO DEP DANNIEL OLIVEIRA DEP DAVID DURAND DEP DAVI DE RAIMUNDAO DEP DE ASSIS DINIZ DEP DRA SILVANA DEP EMILIA PESSOA DEP FELIPE MOTA DEP FERNANDO HUGO DEP FERNANDO SANTANA DEP FIRMO CAMURCA DEP GUILHERME BISMARCK DEP GUILHERME LANDIM DEP GUILHERME SAMAPAIO DEP GUILHERME SAMPAIO DEP HEITOR FERRER DEP JEOVA MOTA DEP JOAO JAIME DEP JO FARIAS Fonte: Sistema de Gestão Governamental por Resultados - S2GPR até 2021 Sistema Integrado de Planejamento e Administração Financeira do E",
+  "bruto": "brutos/73b3c7ef06.txt"
  },
- "https://www.al.sp.gov.br/dados-abertos/dataset/5": {
-  "erro": "HTTPSConnectionPool(host='www.al.sp.gov.br', port=443): Max retries exceeded with url: /dados-abertos/dataset/5 (Caused by ResponseError('too many 503 error responses'))"
- },
- "https://dadosabertos.almg.gov.br/ws/ajuda/sobre": {
-  "erro": "HTTPSConnectionPool(host='dadosabertos.almg.gov.br', port=443): Max retries exceeded with url: /ws/ajuda/sobre (Caused by ConnectTimeoutError(<HTTPSConnection(host='dadosabertos.almg.gov.br', port=443) at 0x7519f55b3860>, 'Connection to dadosabertos.almg.gov.br timed out. (connect timeout=25)'))"
- },
- "https://dadosabertos.almg.gov.br/ws/deputados/em_exercicio?formato=json": {
-  "erro": "HTTPSConnectionPool(host='dadosabertos.almg.gov.br', port=443): Max retries exceeded with url: /ws/deputados/em_exercicio?formato=json (Caused by ConnectTimeoutError(<HTTPSConnection(host='dadosabertos.almg.gov.br', port=443) at 0x7519f55f0500>, 'Connection to dadosabertos.almg.gov.br timed out. (connect timeout=25)'))"
- },
- "https://dados.cl.df.gov.br/api/3/action/package_show?id=verbas-indenizatorias": {
-  "erro": "HTTPSConnectionPool(host='dados.cl.df.gov.br', port=443): Max retries exceeded with url: /api/3/action/package_show?id=verbas-indenizatorias (Caused by ConnectTimeoutError(<HTTPSConnection(host='dados.cl.df.gov.br', port=443) at 0x7519f55f15b0>, 'Connection to dados.cl.df.gov.br timed out. (connect timeout=25)'))"
- },
- "https://www.alepe.pe.gov.br/transparencia-verba-indenizatoria/": {
-  "erro": "HTTPSConnectionPool(host='www.alepe.pe.gov.br', port=443): Max retries exceeded with url: /transparencia-verba-indenizatoria/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.alepe.pe.gov.br', port=443) at 0x7519f55b3920>, 'Connection to www.alepe.pe.gov.br timed out. (connect timeout=25)'))"
- },
- "https://transparencia.al.rs.gov.br/": {
-  "erro": "HTTPSConnectionPool(host='transparencia.al.rs.gov.br', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='transparencia.al.rs.gov.br', port=443) at 0x7519f698f110>, 'Connection to transparencia.al.rs.gov.br timed out. (connect timeout=25)'))"
- },
- "https://www.alerj.rj.gov.br/Transparencia": {
-  "erro": "404 Client Error: Not Found for url: https://www.alerj.rj.gov.br/Transparencia?AspxAutoDetectCookieSupport=1"
+ "https://transparencia.al.ce.gov.br/despesas/pagamentos": {
+  "status": 200,
+  "tipo": "text/html; charset=UTF-8",
+  "tamanho": 133926,
+  "links": [
+   "https://transparencia.al.ce.gov.br/despesas/despesas-classificacao-orcamentaria",
+   "https://transparencia.al.ce.gov.br/despesas/despesas-classificacao-orcamentaria            ",
+   "https://transparencia.al.ce.gov.br/despesas/despesas-diarias",
+   "https://transparencia.al.ce.gov.br/despesas/despesas-diarias            ",
+   "https://transparencia.al.ce.gov.br/despesas/despesas-notas-empenho",
+   "https://transparencia.al.ce.gov.br/despesas/despesas-notas-empenho            ",
+   "https://transparencia.al.ce.gov.br/despesas/fpp/desp-class-orc",
+   "https://transparencia.al.ce.gov.br/despesas/fpp/desp-class-orc            ",
+   "https://transparencia.al.ce.gov.br/despesas/fpp/desp-nota-emp",
+   "https://transparencia.al.ce.gov.br/despesas/fpp/desp-nota-emp            ",
+   "https://transparencia.al.ce.gov.br/despesas/fpp/receitas",
+   "https://transparencia.al.ce.gov.br/despesas/fpp/receitas            ",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos            ",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos/csv?ano=2026",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos?ano=2026&amp;page=10",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos?ano=2026&amp;page=191",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos?ano=2026&amp;page=192",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos?ano=2026&amp;page=2",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos?ano=2026&amp;page=3",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos?ano=2026&amp;page=4",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos?ano=2026&amp;page=5",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos?ano=2026&amp;page=6",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos?ano=2026&amp;page=7",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos?ano=2026&amp;page=8",
+   "https://transparencia.al.ce.gov.br/despesas/pagamentos?ano=2026&amp;page=9",
+   "https://transparencia.al.ce.gov.br/despesas/repasses-tesouro-estadual",
+   "https://transparencia.al.ce.gov.br/despesas/repasses-tesouro-estadual            ",
+   "https://transparencia.al.ce.gov.br/despesas/transferencias-voluntarias-realizadas",
+   "https://transparencia.al.ce.gov.br/despesas/transferencias-voluntarias-realizadas            ",
+   "https://transparencia.al.ce.gov.br/despesas/transferencias-voluntarias-recebidas",
+   "https://transparencia.al.ce.gov.br/despesas/transferencias-voluntarias-recebidas            ",
+   "https://transparencia.al.ce.gov.br/despesas/verba-desempenho-parlamentar",
+   "https://transparencia.al.ce.gov.br/despesas/verba-desempenho-parlamentar            ",
+   "https://transparencia.al.ce.gov.br/gestao-de-pessoas/estrutura-remuneratoria",
+   "https://transparencia.al.ce.gov.br/gestao-de-pessoas/estrutura-remuneratoria            "
+  ],
+  "texto": " window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-5CG4TQT1GT'); Pagamentos #box_libras { display: none !important; } #vlibras-access-wrapper { display: none !important; } Conteúdo Principal Institucional Organograma Mesa Diretora Deputados Estrutura Administrativa Carta de Serviços da Alece Diário Oficial Acesso à Informação Perguntas Frequentes Ouvidoria e SIC Fale Conosco Política de Privacidade e Proteção de Dados Governo Digital API - Interface de Programação de Aplicativos Informações Sigilosas Pesquisa de Satisfação do Portal da Transparência Política de Segurança da Informação Legislativo Votações Nominais Comissões Permanentes Constituição, Emendas, Leis, Normativos Internos e Resoluções Plenário Expediente Ordem do dia Avulso de requerimento Avulso de Projeto Oradores Atas Frentes Parlamentares Proposições Mapa de Leis Históricas Orçamento e Gestão Peças Orçamentárias Plano Plurianual Diretrizes Orçamentárias Orçamentos Anuais Balanço Geral Planejamento Estratégico Gestão Fiscal Desempenho da Gestão Julgamento de Contas Julgamento das Contas de Governo pela Alece Julgamento das Contas de Gestão da Alece pelo TCE Julgamento das Contas de Gestão do FPP pelo TCE Índice de Satisfação dos Serviços Prestados Transparência e Rastreabilidade de Emendas Auditoria Interna Receitas Assembleia Legislativa do Ceará - Alece Repasses do Tesouro Estadual Transferências Voluntarias Recebidas Fundo de Previdência Parlamentar - FPP Receitas Despesas Assembleia Legislativa do Ceará - Alece Despesas Por Classificação Orçamentária Despesas por Notas de Empenho Verbas de Desempenho Parlamentar Despesas com Diárias Pagamentos Transferências Voluntárias Realizadas Fundo de Previdência Parlamentar - FPP Despesas Por Classificação Orçamentária Despesas Por Notas de Empenho Licitações, Contratos e Convênios Plano de Contratações Anual - PCA Licitações Contratos Convênios com Transferência de Recursos Termos de Credenciamento Acordos e Convênios sem Transferências de Recursos Licitantes e Contratados Sancionados Obras Gestão de Pessoas Estrutura Remuneratória Estagiários Membros e Servidores Concursos Públicos Seleção de Estagiários Início Institucional Organograma Mesa Diretora Deputados Estrutura Administrativa Carta de Serviços da Alece Diário Oficial Acesso à Informação Perguntas Frequentes Ouvidoria e SIC Fale Conosco Política de Privacidade e Proteção de Dados Governo Digital API - Interface de Programação de Aplicativos Informações Sigilosas Pesquisa de Satisfação do Portal da Transparência Política de Segurança da Informação Legislativo Votações Nominais Comissões Permanentes Constituição, Emendas, Leis, Normativos Internos e Resoluções Plenário Expediente Ordem do dia Avulso de requerimento Avulso de Projeto Oradores Atas Frentes Parlamentares Proposições Mapa de Leis Históricas Orçamento e Gestão Peças Orçamentárias Plano Plurianual Diretrizes Orçamentárias Orçamentos Anuais Balanço Geral Planejamento Estratégico Gestão Fiscal Desempenho da Gestão Julgamento de Contas Julgamento das Contas de Governo pela Alece Julgamento das Contas de Gestão da Alece pelo TCE Julgamento das Contas de Gestão do FPP pelo TCE Índice de Satisfação dos Serviços Prestados Transparência e Rastreabilidade de Emendas Auditoria Interna Receitas Assembleia Legislativa do Ceará - Alece Repasses do Tesouro Estadual Transferências Voluntarias Recebidas Fundo de Previdência Parlamentar - FPP Receitas Despesas Assembleia Legislativa do Ceará - Alece Despesas Por Classificação Orçamentária Despesas por Notas de Empenho Verbas de Desempenho Parlamentar Despesas com Diárias Pagamentos Transferências Voluntárias Realizadas Fundo de Previdência Parlamentar - FPP Despesas Por Classificação Orçamentária Despesas Por Notas de Empenho Licitações, Contratos e Convênios Plano de Contratações Anual - PCA Licitações Contratos Convênios com Transferência de Recursos Termos de Credenciamento Acordos e Convênios sem Transferências de Recursos Licitantes e Contratados Sancionados Obras Gestão de Pessoas Estrutura Remuneratória Estagiários Membros e Servidores Concursos Públicos Seleção de Estagiários Você está aqui: Página principal Despesas Assembleia Legislativa do Ceará - Alece Pagamentos Pagamentos Pagamentos Nesta página, você pode consultar os pagamentos realizados pela Assembleia Legislativa do Estado do Ceará (Alece). O pagamento corresponde à etapa em que a Alece efetua a quitação da despesa, após a verificação do cumprimento das condições necessárias, como a entrega do bem ou a prestação do serviço. A ordem cronológica dos pagamentos observa o disposto no art. 141 da Lei Federal nº 14.133/2021 (Lei de Licitações e Contratos). A divulgação dessas informações atende ao disposto na Lei Federal nº 12.527/2011 (Lei de Acesso à Informação – LAI), contribuindo para a transparência e o acompanhamento da execução das despesas públicas. &nbsp; Ano 2026 2025 2024 2023 2022 2021 Credor Nº Nota de Empenho Fonte Selecione a fonte... COTA-PARTE DO FUNDO DE PARTICIPAÇÃO DOS ESTADOS OUTROS RECURSOS NÃO VINCULADOS RECURSOS NÃO VINCULADOS DE IMPOSTOS RECURSOS ORDINÁRIOS RECURSOS ORDINÁRIOS - EXERCÍCIOS ANTERIORES Categoria Selecione a categoria... NÃO DEFINIDO REALIZAÇÃO DE OBRAS OUTROS LOCAÇÕES PRESTAÇÃO DE SERVIÇOS FORNECIMENTO DE BENS CONTEÚDO PESQUISADO 2026 Dados Abertos Baixar em formato CSV FONTE IDENTIFICAÇÃO DO PAGAMENTO DATA DE LIQUIDAÇÃO DATA DO PAGAMENTO CREDOR VALOR ORIGEM DO CRÉDITO CATEGORIA JUSTIFICATIVA ALTERAÇÃO DA ORDEM RECURSOS NÃO VINCULADOS DE IMPOSTOS 2026OB010313 11/11/2026 12/11/2026 ITALO GERMANO DA COSTA 1.800,00 2026NE006036 OUTROS - RECURSOS NÃO VINCULADOS DE IMPOSTOS 2026OB010312 11/11/2026 12/11/2026 LAECIO MENDES CUNHA DE ARAUJO 555,00 2026NE007087 OUTROS - RECURSOS NÃO VINCULADOS DE IMPOSTOS 2026OB010311 11/11/2026 12/11/2026 ANTONIO REINALDO FERREIRA PAES 120,00 2026NE007086 OUTROS - RECURSOS NÃO VINCULADOS DE IMPOSTOS 2026OB010310 11/11/2",
+  "bruto": "brutos/726e815b63.txt"
  }
 }
