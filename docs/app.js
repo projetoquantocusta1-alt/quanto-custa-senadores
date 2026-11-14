@@ -256,6 +256,7 @@ async function fichaSenador(id) {
       <p class="sub">${esc(s.partido)}${s.uf ? "-" + esc(s.uf) : ""} · ${nf(s.meses)} meses em exercício ${s.url ? `· <a href="${esc(s.url)}" target="_blank" rel="noopener">página oficial</a>` : ""}</p></div></div>
     <div class="kpis">${[["Custo", brl(V(s, "custo"))], ["Salário", brl(V(s, "salario"))], ["Cota (CEAPS)", brl(V(s, "ceaps"))], ["Por mês", brl(s.meses ? V(s, "custo") / s.meses : 0)],
       ...(!tot() && s.previsao?.restante ? [["Previsão até dezembro", "+" + brl(s.previsao.restante * s.F)]] : [])].map(([a, b]) => `<div class="kpi"><div class="rot">${a}</div><div class="val num">${b}</div></div>`).join("")}</div>
+    <p class="sub"><button class="btn" id="card-sen" type="button">Gerar imagem para compartilhar</button></p>
     <div class="d-grade2"><div><h3 class="d-sec">Cota por mês em ${anoN}</h3><div class="canvas-box"><canvas id="g-f-mes"></canvas></div></div>
       <div><h3 class="d-sec">Ano a ano</h3><div class="canvas-box"><canvas id="g-f-hist"></canvas></div></div></div>
     <div id="ficha-gab"></div>
@@ -268,6 +269,7 @@ async function fichaSenador(id) {
     <p class="aviso-comprovante"><b>O Senado não publica a imagem dos comprovantes</b> (notas fiscais e recibos), diferente da Câmara dos Deputados. Aqui aparecem só os dados digitados pelo Senado. O comprovante de uma nota pode ser pedido pela Lei de Acesso à Informação, no Serviço de Informação ao Cidadão (SIC) do Senado.</p>
     ${nd ? `<div class="filtros-tabela"><input id="n-q" class="mini-busca" type="search" placeholder="Fornecedor, documento, passageiro ou detalhe"></div><div class="tabela-rolagem"><table class="ranking notas-tab" id="n-tab"></table></div>` : `<p class="sub">Sem notas neste ano.</p>`}`);
   blocoGabinete(id).then((h) => { const el = $("#ficha-gab"); if (el) el.innerHTML = h; });
+  $("#card-sen").onclick = () => cartaoSenador(s, D, anoN, nd, F);
   if (sa) grafico("g-f-mes", { type: "bar", data: { labels: MESES, datasets: [{ label: "Cota", data: (sa.mensal_ceaps || []).map((v) => v * F), backgroundColor: css("--accent") }] }, options: { maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: tipBRL }, scales: { y: { ticks: { callback: (v) => curto(v) } } } } });
   grafico("g-f-hist", { type: "bar", data: { labels: hist.map((h) => h[0]), datasets: [{ label: "Salário", data: hist.map(([, y, f]) => y.custos.salario * f), backgroundColor: "#14283F" }, { label: "Cota", data: hist.map(([, y, f]) => y.custos.ceaps * f), backgroundColor: "#2475B8" }] },
     options: { maintainAspectRatio: false, plugins: { tooltip: tipBRL }, scales: { x: { stacked: true }, y: { stacked: true, ticks: { callback: (v) => curto(v) } } } } });
@@ -279,6 +281,31 @@ async function fichaSenador(id) {
         `</tbody><tfoot><tr><td colspan="5">Total (${nf(ns.length)} notas)</td><td class="num">${brl(soma(ns.map((n) => n[4] * F)), 2)}</td></tr></tfoot>`; };
     $("#n-q").oninput = desenhar; desenhar();
   }
+}
+
+// ---------------------------------------------------------------- cartão para compartilhar
+async function cartaoSenador(s, D, anoN, nd, F) {
+  const ord = D.slice().sort((a, b) => V(b, "custo") - V(a, "custo")), pos = ord.findIndex((x) => x.id === s.id) + 1, n = ord.length;
+  const caro = pos <= Math.ceil(n / 2);
+  const porForn = {};
+  (nd?.notas || []).forEach((x) => { porForn[x[3]] = (porForn[x[3]] || 0) + x[4]; });
+  const top = Object.entries(porForn).sort((a, b) => b[1] - a[1])[0], fo = top ? nd.fornecedores[top[0]] || [] : [];
+  const G = await gabinetes().catch(() => null), g = G?.por_senador?.[String(s.id)];
+  const cat = Object.entries(s.categorias || {}).sort((a, b) => b[1] - a[1])[0];
+  const destaques = [];
+  if (top) destaques.push([`Quem mais recebeu da cota: ${fo[1] || "—"}`, `${brl(top[1] * F)} em ${anoN}${fo[2] ? " · " + fo[2] : ""}`, "#118dff"]);
+  if (g) destaques.push([`${nf(g.total)} pessoas na equipe do gabinete`, "lista de servidores do Senado (o salário de cada assessor não é publicado)", "#107c41"]);
+  else if (cat) destaques.push([`Maior gasto da cota: ${cat[0]}`, brl(cat[1] * (tot() ? 1 : s.F)), "#107c41"]);
+  CartaoQC.abrir({
+    titulo: tot() ? `Custo de todos os anos (${rotAno()})` : `Custo do mandato em ${E.ano}`,
+    nome: s.nome, foto: `dados/fotos/${s.id}.jpg`, linhas: [`${s.partido || ""}${s.uf ? "-" + s.uf : ""}`, `${nf(s.meses)} meses em exercício${tot() ? "" : " em " + E.ano}`],
+    faixa: pos ? { titulo: pos === 1 ? "Senador mais caro" : caro ? `${pos}º mais caro` : `${n - pos + 1}º mais econômico`, sub: `entre ${n} senadores · ${tot() ? "todos os anos" : "em " + E.ano}`, cor: caro ? "#c4161c" : "#107c41" } : null,
+    valorRot: "Custou aos cofres públicos", valor: V(s, "custo"), valorSub: s.meses ? `${brl(V(s, "custo") / s.meses)} por mês, em média` : "",
+    destaques,
+    composicao: [["Salário", V(s, "salario"), "#14283F"], ["Cota parlamentar (CEAPS)", V(s, "ceaps"), "#2475B8"]],
+    fonte: `Fonte: Senado Federal (dados abertos)${corrigir() ? " · valores corrigidos pelo IPCA" : ""} · sem a equipe do gabinete`,
+    arquivo: `${semAcento(s.nome).replace(/\W+/g, "-")}-${tot() ? "todos-os-anos" : E.ano}`,
+  });
 }
 
 // ---------------------------------------------------------------- notas da semana

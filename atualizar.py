@@ -288,6 +288,17 @@ def main(argv=None):
             status[ano] = f"erro: {e}"
             log.error("%s falhou: %s", ano, e)
             traceback.print_exc()
+    # fotos oficiais no próprio site (para a imagem de compartilhar)
+    try:
+        from coletor.fotos import baixar_fotos
+        itens = {}
+        for p in sorted(SAIDA.glob("*/resumo.json"), reverse=True)[:3]:
+            for x in (ler(p, {}) or {}).get("senadores") or []:
+                if isinstance(x.get("id"), int) and x.get("foto"):
+                    itens.setdefault(x["id"], x["foto"])
+        baixar_fotos(sorted(itens.items()), SAIDA / "fotos", BRUTOS / "fotos_sem.json")
+    except Exception as e:  # noqa: BLE001
+        log.warning("fotos: %s", e)
     # fotografia do mês: equipe dos gabinetes, auxílio-moradia e imóvel funcional (a API não tem histórico)
     try:
         from coletor import gabinetes as G
