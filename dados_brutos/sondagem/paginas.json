@@ -202,6 +202,10 @@
   "texto": "Sitemap: /sitemap.xml.gz Sitemap: /ril/sitemap.txt User-agent: * Disallow: User-Agent: Googlebot Disallow: /*sendto_form$ Disallow: /*folder_factories$ "
  },
  "https://quantocustaum.goatcounter.com/counter/TOTAL.json": {
-  "erro": "403 Client Error: Forbidden for url: https://quantocustaum.goatcounter.com/counter/TOTAL.json"
+  "status": 200,
+  "tipo": "application/json",
+  "tamanho": 33,
+  "links": [],
+  "texto": "{\"count_unique\":\"4\", \"count\":\"4\"}"
  }
 }
