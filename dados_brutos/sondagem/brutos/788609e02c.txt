@@ -13,9 +13,8 @@
     <title>Assembleia Legislativa da Paraíba</title>
 
     <meta name='robots' content='max-image-preview:large' />
-<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Assembleia Legislativa da Paraíba &raquo; Transparência" href="https://www.al.pb.leg.br/transparencia/feed" />
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.al.pb.leg.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.al.pb.leg.br%2Ftransparencia" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.al.pb.leg.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.al.pb.leg.br%2Ftransparencia&#038;format=xml" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.al.pb.leg.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.al.pb.leg.br%2Ftransparencia%2Frecursos-humanos%2Fremuneracoes" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.al.pb.leg.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.al.pb.leg.br%2Ftransparencia%2Frecursos-humanos%2Fremuneracoes&#038;format=xml" />
 	<style type="text/css">
 	.wp-pagenavi{float:left !important; }
 	</style>
@@ -85,10 +84,10 @@ var easy_video_player = {"plyr_iconUrl":"https://www.al.pb.leg.br/wp-content/plu
 //# sourceURL=plyr-js-js-extra
 </script>
 <script id="plyr-js-js" src="https://www.al.pb.leg.br/wp-content/plugins/easy-video-player/lib/plyr.js?ver=7.1.4"></script>
-<link rel="https://api.w.org/" href="https://www.al.pb.leg.br/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.al.pb.leg.br/wp-json/wp/v2/pages/385" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.al.pb.leg.br/xmlrpc.php?rsd" />
+<link rel="https://api.w.org/" href="https://www.al.pb.leg.br/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.al.pb.leg.br/wp-json/wp/v2/pages/41633" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.al.pb.leg.br/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 7.1.4" />
-<link rel="canonical" href="https://www.al.pb.leg.br/transparencia" />
-<link rel='shortlink' href='https://www.al.pb.leg.br/?p=385' />
+<link rel="canonical" href="https://www.al.pb.leg.br/transparencia/recursos-humanos/remuneracoes" />
+<link rel='shortlink' href='https://www.al.pb.leg.br/?p=41633' />
 
 <!-- This site is using AdRotate v5.19.3 to display their advertisements - https://ajdg.solutions/ -->
 <!-- AdRotate CSS -->
@@ -114,7 +113,7 @@ var easy_video_player = {"plyr_iconUrl":"https://www.al.pb.leg.br/wp-content/plu
 	}
 	</style>
 	    </head>
-<body class="wp-singular page-template page-template-page-transparencia page-template-page-transparencia-php page page-id-385 page-parent wp-theme-alpb">
+<body class="wp-singular page-template-default page page-id-41633 page-child parent-pageid-6225 wp-theme-alpb">
 
 <header>
     <div class="topbar">
@@ -244,9 +243,9 @@ var easy_video_player = {"plyr_iconUrl":"https://www.al.pb.leg.br/wp-content/plu
             <div class="navbar-content">
                 <nav class="navbar-menu">
                     <div class="menu-principal">
-                        <ul class="menu"><li id="menu-item-63910" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-63910"><a href="#">Transparência</a>
+                        <ul class="menu"><li id="menu-item-63910" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-63910"><a href="#">Transparência</a>
 <ul class="sub-menu">
-	<li id="menu-item-62283" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-385 current_page_item menu-item-62283"><a href="https://www.al.pb.leg.br/transparencia" aria-current="page">Portal da Transparência</a></li>
+	<li id="menu-item-62283" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-62283"><a href="https://www.al.pb.leg.br/transparencia">Portal da Transparência</a></li>
 	<li id="menu-item-62315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62315"><a href="https://www.al.pb.leg.br/relatorios-de-gestao-fiscal">Relatórios de Gestão Fiscal</a></li>
 </ul>
 </li>
@@ -303,9 +302,9 @@ var easy_video_player = {"plyr_iconUrl":"https://www.al.pb.leg.br/wp-content/plu
 <div id="mobile-menu" class="mobile-menu">
     <button class="close-mobile">✕</button>
 
-    <ul id="menu-main-menu-1" class="mobile-nav"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-63910"><a href="#">Transparência</a>
+    <ul id="menu-main-menu-1" class="mobile-nav"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-63910"><a href="#">Transparência</a>
 <ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-385 current_page_item menu-item-62283"><a href="https://www.al.pb.leg.br/transparencia" aria-current="page">Portal da Transparência</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-62283"><a href="https://www.al.pb.leg.br/transparencia">Portal da Transparência</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62315"><a href="https://www.al.pb.leg.br/relatorios-de-gestao-fiscal">Relatórios de Gestão Fiscal</a></li>
 </ul>
 </li>
@@ -353,139 +352,151 @@ var easy_video_player = {"plyr_iconUrl":"https://www.al.pb.leg.br/wp-content/plu
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62304"><a href="https://www.al.pb.leg.br/espaco-do-servidor">Espaço do Servidor</a></li>
 </ul></div>
 
-<div id="page-transparencia">
-    <div id="content">
-        <!-- cabeçalho -->
-        <div class="noticias-header">
-            <div class="noticias-title-container">
-                <div class="noticias-title-bar"></div>
-                <a class="noticias-title">Portal da Transparência</a>
+<div class="container_24">
+    <div id="content" class="interna grid_19 prefix_1">
+        <article class="quantitativo-section">
+
+            <div class="quantitativo-header">
+                <div class="quantitativo-title-bar"></div>
+                <h3 class="quantitativo-title">Remunerações</h3>
             </div>
-            <div class="noticias-header-right">
-                <div class="noticias-header-circle"></div>
+
+                <form class="viap-filter-form" action="https://www.al.pb.leg.br/transparencia/recursos-humanos/remuneracoes">
+        
+        <label for="mes">Mês:</label>
+        <select name="mes" id="mes">
+            <option value="0">Escolha um mês</option>
+            <option  value='1'>01</option>
+<option  value='2'>02</option>
+<option  value='3'>03</option>
+<option  value='4'>04</option>
+<option  value='5'>05</option>
+<option  value='6'>06</option>
+<option  value='7'>07</option>
+<option  value='8'>08</option>
+<option  value='9'>09</option>
+<option  value='10'>10</option>
+<option selected='selected' value='11'>11</option>
+<option  value='12'>12</option>
+        </select>
+
+        <label for="ano">Ano:</label>
+        <select name="ano" id="ano">
+            <option value="0">Escolha um ano</option>
+            <option selected='selected' value='2026'>2026</option>
+<option  value='2025'>2025</option>
+<option  value='2024'>2024</option>
+<option  value='2023'>2023</option>
+<option  value='2022'>2022</option>
+<option  value='2021'>2021</option>
+        </select>
+
+        <input class="bt-link" type="submit" value="Pesquisar" />
+
+            </form>
+    
+            <p class='quantitativo-periodo'>Exibindo Remunerações do mês <b>novembro</b> de <b>2026</b>:</p><div class='clear'></div>
+            <div id="menu-remuneracoes">
+                                    <p class="quantitativo-empty">
+                        Nenhuma remuneração foi encontrada
+                                            </p>
+                            </div>
+
+            <p class="quantitativo-update"><b>Atualizado em: </b>setembro de 2026</p>
+
+            <div class="quantitativo-previous">
+                <p>Para acesso às consultas anteriores, utilizar o botão abaixo:</p>
+                <a class="bt-link-anteriores" title="Remunerações" href="http://www.al.pb.leg.br/remuneracao-dos-parlamentares-e-servidores-da-alpb">Remunerações</a>
             </div>
-        </div>
 
-        <div class="transparencia-wrapper">
-            <div class="transparencia-content">
-                <ul id="menu-grande">
-                    <li class="administracao">
-                        <span class="material-symbols-outlined">account_balance</span>
-                        Administração
-                    </li>
-                    <li class="recursos-humanos">
-                        <span class="material-symbols-outlined">diversity_3</span>
-                        Recursos Humanos
-                    </li>
-                    <li class="funcionamento">
-                        <span class="material-symbols-outlined">description</span>
-                        Funcionamento
-                    </li>
-                    <li class="deputados">
-                        <span class="material-symbols-outlined">person</span>
-                        Deputados
-                    </li>
-                </ul>
-
-                <div class="clear"></div>
-
-                <div class="menus-container">
-                    <!-- administração -->
-                    <div id="content-administracao" class="box-content">
-                        <h3>Administração</h3>
-                        <nav>
-                            <ul id="menu-menu-administracao" class="lista-v"><li id="menu-item-37030" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37030"><a href="https://www.al.pb.leg.br/receitas">Receitas</a></li>
-<li id="menu-item-37036" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37036"><a href="https://www.al.pb.leg.br/despesas">Despesas</a></li>
-<li id="menu-item-15883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15883"><a href="https://www.al.pb.leg.br/relatorios-de-gestao-fiscal">Relatório de Gestão Fiscal</a></li>
-<li id="menu-item-37232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37232"><a href="https://www.al.pb.leg.br/prestacao-de-contas-anuais">Prestação de Contas Anuais</a></li>
-<li id="menu-item-37822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37822"><a href="https://www.al.pb.leg.br/publicidade-institucional">Publicidade Institucional</a></li>
-<li id="menu-item-48629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48629"><a href="https://www.al.pb.leg.br/transparencia/administracao/contratacao-direta">Contratação Direta de Pequenos Valores</a></li>
-<li id="menu-item-6425" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6425"><a href="https://www.al.pb.leg.br/transparencia/administracao/licitacoes">Licitações</a></li>
-<li id="menu-item-37221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37221"><a href="https://www.al.pb.leg.br/relatorios-licitatorios">Relatórios Licitatórios</a></li>
-<li id="menu-item-37210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37210"><a href="https://www.al.pb.leg.br/contratos">Contratos</a></li>
-<li id="menu-item-62600" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62600"><a href="https://www.al.pb.leg.br/distratos">Distratos</a></li>
-<li id="menu-item-62599" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62599"><a href="https://www.al.pb.leg.br/aditivos">Aditivos</a></li>
-<li id="menu-item-42976" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42976"><a href="https://www.al.pb.leg.br/ata-de-registro-de-precos">Ata de Registro de Preços</a></li>
-<li id="menu-item-8878" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8878"><a href="http://www.al.pb.leg.br/wp-content/uploads/2013/08/competencia_orgaos_alpb.pdf">Secretarias</a></li>
-<li id="menu-item-42960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42960"><a href="https://www.al.pb.leg.br/transparencia/administracao/prestadores">Prestadores de Serviços de Apoio Parlamentar</a></li>
-<li id="menu-item-55288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55288"><a href="https://www.al.pb.leg.br/inexigibilidade-de-licitacao">Inexigibilidade de Licitação</a></li>
-<li id="menu-item-55291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55291"><a href="https://www.al.pb.leg.br/dispensa-de-licitacao">Dispensa de Licitação</a></li>
-</ul>                        </nav>
+        </article>
+        <!-- Últimas Notícias -->
+        <div class="single-ultimas-noticias">
+            <section class="ultimas-noticias-section">
+                <div class="container-ultimas-noticias">
+                    <div class="section-header">
+                        <h2 class="news-title">Últimas Notícias</h2>
                     </div>
 
-                    <!-- recursos Humanos -->
-                    <div id="content-recursos-humanos" class="box-content">
-                        <h3>Recursos Humanos</h3>
-                        <nav>
-                            <ul id="menu-menu-recursos-humanos" class="lista-v"><li id="menu-item-7866" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7866"><a href="http://www.al.pb.leg.br/wp-content/uploads/2020/02/ORGANOGRAMA-ALTERADO.pdf">Organograma</a></li>
-<li id="menu-item-43988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43988"><a href="https://www.al.pb.leg.br/transparencia/recursos-humanos/estrutura-remuneratoria">Estrutura Remuneratória</a></li>
-<li id="menu-item-42958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42958"><a href="https://www.al.pb.leg.br/transparencia/recursos-humanos/quadros">Quantitativo de Cargos</a></li>
-<li id="menu-item-42959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42959"><a href="https://www.al.pb.leg.br/transparencia/recursos-humanos/remuneracoes">Remunerações</a></li>
-<li id="menu-item-41605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41605"><a href="https://www.al.pb.leg.br/estagiarios">Estagiários</a></li>
-</ul>                        </nav>
-                    </div>
+                    <div class="news-grid">
+                                                                                                            <article class="news-article">
+                                    <div class="article-image">
+                                                                                    <a href="https://www.al.pb.leg.br/70381/alpb-segue-entendimento-do-stf-e-derruba-cautelares-contra-deputado-caio-roberto.html">
+                                                <img width="768" height="392" src="https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-19.26.54-768x392.jpeg" class="article-thumb wp-post-image" alt="ALPB segue entendimento do STF e derruba cautelares contra deputado Caio Roberto" decoding="async" loading="lazy" srcset="https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-19.26.54-768x392.jpeg 768w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-19.26.54-400x204.jpeg 400w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-19.26.54-1024x523.jpeg 1024w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-19.26.54-1536x784.jpeg 1536w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-19.26.54-222x113.jpeg 222w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-19.26.54.jpeg 1600w" sizes="auto, (max-width: 768px) 100vw, 768px" />                                            </a>
+                                                                            </div>
+                                    <div class="article-content">
+                                        <div class="article-meta">
+                                            <span class="post-date">12/11/2026</span>
+                                        </div>
+                                        <h3 class="article-title">
+                                            <a href="https://www.al.pb.leg.br/70381/alpb-segue-entendimento-do-stf-e-derruba-cautelares-contra-deputado-caio-roberto.html">ALPB segue entendimento do STF e derruba cautelares contra deputado Caio Roberto</a>
+                                        </h3>
+                                        <p class="article-excerpt">
+                                            A Assembleia Legislativa da Paraíba (ALPB) derrubou, nesta quinta-feira (12), por maioria de votos, as medidas cautelares impostas pela Justiça [...]                                        </p>
+                                    </div>
+                                </article>
+                                                            <article class="news-article">
+                                    <div class="article-image">
+                                                                                    <a href="https://www.al.pb.leg.br/70379/alpb-homenageia-medicos-rafael-camara-e-antonio-henrique-de-franca-neto.html">
+                                                <img width="768" height="512" src="https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-20.17.04-768x512.jpeg" class="article-thumb wp-post-image" alt="ALPB homenageia médicos Rafael Câmara e Antônio Henrique de França Neto" decoding="async" loading="lazy" srcset="https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-20.17.04-768x512.jpeg 768w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-20.17.04-400x267.jpeg 400w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-20.17.04-1024x682.jpeg 1024w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-20.17.04-140x92.jpeg 140w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-20.17.04-222x148.jpeg 222w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-20.17.04-166x111.jpeg 166w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-20.17.04.jpeg 1280w" sizes="auto, (max-width: 768px) 100vw, 768px" />                                            </a>
+                                                                            </div>
+                                    <div class="article-content">
+                                        <div class="article-meta">
+                                            <span class="post-date">12/11/2026</span>
+                                        </div>
+                                        <h3 class="article-title">
+                                            <a href="https://www.al.pb.leg.br/70379/alpb-homenageia-medicos-rafael-camara-e-antonio-henrique-de-franca-neto.html">ALPB homenageia médicos Rafael Câmara e Antônio Henrique de França Neto</a>
+                                        </h3>
+                                        <p class="article-excerpt">
+                                            A Assembleia Legislativa da Paraíba (ALPB) realizou, nesta quinta-feira (12) sessão solene, proposta pelo deputado Eduardo Brito, para entregar o [...]                                        </p>
+                                    </div>
+                                </article>
+                                                            <article class="news-article">
+                                    <div class="article-image">
+                                                                                    <a href="https://www.al.pb.leg.br/70360/alpb-aprova-projetos-voltados-a-protecao-de-criancas-inclusao-escolar-e-defesa-dos-consumidores.html">
+                                                <img width="768" height="512" src="https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-13.00.48-768x512.jpeg" class="article-thumb wp-post-image" alt="ALPB aprova projetos voltados à proteção de crianças, inclusão escolar e defesa dos consumidores" decoding="async" loading="lazy" srcset="https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-13.00.48-768x512.jpeg 768w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-13.00.48-400x267.jpeg 400w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-13.00.48-1024x683.jpeg 1024w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-13.00.48-140x92.jpeg 140w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-13.00.48-222x148.jpeg 222w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-13.00.48-166x111.jpeg 166w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-13.00.48.jpeg 1280w" sizes="auto, (max-width: 768px) 100vw, 768px" />                                            </a>
+                                                                            </div>
+                                    <div class="article-content">
+                                        <div class="article-meta">
+                                            <span class="post-date">11/11/2026</span>
+                                        </div>
+                                        <h3 class="article-title">
+                                            <a href="https://www.al.pb.leg.br/70360/alpb-aprova-projetos-voltados-a-protecao-de-criancas-inclusao-escolar-e-defesa-dos-consumidores.html">ALPB aprova projetos voltados à proteção de crianças, inclusão escolar e defesa dos consumidores</a>
+                                        </h3>
+                                        <p class="article-excerpt">
+                                            A Assembleia Legislativa da Paraíba (ALPB) aprovou, durante a sessão ordinária desta quarta-feira (11), projetos de lei voltados à proteção [...]                                        </p>
+                                    </div>
+                                </article>
+                                                            <article class="news-article">
+                                    <div class="article-image">
+                                                                                    <a href="https://www.al.pb.leg.br/70357/alpb-promove-palestra-sobre-inteligencia-artificial-para-otimizar-atividades-legislativas.html">
+                                                <img width="768" height="512" src="https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-12.51.44-768x512.jpeg" class="article-thumb wp-post-image" alt="ALPB promove palestra sobre Inteligência Artificial para otimizar atividades legislativas" decoding="async" loading="lazy" srcset="https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-12.51.44-768x512.jpeg 768w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-12.51.44-400x267.jpeg 400w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-12.51.44-1024x683.jpeg 1024w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-12.51.44-140x92.jpeg 140w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-12.51.44-222x148.jpeg 222w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-12.51.44-166x111.jpeg 166w, https://www.al.pb.leg.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-12.51.44.jpeg 1280w" sizes="auto, (max-width: 768px) 100vw, 768px" />                                            </a>
+                                                                            </div>
+                                    <div class="article-content">
+                                        <div class="article-meta">
+                                            <span class="post-date">11/11/2026</span>
+                                        </div>
+                                        <h3 class="article-title">
+                                            <a href="https://www.al.pb.leg.br/70357/alpb-promove-palestra-sobre-inteligencia-artificial-para-otimizar-atividades-legislativas.html">ALPB promove palestra sobre Inteligência Artificial para otimizar atividades legislativas</a>
+                                        </h3>
+                                        <p class="article-excerpt">
+                                            Com foco na modernização e na agilidade dos trabalhos legislativos, a Assembleia Legislativa da Paraíba (ALPB) promoveu, nesta quarta-feira (11), [...]                                        </p>
+                                    </div>
+                                </article>
+                                                                                                    </div>
 
-                    <!-- funcionamento -->
-                    <div id="content-funcionamento" class="box-content">
-                        <h3>Funcionamento</h3>
-                        <nav>
-                            <ul id="menu-menu-funcionamento" class="lista-v"><li id="menu-item-6440" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6440"><a href="https://www.al.pb.leg.br/transparencia/funcionamento/expediente">Expediente</a></li>
-<li id="menu-item-6444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6444"><a href="https://www.al.pb.leg.br/ordem-do-dia">Ordem do dia</a></li>
-<li id="menu-item-6443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6443"><a href="https://www.al.pb.leg.br/atas-das-sessoes">Atas das sessões</a></li>
-<li id="menu-item-6952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6952"><a href="https://www.al.pb.leg.br/transparencia/funcionamento/em-pauta">Pauta das sessões</a></li>
-<li id="menu-item-7013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7013"><a href="https://www.al.pb.leg.br/agenda-de-plenario-e-eventos">Agenda de plenário e eventos</a></li>
-<li id="menu-item-6967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6967"><a href="https://www.al.pb.leg.br/transparencia/funcionamento/designacao-de-relatores">Designação de Relatores</a></li>
-<li id="menu-item-6965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6965"><a href="https://www.al.pb.leg.br/pauta">Pauta das comissões</a></li>
-<li id="menu-item-7014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7014"><a href="https://www.al.pb.leg.br/comissoes/agenda-das-comissoes">Agenda das Comissões</a></li>
-<li id="menu-item-7028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7028"><a href="https://www.al.pb.leg.br/comissoes/relatorios-das-reunioes">Resultado das reuniões</a></li>
-<li id="menu-item-53655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53655"><a href="https://www.al.pb.leg.br/relatorio-ouvidoria">Relatório Ouvidoria</a></li>
-<li id="menu-item-6436" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6436"><a href="https://sapl3.al.pb.leg.br">SAPL</a></li>
-<li id="menu-item-59958" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59958"><a href="http://www.al.pb.leg.br/wp-content/uploads/2025/06/Carta-de-Servico.pdf">Carta de Serviços</a></li>
-</ul>                        </nav>
+                    <div class="news-footer">
+                        <a href="https://www.al.pb.leg.br/agencia-de-noticias" class="ver-todas">
+                            <span class="ver-todas-texto"> Ver todas as notícias </span>
+                            <span class="material-symbols-outlined">arrow_right_alt</span>
+                        </a>
                     </div>
-
-                    <!-- deputados -->
-                    <div id="content-deputados" class="box-content">
-                        <h3>Deputados</h3>
-                        <nav>
-                            <ul id="menu-menu-deputados" class="lista-v"><li id="menu-item-43736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43736"><a href="https://www.al.pb.leg.br/transparencia/deputados/viap-v2" title="VIAP">Verba Indenizatória de Apoio Parlamentar</a></li>
-</ul>                        </nav>
-                    </div>
+                    <hr class="divider">
                 </div>
-            </div>
-
-            <div class="transparencia-sidebar">
-                <div id="banners-transparencia">
-                                                    <div class="banner-item">
-                                    <img src="https://www.al.pb.leg.br/wp-content/uploads/2025/11/CONHECA-A-ESTRUTURA.png"
-                                         alt="ESTRUTURA"
-                                         class="banner-image" />
-                                </div>
-                                            </div>
-                 <br />
-            	 <a class="btn-servico btn-branco" style="width: 100% !important;"  href="https://radardatransparencia.atricon.org.br" target="_blank">
-                    <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/tp.png" width="80px"
-                  		   alt="ícone do Radar da Transparência" />
-                    <div>
-                      <span>Acesso ao <br><strong>Radar da Transparência</strong></span>
-                    </div>
-                 </a>
-
-                 <br />
-                 <a class="btn-servico btn-branco" style="width: 100% !important;"  href="https://transparencia.pb.gov.br" target="_blank">
-                  <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/logo-transparencia.svg" width="240px"
-                               alt="ícone da Transparência do Governa da Paraíba" />
-                  <div>
-                     <span>Acesso ao <br><strong>Portal da Transparência da Paraiba</strong></span>
-                  </div>
-                 </a>
-            </div>
+            </section>
         </div>
-
-        <div class="clear"></div>
     </div>
 </div>
-
 <footer>
     <div class="container-footer">
         <!-- redes sociais -->
@@ -631,7 +642,7 @@ var easy_video_player = {"plyr_iconUrl":"https://www.al.pb.leg.br/wp-content/plu
 <script id="espaco-cidadao-js" src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/js/espaco-cidadao-carrossel.js?ver=1.0"></script>
 <script id="espaco-servidor-js" src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/js/carrossel-espaco-servidor.js?ver=1.0"></script>
 <script id="wp-accessibility-js-extra">
-var wpa = {"skiplinks":{"enabled":false,"output":""},"target":"1","tabindex":"1","underline":{"enabled":false,"target":"a"},"videos":"","dir":"ltr","viewport":"1","lang":"pt-BR","titles":"1","labels":"1","wpalabels":{"s":"Pesquisar","author":"Nome","email":"E-mail","url":"Site","comment":"Coment\u00e1rio"},"alt":"","altSelector":".hentry img[alt]:not([alt=\"\"]), .comment-content img[alt]:not([alt=\"\"]), #content img[alt]:not([alt=\"\"]),.entry-content img[alt]:not([alt=\"\"])","current":"","errors":"","tracking":"","ajaxurl":"https://www.al.pb.leg.br/wp-admin/admin-ajax.php","security":"464f7c0512","action":"wpa_stats_action","url":"https://www.al.pb.leg.br/transparencia/","post_id":"385","continue":"","pause":"Pausar v\u00eddeo","play":"Reproduzir v\u00eddeo","restUrl":"https://www.al.pb.leg.br/wp-json/wp/v2/media","restNonce":"82b4a509de","ldType":"button","ldHome":"https://www.al.pb.leg.br","ldText":"\u003Cspan class=\"dashicons dashicons-media-text\" aria-hidden=\"true\"\u003E\u003C/span\u003E\u003Cspan class=\"screen-reader\"\u003EDescri\u00e7\u00e3o longa\u003C/span\u003E"};
+var wpa = {"skiplinks":{"enabled":false,"output":""},"target":"1","tabindex":"1","underline":{"enabled":false,"target":"a"},"videos":"","dir":"ltr","viewport":"1","lang":"pt-BR","titles":"1","labels":"1","wpalabels":{"s":"Pesquisar","author":"Nome","email":"E-mail","url":"Site","comment":"Coment\u00e1rio"},"alt":"","altSelector":".hentry img[alt]:not([alt=\"\"]), .comment-content img[alt]:not([alt=\"\"]), #content img[alt]:not([alt=\"\"]),.entry-content img[alt]:not([alt=\"\"])","current":"","errors":"","tracking":"","ajaxurl":"https://www.al.pb.leg.br/wp-admin/admin-ajax.php","security":"464f7c0512","action":"wpa_stats_action","url":"https://www.al.pb.leg.br/transparencia/recursos-humanos/remuneracoes/","post_id":"41633","continue":"","pause":"Pausar v\u00eddeo","play":"Reproduzir v\u00eddeo","restUrl":"https://www.al.pb.leg.br/wp-json/wp/v2/media","restNonce":"82b4a509de","ldType":"button","ldHome":"https://www.al.pb.leg.br","ldText":"\u003Cspan class=\"dashicons dashicons-media-text\" aria-hidden=\"true\"\u003E\u003C/span\u003E\u003Cspan class=\"screen-reader\"\u003EDescri\u00e7\u00e3o longa\u003C/span\u003E"};
 //# sourceURL=wp-accessibility-js-extra
 </script>
 <script data-wp-strategy="defer" defer id="wp-accessibility-js" src="https://www.al.pb.leg.br/wp-content/plugins/wp-accessibility/js/wp-accessibility.min.js?ver=2.4.5"></script>
@@ -881,4 +892,3 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
 
 </body>
 </html>
-

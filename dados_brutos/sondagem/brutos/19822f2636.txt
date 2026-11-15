@@ -395,10 +395,10 @@
 		</div>
 
 	</header>
-<div id="apresent">
-    <link rel="stylesheet" type="text/css" href="/styles/transparencia/transparencia.css"/>
-    <section>
-    	<div><!DOCTYPE html>
+<div>
+<link rel="stylesheet" type="text/css" href="/styles/transparencia/transparencia.css"/>
+	<section>
+	    <div><!DOCTYPE html>
 <html>
 
 
@@ -413,8 +413,8 @@
   
   
 
-</html></div>   
-        <div class="no-print">
+</html></div> 
+		<div class="no-print">
     <br>
     <div class="container">
         <div class="row">
@@ -431,7 +431,7 @@
                         </div>
                         <div class="single-breadcrumb-wrap active">
                             <span class="sep"><i class="fa fa-caret-right"></i></span>
-                            <span class="breadcrumb">APRESENTAÇÃO</span>
+                            <span class="breadcrumb">SCD</span>
                         </div>
                     </nav>
                 </div>
@@ -439,27 +439,24 @@
         </div>
     </div>
 </div>
-        
-        <div id="titulo">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        TRANSPARÊNCIA ALBA
-                    </div>
-                </div>
-            </div> 
-        </div>
+		<div id="titulo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">SCD
+					</div>
+				</div>
+			</div>
+		</div>
 
-                         
-        <div class="container">
-            <br/>
-            <div class="row">
-                <div class="no-print">
+		<div class="container">
+			<br>
+			<div class="row">
+				<div class="no-print">
 		<div class="col-md-2 nopadding-left">
 			<div class="list-group">
 				<a type="button" href="/transparencia" data-toggle="collapse" data-target="#ta"
-					data-parent="#menu" class="list-group-item list-group-item-action card-header active">TRANSPARÊNCIA ALBA</a>
-				<div id="ta" class="sublinks collapse in">
+					data-parent="#menu" class="list-group-item list-group-item-action card-header">TRANSPARÊNCIA ALBA</a>
+				<div id="ta" class="sublinks collapse">
 					 <p class="collapse-subitem"><b><a href="https://atendimento.al.ba.gov.br/carta-de-servico" target="_blank"><i class="fa fa-caret-right"></i> CARTA DE SERVIÇOS</a></b></p>
 
 					<p class="collapse-subitem"><b><a href="/transparencia/estrutura-legislativa"><i
@@ -554,8 +551,8 @@
 
 
 				<a type="button" href="/transparencia/credor-empenho-despesa" data-toggle="collapse"
-					data-target="#scd" data-parent="#menu" class="list-group-item list-group-item-action card-header">Despesas</a>
-				<div id="scd" class="sublinks collapse">
+					data-target="#scd" data-parent="#menu" class="list-group-item list-group-item-action card-header active">Despesas</a>
+				<div id="scd" class="sublinks collapse in">
 					<p class="collapse-subitem"><b><a href="/transparencia/credor-empenho-despesa"><i
 									class="fa fa-caret-right"></i>Despesas</a></b></p>
 					<p class="collapse-subitem"><b><a href="/transparencia/credor-empenho-pormenorizada"><i
@@ -658,109 +655,47 @@
 			</div>
 		</div>
 	</div>
-                
-                <div class="col-md-10">
-                    <fieldset>
-                        <legend>
-                            <div class="transp-presidente">
-                            	<div class="icon-radar">
-                                <div>
-                                    O QUE É TRANSPARÊNCIA
-                                </div>
-                                
-                               <!--  incluido div para mostrar imagem do selo -->
-<!--                                 <div> -->
-<!--                                     <a th:href="@{/transparencia}"> -->
-<!--                                     <img th:src="@{/images/transp/selo_ouro.png}"  -->
-<!--                                     style="max-height: 100px; width: auto; image-rendering: crisp-edges;margin-top: -20px;" -->
-<!--                                      ></a> -->
-<!--                                 </div> -->
-                                
-                                <div>
-                                    <a href="https://radardatransparencia.atricon.org.br/" target="_blank"><img src="/images/transp/botao_Radar2023.png" style="margin-top:-5px;margin-bottom:5px;"></a>
-                                </div>                                
-                                
-                                </div>
-                            </div>
-                        </legend>
-                        <div class="col-md-6">
-							<img src="/images/transp/alba_fach.jpg" width="100%">
-						</div>
-                        <div class="sub-title-new"><div>O estímulo à transparência é um dos objetivos essenciais da moderna Administração Pública atual. A ampliação da divulgação das ações governamentais a milhões de brasileiros, além de contribuir para o fortalecimento da democracia, prestigia e desenvolve as noções de cidadania.</div>
-<div><br /></div>
-<div>As Páginas de Transparência Pública dão continuidade às ações das instituições voltadas para o incremento da transparência e do controle social, com objetivo de divulgar as despesas realizadas pelos órgãos e entidades da Administração Pública, informando sobre execução orçamentária, licitações, contratações, convênios e tantas outras informações imprescindíveis como instrumentos de controle e fiscalização.<br /></div>
-<div><br /></div>
-<div>Este espaço representa mais uma ação de promoção da transparência pública da Assembleia e tem como principal objetivo facilitar o acesso do cidadão às informações a respeito de projetos e ações relevantes para o controle social. Para além de ser um direito da população, a transparência na administração pública é uma ação concreta que viabiliza a fiscalização e o controle social, assim como possibilita a participação da sociedade na tomada de decisões</div>
-<div><br /></div>
-<div>Dessa forma, conforme dispõe a Portaria Interministerial n&ordm; 140, de 16 de março de 2006, cada órgão e entidade deve ter seu próprio <span style="font-weight: bold;">Portal de Transparência</span> com informações detalhadas à respeito da instituição.</div>
-<div><br /></div>
-<div>Nossa <span style="font-weight: bold;">Política de Transparência</span> regulamentada pelo Ato da Presidência n&ordm; 30.496/2012, referendado pela Mesa Diretora, e mais recentemente reestruturado através do Ato da Presidência n&ordm; 2.166/2023 estabelece como diretrizes básicas: <span style="font-style: italic;">a observância da publicidade como preceito geral e do sigilo como exceção; divulgação de informações de interesse público, independentemente de solicitações; utilização de meios de comunicação viabilizados pela tecnologia da informação; fomento ao desenvolvimento da cultura de transparência na administração pública; e desenvolvimento do controle social da administração pública.</span></div>
-<div><br /></div>
-<div>Abaixo, você pode acessar a <span style="font-weight: bold;"><a href="https://atendimento.al.ba.gov.br/e-ouv" target="_blank">Ouvidoria da ALBA</a></span> onde existem os canais de comunicações oficiais entre a comunidade e o Legislativo baiano, e onde também funciona o <span style="font-weight: bold;"><a href="https://atendimento.al.ba.gov.br/e-sic" target="_blank">Sistema de Informações ao Cidadão - (e-SIC)</a>,</span> através do qual você pode solicitar informações não encontradas ou esclarecimentos sobre informações aqui divulgadas.&nbsp;</div>
-<div><br /></div>
-<div>Por fim lembramos que o nosso <span style="font-weight: bold;">Portal de Transparência</span> se encontra em permanente desenvolvimento e evolução de forma que algumas funcionalidades deverão estar 100% disponibilizadas muito em breve para toda a população.</div></div>
-                    </fieldset>
-                    <br/>
-                    
-                    <div class="no-print">
-        <!-- Estrutura limpa do Widget: remova as tags <img> manuais -->
-        <div vw class="enabled">
-            <div vw-access-button class="active"></div>
-            <div vw-plugin-wrapper>
-                <div vp>
-                    <div vp-box></div>
-                    <div vp-message-box></div>
-                    <div vp-settings></div>
-                    <div vp-settings-btn></div>
-                    <div vp-info-screen></div>
-                    <div vp-dictionary></div>
-                    <div vp-suggestion-screen></div>
-                    <div vp-translator-screen></div>
-                    <div vp-widget-help></div>
-                    <div vp-suggestion-button></div>
-                    <div vp-rate-box></div>
-                    <div vp-rate-button></div>
-                    <div vp-controls></div>
-                    <div vp-change-avatar></div>
-                    <div vp-additional-options></div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Scripts de Inicialização -->
-        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-        <script>
-            new window.VLibras.Widget('https://vlibras.gov.br/app');
-        </script>   
-         
-        <noscript>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="alert alert-warning" role="alert">
-                    Você precisa habilitar o JavaScript para visualizar este Portal corretamente.
-                </div>
-            </div>
-        </noscript> 
-    </div>  
-                    
-                    <!--mensagem de sucesso-->
-					<div class="row fe-div-table">
-						
-						
+				<div class="col-md-10">
+					<fieldset>
+						<legend>
+							<div class="o-presidente">
+								<div class="titulo-presidente" style="text-transform: uppercase;">Despesas</div>
+							</div>
+						</legend>
+					</fieldset>
+					
+																	Informações atualizadas em
+					Domingo	,
+ 					15 de Novembro de 2026<br><br>		
+
+					<div class="row">
+							<div class="col-md-10">					
+										<div class="borda-filtro">
+											<div class="row">
+												<div class="aviso-texto">
+													<p class="sub-title-new" align="justify">
+													As despesas da ALBA podem ser visualizadas no site da Transparência Bahia (link abaixo). 
+													<p class="sub-title-new" align="justify">Para utilizar a ferramenta, selecione: Assembleia Legislativa da Bahia no item órgão: 
+													<a href="https://www.transparencia.ba.gov.br/Despesa/Painel?unidadeOrcamentaria=Secretaria%20da%20Assembleia%20Legislativa" target="_blank">
+													<p><b>https://www.transparencia.ba.gov.br/Despesa/Painel</b></p></a>
+												</div>
+											</div>
+										</div>	
+							</div>
+
 					</div>
-<!--                     <fieldset> -->
-<!--                     	<div class="central-box-int2"> -->
-<!--                     		<div class="col-2 icone-transp" style="margin-left:8px;"> -->
-<!-- 								<a th:href="@{/transparencia/ouvidoria}"><img th:src="@{/images/transp/ic_ouvidoria.png}" height="175px"></a> -->
-<!-- 							</div> -->
-<!-- 							<div class="col-2 icone-transp .scale-100"> -->
-<!-- 								<a href="#" ><img th:src="@{/images/transp/faq.png}" height="175px" width="360px"></a> -->
-<!-- 							</div> -->
-<!--                     	</div> -->
-<!--                     </fieldset> -->
-                </div>
-            </div>
-        </div>
-    </section>
+					<div class="row">
+					<p></p>
+							<div class="col-md-10">	
+							<img src="/images/transp/proc01.jpg" >
+							</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
 </div>
 <footer>
 		<div class="rodape">

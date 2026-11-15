@@ -5,12 +5,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     
-        <base href="https://www.al.al.leg.br/transparencia/" /><!--[if lt IE 7]></base><![endif]-->
+        <base href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/" /><!--[if lt IE 7]></base><![endif]-->
     
 
     
         
-<meta content="Seção que contém os dados relacionados a transparência da Casa Legislativa, como as prestações de contas, publicação de editais e licitações, formulários e links para o acesso à informação e atendimento ao cidadão." name="description" />
+<meta content="Os dados da Assembeia LegIslativa de Alagoas referentes ao presente subitem são extraídos diretamente do SISTEMA INTEGRADO DE ADMINISTRAÇÃO FINANCEIRA DO ESTADO DE ALAGOAS - SIAFE/AL, de propriedade do Estado de Alagoas e disponibilizado pela Secretaria de Estado da Fazenda. Além do Portal da Transparência da Assembleia Legislativa, as presentes informações também podem ser consultadas no Portal da Transparência de Alagoas - Graciliano Ramos." name="description" />
 
   
     <style type="text/css" media="screen">@import url(https://www.al.al.leg.br/portal_css/Sunburst%20Theme/resourceportalmodelo.themestylescontraste-cachekey-fefee65d18d19321757de297d7bdf695.css);</style>
@@ -57,14 +57,14 @@
     <script type="text/javascript" src="https://www.al.al.leg.br/portal_javascripts/Sunburst%20Theme/resourcecollective.oembed-cachekey-207a41b8561749da9ee292a478bfaa69.js"></script>
 
 
-<title>Portal da Transparência — Assembleia Legislativa de Alagoas</title>
+<title>Orçamento e Finanças — Assembleia Legislativa de Alagoas</title>
         
     <link rel="author" href="https://www.al.al.leg.br/author/Interlegis" title="Informações do Autor" />
 
 
-    <link rel="canonical" href="https://www.al.al.leg.br/transparencia" />
-<link rel="alternate" type="application/json+oembed" href="https://www.al.al.leg.br/@@oembed?url=https%3A%2F%2Fwww.al.al.leg.br%2Ftransparencia&amp;format=json" title="Portal da Transparência oEmbed Profile" />
-<link rel="alternate" type="text/xml+oembed" href="https://www.al.al.leg.br/@@oembed?url=https%3A%2F%2Fwww.al.al.leg.br%2Ftransparencia&amp;format=xml" title="Portal da Transparência oEmbed Profile" />
+    <link rel="canonical" href="https://www.al.al.leg.br/transparencia/orcamento-e-financas" />
+<link rel="alternate" type="application/json+oembed" href="https://www.al.al.leg.br/@@oembed?url=https%3A%2F%2Fwww.al.al.leg.br%2Ftransparencia%2Forcamento-e-financas&amp;format=json" title="Orçamento e Finanças oEmbed Profile" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.al.al.leg.br/@@oembed?url=https%3A%2F%2Fwww.al.al.leg.br%2Ftransparencia%2Forcamento-e-financas&amp;format=xml" title="Orçamento e Finanças oEmbed Profile" />
 
 
     
@@ -92,11 +92,11 @@ $(document).ready(function() {
 
 
 
-    <link rel="alternate" href="https://www.al.al.leg.br/transparencia/RSS" title="Portal da Transparência - RSS 1.0" type="application/rss+xml" />
+    <link rel="alternate" href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/RSS" title="Orçamento e Finanças - RSS 1.0" type="application/rss+xml" />
 
-    <link rel="alternate" href="https://www.al.al.leg.br/transparencia/rss.xml" title="Portal da Transparência - RSS 2.0" type="application/rss+xml" />
+    <link rel="alternate" href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/rss.xml" title="Orçamento e Finanças - RSS 2.0" type="application/rss+xml" />
 
-    <link rel="alternate" href="https://www.al.al.leg.br/transparencia/atom.xml" title="Portal da Transparência - Atom" type="application/rss+xml" />
+    <link rel="alternate" href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/atom.xml" title="Orçamento e Finanças - Atom" type="application/rss+xml" />
 
 
     <link rel="search" href="https://www.al.al.leg.br/@@search" title="Buscar neste site" />
@@ -127,10 +127,10 @@ $(document).ready(function() {
 <link rel="icon" type="image/png" href="/++theme++tema-aleal/img/favicon.ico" />
 </head>
 
-<body dir="ltr" class="template-folder_summary_view portaltype-folder site-portal section-transparencia userrole-anonymous"><!-- Accessibility --><p class="hiddenStructure">
-  <a accesskey="2" href="https://www.al.al.leg.br/transparencia#content">Ir para o conteúdo.</a> |
+<body dir="ltr" class="template-folder_summary_view portaltype-folder site-portal section-transparencia subsection-orcamento-e-financas userrole-anonymous"><!-- Accessibility --><p class="hiddenStructure">
+  <a accesskey="2" href="https://www.al.al.leg.br/transparencia/orcamento-e-financas#content">Ir para o conteúdo.</a> |
 
-  <a accesskey="6" href="https://www.al.al.leg.br/transparencia#portal-globalnav">Ir para a navegação</a>
+  <a accesskey="6" href="https://www.al.al.leg.br/transparencia/orcamento-e-financas#portal-globalnav">Ir para a navegação</a>
 </p><p class="hiddenStructure">Ferramentas Pessoais</p><p class="hiddenStructure">Navegação</p><!-- User --><ul class="actionMenu deactivated" id="portal-personaltools">
   <li id="anon-personalbar">
     
@@ -201,9 +201,19 @@ $(document).ready(function() {
     </span>
     <span id="breadcrumbs-1" dir="ltr">
         
+            <a href="https://www.al.al.leg.br/transparencia">Portal da Transparência</a>
+            <span class="breadcrumbSeparator">
+                /
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-2" dir="ltr">
+        
             
             
-            <span id="breadcrumbs-current">Portal da Transparência</span>
+            <span id="breadcrumbs-current">Orçamento e Finanças</span>
          
     </span>
 
@@ -370,16 +380,169 @@ $(document).ready(function() {
 
 
 
-<li class="navTreeItem visualNoMarker navTreeFolderish section-orcamento-e-financas">
+<li class="navTreeItem visualNoMarker navTreeCurrentNode navTreeFolderish section-orcamento-e-financas">
 
     
 
 
-        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas" class="state-published navTreeFolderish contenttype-folder" title="Os dados da Assembeia LegIslativa de Alagoas referentes ao presente subitem são extraídos diretamente do SISTEMA INTEGRADO DE ADMINISTRAÇÃO FINANCEIRA DO ESTADO DE ALAGOAS - SIAFE/AL, de propriedade do Estado de Alagoas e disponibilizado pela Secretaria de Estado da Fazenda. Além do Portal da Transparência da Assembleia Legislativa, as presentes informações também podem ser consultadas no Portal da Transparência de Alagoas - Graciliano Ramos.">
+        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas" class="state-published navTreeCurrentItem navTreeCurrentNode navTreeFolderish contenttype-folder" title="Os dados da Assembeia LegIslativa de Alagoas referentes ao presente subitem são extraídos diretamente do SISTEMA INTEGRADO DE ADMINISTRAÇÃO FINANCEIRA DO ESTADO DE ALAGOAS - SIAFE/AL, de propriedade do Estado de Alagoas e disponibilizado pela Secretaria de Estado da Fazenda. Além do Portal da Transparência da Assembleia Legislativa, as presentes informações também podem ser consultadas no Portal da Transparência de Alagoas - Graciliano Ramos.">
             
             <span>Orçamento e Finanças</span>
         </a>
 
+        
+            <ul class="navTree navTreeLevel1">
+                
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-execucao-orcamentaria-2015">
+
+    
+
+
+        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/execucao-orcamentaria-2015" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Detalhamento da Despesa</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-viap-verba-indenizatoria-de-atividade-parlamentar">
+
+    
+
+
+        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/viap-verba-indenizatoria-de-atividade-parlamentar" class="state-published navTreeFolderish contenttype-folder" title="Regida pelas Resoluções 531, de 5 de março de 2013 e 627, de 10 de dezembro de 2019, estas resoluções dispõem sobre à verba indenizatória parlamentar, suas formas de apresentação e prestação de contas, pois estão previstas no Artigo 77 do Regimento Interno da Assembleia Legislativa de Alagoas. ">
+            
+            <span>VIAP - Verba Indenizatória de Apoio à Atividade Parlamentar</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-receita-orcamentaria">
+
+    
+
+
+        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/receita-orcamentaria" class="state-published navTreeFolderish contenttype-folder" title="A Receita Orçamentária da Assembleia Legislativa Estadual é oriunda de repasse duodecimal, pois não tem receita própria e está devidamente prevista no Art. 179 da Constituição do Estado de Alagoas.">
+            
+            <span>Receita Orçamentária</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-pagamentos-efetuados">
+
+    
+
+
+        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/pagamentos-efetuados" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Pagamentos Efetuados</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-relatorio-de-gestao-fiscal">
+
+    
+
+
+        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/relatorio-de-gestao-fiscal" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Relatório de Gestão Fiscal</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-relatorio-de-gestao-fiscal-siconfi">
+
+    
+
+
+        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/relatorio-de-gestao-fiscal-siconfi" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Relatório de Gestão Fiscal - Siconfi</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-diarias">
+
+    
+
+
+        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/diarias" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Diárias</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-passagens">
+
+    
+
+
+        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/passagens" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Passagens</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-empenhos-e-pagamentos">
+
+    
+
+
+        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/empenhos-e-pagamentos" class="state-published navTreeFolderish contenttype-folder" title="">
+            
+            <span>Empenhos e Pagamentos</span>
+        </a>
+
+        
+
+    
+</li>
+
+
+
+
+            </ul>
         
 
     
@@ -1066,7 +1229,7 @@ $(document).ready(function() {
                                  
             
                 <h1 id="parent-fieldname-title" class="documentFirstHeading">
-                    Portal da Transparência
+                    Orçamento e Finanças
                 </h1>
             
             
@@ -1091,7 +1254,7 @@ $(document).ready(function() {
 
   <span class="documentModified">
     <span>última modificação</span>
-    26/06/2024 22h21
+    12/02/2020 20h07
   </span>
   
 
@@ -1111,7 +1274,7 @@ $(document).ready(function() {
                                  
             
                 <div id="parent-fieldname-description" class="documentDescription">
-                   Seção que contém os dados relacionados a transparência da Casa Legislativa, como as prestações de contas, publicação de editais e licitações, formulários e links para o acesso à informação e atendimento ao cidadão.
+                   Os dados da Assembeia LegIslativa de Alagoas referentes ao presente subitem são extraídos diretamente do SISTEMA INTEGRADO DE ADMINISTRAÇÃO FINANCEIRA DO ESTADO DE ALAGOAS - SIAFE/AL, de propriedade do Estado de Alagoas e disponibilizado pela Secretaria de Estado da Fazenda. Além do Portal da Transparência da Assembleia Legislativa, as presentes informações também podem ser consultadas no Portal da Transparência de Alagoas - Graciliano Ramos.
                 </div>
             
             
@@ -1140,7 +1303,40 @@ $(document).ready(function() {
 
                     <h2 class="tileHeadline">
 
-                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas" class="summary url">Orçamento e Finanças</a>
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/execucao-orcamentaria-2015" class="summary url">Detalhamento da Despesa</a>
+
+                    </h2>
+
+                    <div class="documentByLine">
+                    
+                    
+                    </div>
+
+                    
+
+                    <p class="tileFooter">
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/execucao-orcamentaria-2015"> 
+                           <span class="hiddenStructure">Detalhamento da Despesa - </span> 
+                           <span>Leia mais…</span> 
+                        </a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+                    
+            
+            
+            
+            
+                
+                <div class="tileItem visualIEFloatFix">
+
+                    
+
+                    <h2 class="tileHeadline">
+
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/viap-verba-indenizatoria-de-atividade-parlamentar" class="summary url">VIAP - Verba Indenizatória de Apoio à Atividade Parlamentar</a>
 
                     </h2>
 
@@ -1150,12 +1346,12 @@ $(document).ready(function() {
                     </div>
 
                     <p class="tileBody">
-                        <span class="description">Os dados da Assembeia LegIslativa de Alagoas referentes ao presente subitem são extraídos diretamente do SISTEMA INTEGRADO DE ADMINISTRAÇÃO FINANCEIRA DO ESTADO DE ALAGOAS - SIAFE/AL, de propriedade do Estado de Alagoas e disponibilizado pela Secretaria de Estado da Fazenda. Além do Portal da Transparência da Assembleia Legislativa, as presentes informações também podem ser consultadas no Portal da Transparência de Alagoas - Graciliano Ramos.</span>
+                        <span class="description">Regida pelas Resoluções 531, de 5 de março de 2013 e 627, de 10 de dezembro de 2019, estas resoluções dispõem sobre à verba indenizatória parlamentar, suas formas de apresentação e prestação de contas, pois estão previstas no Artigo 77 do Regimento Interno da Assembleia Legislativa de Alagoas. </span>
                     </p>
 
                     <p class="tileFooter">
-                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas"> 
-                           <span class="hiddenStructure">Orçamento e Finanças - </span> 
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/viap-verba-indenizatoria-de-atividade-parlamentar"> 
+                           <span class="hiddenStructure">VIAP - Verba Indenizatória de Apoio à Atividade Parlamentar - </span> 
                            <span>Leia mais…</span> 
                         </a>
                     </p>
@@ -1175,238 +1371,7 @@ $(document).ready(function() {
 
                     <h2 class="tileHeadline">
 
-                        <a href="https://www.al.al.leg.br/transparencia/licitacoes-e-contratos" class="summary url">Licitações </a>
-
-                    </h2>
-
-                    <div class="documentByLine">
-                    
-                    
-                    </div>
-
-                    
-
-                    <p class="tileFooter">
-                        <a href="https://www.al.al.leg.br/transparencia/licitacoes-e-contratos"> 
-                           <span class="hiddenStructure">Licitações  - </span> 
-                           <span>Leia mais…</span> 
-                        </a>
-                    </p>
-
-                    <div class="visualClear"><!-- --></div>
-
-                </div>
-                    
-            
-            
-            
-            
-                
-                <div class="tileItem visualIEFloatFix">
-
-                    
-
-                    <h2 class="tileHeadline">
-
-                        <a href="https://www.al.al.leg.br/transparencia/recursos-humanos" class="summary url">Recursos Humanos</a>
-
-                    </h2>
-
-                    <div class="documentByLine">
-                    
-                    
-                    </div>
-
-                    
-
-                    <p class="tileFooter">
-                        <a href="https://www.al.al.leg.br/transparencia/recursos-humanos"> 
-                           <span class="hiddenStructure">Recursos Humanos - </span> 
-                           <span>Leia mais…</span> 
-                        </a>
-                    </p>
-
-                    <div class="visualClear"><!-- --></div>
-
-                </div>
-                    
-            
-            
-            
-            
-                
-                <div class="tileItem visualIEFloatFix">
-
-                    
-
-                    <h2 class="tileHeadline">
-
-                        <a href="https://www.al.al.leg.br/transparencia/contra-cheques-on-line" class="summary url">Contra Cheques On-Line</a>
-
-                    </h2>
-
-                    <div class="documentByLine">
-                    
-                    
-                    </div>
-
-                    
-
-                    <p class="tileFooter">
-                        <a href="https://www.al.al.leg.br/transparencia/contra-cheques-on-line"> 
-                           <span class="hiddenStructure">Contra Cheques On-Line - </span> 
-                           <span>Leia mais…</span> 
-                        </a>
-                    </p>
-
-                    <div class="visualClear"><!-- --></div>
-
-                </div>
-                    
-            
-            
-            
-            
-                
-                <div class="tileItem visualIEFloatFix">
-
-                    
-
-                    <h2 class="tileHeadline">
-
-                        <a href="https://www.al.al.leg.br/transparencia/acesso-a-informacao-1" class="summary url">Acesso à Informação</a>
-
-                    </h2>
-
-                    <div class="documentByLine">
-                    
-                    
-                    </div>
-
-                    
-
-                    <p class="tileFooter">
-                        <a href="https://www.al.al.leg.br/transparencia/acesso-a-informacao-1"> 
-                           <span class="hiddenStructure">Acesso à Informação - </span> 
-                           <span>Leia mais…</span> 
-                        </a>
-                    </p>
-
-                    <div class="visualClear"><!-- --></div>
-
-                </div>
-                    
-            
-            
-            
-            
-                
-                <div class="tileItem visualIEFloatFix">
-
-                    
-
-                    <h2 class="tileHeadline">
-
-                        <a href="https://www.al.al.leg.br/transparencia/diario-oficial-eletronico-do-legislativo" class="summary url">Diário Oficial Eletrônico do Legislativo</a>
-
-                    </h2>
-
-                    <div class="documentByLine">
-                    
-                    
-                    </div>
-
-                    
-
-                    <p class="tileFooter">
-                        <a href="https://www.al.al.leg.br/transparencia/diario-oficial-eletronico-do-legislativo"> 
-                           <span class="hiddenStructure">Diário Oficial Eletrônico do Legislativo - </span> 
-                           <span>Leia mais…</span> 
-                        </a>
-                    </p>
-
-                    <div class="visualClear"><!-- --></div>
-
-                </div>
-                    
-            
-            
-            
-            
-                
-                <div class="tileItem visualIEFloatFix">
-
-                    
-
-                    <h2 class="tileHeadline">
-
-                        <a href="https://www.al.al.leg.br/transparencia/formulario-sic-presencial-pessoa-fisica/view" class="summary url">Formulário SIC Presencial Pessoa Física</a>
-
-                    </h2>
-
-                    <div class="documentByLine">
-                    
-                    
-                    </div>
-
-                    
-
-                    <p class="tileFooter">
-                        <a href="https://www.al.al.leg.br/transparencia/formulario-sic-presencial-pessoa-fisica/view"> 
-                           <span class="hiddenStructure">Formulário SIC Presencial Pessoa Física - </span> 
-                           <span>Leia mais…</span> 
-                        </a>
-                    </p>
-
-                    <div class="visualClear"><!-- --></div>
-
-                </div>
-                    
-            
-            
-            
-            
-                
-                <div class="tileItem visualIEFloatFix">
-
-                    
-
-                    <h2 class="tileHeadline">
-
-                        <a href="https://www.al.al.leg.br/transparencia/formulario-sic-presencial-pessoa-juridica/view" class="summary url">Formulário SIC Presencial Pessoa Jurídica</a>
-
-                    </h2>
-
-                    <div class="documentByLine">
-                    
-                    
-                    </div>
-
-                    
-
-                    <p class="tileFooter">
-                        <a href="https://www.al.al.leg.br/transparencia/formulario-sic-presencial-pessoa-juridica/view"> 
-                           <span class="hiddenStructure">Formulário SIC Presencial Pessoa Jurídica - </span> 
-                           <span>Leia mais…</span> 
-                        </a>
-                    </p>
-
-                    <div class="visualClear"><!-- --></div>
-
-                </div>
-                    
-            
-            
-            
-            
-                
-                <div class="tileItem visualIEFloatFix">
-
-                    
-
-                    <h2 class="tileHeadline">
-
-                        <a href="https://www.al.al.leg.br/transparencia/emendas-a-constituicao-do-estado-de-alagoas-1" class="summary url">Emendas à Constituição do Estado de Alagoas</a>
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/receita-orcamentaria" class="summary url">Receita Orçamentária</a>
 
                     </h2>
 
@@ -1416,12 +1381,12 @@ $(document).ready(function() {
                     </div>
 
                     <p class="tileBody">
-                        <span class="description">Emendas à Constituição do Estado de Alagoas promulgada em 05 de Outubro de 1989.</span>
+                        <span class="description">A Receita Orçamentária da Assembleia Legislativa Estadual é oriunda de repasse duodecimal, pois não tem receita própria e está devidamente prevista no Art. 179 da Constituição do Estado de Alagoas.</span>
                     </p>
 
                     <p class="tileFooter">
-                        <a href="https://www.al.al.leg.br/transparencia/emendas-a-constituicao-do-estado-de-alagoas-1"> 
-                           <span class="hiddenStructure">Emendas à Constituição do Estado de Alagoas - </span> 
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/receita-orcamentaria"> 
+                           <span class="hiddenStructure">Receita Orçamentária - </span> 
                            <span>Leia mais…</span> 
                         </a>
                     </p>
@@ -1441,7 +1406,7 @@ $(document).ready(function() {
 
                     <h2 class="tileHeadline">
 
-                        <a href="https://www.al.al.leg.br/transparencia/formulario-eleicao-indireta/view" class="summary url">Formulário Eleição Indireta</a>
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/pagamentos-efetuados" class="summary url">Pagamentos Efetuados</a>
 
                     </h2>
 
@@ -1453,8 +1418,173 @@ $(document).ready(function() {
                     
 
                     <p class="tileFooter">
-                        <a href="https://www.al.al.leg.br/transparencia/formulario-eleicao-indireta/view"> 
-                           <span class="hiddenStructure">Formulário Eleição Indireta - </span> 
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/pagamentos-efetuados"> 
+                           <span class="hiddenStructure">Pagamentos Efetuados - </span> 
+                           <span>Leia mais…</span> 
+                        </a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+                    
+            
+            
+            
+            
+                
+                <div class="tileItem visualIEFloatFix">
+
+                    
+
+                    <h2 class="tileHeadline">
+
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/relatorio-de-gestao-fiscal" class="summary url">Relatório de Gestão Fiscal</a>
+
+                    </h2>
+
+                    <div class="documentByLine">
+                    
+                    
+                    </div>
+
+                    
+
+                    <p class="tileFooter">
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/relatorio-de-gestao-fiscal"> 
+                           <span class="hiddenStructure">Relatório de Gestão Fiscal - </span> 
+                           <span>Leia mais…</span> 
+                        </a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+                    
+            
+            
+            
+            
+                
+                <div class="tileItem visualIEFloatFix">
+
+                    
+
+                    <h2 class="tileHeadline">
+
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/relatorio-de-gestao-fiscal-siconfi" class="summary url">Relatório de Gestão Fiscal - Siconfi</a>
+
+                    </h2>
+
+                    <div class="documentByLine">
+                    
+                    
+                    </div>
+
+                    
+
+                    <p class="tileFooter">
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/relatorio-de-gestao-fiscal-siconfi"> 
+                           <span class="hiddenStructure">Relatório de Gestão Fiscal - Siconfi - </span> 
+                           <span>Leia mais…</span> 
+                        </a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+                    
+            
+            
+            
+            
+                
+                <div class="tileItem visualIEFloatFix">
+
+                    
+
+                    <h2 class="tileHeadline">
+
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/diarias" class="summary url">Diárias</a>
+
+                    </h2>
+
+                    <div class="documentByLine">
+                    
+                    
+                    </div>
+
+                    
+
+                    <p class="tileFooter">
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/diarias"> 
+                           <span class="hiddenStructure">Diárias - </span> 
+                           <span>Leia mais…</span> 
+                        </a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+                    
+            
+            
+            
+            
+                
+                <div class="tileItem visualIEFloatFix">
+
+                    
+
+                    <h2 class="tileHeadline">
+
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/passagens" class="summary url">Passagens</a>
+
+                    </h2>
+
+                    <div class="documentByLine">
+                    
+                    
+                    </div>
+
+                    
+
+                    <p class="tileFooter">
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/passagens"> 
+                           <span class="hiddenStructure">Passagens - </span> 
+                           <span>Leia mais…</span> 
+                        </a>
+                    </p>
+
+                    <div class="visualClear"><!-- --></div>
+
+                </div>
+                    
+            
+            
+            
+            
+                
+                <div class="tileItem visualIEFloatFix">
+
+                    
+
+                    <h2 class="tileHeadline">
+
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/empenhos-e-pagamentos" class="summary url">Empenhos e Pagamentos</a>
+
+                    </h2>
+
+                    <div class="documentByLine">
+                    
+                    
+                    </div>
+
+                    
+
+                    <p class="tileFooter">
+                        <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/empenhos-e-pagamentos"> 
+                           <span class="hiddenStructure">Empenhos e Pagamentos - </span> 
                            <span>Leia mais…</span> 
                         </a>
                     </p>
@@ -1501,7 +1631,7 @@ $(document).ready(function() {
 
             <ul>
                   <li id="document-action-rss">
-                      <a href="https://www.al.al.leg.br/transparencia/RSS" title="">RSS</a>
+                      <a href="https://www.al.al.leg.br/transparencia/orcamento-e-financas/RSS" title="">RSS</a>
                   </li>
             </ul>
         
@@ -1732,7 +1862,7 @@ $(document).ready(function() {
 
             <div>
                 <input type="hidden" name="form.submitted" value="1" />
-                <input type="hidden" name="came_from" value="https://www.al.al.leg.br/transparencia" />
+                <input type="hidden" name="came_from" value="https://www.al.al.leg.br/transparencia/orcamento-e-financas" />
                 <input type="hidden" name="js_enabled" id="js_enabled" value="0" />
                 <input type="hidden" name="cookies_enabled" id="cookies_enabled" value="" />
                 <input type="hidden" name="login_name" id="login_name" value="" />
@@ -1766,7 +1896,7 @@ $(document).ready(function() {
 
     <dd class="portletItem even">
         <a href="https://www.al.al.leg.br/mail_password_form" class="tile">
-           <img src="https://www.al.al.leg.br/transparencia/info_icon.png" alt="" title="" height="16" width="16" />
+           <img src="https://www.al.al.leg.br/transparencia/orcamento-e-financas/info_icon.png" alt="" title="" height="16" width="16" />
            Esqueceu sua senha?
         </a>
     </dd>
