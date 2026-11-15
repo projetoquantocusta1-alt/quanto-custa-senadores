@@ -1,0 +1,884 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="wp-content/themes/alpb/assets/images/favicon-alpb.svg" sizes="32x32" type="image/svg">
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>Assembleia Legislativa da Paraíba</title>
+
+    <meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Assembleia Legislativa da Paraíba &raquo; Transparência" href="https://www.al.pb.leg.br/transparencia/feed" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.al.pb.leg.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.al.pb.leg.br%2Ftransparencia" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.al.pb.leg.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.al.pb.leg.br%2Ftransparencia&#038;format=xml" />
+	<style type="text/css">
+	.wp-pagenavi{float:left !important; }
+	</style>
+  <style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='haiku-style-css' href='https://www.al.pb.leg.br/wp-content/plugins/haiku-minimalist-audio-player/haiku-player.css?ver=1.0.0' media='screen' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='plyr-css-css' href='https://www.al.pb.leg.br/wp-content/plugins/easy-video-player/lib/plyr.css?ver=7.1.4' media='all' />
+<link rel='stylesheet' id='social-widget-css' href='https://www.al.pb.leg.br/wp-content/plugins/social-media-widget/social_widget.css?ver=7.1.4' media='all' />
+<link rel='stylesheet' id='wpa-style-css' href='https://www.al.pb.leg.br/wp-content/plugins/wp-accessibility/css/wpa-style.css?ver=2.4.5' media='all' />
+<style id="wpa-style-inline-css">
+:root { --admin-bar-top : 7px; }
+/*# sourceURL=wpa-style-inline-css */
+</style>
+<link rel='stylesheet' id='template-css-css' href='https://www.al.pb.leg.br/wp-content/themes/alpb/assets/css/template.css?ver=1.0.9' media='all' />
+<link rel='stylesheet' id='tailwind-css' href='https://www.al.pb.leg.br/wp-content/themes/alpb/assets/css/tailwind.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-style-css' href='https://www.al.pb.leg.br/wp-content/plugins/wp-pagenavi-style/css/css3_gray.css?ver=1.0' media='all' />
+<script id="jquery-core-js" src="https://www.al.pb.leg.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.al.pb.leg.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="fontResizerCookie-js" src="https://www.al.pb.leg.br/wp-content/plugins/font-resizer/js/jquery.cookie.js?ver=7.1.4"></script>
+<script id="fontResizer-js" src="https://www.al.pb.leg.br/wp-content/plugins/font-resizer/js/jquery.fontsize.js?ver=7.1.4"></script>
+<script id="fontResizerPlugin-js" src="https://www.al.pb.leg.br/wp-content/plugins/font-resizer/js/main.js?ver=7.1.4"></script>
+<script id="adrotate-groups-js-extra">
+var impression_object = {"ajax_url":"https://www.al.pb.leg.br/wp-admin/admin-ajax.php"};
+//# sourceURL=adrotate-groups-js-extra
+</script>
+<script id="adrotate-groups-js" src="https://www.al.pb.leg.br/wp-content/plugins/adrotate/library/jquery.groups.js"></script>
+<script id="adrotate-clicker-js-extra">
+var click_object = {"ajax_url":"https://www.al.pb.leg.br/wp-admin/admin-ajax.php"};
+//# sourceURL=adrotate-clicker-js-extra
+</script>
+<script id="adrotate-clicker-js" src="https://www.al.pb.leg.br/wp-content/plugins/adrotate/library/jquery.clicker.js"></script>
+<script id="plyr-js-js-extra">
+var easy_video_player = {"plyr_iconUrl":"https://www.al.pb.leg.br/wp-content/plugins/easy-video-player/lib/plyr.svg","plyr_blankVideo":"https://www.al.pb.leg.br/wp-content/plugins/easy-video-player/lib/blank.mp4"};
+//# sourceURL=plyr-js-js-extra
+</script>
+<script id="plyr-js-js" src="https://www.al.pb.leg.br/wp-content/plugins/easy-video-player/lib/plyr.js?ver=7.1.4"></script>
+<link rel="https://api.w.org/" href="https://www.al.pb.leg.br/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.al.pb.leg.br/wp-json/wp/v2/pages/385" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.al.pb.leg.br/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.4" />
+<link rel="canonical" href="https://www.al.pb.leg.br/transparencia" />
+<link rel='shortlink' href='https://www.al.pb.leg.br/?p=385' />
+
+<!-- This site is using AdRotate v5.19.3 to display their advertisements - https://ajdg.solutions/ -->
+<!-- AdRotate CSS -->
+<style type="text/css" media="screen">
+	.g { margin:0px; padding:0px; overflow:hidden; line-height:1; zoom:1; }
+	.g img { height:auto; }
+	.g-col { position:relative; float:left; }
+	.g-col:first-child { margin-left: 0; }
+	.g-col:last-child { margin-right: 0; }
+	.g-1 { margin:1px 1px 1px 1px; }
+	.g-2 { min-width:1px; max-width:122px; }
+	.b-2 { margin:3px 1px 1px 1px; }
+	@media only screen and (max-width: 480px) {
+		.g-col, .g-dyn, .g-single { width:100%; margin-left:0; margin-right:0; }
+	}
+</style>
+<!-- /AdRotate CSS -->
+
+<script type="text/javascript">/* <![CDATA[ */ var haiku_jplayerswf_path =  'https://www.al.pb.leg.br/wp-content/plugins/haiku-minimalist-audio-player/js'; /* ]]> */</script>	<style type="text/css">
+	 .wp-pagenavi
+	{
+		font-size:12px !important;
+	}
+	</style>
+	    </head>
+<body class="wp-singular page-template page-template-page-transparencia page-template-page-transparencia-php page page-id-385 page-parent wp-theme-alpb">
+
+<header>
+    <div class="topbar">
+        <div class="container">
+            <div></div>
+            <div class="right">
+
+                <div class="acessibilidade-texto">
+                    <button id="font-decrease"
+                            aria-label="Diminuir tamanho do texto"
+                            title="Diminuir texto">A-
+                    </button>
+
+                    <button id="font-reset"
+                            aria-label="Restaurar tamanho do texto"
+                            title="Restaurar texto">A
+                    </button>
+
+                    <button id="font-increase"
+                            aria-label="Aumentar tamanho do texto"
+                            title="Aumentar texto">A+
+                    </button>
+                </div>
+
+                <button id="btn-contraste"
+                        class="btn-contraste"
+                        aria-label="Ativar alto contraste"
+                        title="Alto contraste">
+                    <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/contrast.svg"
+                         alt="Alto contraste"
+                         class="icon-contraste">
+                </button>
+
+                <span> <a href="https://www.al.pb.leg.br/transparencia/mapa-site" id="link-contraste">Mapa do Site</a></span>
+
+                <span> <a href="https://www.al.pb.leg.br/transparencia/duvidas-frequentes" id="link-contraste">Dúvidas frequentes</a></span>
+
+                <a href="https://www.al.pb.leg.br/tvalpb/" class="social-link">
+                    <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/tv.png" alt="Tv" class="logo-img">
+                </a>
+                <a href="https://www.youtube.com/legislativopb" class="social-link">
+                    <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/youtube.png" alt="Youtube" class="logo-img">
+                </a>
+                <a href="https://www.threads.net/@assembleiapb" class="social-link">
+                    <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/threads.png" alt="Threads" class="logo-img">
+                </a>
+                <a href="https://instagram.com/assembleiapb" class="social-link">
+                    <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/instagram.png" alt="Instagram" class="logo-img">
+                </a>
+                <a href="https://x.com/Assembleia_PB" class="social-link">
+                    <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/twitter-x.png" alt="Twitter" class="logo-img">
+                </a>
+                <a href="https://facebook.com/AssembleiaPB" class="social-link">
+                    <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/facebook.png" alt="Facebook" class="logo-img">
+                </a>
+
+                <div class="search-box">
+                    <form role="search" method="get" action="https://www.al.pb.leg.br/">
+                        <input type="search" name="s" placeholder="Procurar..." value="">
+                        <button type="submit">
+                            <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/search.svg"
+                                 alt="search" class="material-symbols-outlined">
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <div class="container">
+
+            <!--LOGO PADRÃO + SELO UNALE-->
+            <div class="logo-area">
+                <a href="https://www.al.pb.leg.br" class="logo-ALPB">
+                    <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/Logo-ALPB.svg" alt="Logo da ALPB">
+                </a>
+
+                <div class="logo-container-unale">
+                    <div class="logo-wrapper-unale">
+                        <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/premio-unale.png"
+                             alt="Selo Unale"
+                             class="logo-unale"/>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--logo + emblema-->
+
+            <!--MAIO AMARELO-->
+            <!--            <a href="--><!--" class="logo-ALPB">-->
+            <!--                <img src="--><!--/assets/images/Logo-ALPB-setembro-amarelo.svg" alt="Logo da ALPB">-->
+            <!--                <img class="logo-emblema"-->
+            <!--                     src="--><!--/assets/images/emblema-amarelo.svg"-->
+            <!--                     alt="Emblema setembro amarelo">-->
+            <!--            </a>-->
+
+            <!--SETEMBRO AMARELO-->
+            <!--            <a href="--><!--" class="logo-ALPB">-->
+            <!--                <img src="--><!--/assets/images/Logo-ALPB-setembro-amarelo.svg" alt="Logo da ALPB">-->
+            <!--                <img class="logo-emblema"-->
+            <!--                     src="--><!--/assets/images/emblema-amarelo.svg"-->
+            <!--                     alt="Emblema setembro amarelo">-->
+            <!--            </a>-->
+
+            <!--OUTUBRO ROSA-->
+            <!--            <a href="--><!--" class="logo-ALPB">-->
+            <!--                <img src="--><!--/assets/images/Logo-ALPB-outubro-rosa.svg" alt="Logo da ALPB">-->
+            <!--                <img class="logo-emblema"-->
+            <!--                     src="--><!--/assets/images/emblema-rosa.svg"-->
+            <!--                     alt="Emblema outubro rosa">-->
+            <!--            </a>-->
+
+            <!--NOVEMBRO AZUL-->
+            <!--            <a href="--><!--" class="logo-ALPB">-->
+            <!--                <img src="--><!--/assets/images/Logo-ALPB-novembro-azul.svg" alt="Logo da ALPB">-->
+            <!--                <img class="logo-emblema"-->
+            <!--                     src="--><!--/assets/images/emblema-azul.svg"-->
+            <!--                     alt="Emblema novembro azul">-->
+            <!--            </a>-->
+
+
+            <button id="open-mobile-menu" class="hamburger-button">☰</button>
+
+            <div class="navbar-content">
+                <nav class="navbar-menu">
+                    <div class="menu-principal">
+                        <ul class="menu"><li id="menu-item-63910" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-63910"><a href="#">Transparência</a>
+<ul class="sub-menu">
+	<li id="menu-item-62283" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-385 current_page_item menu-item-62283"><a href="https://www.al.pb.leg.br/transparencia" aria-current="page">Portal da Transparência</a></li>
+	<li id="menu-item-62315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62315"><a href="https://www.al.pb.leg.br/relatorios-de-gestao-fiscal">Relatórios de Gestão Fiscal</a></li>
+</ul>
+</li>
+<li id="menu-item-62284" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-62284"><a href="#">Institucional</a>
+<ul class="sub-menu">
+	<li id="menu-item-62286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62286"><a href="https://www.al.pb.leg.br/mesadiretora">Mesa Diretora</a></li>
+	<li id="menu-item-62287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62287"><a href="https://www.al.pb.leg.br/deputados">Deputados</a></li>
+	<li id="menu-item-62292" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62292"><a href="https://www.al.pb.leg.br/e-mails-dos-deputados">E-mails dos deputados</a></li>
+	<li id="menu-item-62303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62303"><a href="https://www.al.pb.leg.br/transparencia/secretarias">Secretarias</a></li>
+	<li id="menu-item-64359" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-64359"><a href="https://www.al.pb.leg.br/elegispb">Escola do Legislativo</a></li>
+	<li id="menu-item-62306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62306"><a href="https://www.al.pb.leg.br/paginamemorial">Memorial</a></li>
+	<li id="menu-item-62307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62307"><a href="https://www.al.pb.leg.br/espaco-do-cidadao/ouvidoria">Ouvidoria</a></li>
+	<li id="menu-item-62308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62308"><a href="https://www.al.pb.leg.br/creche">Creche e Pré-Escola</a></li>
+	<li id="menu-item-62309" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62309"><a href="https://www.al.pb.leg.br/appl">APPL</a></li>
+	<li id="menu-item-62293" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62293"><a href="https://www.al.pb.leg.br/plataforma-ods">Plataforma ODS</a></li>
+</ul>
+</li>
+<li id="menu-item-63911" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-63911"><a href="#">Processo Legislativo</a>
+<ul class="sub-menu">
+	<li id="menu-item-62311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62311"><a href="https://www.al.pb.leg.br/projetos-em-tramitacao">Projetos em tramitação</a></li>
+	<li id="menu-item-62289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62289"><a href="https://www.al.pb.leg.br/comissoes">Comissões</a></li>
+	<li id="menu-item-62301" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62301"><a href="https://sapl.al.pb.leg.br">Sistema de Acompanhamento do Processo Legislativo (SAPL)</a></li>
+</ul>
+</li>
+<li id="menu-item-62294" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-62294"><a href="#">Legislação</a>
+<ul class="sub-menu">
+	<li id="menu-item-62312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62312"><a href="https://www.al.pb.leg.br/leis-estaduais">Leis Estaduais</a></li>
+	<li id="menu-item-62313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62313"><a href="https://www.al.pb.leg.br/leis-orcamentarias">Leis Orçamentárias</a></li>
+	<li id="menu-item-64044" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64044"><a href="https://www.al.pb.leg.br/coletanea-de-leis">Coletânea de leis</a></li>
+	<li id="menu-item-62296" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62296"><a href="https://www.al.pb.leg.br/constituicao-paraibana-2">Constituição Paraíbana</a></li>
+	<li id="menu-item-62297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62297"><a href="https://www.al.pb.leg.br/regimento-interno">Regimento Interno</a></li>
+	<li id="menu-item-62298" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62298"><a href="https://www.al.pb.leg.br/codigo-de-etica">Código de Ética</a></li>
+	<li id="menu-item-62299" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62299"><a href="http://legis.senado.gov.br/sicon/#/PreparaPesquisaLegislacao.action">Leis Federais</a></li>
+	<li id="menu-item-62300" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62300"><a href="http://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm">Constituição Federal</a></li>
+	<li id="menu-item-62316" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-62316"><a href="https://www.al.pb.leg.br/categoria/dpl-on-line">Diário do Poder Legislativo (DPL)</a></li>
+</ul>
+</li>
+<li id="menu-item-63912" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-63912"><a href="#">Comunicação</a>
+<ul class="sub-menu">
+	<li id="menu-item-62291" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62291"><a href="https://www.al.pb.leg.br/tvalpb/">TV Assembleia</a></li>
+	<li id="menu-item-63913" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63913"><a href="https://www.al.pb.leg.br/agencia-de-noticias">Notícias</a></li>
+	<li id="menu-item-62302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62302"><a href="https://sic.al.pb.leg.br/sact/">Sistema de Atendimento ao Cidadão (Fale Conosco)</a></li>
+</ul>
+</li>
+<li id="menu-item-62304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62304"><a href="https://www.al.pb.leg.br/espaco-do-servidor">Espaço do Servidor</a></li>
+</ul>                    </div>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<div id="mobile-menu" class="mobile-menu">
+    <button class="close-mobile">✕</button>
+
+    <ul id="menu-main-menu-1" class="mobile-nav"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-63910"><a href="#">Transparência</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-385 current_page_item menu-item-62283"><a href="https://www.al.pb.leg.br/transparencia" aria-current="page">Portal da Transparência</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62315"><a href="https://www.al.pb.leg.br/relatorios-de-gestao-fiscal">Relatórios de Gestão Fiscal</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-62284"><a href="#">Institucional</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62286"><a href="https://www.al.pb.leg.br/mesadiretora">Mesa Diretora</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62287"><a href="https://www.al.pb.leg.br/deputados">Deputados</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62292"><a href="https://www.al.pb.leg.br/e-mails-dos-deputados">E-mails dos deputados</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62303"><a href="https://www.al.pb.leg.br/transparencia/secretarias">Secretarias</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-64359"><a href="https://www.al.pb.leg.br/elegispb">Escola do Legislativo</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62306"><a href="https://www.al.pb.leg.br/paginamemorial">Memorial</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62307"><a href="https://www.al.pb.leg.br/espaco-do-cidadao/ouvidoria">Ouvidoria</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62308"><a href="https://www.al.pb.leg.br/creche">Creche e Pré-Escola</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62309"><a href="https://www.al.pb.leg.br/appl">APPL</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62293"><a href="https://www.al.pb.leg.br/plataforma-ods">Plataforma ODS</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-63911"><a href="#">Processo Legislativo</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62311"><a href="https://www.al.pb.leg.br/projetos-em-tramitacao">Projetos em tramitação</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62289"><a href="https://www.al.pb.leg.br/comissoes">Comissões</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62301"><a href="https://sapl.al.pb.leg.br">Sistema de Acompanhamento do Processo Legislativo (SAPL)</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-62294"><a href="#">Legislação</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62312"><a href="https://www.al.pb.leg.br/leis-estaduais">Leis Estaduais</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62313"><a href="https://www.al.pb.leg.br/leis-orcamentarias">Leis Orçamentárias</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64044"><a href="https://www.al.pb.leg.br/coletanea-de-leis">Coletânea de leis</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62296"><a href="https://www.al.pb.leg.br/constituicao-paraibana-2">Constituição Paraíbana</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62297"><a href="https://www.al.pb.leg.br/regimento-interno">Regimento Interno</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62298"><a href="https://www.al.pb.leg.br/codigo-de-etica">Código de Ética</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62299"><a href="http://legis.senado.gov.br/sicon/#/PreparaPesquisaLegislacao.action">Leis Federais</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62300"><a href="http://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm">Constituição Federal</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-62316"><a href="https://www.al.pb.leg.br/categoria/dpl-on-line">Diário do Poder Legislativo (DPL)</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-63912"><a href="#">Comunicação</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62291"><a href="https://www.al.pb.leg.br/tvalpb/">TV Assembleia</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63913"><a href="https://www.al.pb.leg.br/agencia-de-noticias">Notícias</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62302"><a href="https://sic.al.pb.leg.br/sact/">Sistema de Atendimento ao Cidadão (Fale Conosco)</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62304"><a href="https://www.al.pb.leg.br/espaco-do-servidor">Espaço do Servidor</a></li>
+</ul></div>
+
+<div id="page-transparencia">
+    <div id="content">
+        <!-- cabeçalho -->
+        <div class="noticias-header">
+            <div class="noticias-title-container">
+                <div class="noticias-title-bar"></div>
+                <a class="noticias-title">Portal da Transparência</a>
+            </div>
+            <div class="noticias-header-right">
+                <div class="noticias-header-circle"></div>
+            </div>
+        </div>
+
+        <div class="transparencia-wrapper">
+            <div class="transparencia-content">
+                <ul id="menu-grande">
+                    <li class="administracao">
+                        <span class="material-symbols-outlined">account_balance</span>
+                        Administração
+                    </li>
+                    <li class="recursos-humanos">
+                        <span class="material-symbols-outlined">diversity_3</span>
+                        Recursos Humanos
+                    </li>
+                    <li class="funcionamento">
+                        <span class="material-symbols-outlined">description</span>
+                        Funcionamento
+                    </li>
+                    <li class="deputados">
+                        <span class="material-symbols-outlined">person</span>
+                        Deputados
+                    </li>
+                </ul>
+
+                <div class="clear"></div>
+
+                <div class="menus-container">
+                    <!-- administração -->
+                    <div id="content-administracao" class="box-content">
+                        <h3>Administração</h3>
+                        <nav>
+                            <ul id="menu-menu-administracao" class="lista-v"><li id="menu-item-37030" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37030"><a href="https://www.al.pb.leg.br/receitas">Receitas</a></li>
+<li id="menu-item-37036" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37036"><a href="https://www.al.pb.leg.br/despesas">Despesas</a></li>
+<li id="menu-item-15883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15883"><a href="https://www.al.pb.leg.br/relatorios-de-gestao-fiscal">Relatório de Gestão Fiscal</a></li>
+<li id="menu-item-37232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37232"><a href="https://www.al.pb.leg.br/prestacao-de-contas-anuais">Prestação de Contas Anuais</a></li>
+<li id="menu-item-37822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37822"><a href="https://www.al.pb.leg.br/publicidade-institucional">Publicidade Institucional</a></li>
+<li id="menu-item-48629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48629"><a href="https://www.al.pb.leg.br/transparencia/administracao/contratacao-direta">Contratação Direta de Pequenos Valores</a></li>
+<li id="menu-item-6425" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6425"><a href="https://www.al.pb.leg.br/transparencia/administracao/licitacoes">Licitações</a></li>
+<li id="menu-item-37221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37221"><a href="https://www.al.pb.leg.br/relatorios-licitatorios">Relatórios Licitatórios</a></li>
+<li id="menu-item-37210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37210"><a href="https://www.al.pb.leg.br/contratos">Contratos</a></li>
+<li id="menu-item-62600" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62600"><a href="https://www.al.pb.leg.br/distratos">Distratos</a></li>
+<li id="menu-item-62599" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62599"><a href="https://www.al.pb.leg.br/aditivos">Aditivos</a></li>
+<li id="menu-item-42976" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42976"><a href="https://www.al.pb.leg.br/ata-de-registro-de-precos">Ata de Registro de Preços</a></li>
+<li id="menu-item-8878" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8878"><a href="http://www.al.pb.leg.br/wp-content/uploads/2013/08/competencia_orgaos_alpb.pdf">Secretarias</a></li>
+<li id="menu-item-42960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42960"><a href="https://www.al.pb.leg.br/transparencia/administracao/prestadores">Prestadores de Serviços de Apoio Parlamentar</a></li>
+<li id="menu-item-55288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55288"><a href="https://www.al.pb.leg.br/inexigibilidade-de-licitacao">Inexigibilidade de Licitação</a></li>
+<li id="menu-item-55291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55291"><a href="https://www.al.pb.leg.br/dispensa-de-licitacao">Dispensa de Licitação</a></li>
+</ul>                        </nav>
+                    </div>
+
+                    <!-- recursos Humanos -->
+                    <div id="content-recursos-humanos" class="box-content">
+                        <h3>Recursos Humanos</h3>
+                        <nav>
+                            <ul id="menu-menu-recursos-humanos" class="lista-v"><li id="menu-item-7866" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7866"><a href="http://www.al.pb.leg.br/wp-content/uploads/2020/02/ORGANOGRAMA-ALTERADO.pdf">Organograma</a></li>
+<li id="menu-item-43988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43988"><a href="https://www.al.pb.leg.br/transparencia/recursos-humanos/estrutura-remuneratoria">Estrutura Remuneratória</a></li>
+<li id="menu-item-42958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42958"><a href="https://www.al.pb.leg.br/transparencia/recursos-humanos/quadros">Quantitativo de Cargos</a></li>
+<li id="menu-item-42959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42959"><a href="https://www.al.pb.leg.br/transparencia/recursos-humanos/remuneracoes">Remunerações</a></li>
+<li id="menu-item-41605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41605"><a href="https://www.al.pb.leg.br/estagiarios">Estagiários</a></li>
+</ul>                        </nav>
+                    </div>
+
+                    <!-- funcionamento -->
+                    <div id="content-funcionamento" class="box-content">
+                        <h3>Funcionamento</h3>
+                        <nav>
+                            <ul id="menu-menu-funcionamento" class="lista-v"><li id="menu-item-6440" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6440"><a href="https://www.al.pb.leg.br/transparencia/funcionamento/expediente">Expediente</a></li>
+<li id="menu-item-6444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6444"><a href="https://www.al.pb.leg.br/ordem-do-dia">Ordem do dia</a></li>
+<li id="menu-item-6443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6443"><a href="https://www.al.pb.leg.br/atas-das-sessoes">Atas das sessões</a></li>
+<li id="menu-item-6952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6952"><a href="https://www.al.pb.leg.br/transparencia/funcionamento/em-pauta">Pauta das sessões</a></li>
+<li id="menu-item-7013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7013"><a href="https://www.al.pb.leg.br/agenda-de-plenario-e-eventos">Agenda de plenário e eventos</a></li>
+<li id="menu-item-6967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6967"><a href="https://www.al.pb.leg.br/transparencia/funcionamento/designacao-de-relatores">Designação de Relatores</a></li>
+<li id="menu-item-6965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6965"><a href="https://www.al.pb.leg.br/pauta">Pauta das comissões</a></li>
+<li id="menu-item-7014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7014"><a href="https://www.al.pb.leg.br/comissoes/agenda-das-comissoes">Agenda das Comissões</a></li>
+<li id="menu-item-7028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7028"><a href="https://www.al.pb.leg.br/comissoes/relatorios-das-reunioes">Resultado das reuniões</a></li>
+<li id="menu-item-53655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53655"><a href="https://www.al.pb.leg.br/relatorio-ouvidoria">Relatório Ouvidoria</a></li>
+<li id="menu-item-6436" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6436"><a href="https://sapl3.al.pb.leg.br">SAPL</a></li>
+<li id="menu-item-59958" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59958"><a href="http://www.al.pb.leg.br/wp-content/uploads/2025/06/Carta-de-Servico.pdf">Carta de Serviços</a></li>
+</ul>                        </nav>
+                    </div>
+
+                    <!-- deputados -->
+                    <div id="content-deputados" class="box-content">
+                        <h3>Deputados</h3>
+                        <nav>
+                            <ul id="menu-menu-deputados" class="lista-v"><li id="menu-item-43736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43736"><a href="https://www.al.pb.leg.br/transparencia/deputados/viap-v2" title="VIAP">Verba Indenizatória de Apoio Parlamentar</a></li>
+</ul>                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="transparencia-sidebar">
+                <div id="banners-transparencia">
+                                                    <div class="banner-item">
+                                    <img src="https://www.al.pb.leg.br/wp-content/uploads/2025/11/CONHECA-A-ESTRUTURA.png"
+                                         alt="ESTRUTURA"
+                                         class="banner-image" />
+                                </div>
+                                            </div>
+                 <br />
+            	 <a class="btn-servico btn-branco" style="width: 100% !important;"  href="https://radardatransparencia.atricon.org.br" target="_blank">
+                    <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/tp.png" width="80px"
+                  		   alt="ícone do Radar da Transparência" />
+                    <div>
+                      <span>Acesso ao <br><strong>Radar da Transparência</strong></span>
+                    </div>
+                 </a>
+
+                 <br />
+                 <a class="btn-servico btn-branco" style="width: 100% !important;"  href="https://transparencia.pb.gov.br" target="_blank">
+                  <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/logo-transparencia.svg" width="240px"
+                               alt="ícone da Transparência do Governa da Paraíba" />
+                  <div>
+                     <span>Acesso ao <br><strong>Portal da Transparência da Paraiba</strong></span>
+                  </div>
+                 </a>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+</div>
+
+<footer>
+    <div class="container-footer">
+        <!-- redes sociais -->
+        <div class="social-links">
+            <a href="https://www.al.pb.leg.br/tvalpb/" title="Tv">
+                <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/tv.png" alt="TV" />
+            </a>
+            <a href="https://www.youtube.com/legislativopb" title="Youtube">
+                <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/youtube.png" alt="Youtube" />
+            </a>
+            <a href="https://www.threads.net/@assembleiapb" title="Threads">
+                <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/threads.png" alt="Threads" />
+            </a>
+            <a href="https://instagram.com/assembleiapb" title="Instagram">
+                <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/instagram.png" alt="Instagram" />
+            </a>
+            <a href="https://x.com/Assembleia_PB" title="Twitter">
+                <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/twitter-x.png" alt="Twitter" />
+            </a>
+            <a href="https://facebook.com/AssembleiaPB" title="Facebook" target="_blank">
+                <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/facebook.png" alt="Facebook" />
+            </a>
+        </div>
+        <div class="logo-container-footer">
+            <img src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/images/brasao_alpb.png" alt="Logo ALPB" />
+        </div>
+        <div class="footer-text">
+            <p>
+                ASSEMBLEIA LEGISLATIVA DA PARAÍBA | PRAÇA JOÃO PESSOA S/N - CENTRO - JOÃO PESSOA PB |
+                CEP 58013-900 | TELEFONE: (83) 3214-4500
+            </p>
+            <p>
+                Horário de funcionamento: Segunda-feira: 12:00h  às 17:00h - Terça-feira à Quinta-feira: 07:00h às 17:30h - Sexta-feira: 07:00h às 13:00h
+            </p>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-bottom">
+            <div>
+                <p>© 2026 Assembleia Legislativa da Paraíba - Todos os direitos reservados</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Acessibilidade</a>
+                <a href="https://www.al.pb.leg.br/transparencia/mapa-site">Mapa do Site</a>
+            </div>
+        </div>
+    </div>
+    <style>
+        /* Container com estilo institucional */
+        .video-alpb-floating {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 99999;
+            width: 260px;
+            border: 3px solid #ffffff;
+            border-radius: 8px;
+            overflow: visible;
+            box-shadow: 0px 4px 20px rgba(0, 56, 118, 0.3);
+            background: #000;
+            transition: transform 0.3s ease;
+        }
+
+        /* Botão de fechar com o Azul da ALPB */
+        .btn-alpb-close {
+            position: absolute;
+            top: -12px;
+            right: -12px;
+            width: 30px;
+            height: 30px;
+            background-color: #003876;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 22px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+        }
+
+        .btn-alpb-close:hover {
+            background-color: #002a5a;
+            transform: scale(1.1);
+        }
+
+        /* Ajuste para dispositivos móveis */
+        @media (max-width: 768px) {
+            .video-alpb-floating {
+                width: 160px;
+                bottom: 15px;
+                right: 44px;
+            }
+            .btn-alpb-close {
+                width: 25px;
+                height: 25px;
+                font-size: 18px;
+            }
+        }
+
+        .video-alpb-floating {
+            position: fixed;
+            bottom: 25px;
+            right: 64px;
+            z-index: 999999 !important;
+            width: 200px;
+            background: transparent;
+            border-radius: 12px;
+            box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .btn-alpb-close {
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            width: 32px;
+            height: 32px;
+            background-color: #003876;
+            color: white;
+            border: 2px solid white;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 24px;
+            z-index: 1000000 !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    </footer>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/alpb/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="jplayer-js" src="https://www.al.pb.leg.br/wp-content/plugins/haiku-minimalist-audio-player/js/jquery.jplayer.min.js?ver=2.1.2"></script>
+<script id="haiku-script-js" src="https://www.al.pb.leg.br/wp-content/plugins/haiku-minimalist-audio-player/js/haiku-player.js?ver=1.0.0"></script>
+<script id="alpb-carousel-js" src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/js/carousel.js?ver=1.0"></script>
+<script id="alpb-banner-carousel-js" src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/js/banner-carrossel.js?ver=1.0"></script>
+<script id="alpb-card-carousel-js" src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/js/card-carrossel.js?ver=1.0"></script>
+<script id="alpb-card-campanhas-carousel-js" src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/js/card-campanhas.js?ver=1.0"></script>
+<script id="deputados-js" src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/js/deputados.js?ver=1.0"></script>
+<script id="espaco-cidadao-js" src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/js/espaco-cidadao-carrossel.js?ver=1.0"></script>
+<script id="espaco-servidor-js" src="https://www.al.pb.leg.br/wp-content/themes/alpb/assets/js/carrossel-espaco-servidor.js?ver=1.0"></script>
+<script id="wp-accessibility-js-extra">
+var wpa = {"skiplinks":{"enabled":false,"output":""},"target":"1","tabindex":"1","underline":{"enabled":false,"target":"a"},"videos":"","dir":"ltr","viewport":"1","lang":"pt-BR","titles":"1","labels":"1","wpalabels":{"s":"Pesquisar","author":"Nome","email":"E-mail","url":"Site","comment":"Coment\u00e1rio"},"alt":"","altSelector":".hentry img[alt]:not([alt=\"\"]), .comment-content img[alt]:not([alt=\"\"]), #content img[alt]:not([alt=\"\"]),.entry-content img[alt]:not([alt=\"\"])","current":"","errors":"","tracking":"","ajaxurl":"https://www.al.pb.leg.br/wp-admin/admin-ajax.php","security":"464f7c0512","action":"wpa_stats_action","url":"https://www.al.pb.leg.br/transparencia/","post_id":"385","continue":"","pause":"Pausar v\u00eddeo","play":"Reproduzir v\u00eddeo","restUrl":"https://www.al.pb.leg.br/wp-json/wp/v2/media","restNonce":"82b4a509de","ldType":"button","ldHome":"https://www.al.pb.leg.br","ldText":"\u003Cspan class=\"dashicons dashicons-media-text\" aria-hidden=\"true\"\u003E\u003C/span\u003E\u003Cspan class=\"screen-reader\"\u003EDescri\u00e7\u00e3o longa\u003C/span\u003E"};
+//# sourceURL=wp-accessibility-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="wp-accessibility-js" src="https://www.al.pb.leg.br/wp-content/plugins/wp-accessibility/js/wp-accessibility.min.js?ver=2.4.5"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.al.pb.leg.br/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://www.al.pb.leg.br/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script>
+    jQuery(function($){
+
+        function updateParamsAndReload(updates) {
+            var p = new URLSearchParams(window.location.search);
+
+            Object.keys(updates).forEach(function(k){
+                if (updates[k] === null) {
+                    p.delete(k);
+                } else {
+                    p.set(k, updates[k]);
+                }
+            });
+
+            if (!p.has('tipo_viap')) p.set('tipo_viap', 'deputados');
+
+            var newUrl = window.location.pathname + '?' + p.toString();
+            window.location.replace(newUrl);
+        }
+
+        var params = new URLSearchParams(window.location.search);
+        var tipoUrl = params.get('tipo_viap') || 'deputados';
+        $('input[name="tipo_viap"][value="' + tipoUrl + '"]').prop('checked', true);
+
+        $('input[name="tipo_viap"]').on('change', function(){
+            var tipo = $(this).val();
+            updateParamsAndReload({ tipo_viap: tipo, deputado: null, orgao: null });
+        });
+
+        $('#ano_viap').on('change', function(){
+            var ano = $(this).val();
+            updateParamsAndReload({ ano_viap: ano, mes_viap: null, deputado: null, orgao: null });
+        });
+
+        $('#mes_viap').on('change', function(){
+            var mes = $(this).val();
+            var ano = $('#ano_viap').val() || '';
+            updateParamsAndReload({ ano_viap: ano, mes_viap: mes, deputado: null, orgao: null });
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const openBtn = document.getElementById("open-mobile-menu");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const closeBtn = document.querySelector(".close-mobile");
+
+        openBtn.addEventListener("click", () => mobileMenu.classList.add("open"));
+        closeBtn.addEventListener("click", () => mobileMenu.classList.remove("open"));
+
+        document.querySelectorAll(".mobile-nav li.menu-item-has-children").forEach((item) => {
+            let toggle = document.createElement("span");
+            toggle.classList.add("submenu-toggle");
+            toggle.innerHTML = "▾";
+            item.prepend(toggle);
+
+            toggle.addEventListener("click", (e) => {
+                e.stopPropagation();
+                item.classList.toggle("open");
+            });
+
+            item.querySelector("a").addEventListener("click", (e) => {
+                if (item.classList.contains("open") === false) {
+                    e.preventDefault();
+                    item.classList.add("open");
+                }
+            });
+        });
+    });
+</script>
+
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        if (window.innerWidth <= 991) {
+            console.log("Lightbox desativado no mobile.");
+            return;
+        }
+
+        const images = document.querySelectorAll(".conteudo img");
+        const links = document.querySelectorAll(".conteudo a");
+
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImage = document.getElementById("lightboxImage");
+
+        const closeBtn = document.getElementById("closeLightbox");
+        const nextBtn = document.getElementById("nextImage");
+        const prevBtn = document.getElementById("prevImage");
+
+        let currentIndex = 0;
+
+        links.forEach(a => {
+            const img = a.querySelector("img");
+            if (img) {
+                a.addEventListener("click", e => e.preventDefault());
+            }
+        });
+
+        function getOriginalUrl(url) {
+            return url.replace(/-\d+x\d+(?=\.\w+$)/, "");
+        }
+
+        function updateButtons() {
+            prevBtn.style.display = currentIndex === 0 ? "none" : "flex";
+            nextBtn.style.display = currentIndex === images.length - 1 ? "none" : "flex";
+        }
+
+        function openLightbox(index) {
+            currentIndex = index;
+
+            const originalURL = getOriginalUrl(images[index].src);
+            lightboxImage.src = originalURL;
+
+            lightbox.style.display = "flex";
+            lightboxImage.style.transform = "scale(1)";
+
+            updateButtons();
+        }
+
+        function closeLightbox() {
+            lightbox.style.display = "none";
+            lightboxImage.src = "";
+        }
+
+        function showNext() {
+            if (currentIndex < images.length - 1) {
+                currentIndex++;
+                openLightbox(currentIndex);
+            }
+        }
+
+        function showPrev() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                openLightbox(currentIndex);
+            }
+        }
+
+        images.forEach((img, index) => {
+            img.style.cursor = "zoom-in";
+            img.addEventListener("click", () => openLightbox(index));
+        });
+
+        closeBtn.addEventListener("click", closeLightbox);
+        nextBtn.addEventListener("click", showNext);
+        prevBtn.addEventListener("click", showPrev);
+
+        lightbox.addEventListener("click", function (e) {
+            if (e.target.id === "lightbox") {
+                closeLightbox();
+            }
+        });
+
+        document.addEventListener("keydown", function (e) {
+            if (lightbox.style.display !== "flex") return;
+
+            if (e.key === "Escape") closeLightbox();
+            if (e.key === "ArrowRight") showNext();
+            if (e.key === "ArrowLeft") showPrev();
+        });
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const btn = document.getElementById('btn-contraste');
+
+        if (localStorage.getItem('contraste') === 'on') {
+            document.body.classList.add('contraste');
+        }
+
+        btn.addEventListener('click', function () {
+            document.body.classList.toggle('contraste');
+
+            if (document.body.classList.contains('contraste')) {
+                localStorage.setItem('contraste', 'on');
+            } else {
+                localStorage.setItem('contraste', 'off');
+            }
+        });
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+        const increaseBtn = document.getElementById('font-increase');
+        const decreaseBtn = document.getElementById('font-decrease');
+        const resetBtn    = document.getElementById('font-reset');
+
+        const html = document.documentElement;
+
+        let fontSize = localStorage.getItem('fontSize')
+            ? parseFloat(localStorage.getItem('fontSize'))
+            : 16;
+
+        html.style.fontSize = fontSize + 'px';
+
+        increaseBtn.addEventListener('click', function () {
+            if (fontSize < 22) {
+                fontSize += 1;
+                applyFontSize();
+            }
+        });
+
+        decreaseBtn.addEventListener('click', function () {
+            if (fontSize > 13) {
+                fontSize -= 1;
+                applyFontSize();
+            }
+        });
+
+        resetBtn.addEventListener('click', function () {
+            fontSize = 16;
+            applyFontSize();
+        });
+
+        function applyFontSize() {
+            html.style.fontSize = fontSize + 'px';
+            localStorage.setItem('fontSize', fontSize);
+        }
+
+    });
+</script>
+
+</body>
+</html>
+

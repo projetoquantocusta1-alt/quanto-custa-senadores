@@ -1,0 +1,1254 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z5JX068VJQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z5JX068VJQ');
+</script>
+<title>Assembleia Legislativa da Bahia</title>
+<meta property="og:url" content="https:///www.al.ba.gov.br"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title"/>
+<meta property="og:description"/>
+<meta property="og:image"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:site_name" content="ALBA"/>
+<meta name="description"/>
+<meta itemprop="image"/>
+<meta property="og:locale" content="pt_BR"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
+<meta content="ALBA" name="author"/>
+<meta content="Assembleia; Legislativa; Bahia; ALBA" name="keywords"/>
+<link rel="shortcut icon" href="/images/favicon.ico"/>
+<link rel="apple-touch-icon" href="/images/favicon.ico"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+<!-- cor da barra do navegador em mobile -->
+<meta content="#133964" name="theme-color"/>
+<meta content="#133964" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="#133964" name="msapplication-navbutton-color"/>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i,800,800i" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="/webjars/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="/webjars/bootstrap/3.3.1/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="/webjars/OwlCarousel/1.3.2/owl.carousel.css"/>
+<link rel="stylesheet" type="text/css" href="/webjars/OwlCarousel/1.3.2/owl.theme.css"/>
+<link rel="stylesheet" type="text/css" href="/webjars/animate.css/3.2.0/animate.min.css"/>
+<link rel="stylesheet" type="text/css" href="/styles/date-picker/bootstrap-datepicker.min.css"/>
+<!-- custom -->
+<link rel="stylesheet" type="text/css" href="/styles/snpp.breadcrumb.min.css"/>
+<link rel="stylesheet" type="text/css" href="/styles/snpp.print.min.css"/>
+<link rel="stylesheet" type="text/css" href="/styles/default.min.css"/>
+<link rel="stylesheet" type="text/css" href="/styles/home.min.css"/>
+<link rel="stylesheet" type="text/css" href="/styles/interna.css"/>
+<link rel="stylesheet" type="text/css" href="/styles/miolo.min.css"/>
+<link rel="stylesheet" type="text/css" href="/styles/responsividade.css"/>
+<link rel="stylesheet" href="/styles/doisdejulho.css" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="/styles/home/transparencia_style.css"/>
+<link rel="stylesheet" type="text/css" href="/styles/electoral.css"/>
+<script type="text/javascript" src="/webjars/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="/webjars/jquery-ui/1.10.4/ui/minified/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/webjars/jQuery-slimScroll/1.3.3/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src='/scripts/scripts.js?v=1.15'></script>
+<script type="text/javascript" src='/scripts/jquery.fancybox.js?v=1.15'></script>
+
+
+<script type="text/javascript" src="/webjars/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/webjars/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>
+<script type="text/javascript" src="/webjars/OwlCarousel/1.3.2/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/webjars/FileSaver.js/0.0.2/FileSaver.min.js"></script>
+<script type="text/javascript" src="/webjars/FileSaver.js/0.0.2/FileSaver.min.js"></script>
+<script type="text/javascript" src="/webjars/jquery-mask-plugin/1.14.15/dist/jquery.mask.min.js"></script>
+
+<!-- custom -->
+<script type="text/javascript" src="/plugins/dyScrollUpJS-2.0.0/dist/js/dyscrollup.min.js"></script>
+<script type="text/javascript" src="/plugins/csplayer/csplayer.js"></script>
+<script type="text/javascript" src="/plugins/hls-0.8.9/dist/hls.min.js"></script>
+<script type="text/javascript" src="/scripts/layout.js"></script>
+<script type="text/javascript" src="/scripts/home.min.js"></script>
+<script type="text/javascript" src="/scripts/bootstrap-datepicker.min.js"></script>
+<script type="text/javascript" src="/scripts/bootstrap-datepicker.pt-BR.min.js"></script>
+<script type="text/javascript" src="/scripts/tagsinputs.js"></script>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" defer></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "ba78084d-3d69-46fa-a555-e7ae014c6549",
+    });
+  });
+</script>
+</head>
+
+<body>
+<header>
+
+
+
+		<script>
+			$("#acessibilidade_contraste").on("click", function (event) {
+				event.preventDefault();
+
+				$("body").toggleClass("com_contraste");
+				if ($(this).attr("data-original-title") == "Aplicar auto contraste") {
+					$(this).attr("data-original-title", "Remover auto contraste");
+				} else {
+					$(this).attr("data-original-title", "Aplicar auto contraste");
+				}
+			});
+		</script>
+
+
+
+		<ul class="skiplist">
+			<li class="skip"><a href="#conteudo" accesskey="2" id="acessibilidade_conteudo">Ir para o conteúdo</a></li>
+		</ul>
+
+		<div id="topo" class="no-print" target="_blank">
+
+			<div class="topo-uteis">
+				<div class="container ">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="data-dia">
+
+								<ul class="btns-acessibilidade text-right list-unstyled list-inline">
+									<li>
+										<a href="https://www.al.ba.gov.br/" data-toggle="tooltip"
+											data-placement="bottom" data-container="body" data-title="Início"
+											class="btn btn-xs" target="_blank"><span class="sr-only">Acessar página
+												inicial do
+												site</span><i class="fa fa-home" aria-hidden="true"></i></a>
+									</li>
+									<li>
+										 <a href="https://atendimento.al.ba.gov.br/sitemap" type="button" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Acessar mapa do site" class="btn btn-xs"><span class="sr-only">Acessar o mapa do site</span><i class="fa fa-map"></i></a>
+									
+									</li>
+									<li>
+										<button type="button" accesskey="3" id="acessibilidade_aumentarfonte"
+											data-toggle="tooltip" data-placement="bottom" data-container="body"
+											title="Aumentar tamanho da fonte" class="btn btn-xs">
+											<span class="sr-only">Ação para aumentar tamanho da fonte do site</span>
+											<i class="fa fa-font" aria-hidden="true"></i><i class="fa fa-plus"
+												aria-hidden="true"></i>
+										</button>
+									</li>
+									<li>
+										<button type="button" accesskey="4" id="acessibilidade_diminuirfonte"
+											data-toggle="tooltip" data-placement="bottom" data-container="body"
+											data-title="Diminuir tamanho da fonte" class="btn btn-xs">
+											<span class="sr-only">Ação para diminuir tamanho da fonte do site</span>
+											<i class="fa fa-font" aria-hidden="true"></i><i class="fa fa-minus"
+												aria-hidden="true"></i>
+										</button>
+									</li>
+									<li>
+										<button type="button" id="acessibilidade_contraste" accesskey="5"
+											data-toggle="tooltip" data-placement="bottom" data-container="body"
+											data-title="Aplicar auto contraste" class="btn btn-xs"><span
+												class="sr-only">Ação para
+												aplicar auto contraste no site</span><i class="fa fa-adjust"
+												aria-hidden="true"></i></button>
+									</li>
+									<li>
+										<a href="https://atendimento.al.ba.gov.br/acessibilidade" accesskey="6" id="acessibilidade_acessar_acessibilidade" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="Acessibilidade do site" class="btn btn-xs"><span class="sr-only">Acessar página sobre acessibilidade do site</span><i class="fa fa-wheelchair" aria-hidden="true"></i></a>
+							
+									</li>
+									<li>
+										 <a href="https://atendimento.al.ba.gov.br/acessibilidade/nvda" accesskey="7" id="acessibilidade_nvda" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="NVDA - Leitor de Tela" class="btn btn-xs"><span class="sr-only">Acessar página sobre NVDA - Leitor de Tela</span><i class="fa fa-assistive-listening-systems" aria-hidden="true"></i></a>
+					
+									</li>
+									<li>
+										<a href="https://atendimento.al.ba.gov.br/acessibilidade/vlibras" accesskey="8" id="acessibilidade_vlibras" data-toggle="tooltip" data-placement="bottom" data-container="body" data-title="VLibras - Tradutor de Libras" class="btn btn-xs"><span class="sr-only">Acessar página sobre VLibras - Tradutor de Libras</span><i class="fa fa-sign-language" aria-hidden="true"></i></a>
+				
+									</li>
+									<li>
+										<a href="https://atendimento.al.ba.gov.br/sistema/autenticacao/entrar" accesskey="9" id="acessibilidade_intranet" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Intranet" class="btn btn-xs" target="_blank"><span class="sr-only">Acessar Intranet</span><i class="fa fa-lock" aria-hidden="true"></i></a>
+
+									</li>
+								</ul>
+
+							</div>
+
+							<div class="menu-topo">
+								<ul>
+									<li>
+										<a target="_blank" href="https://atendimento.al.ba.gov.br/carta-de-servico" ><i class="fa fa-file-text-o" ></i>CARTA DE SERVIÇOS</a>
+				
+									</li>
+									<li>
+										<a target="_blank" href="https://portalrh.alba.ba.gov.br/auth/login"><img
+												src="/images/shared/ic-portal_rh-m.png"
+												style="width:15%!important" />PORTAL RH</a>
+									</li>
+									<li>
+										<a target="_blank" href="https://egbanet.egba.ba.gov.br/alba"><i
+												class="fa fa-newspaper-o"></i> DIÁRIO OFICIAL</a>
+									</li>
+									<li class="apaga-mobile">
+										<a target="_blank" href="https://alba.nopapercloud.app"><i
+												class="fa fa-file-text-o"></i> NOPAPER</a>
+									</li>
+									<li>
+										<a target="_blank" href="https://albalegis.nopapercloud.com.br/sistema"><i
+												class="fa fa-users"></i> NOPAPER LEG</a>
+									</li>
+									<li class="apaga-mobile">
+										<a target="_blank" href="https://www.alba.tv.br"><i
+												class="fa fa-television"></i> TV ALBA</a>
+									</li>
+									<li class="apaga-mobile">
+										<a target="_blank" href="/deputados/contatos-deputados"><i
+												class="fa fa-users"></i> DEPUTADOS</a>
+									</li>
+									<li>
+										<a target="_blank" href="https://outlook.office365.com/mail"><i
+												class="fa fa-envelope-o"></i></a>
+									</li>
+									<li>
+										<a target="_blank" href="http://sgp.alba.ba.gov.br/sgp"><img
+												src="/images/shared/sgp.png" /></a>
+									</li>
+								</ul>
+							</div>
+							<div class="clearFloat"></div>
+						</div>
+					</div>
+
+					Domingo
+					15 de Novembro de 2026
+				</div>
+			</div> <!-- Fim topo-uteis  -->
+
+			<div class="topo-site">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 col-sm-12 text-center">
+							<div class="logo-container" style="display: flex; ">
+
+								<div class="logo" style="flex-shrink: 0;">
+									<h1>
+										<a href="/" title="Assembleia Legislativa do Estado da Bahia">
+											<img src="/images/shared/logo.png"
+												alt="Assembleia Legislativa do Estado da Bahia"
+												title="Assembleia Legislativa do Estado da Bahia"
+												style="max-height: 80px; width: auto;" />
+										</a>
+									</h1>
+								</div>
+
+								<!-- 	inicio imagens selo	 -->
+
+
+								<!-- utiliza selo_ouro.png(usar se o svg não funcionar bem) e espaço menor a direita do logo alba original right: -740px-->
+								<div class="logo"
+									style="position: absolute; right: -500px; top: 53%; transform: translateY(-50%);">
+									<a href="/transparencia">
+										<img src="/images/transp/selo_ouro.png" alt="Selo"
+											title="Selo Prêmio Ouro de Transparência 2024"
+											style="width: 82px; height: auto;" />
+									</a>
+								</div>
+
+								<!-- original right: -850px-->
+								<div class="logo"
+									style="position: absolute; right: -610px; top: 53%; transform: translateY(-50%);">
+									<a target="_blank" href="https://www.al.ba.gov.br/midia-center/noticias/66155/">
+										<img src="/images/transp/selo_unale_assembleia_cidada.png" alt="Selo"
+											title="Prêmio Unale 2024 * Assembleia Cidadã"
+											style="width: 88px; height: auto;" />
+									</a>
+								</div>
+								<!-- utiliza selo_ouro.svg e espaço maior a direita do logo alba-->
+								<!-- 						        <div class="logo" style="position: absolute; right: -750px; top: 53%; transform: translateY(-50%);"> -->
+								<!-- 					            <a th:href="@{/transparencia}"> -->
+								<!-- 					                <img th:src="@{/images/transp/selo_ouro.svg}" -->
+								<!-- 					                     alt="Selo" -->
+								<!-- 					                     title="Selo Prêmio Ouro de Transparência-2024 / Sistema Tribunais De Contas" -->
+								<!-- 					                     style="width: 100px; height: auto;"/> -->
+								<!-- 					            </a> -->
+								<!-- 					       		</div>					       		 -->
+
+								<!-- 	final imagens selo-->
+
+							</div>
+						</div>
+
+						<div class="col-md-10 col-sm-12">
+							<div class="row">
+								<div class="busca">
+									<div class="text-busca text-center redes">
+										<a href="/transparencia/alba-transparencia" style="font-size:12px;">FALE
+											CONOSCO</a> |
+										<a href="https://www.instagram.com/assembleia.ba" target="_blank"><i
+												class="fa fa-instagram" style="font-size:16px;"></i></a>
+										<a href="https://www.facebook.com/legislativodabahia/" target="_blank"><i
+												class="fa fa-facebook-square" style="font-size:16px;"></i></a>
+										<a href="https://www.youtube.com/channel/UCSv_XzKsyDzIsOOHRpme_Ow"
+											target="_blank"><i class="fa fa-youtube-square" style="font-size:16px;"></i>
+										</a>
+									</div>
+								</div>
+
+
+								<div id="social-network" class="modal fade">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"
+													aria-hidden="true">&times;</button>
+												<h4 class="modal-title">
+													<span>REDES SOCIAIS</span>
+												</h4>
+											</div>
+											<div class="modal-body">
+												<table class="fe-center-x">
+													<tbody>
+														<tr>
+															<td>
+																<a class="fe-circle-instagram"
+																	href="https://www.instagram.com/legislativoalba"
+																	target="_blank">
+																	<i class="fa fe-circle fa-instagram"></i>
+																</a>
+															</td>
+															<td>
+																<a class="fe-circle-facebook"
+																	href="https://www.facebook.com/legislativodabahia"
+																	target="_blank">
+																	<i class="fa fe-circle fa-facebook-square"></i>
+																</a>
+															</td>
+															<td>
+																<a class="fe-circle-youtube"
+																	href="https://www.youtube.com/channel/UCSv_XzKsyDzIsOOHRpme_Ow"
+																	target="_blank">
+																	<i class="fa fe-circle fa-youtube"></i>
+																</a>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-danger fe-btn-min-r"
+													data-dismiss="modal">FECHAR</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-3 col-sm-12 novo-topo-site">
+									<script async src="https://cse.google.com/cse.js?cx=218e2455c508af758"></script>
+									<div class="gcse-searchbox-only" data-newwindow="1"></div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div> <!-- Fim topo-site  -->
+		</div> <!-- Fim topo -->
+
+
+
+		<div class="topo-agenda topo-agenda--mobile-sep">
+			<div class="container">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse"
+								data-target="#navbar-collapse-1">
+								<span class="sr-only"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li><a href="/institucional">Institucional</a></li>
+								<li><a target="_blank" href="http://albalegis.nopapercloud.com.br/">Portal
+										Legislativo</a></li>
+								<!-- 	<li><a th:href="@{/}">Início</a></li> -->
+								<li><a href="/deputados">Deputados</a></li>
+								<li><a href="/atividade-legislativa-nova">Atividade Legislativa</a></li>
+								<li><a href="/midia-center">Mídia Center</a></li>
+								<li><a href="/servicos">Serviços</a></li>
+								<li><a href="/transparencia">Transparência</a></li>
+								<li><a href="/ouvidoria">Ouvidoria</a></li>
+								<li><a href="/procuradoria-da-mulher">Procuradoria da Mulher</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+
+	</header>
+<div id="apresent">
+    <link rel="stylesheet" type="text/css" href="/styles/transparencia/transparencia.css"/>
+    <section>
+    	<div><!DOCTYPE html>
+<html>
+
+
+
+
+    
+	            <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 paginatransparencia ajustar_fonte" id="pagina">
+                        <div class="panel panel-primary">
+                            <div class="panel-body ajustar_fonte">
+                            
+  
+  
+
+</html></div>   
+        <div class="no-print">
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="logo-and-nav-wrap">
+                <div class="site-nav-wrap">
+                    <nav class="nav">
+                        <div class="single-breadcrumb-wrap">
+                            <span class="sep"><i class="fa fa-caret-right"></i></span>
+                            <span class="breadcrumb"><a href="/"><i class="glyphicon glyphicon-home"></i></a></span>
+                        </div>
+                        <div class="single-breadcrumb-wrap">
+                            <span class="sep"><i class="fa fa-caret-right"></i></span>
+                            <span class="breadcrumb"><a href="/transparencia">TRANSPARÊNCIA</a></span>
+                        </div>
+                        <div class="single-breadcrumb-wrap active">
+                            <span class="sep"><i class="fa fa-caret-right"></i></span>
+                            <span class="breadcrumb">APRESENTAÇÃO</span>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+        <div id="titulo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        TRANSPARÊNCIA ALBA
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+                         
+        <div class="container">
+            <br/>
+            <div class="row">
+                <div class="no-print">
+		<div class="col-md-2 nopadding-left">
+			<div class="list-group">
+				<a type="button" href="/transparencia" data-toggle="collapse" data-target="#ta"
+					data-parent="#menu" class="list-group-item list-group-item-action card-header active">TRANSPARÊNCIA ALBA</a>
+				<div id="ta" class="sublinks collapse in">
+					 <p class="collapse-subitem"><b><a href="https://atendimento.al.ba.gov.br/carta-de-servico" target="_blank"><i class="fa fa-caret-right"></i> CARTA DE SERVIÇOS</a></b></p>
+
+					<p class="collapse-subitem"><b><a href="/transparencia/estrutura-legislativa"><i
+									class="fa fa-caret-right"></i> ESTRUTURA ORGANIZACIONAL</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/legislacao-transp"><i
+									class="fa fa-caret-right"></i> ATOS NORMATIVOS</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/perguntas-respostas#faq"><i
+									class="fa fa-caret-right"></i> PERGUNTAS FREQUENTES</a></b></p>
+					<p class="collapse-subitem"><b><a href="https://radardatransparencia.atricon.org.br"
+								target="_blank"><i class="fa fa-caret-right"></i> RADAR DA TRANSPARÊNCIA</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/sic"><i
+									class="fa fa-caret-right"></i>SIC - Serviço de Informação ao Cidadão</a></b></p>
+					<!-- 					<p class="collapse-subitem"><b><a th:href="@{/transparencia/prest-receitas}"><i class="fa fa-caret-right"></i> RECEITAS</a></b></p> -->
+					<!-- 					<p class="collapse-subitem"><b><a th:href="@{/transparencia/contratos-convenios/convenios-novo}"><i class="fa fa-caret-right"></i> CONVÊNIOS E TRANSFERÊNCIAS</a></b></p> -->
+					<p class="collapse-subitem"><b><a href="/transparencia/concurso-publico"><i
+									class="fa fa-caret-right"></i> CONCURSOS</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/obras"><i
+									class="fa fa-caret-right"></i> OBRAS</a></b></p>
+
+					<p class="collapse-subitem"><b><a href="/transparencia/doc-classificacao"><i
+									class="fa fa-caret-right"></i> CLASSIFICACAO DE INFORMAÇÕES</a></b></p>
+
+
+
+
+					<!-- 						<p class="collapse-subitem"><b><a th:href="@{/transparencia/avisos}"><i class="fa fa-caret-right"></i> LGPD E GOVERNO DIGITAL</a></b></p> -->
+					<!-- 						<p class="collapse-subitem"><b><a th:href="@{/transparencia/avisos2}"><i class="fa fa-caret-right"></i> DADOS ABERTOS</a></b></p> -->
+				</div>
+				<a type="button" data-toggle="collapse" data-target="#ouvidorias" data-parent="#menu"
+					class="list-group-item list-group-item-action card-header">OUVIDORIA</a>
+				<div id="ouvidorias" class="sublinks collapse">
+					 					    <p class="collapse-subitem"><b><a href="https://atendimento.al.ba.gov.br/e-ouv" target="_blank"><i class="fa fa-caret-right"></i> OUVIDORIA</a></b></p>
+				
+					 <p class="collapse-subitem"><b><a href="https://atendimento.al.ba.gov.br/e-ouv/home/estatisticas" target="_blank"><i class="fa fa-caret-right"></i>RELATÓRIOS OUVIDORIA</a></b></p>
+
+				</div>
+
+				<a type="button" data-toggle="collapse" data-target="#informacoes" data-parent="#menu"
+					class="list-group-item list-group-item-action card-header">LGPD E GOVERNO DIGITAL</a>
+				<div id="informacoes" class="sublinks collapse">
+					<!--<p class="collapse-subitem"><b><a th:href="@{/transparencia/avisos}"><i class="fa fa-caret-right"></i> LGPD E GOVERNO DIGITAL</a></b></p>-->
+					<p class="collapse-subitem"><b><a href="/transparencia/lgpd"><i class="fa fa-caret-right"></i>
+								LGPD E GOVERNO DIGITAL</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/lgpd-form-requerimento"><i
+									class="fa fa-caret-right"></i>LGPD – REQUERIMENTO</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/avisos2"><i
+									class="fa fa-caret-right"></i> DADOS ABERTOS</a></b></p>
+				</div>
+
+				<a type="button" href="/transparencia/prest-receitas" data-toggle="collapse"
+					data-target="#receitas" data-parent="#menu"
+					class="list-group-item list-group-item-action card-header">Receitas</a>
+				<div id="receitas" class="sublinks collapse">
+					<p class="collapse-subitem"><b><a href="/transparencia/prest-receitas"><i
+									class="fa fa-caret-right"></i>Receitas</a></b></p>
+					<!-- 				    <p class="collapse-subitem"><b><a th:href="@{/transparencia/transferencia-receitas}"><i class="fa fa-caret-right"></i>Transferências Recebidas do Poder Executivo</a></b></p>	 -->
+					<p class="collapse-subitem"><b><a href="/transparencia/duodecimo"><i
+									class="fa fa-caret-right"></i>Transferências Recebidas do Poder Executivo</a></b>
+					</p>
+				</div>
+
+				<a type="button" href="/transparencia/contratos-convenios/convenios-novo" data-toggle="collapse"
+					data-target="#convenios" data-parent="#menu"
+					class="list-group-item list-group-item-action card-header">CONVÊNIOS E TRANSFERÊNCIAS</a>
+				<div id="convenios" class="sublinks collapse">
+					<p class="collapse-subitem"><b><a href="/transparencia/contratos-convenios/convenios-novo"><i
+									class="fa fa-caret-right"></i> Transferências Realizadas</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/transf-recebidas"><i
+									class="fa fa-caret-right"></i>Transferências Recebidas</a></b></p>
+					<p class="collapse-subitem"><b><a
+								href="/transparencia/contratos-convenios/convenios-novo/sem-recursos"><i
+									class="fa fa-caret-right"></i>Sem Recursos</a></b></p>
+					<p class="collapse-subitem"><b><a
+								href="/transparencia/contratos-convenios/convenios-novo/repasses"><i
+									class="fa fa-caret-right"></i>Repasses Realizados</a></b></p>
+				</div>
+
+				<a type="button" href="/transparencia/contratos-convenios" data-toggle="collapse"
+					data-target="#contrato" data-parent="#menu"
+					class="list-group-item list-group-item-action card-header">Contratos</a>
+				<div id="contrato" class="sublinks collapse">
+					<p class="collapse-subitem"><b><a href="/transparencia/contratos-convenios"><i
+									class="fa fa-caret-right"></i>Contratos</a></b></p>
+					<p class="collapse-subitem"><b><a
+								href="/transparencia/contratos-convenios/fiscais-contratos"><i
+									class="fa fa-caret-right"></i>Fiscais de Contratos</a></b></p>
+					<p class="collapse-subitem"><b><a
+								href="/transparencia/contratos-convenios/pagamento-cronologico"><i
+									class="fa fa-caret-right"></i>Pagamentos Contratos</a></b></p>
+				</div>
+
+
+
+				<a type="button" href="/transparencia/credor-empenho-despesa" data-toggle="collapse"
+					data-target="#scd" data-parent="#menu" class="list-group-item list-group-item-action card-header">Despesas</a>
+				<div id="scd" class="sublinks collapse">
+					<p class="collapse-subitem"><b><a href="/transparencia/credor-empenho-despesa"><i
+									class="fa fa-caret-right"></i>Despesas</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/credor-empenho-pormenorizada"><i
+									class="fa fa-caret-right"></i>Despesas Pormenorizadas</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/credor-empenho"><i
+									class="fa fa-caret-right"></i>Empenhos</a></b></p>
+					<!-- <p class="collapse-subitem"><b><a th:href="@{/transparencia/credor-empenho-licitacao}"><i
+									class="fa fa-caret-right"></i>Empenhos / Licitações</a></b></p>-->
+					<!-- 				<p class="collapse-subitem"><b><a th:href="@{/transparencia/credor-pagamento}"><i class="fa fa-caret-right"></i>Credor/pagamento</a></b></p> -->
+					<p class="collapse-subitem"><b><a href="/transparencia/contrato-sintetico"><i
+									class="fa fa-caret-right"></i>Despesa por Credor/Sintético</a></b></p>
+					<!-- 					    <p class="collapse-subitem"><b><a th:href="@{/transparencia/contrato-analitico}"><i class="fa fa-caret-right"></i>Despesa por Credor/Analítico</a></b></p> -->
+					<!-- 						    <p class="collapse-subitem"><b><a href="https://www.transparencia.ba.gov.br/Receita/Painel" target="_blank"><i class="fa fa-caret-right"></i>Receitas</a></b></p> -->
+				</div>
+
+				<a type="button" data-toggle="collapse" data-target="#rh" data-parent="#menu"
+					class="list-group-item list-group-item-action card-header">RECURSOS HUMANOS</a>
+				<div id="rh" class="sublinks collapse">
+					<p class="collapse-subitem"><b><a href="https://portalrh.alba.ba.gov.br/transparencia"
+								target="_blank"><i class="fa fa-caret-right"></i> PESSOAL</a></b></p>
+					<p class="collapse-subitem"><b><a href="https://portalrh.alba.ba.gov.br/transparencia/estagiarios"
+								target="_blank"><i class="fa fa-caret-right"></i> ESTAGIÁRIOS</a></b></p>
+					<p class="collapse-subitem"><b><a href="https://portalrh.alba.ba.gov.br/transparencia/diarias"
+								target="_blank"><i class="fa fa-caret-right"></i> DIÁRIAS</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/horario" target="_blank"><i
+									class="fa fa-caret-right"></i> HORÁRIO DE TRABALHO</a></b></p>
+					<p class="collapse-subitem"><b><a href="https://portalrh.alba.ba.gov.br/transparencia"
+								target="_blank"><i class="fa fa-caret-right"></i> TABELA REMUNERATÓRIA</a></b></p>
+				</div>
+
+				<a href="http://licita.alba.ba.gov.br/licitacoes-externo" type="button" target="_blank"
+					class="list-group-item list-group-item-action">LICITAÇÕES</a>
+
+				<a type="button" href="/transparencia/financas" data-toggle="collapse" data-target="#gp"
+					data-parent="#menu" class="list-group-item list-group-item-action card-header">PRESTAÇÃO DE CONTAS</a>
+				<div id="gp" class="sublinks collapse">
+					<p class="collapse-subitem"><b><a href="/transparencia/plan-estrategico-inst"><i
+									class="fa fa-caret-right"></i> PLANO ESTRATÉGICO INSTITUCIONAL</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/financas"><i
+									class="fa fa-caret-right"></i> RELATÓRIO DE GESTÃO FISCAL</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/prest-aprec-contas-alba"><i
+									class="fa fa-caret-right"></i> APRECIAÇÃO DAS CONTAS DA ALBA</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/prest-contas"><i
+									class="fa fa-caret-right"></i> PRESTAÇÃO DE CONTAS DA ALBA</a></b></p>
+
+					<p class="collapse-subitem"><b><a href="/transparencia/prest-aprec-contas-pe"><i
+									class="fa fa-caret-right"></i> APRECIAÇÃO DE CONTAS DO PODER EXECUTIVO</a></b></p>
+					<p class="collapse-subitem"><b><a
+								href="https://www.sefaz.ba.gov.br/financas-publicas/balanco-geral-do-estado/"
+								target="_blank"><i class="fa fa-caret-right"></i> PRESTAÇÃO DE CONTAS DO PODER
+								EXECUTIVO</a></b></p>
+				</div>
+
+				<a type="button" href="/transparencia/execucao-orcamentaria" data-toggle="collapse"
+					data-target="#gf" data-parent="#menu" class="list-group-item list-group-item-action card-header">GESTÃO FISCAL</a>
+				<div id="gf" class="sublinks collapse">
+					<p class="collapse-subitem"><b><a href="/transparencia/execucao-orcamentaria"><i
+									class="fa fa-caret-right"></i> EXECUÇÃO ORÇAMENTÁRIA</a></b></p>
+					<p class="collapse-subitem"><b><a href="https://www.seplan.ba.gov.br/orcamento/orcamento-anual/"
+								target="_blank"><i class="fa fa-caret-right"></i> LEI DE ORÇAMENTO ANUAL - LOA</a></b>
+					</p>
+					<p class="collapse-subitem"><b><a
+								href="https://www.seplan.ba.gov.br/orcamento/ldo-lei-de-diretrizes-orcamentarias/"
+								target="_blank"><i class="fa fa-caret-right"></i> LEI DE DIRETRIZES ORÇAMENTÁRIAS -
+								LDO</a></b></p>
+					<p class="collapse-subitem"><b><a
+								href="https://www.seplan.ba.gov.br/planejamento/ppa-plano-plurianual/"
+								target="_blank"><i class="fa fa-caret-right"></i> PLANO PLURIANUAL - PPA</a></b></p>
+				</div>
+
+				<a type="button" href="/transparencia/" data-toggle="collapse" data-target="#parl"
+					data-parent="#menu" class="list-group-item list-group-item-action card-header">PARLAMENTARES</a>
+				<div id="parl" class="sublinks collapse in">
+					<p class="collapse-subitem"><b><a href="/transparencia/relat-atividades-legislativas"><i
+									class="fa fa-caret-right"></i> DADOS DE ATIVIDADES LEGISLATIVAS</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/verbas-idenizatorias"><i
+									class="fa fa-caret-right"></i> VERBA INDENIZATÓRIA</a></b></p>
+					<p class="collapse-subitem"><b><a href="/deputados/legislatura-atual"><i
+									class="fa fa-caret-right"></i> DEPUTADOS LEGISLATURA ATUAL</a></b></p>
+					<p class="collapse-subitem"><b><a href="/transparencia/verbas-regula"><i
+									class="fa fa-caret-right"></i> REGULAMENTAÇÕES SOBRE VERBAS</a></b></p>
+					<p class="collapse-subitem"><b><a href="https://albalegis.nopapercloud.com.br/spl/sessoes.aspx"><i
+									class="fa fa-caret-right"></i> FREQUÊNCIA DOS DEPUTADOS</a></b></p>
+					<p class="collapse-subitem"><b><a href="https://www.seplan.ba.gov.br/orcamento/orcamento-anual/"
+								target="_blank"><i class="fa fa-caret-right"></i> EMENDAS PARLAMENTARES</a></b></p>
+				</div>
+				<a href="/transparencia/ativ-legislat" type="button"
+					class="list-group-item list-group-item-action">ATIVIDADES LEGISLATIVAS</a>
+				<a href="/transparencia/legislacao" type="button" class="list-group-item list-group-item-action">LEGISLAÇÃO</a>
+
+
+				<a type="button" id="uteis" data-toggle="collapse" data-target="#links" data-parent="#menu"
+					class="list-group-item list-group-item-action card-header">LINKS ÚTEIS</a>
+				<div id="links" class="sublinks collapse">
+					<p class="collapse-subitem"><b><a href="https://portaldatransparencia.gov.br/" target="_blank"><i
+									class="fa fa-caret-right"></i> TRANSPARÊNCIA GOV FEDERAL</a></b></p>
+					<p class="collapse-subitem"><b><a href="http://www.transparencia.ba.gov.br" target="_blank"><i
+									class="fa fa-caret-right"></i> TRANSPARÊNCIA BAHIA</a></b></p>
+				</div>
+			</div>
+		</div>
+	</div>
+                
+                <div class="col-md-10">
+                    <fieldset>
+                        <legend>
+                            <div class="transp-presidente">
+                            	<div class="icon-radar">
+                                <div>
+                                    O QUE É TRANSPARÊNCIA
+                                </div>
+                                
+                               <!--  incluido div para mostrar imagem do selo -->
+<!--                                 <div> -->
+<!--                                     <a th:href="@{/transparencia}"> -->
+<!--                                     <img th:src="@{/images/transp/selo_ouro.png}"  -->
+<!--                                     style="max-height: 100px; width: auto; image-rendering: crisp-edges;margin-top: -20px;" -->
+<!--                                      ></a> -->
+<!--                                 </div> -->
+                                
+                                <div>
+                                    <a href="https://radardatransparencia.atricon.org.br/" target="_blank"><img src="/images/transp/botao_Radar2023.png" style="margin-top:-5px;margin-bottom:5px;"></a>
+                                </div>                                
+                                
+                                </div>
+                            </div>
+                        </legend>
+                        <div class="col-md-6">
+							<img src="/images/transp/alba_fach.jpg" width="100%">
+						</div>
+                        <div class="sub-title-new"><div>O estímulo à transparência é um dos objetivos essenciais da moderna Administração Pública atual. A ampliação da divulgação das ações governamentais a milhões de brasileiros, além de contribuir para o fortalecimento da democracia, prestigia e desenvolve as noções de cidadania.</div>
+<div><br /></div>
+<div>As Páginas de Transparência Pública dão continuidade às ações das instituições voltadas para o incremento da transparência e do controle social, com objetivo de divulgar as despesas realizadas pelos órgãos e entidades da Administração Pública, informando sobre execução orçamentária, licitações, contratações, convênios e tantas outras informações imprescindíveis como instrumentos de controle e fiscalização.<br /></div>
+<div><br /></div>
+<div>Este espaço representa mais uma ação de promoção da transparência pública da Assembleia e tem como principal objetivo facilitar o acesso do cidadão às informações a respeito de projetos e ações relevantes para o controle social. Para além de ser um direito da população, a transparência na administração pública é uma ação concreta que viabiliza a fiscalização e o controle social, assim como possibilita a participação da sociedade na tomada de decisões</div>
+<div><br /></div>
+<div>Dessa forma, conforme dispõe a Portaria Interministerial n&ordm; 140, de 16 de março de 2006, cada órgão e entidade deve ter seu próprio <span style="font-weight: bold;">Portal de Transparência</span> com informações detalhadas à respeito da instituição.</div>
+<div><br /></div>
+<div>Nossa <span style="font-weight: bold;">Política de Transparência</span> regulamentada pelo Ato da Presidência n&ordm; 30.496/2012, referendado pela Mesa Diretora, e mais recentemente reestruturado através do Ato da Presidência n&ordm; 2.166/2023 estabelece como diretrizes básicas: <span style="font-style: italic;">a observância da publicidade como preceito geral e do sigilo como exceção; divulgação de informações de interesse público, independentemente de solicitações; utilização de meios de comunicação viabilizados pela tecnologia da informação; fomento ao desenvolvimento da cultura de transparência na administração pública; e desenvolvimento do controle social da administração pública.</span></div>
+<div><br /></div>
+<div>Abaixo, você pode acessar a <span style="font-weight: bold;"><a href="https://atendimento.al.ba.gov.br/e-ouv" target="_blank">Ouvidoria da ALBA</a></span> onde existem os canais de comunicações oficiais entre a comunidade e o Legislativo baiano, e onde também funciona o <span style="font-weight: bold;"><a href="https://atendimento.al.ba.gov.br/e-sic" target="_blank">Sistema de Informações ao Cidadão - (e-SIC)</a>,</span> através do qual você pode solicitar informações não encontradas ou esclarecimentos sobre informações aqui divulgadas.&nbsp;</div>
+<div><br /></div>
+<div>Por fim lembramos que o nosso <span style="font-weight: bold;">Portal de Transparência</span> se encontra em permanente desenvolvimento e evolução de forma que algumas funcionalidades deverão estar 100% disponibilizadas muito em breve para toda a população.</div></div>
+                    </fieldset>
+                    <br/>
+                    
+                    <div class="no-print">
+        <!-- Estrutura limpa do Widget: remova as tags <img> manuais -->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div vp>
+                    <div vp-box></div>
+                    <div vp-message-box></div>
+                    <div vp-settings></div>
+                    <div vp-settings-btn></div>
+                    <div vp-info-screen></div>
+                    <div vp-dictionary></div>
+                    <div vp-suggestion-screen></div>
+                    <div vp-translator-screen></div>
+                    <div vp-widget-help></div>
+                    <div vp-suggestion-button></div>
+                    <div vp-rate-box></div>
+                    <div vp-rate-button></div>
+                    <div vp-controls></div>
+                    <div vp-change-avatar></div>
+                    <div vp-additional-options></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scripts de Inicialização -->
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>   
+         
+        <noscript>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="alert alert-warning" role="alert">
+                    Você precisa habilitar o JavaScript para visualizar este Portal corretamente.
+                </div>
+            </div>
+        </noscript> 
+    </div>  
+                    
+                    <!--mensagem de sucesso-->
+					<div class="row fe-div-table">
+						
+						
+					</div>
+<!--                     <fieldset> -->
+<!--                     	<div class="central-box-int2"> -->
+<!--                     		<div class="col-2 icone-transp" style="margin-left:8px;"> -->
+<!-- 								<a th:href="@{/transparencia/ouvidoria}"><img th:src="@{/images/transp/ic_ouvidoria.png}" height="175px"></a> -->
+<!-- 							</div> -->
+<!-- 							<div class="col-2 icone-transp .scale-100"> -->
+<!-- 								<a href="#" ><img th:src="@{/images/transp/faq.png}" height="175px" width="360px"></a> -->
+<!-- 							</div> -->
+<!--                     	</div> -->
+<!--                     </fieldset> -->
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<footer>
+		<div class="rodape">
+			<div class="container">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse"
+								data-target="#navbar-collapse-2">
+								<span class="sr-only"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="navbar-collapse-2">
+							<ul class="nav navbar-nav">
+								<!-- 							<li><a th:href="@{/}">Página Inicial</a></li> -->
+								<li><a href="/institucional">Institucional</a></li>
+								<li><a target="_blank" href="http://albalegis.nopapercloud.com.br/">Portal
+										Legislativo</a></li>
+								<li><a href="/deputados">Deputados</a></li>
+								<li><a href="/atividade-legislativa">Atividade Legislativa</a></li>
+								<li><a href="/midia-center">Mídia Center</a></li>
+								<li><a href="/servicos">Serviços</a></li>
+								<li><a href="/transparencia">Transparência</a></li>
+								<li><a href="/ouvidoria">Ouvidoria</a></li>
+								<li><a href="/procuradoria-da-mulher">Procuradoria da Mulher</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<br>
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12 text-center">
+						<div class="localizacao">
+							<div class="titulo-rodape">LOCALIZAÇÃO</div>
+							<div class="conteudo-localizacao">
+								Palácio Dep. Luis Eduardo Magalhães 1ª Avenida, 130, CAB,<br />
+								CEP: 41.745-001, Salvador - Bahia.
+								Tel: (71) 3115-7116<br />
+								<a href="https://www.google.com.br/maps?q=Assembl%C3%A9ia+Legislativa&hl=pt-BR&ie=UTF8&ll=-12.94691,-38.429596&spn=0.011355,0.021136&cid=9239146360434350652&gl=BR&t=h&z=16&iwloc=A"
+									target="_blank">(Veja no Mapa)</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12 text-center">
+						<div class="localizacao">
+							<div class="titulo-rodape">HORÁRIO DE FUNCIONAMENTO</div>
+							<div class="conteudo-localizacao">
+								Segunda à Quinta das 8:30h às 18h<br />
+								Sexta das 8h às 12h<br />
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12 text-center">
+						<div class="redes">
+							<div class="titulo-rodape">REDES SOCIAIS</div>
+							<a href="https://www.instagram.com/assembleia.ba" target="_blank"><i
+									class="fa fa-instagram"></i></a>
+							<a href="https://www.facebook.com/legislativodabahia/" target="_blank"><i
+									class="fa fa-facebook-square"></i></a>
+							<a href="https://www.youtube.com/channel/UCSv_XzKsyDzIsOOHRpme_Ow" target="_blank"><i
+									class="fa fa-youtube"></i></a>
+							<div class="clearFloat"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="footer_menu">
+			<nav class="drop-down-menu">
+				<input type="checkbox" class="activate" id="accordion" name="accordion">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<label for="accordion" class="menu-title">MAPA DO SITE &nbsp;
+							<i class="fa fa-angle-double-down" aria-hidden="true"></i></label>
+					</div>
+				</div>
+				<i class="ion-arrow-down-b"></i>
+				<div class="drop-down" style="overflow:auto !important">
+					<div class="rodape">
+						<div class="container">
+							<div class="row col-md-offset-1">
+								<div class="col-md-3 col-sm-3 col-xs-12">
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/" class="titulo-rodape">PÁGINA INICIAL</a>
+											</li>
+											<li>
+												<a href="/institucional" class="titulo-rodape">INSTITUCIONAL</a>
+											</li>
+										</ul>
+									</div>
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/presidencia" class="titulo-rodape">PRESIDÊNCIA</a>
+											</li>
+											<li><a href="/presidencia/mensagem">MENSAGEM</a></li>
+											<li><a href="/presidencia/perfil">PERFIL</a></li>
+											<li><a href="/presidencia/agenda">AGENDA</a></li>
+											<li><a href="/presidencia/noticias">NOTÍCIAS</a></li>
+											<li><a href="/presidencia/galeria">GALERIA DOS EX-PRESIDENTES</a></li>
+										</ul>
+									</div>
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/assembleia-de-carinho" class="titulo-rodape">ASSEMBLEIA
+													DE CARINHO</a>
+											</li>
+											<li><a href="/assembleia-de-carinho/apresentacao">APRESENTAÇÃO</a>
+											</li>
+											<li><a href="/assembleia-de-carinho/acoes">AÇÕES</a></li>
+											<li><a href="/assembleia-de-carinho/doacoes">DOAÇÕES</a></li>
+											<li><a href="/assembleia-de-carinho/contato">CONTATO</a></li>
+											</li>
+										</ul>
+									</div>
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/historia-do-legislativo" class="titulo-rodape">HISTÓRIA
+													DO LEGISLATIVO</a>
+											</li>
+											<li><a href="/historia-do-legislativo/historia">HISTÓRIA</a></li>
+											<li><a href="/historia-do-legislativo/mesas-diretoras">MESA
+													DIRETORA</a></li>
+											<li><a href="/historia-do-legislativo/liderancas-partidarias">LIDERANÇAS
+													ANTIGAS (DESDE 1947)</a></li>
+											<li><a href="/historia-do-legislativo/comissoes-antigas">COMISSÕES
+													ANTIGAS (DESDE 1947)</a></li>
+											<li><a href="/presidencia/antes47">GALERIA DOS EX-PRESIDENTES</a></li>
+											<li><a href="/historia-do-legislativo/titulos-e-condecoracoes">CONDECORAÇÕES
+													E TÍTULOS</a></li>
+											<li><a href="/historia-do-legislativo/dois-de-julho">2 DE JULHO - 200
+													ANOS</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-12">
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/estrutura-organizacional"
+													class="titulo-rodape">ESTRUTURA ORGANIZACIONAL</a>
+											</li>
+											<li><a href="/estrutura-organizacional/mesa">MESA DIRETORA</a></li>
+											<li><a href="/estrutura-organizacional/atribuicoes">ATRIBUIÇÕES</a>
+											</li>
+											<li><a href="/transparencia/cargos-gestao">CONTATOS</a></li>
+											<li><a href="/estrutura-organizacional/organograma">ORGANOGRAMA</a>
+											</li>
+										</ul>
+									</div>
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/deputados" class="titulo-rodape">CONHEÇA OS
+													DEPUTADOS</a>
+											</li>
+											<li><a href="/deputados/deputados-estaduais">EM EXERCÍCIO</a></li>
+											<li><a href="/deputados/ex-deputados-estaduais">EX-DEPUTADOS</a></li>
+											<li><a href="/deputados/legislatura-atual">LEGISLATURA ATUAL</a></li>
+											<li><a href="/deputados/todos-deputados">TODOS OS DEPUTADOS</a></li>
+										</ul>
+									</div>
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/atividade-legislativa-nova"
+													class="titulo-rodape">ATIVIDADE LEGISLATIVA</a>
+											</li>
+											<li><a href="/atividade-legislativa-nova/proposicoes">PROPOSIÇÕES</a>
+											</li>
+											<li><a href="/atividade-legislativa-nova/pauta">PAUTA</a></li>
+											<li><a href="/atividade-legislativa-nova/parecer">PARECER</a></li>
+											<li><a href="/atividade-legislativa-nova/ordem-do-dia">ORDEM DO
+													DIA</a></li>
+											<!-- Linha comentada para fins de adequação à página da Transparência da ALBA -->
+											<!--<li><a th:href="@{/atividade-legislativa/sessoes-plenarias}">SESSÕES PLENÁRIAS</a></li>-->
+											<li><a href="/estrutura-organizacional/mesa">MESA DIRETORA</a></li>
+											<li><a href="/atividade-legislativa/liderancas-partidarias">LIDERANÇAS
+													PARTIDÁRIAS</a></li>
+											<li><a href="/comissoes/composicao">COMISSÕES</a></li>
+											<li><a href="/transparencia/legislacao">LEGISLAÇÃO</a></li>
+										</ul>
+									</div>
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/comissoes" class="titulo-rodape">COMISSÕES</a>
+											</li>
+											<li><a href="/comissoes/composicao">COMPOSIÇÃO</a></li>
+											<li><a href="/comissoes/resumo-pauta">PAUTA</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-12">
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/midia-center" class="titulo-rodape">MÍDIA CENTER</a>
+											</li>
+											<li><a href="/midia-center/noticias">NOTÍCIAS</a></li>
+											<!--<li><a target="_blank" href="https://www.alba.tv.br">TV ALBA</a></li>-->
+											<li><a target="_blank" href="https://www.alba.tv.br">TV ALBA</a></li>
+											<!--<li><a href="#">RÁDIO ALBA</a></li>
+										<li><a href="#">PODCASTS</a></li>
+										<li><a href="#">VÍDEOS</a></li>-->
+											<li><a href="/midia-center/alba-cultural">ALBA CULTURAL</a></li>
+											<li><a href="/midia-center/alba-cultural/e-book">E-BOOK</a></li>
+											<li><a href="/midia-center/galeria-fotos">GALERIA DE FOTOS</a></li>
+											<li><a href="/midia-center/alba-vox">ALBAVOX</a></li>
+											<li><a href="#social-network" data-toggle="modal">REDES SOCIAIS</a></li>
+										</ul>
+									</div>
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/servicos" class="titulo-rodape">SERVIÇOS</a>
+											</li>
+											<a href="https://atendimento.al.ba.gov.br/carta-de-servico" target="_blank">CARTA DE SERVIÇOS</a></li>
+											
+											<li><a href="/servicos/ava">AVA</a></li>
+											<li><a href="/servicos/biblioteca">BIBLIOTECA</a></li>
+											<li><a href="/servicos/escola-legislativo">ESCOLA DO LEGISLATIVO</a>
+											</li>
+											<li><a href="https://egbanet.egba.ba.gov.br/alba" target="_blank">DIÁRIO
+													OFICIAL ONLINE</a></li>
+											<li><a href="https://portalrh.alba.ba.gov.br/documentos-posse"
+													target="_blank">DOCUMENTOS DO RH</a></li>
+											<li><a href="/servicos/eleicoes">ELEIÇÕES</a></li>
+											<li><a href="/servicos/informativo-parlamentar">INFORMATIVO
+													PARLAMENTAR</a></li>
+											<li><a href="/servicos/certificado">CERTIFICAÇÃO DIGITAL</a></li>
+											<li><a href="/servicos/documentoscertificado">DOCUMENTAÇÃO CERTIFICADO
+													DIGITAL</a></li>
+											<li><a href="http://certdigital.alba.ba.gov.br/autenticacaodocumento"
+													target="_blank">VALIDAÇÃO DE DOCUMENTOS</a></li>
+											<li><a href="/servicos/paperless">PAPERLESS</a></li>
+											<li><a href="/servicos/nopaper">NOPAPER</a></li>
+											<li><a href="/servicos/emendas">EMENDAS</a></li>
+											<li><a href="/servicos/politicaemail">POLÍTICA DE E-MAIL
+													CORPORATIVO</a></li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-sm-3 col-xs-12">
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/ouvidoria" class="titulo-rodape">OUVIDORIA</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+
+								<div class="col-md-3 col-sm-3 col-xs-12">
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/procuradoria-da-mulher"
+													class="titulo-rodape">PROCURADORIA DA MULHER</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-sm-3 col-xs-12">
+									<div class="menu-rodape">
+										<ul>
+											<li><a href="/transparencia" class="titulo-rodape">TRANSPARÊNCIA</a>
+											</li>
+											<li><a href="https://atendimento.al.ba.gov.br/carta-de-servico" target="_blank">CARTA DE SERVIÇOS</a></li>
+											
+											<li><a href="/transparencia/estrutura-legislativa">ESTRUTURA
+													ORGANIZACIONAL</a></li>
+											<li><a href="/transparencia/legislacao">ATOS NORMATIVOS</a></li>
+											<li><a href="/transparencia/perguntas-respostas#faq">PERGUNTAS
+													FREQUENTES</a></li>
+											<li><a href="https://radar.tce.mt.gov.br/extensions/radar-da-transparencia-publica/radar-da-transparencia-publica.html"
+													target="_blank">RADAR DA TRANSPARÊNCIA</a></li>
+											<li><a href="/transparencia/prest-receitas">RECEITAS</a></li>
+											<!-- <li><a th:href="@{/#}">DESPESAS</a></li> -->
+											<li><a href="/transparencia/convenios">CONVÊNIOS E TRANSFERÊNCIAS</a>
+											</li>
+											<li><a href="/transparencia/concurso-publico">CONCURSOS</a></li>
+											<li><a href="/transparencia/contratos-convenios">CONTRATOS</a></li>
+											<li><a href="/transparencia/obras-paralisadas">OBRAS PARALISADAS</a>
+											</li>
+											<li><a href="https://atendimento.al.ba.gov.br/e-ouv"target="_blank">OUVIDORIA </a></li>
+											
+											<!-- 	<li><a href="#" target="_blank">SERVIÇO DE INFORMAÇÃO AO CIDADÃO - SIC </a></li>-->
+											<li><a href="/transparencia/doc-classificacao">CLASSIFICACAO DE
+													INFORMAÇÕES</a></li>
+											<li><a href="https://atendimento.al.ba.gov.br/e-ouv/home/estatisticas" target="_blank">RELATÓRIOS TRANSPARÊNCIA</a></li>
+											
+											<!--<li><a th:href="@{/transparencia/avisos}">LGPD E GOVERNO DIGITAL</a></li>-->
+											<li><a href="/transparencia/lgpd">LGPD E GOVERNO DIGITAL</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-12">
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="https://portalrh.alba.ba.gov.br/transparencia" target="_blank"
+													class="titulo-rodape">RECURSOS HUMANOS</a>
+											</li>
+											<li><a href="https://portalrh.alba.ba.gov.br/transparencia"
+													target="_blank">PESSOAL</a></li>
+											<li><a href="https://portalrh.alba.ba.gov.br/transparencia/estagiarios"
+													target="_blank">ESTAGIÁRIOS</a></li>
+											<li><a href="https://portalrh.alba.ba.gov.br/transparencia/diarias"
+													target="_blank">DIÁRIAS</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-12">
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="http://licita.alba.ba.gov.br/licitacoes-externo"
+													target="_blank" class="titulo-rodape">LICITAÇÕES</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-12">
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/transparencia/prest-contas"
+													class="titulo-rodape">PRESTAÇÃO DE CONTAS</a>
+											</li>
+											<li><a href="/transparencia/prest-contas">PRESTAÇÃO DE CONTAS DA
+													ALBA</a></li>
+											<li><a href="/transparencia/prest-aprec-contas-pe">APRECIAÇÃO DE
+													CONTAS DO PODER EXECUTIVO</a></li>
+											<li><a href="https://www.sefaz.ba.gov.br/financas-publicas/balanco-geral-do-estado/"
+													target="_blank">PRESTAÇÃO DE CONTAS DO PODER EXECUTIVO</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-12">
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/transparencia/financas" class="titulo-rodape">GESTÃO
+													FISCAL</a>
+											</li>
+											<li><a href="/transparencia/financas">RELATÓRIO DE GESTÃO FISCAL</a>
+											</li>
+											<li><a href="/transparencia/execucao-orcamentaria">EXECUÇÃO
+													ORÇAMENTÁRIA</a></li>
+											<li><a href="https://www.seplan.ba.gov.br/orcamento/orcamento-anual/"
+													target="_blank">LEI DE ORÇAMENTO ANUAL - LOA</a></li>
+											<li><a href="https://www.seplan.ba.gov.br/orcamento/ldo-lei-de-diretrizes-orcamentarias/"
+													target="_blank">LEI DE DIRETRIZES ORÇAMENTÁRIAS - LDO</a></li>
+											<li><a href="https://www.seplan.ba.gov.br/planejamento/ppa-plano-plurianual/"
+													target="_blank">PLANO PLURIANUAL - PPA</a></li>
+										</ul>
+									</div>
+								</div>
+
+
+								<div class="col-md-3 col-sm-3 col-xs-12">
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/transparencia/verbas-idenizatorias"
+													class="titulo-rodape">PARLAMENTARES</a>
+											</li>
+											<li><a href="/transparencia/verbas-idenizatorias">VERBA
+													INDENIZATÓRIA</a></li>
+											<li><a href="/deputados/legislatura-atual">DEPUTADOS LEGISLATURA
+													ATUAL</a></li>
+											<li><a href="/transparencia/verbas-regula">REGULAMENTAÇÕES SOBRE
+													VERBAS</a></li>
+											<li><a href="https://albalegis.nopapercloud.com.br/spl/sessoes.aspx">
+													FREQUÊNCIA DOS DEPUTADOS</a></li>
+											<li><a href="https://www.seplan.ba.gov.br/orcamento/orcamento-anual/"
+													target="_blank">EMENDAS PARLAMENTARES</a></li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-sm-3 col-xs-12">
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/transparencia/ativ-legislat"
+													class="titulo-rodape">ATIVIDADES LEGISLATIVAS</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-sm-3 col-xs-12">
+									<div class="menu-rodape">
+										<ul>
+											<li>
+												<a href="/transparencia/#uteis" class="titulo-rodape">LINKS
+													ÚTEIS</a>
+											</li>
+											<li><a href="https://portaldatransparencia.gov.br/"
+													target="_blank">TRANSPARÊNCIA GOV FEDERAL</a></li>
+											<li><a href="http://www.transparencia.ba.gov.br"
+													target="_blank">TRANSPARÊNCIA BAHIA</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</nav>
+		<div class="rodape2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="copy">
+							2026 &copy; <span>Todos
+								os direitos reservados.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="fb-root"></div>
+	</footer>
+<script type="text/javascript">
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6&appId=736736523044041";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, "script", "facebook-jssdk"));
+</script>
+<script>
+    // script de rolagem para foco na noticia em mobile
+    $(document).ready(function() {
+        var deviceAgent = navigator.userAgent.toLowerCase();
+
+        if (deviceAgent.match(/(iphone|ipod|ipad|android)/)) {
+            $('html, body').animate({
+                scrollTop: $('.titulo-presidente').offset().top - 115
+            }, 'slow');
+        }
+
+        // para modal em imagens
+        $('a.thumb').click(function(event) {
+            event.preventDefault();
+            var content = $('.modal-body');
+            content.empty();
+            var title = $(this).attr("title");
+            $('.modal-title').html(title);      	
+            content.html($(this).html());
+            $(".modal-profile").modal({show:true});
+        });
+    });
+</script>
+
+<!--  Antigo google Analytics
+<script>
+    (function (i, s, o, g, r, a, m) {
+    i["GoogleAnalyticsObject"] = r;
+    i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+    })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
+    ga("create", "UA-134349098-1", "auto");
+    ga("send", "pageview");
+</script>
+-->
+<!-- <script src="https://plantao-alba.herokuapp.com/js/plantal-alba-embeded.js"></script> -->
+</body>
+</html>
