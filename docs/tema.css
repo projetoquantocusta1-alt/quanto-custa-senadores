@@ -5,12 +5,12 @@
    ===================================================================== */
 :root {
   --bg: #F0F3F6; --panel: #FFFFFF; --panel-2: #F7F9FB; --line: #DDE3EA; --line-2: #C3CDD8;
-  --ink: #1B2733; --muted: #5B6878; --accent: #2475B8; --accent-esc: #1B5C93; --danger: #C84C4C; --ok: #16865D;
-  --atencao: #D69A32; --marinho: #14283F;
-  --menu: #14283F; --menu-ink: #FFFFFF; --menu-muted: #C9D4E2;
-  --c-salario: #14283F; --c-ajuda: #8FA3B8; --c-auxilio: #D69A32; --c-cota: #2475B8; --c-gabinete: #16865D; --c-emenda: #6B8E23;
-  --imp: #14283F;
-  --radius: 10px; --serif: "Source Serif 4", "Iowan Old Style", Georgia, serif;
+  --ink: #1B2733; --muted: #5B6878; --accent: #2463A6; --accent-esc: #2463A6; --danger: #C84C4C; --ok: #16865D;
+  --atencao: #D69A32; --marinho: #10243A;
+  --menu: #10243A; --menu-ink: #FFFFFF; --menu-muted: #C9D4E2;
+  --c-salario: #10243A; --c-ajuda: #8FA3B8; --c-auxilio: #D69A32; --c-cota: #2463A6; --c-gabinete: #16865D; --c-emenda: #6B8E23;
+  --imp: #10243A;
+  --radius: 10px; --serif: Manrope, "Segoe UI", system-ui, sans-serif;
   --sombra: 0 1px 2px rgba(20,40,63,.05);
   --topo-h: 60px;
 }
@@ -64,11 +64,11 @@ h1, h2, .titulo-secao, .visual h2, .destaque h1 { font-family: var(--serif); col
 .destaque h1 { font-size: clamp(28px, 4vw, 44px); margin-bottom: 8px; }
 .destaque .hero-sub { margin: 0 auto 18px; max-width: 640px; color: var(--muted); font-size: 17px; }
 .destaque .selo { color: var(--accent); letter-spacing: .1em; }
-.destaque-valor { color: #C84C4C; font-family: "Roboto Mono", ui-monospace, monospace; letter-spacing: -.04em; }
+.destaque-valor { color: #C84C4C; font-family: "IBM Plex Mono", ui-monospace, monospace; letter-spacing: -.04em; }
 .busca-grande { display: flex; align-items: center; gap: 10px; max-width: 620px; margin: 0 auto 24px; background: #fff;
   border: 2px solid var(--marinho); border-radius: 12px; padding: 4px 4px 4px 14px; }
 .busca-grande svg { width: 20px; height: 20px; fill: none; stroke: var(--muted); stroke-width: 2; flex: none; }
-.busca-grande input { flex: 1; min-width: 0; border: 0 !important; outline: 0 !important; font: 500 16px Inter, system-ui, sans-serif; padding: 10px 0; background: transparent; min-height: 0; }
+.busca-grande input { flex: 1; min-width: 0; border: 0 !important; outline: 0 !important; font: 500 16px "IBM Plex Sans", system-ui, sans-serif; padding: 10px 0; background: transparent; min-height: 0; }
 .busca-grande button { background: var(--marinho); color: #fff; border: 0; border-radius: 9px; padding: 11px 18px; font-weight: 700; cursor: pointer; min-height: 44px; }
 #i-kpis { margin-top: var(--gap); }
 .atalhos button { border-radius: var(--radius); }
@@ -78,7 +78,7 @@ h1, h2, .titulo-secao, .visual h2, .destaque h1 { font-family: var(--serif); col
 .selos-legenda small { color: var(--muted); font-size: 12.5px; }
 .selo-t { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; border-radius: 999px; padding: 3px 10px; border: 1px solid; }
 .selo-t::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
-.t-of { color: #1B5C93; background: #EDF4FB; border-color: #C6DCF0; }
+.t-of { color: #2463A6; background: #EDF4FB; border-color: #C6DCF0; }
 .t-es { color: #5B4BB7; background: #F1EFFB; border-color: #D8D2F3; }
 .t-at { color: #8A5D0C; background: #FBF4E6; border-color: #EFD9AE; }
 .t-in { color: #A83A3A; background: #FBEDED; border-color: #F0CACA; }
@@ -86,7 +86,7 @@ h1, h2, .titulo-secao, .visual h2, .destaque h1 { font-family: var(--serif); col
 /* ------------------------------------------------ mapa do Brasil: cores da versão anterior (não mudar) */
 .mapa-br path:hover, .mapa-br path:focus-visible { fill: #ffd84d !important; }
 .mapa-br path.sel { fill: #0b5cad; }
-.mapa-br .uf-rot { fill: #1f2a44; font-family: Inter, sans-serif; }
+.mapa-br .uf-rot { fill: #1f2a44; font-family: "IBM Plex Sans", sans-serif; }
 .mapa-br .uf-rot.claro { fill: #fff; }
 .mapa-br .uf-rot.fora.sel { fill: #0b5cad; }
 .mapa-br .uf-linha { stroke: #8a8886; }
@@ -110,7 +110,7 @@ h1, h2, .titulo-secao, .visual h2, .destaque h1 { font-family: var(--serif); col
 .dava-topo .destaque-valor { margin: 6px 0; }
 .dava-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: var(--gap); margin-bottom: var(--gap); }
 .dv-card { background: #fff; border: 1px solid var(--line); border-top: 4px solid var(--ok); border-radius: var(--radius); padding: 16px 18px; }
-.dv-num { display: block; font: 800 40px/1.1 "Roboto Mono", ui-monospace, monospace; color: var(--ok); }
+.dv-num { display: block; font: 800 40px/1.1 "IBM Plex Mono", ui-monospace, monospace; color: var(--ok); }
 .dv-rot { display: block; font-weight: 800; color: var(--marinho); margin: 2px 0 6px; }
 .dv-card p { margin: 0 0 6px; font-size: 14px; }
 
@@ -118,7 +118,7 @@ h1, h2, .titulo-secao, .visual h2, .destaque h1 { font-family: var(--serif); col
 a.marca { color: inherit; text-decoration: none; }
 a.marca:hover strong { text-decoration: underline; }
 .hub-link { display: inline-flex; align-items: center; gap: 4px; color: #fff; background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.28);
-  border-radius: 7px; padding: 6px 10px; font: 600 13px Inter, system-ui, sans-serif; text-decoration: none; white-space: nowrap; align-self: center; }
+  border-radius: 7px; padding: 6px 10px; font: 600 13px "IBM Plex Sans", system-ui, sans-serif; text-decoration: none; white-space: nowrap; align-self: center; }
 .hub-link:hover { background: rgba(255,255,255,.2); }
 .menu nav .hub-link { margin-right: 6px; }
 .hub-link.topo { margin-left: auto; }
@@ -127,7 +127,7 @@ a.marca:hover strong { text-decoration: underline; }
 /* contador de visitas no topo */
 .visitas-linha { margin: 0 0 12px; }
 .visitas { display: inline-flex; align-items: center; gap: 8px; padding: 5px 13px 5px 11px; border: 1px solid rgba(20,40,63,.14); border-radius: 999px; background: #fff; color: #4a5a6e; font-size: 13px; line-height: 1.3; box-shadow: 0 1px 3px rgba(20,40,63,.07); }
-.visitas b { font-family: "Roboto Mono", ui-monospace, monospace; color: #14283F; font-weight: 700; font-variant-numeric: tabular-nums; }
+.visitas b { font-family: "IBM Plex Mono", ui-monospace, monospace; color: #10243A; font-weight: 700; font-variant-numeric: tabular-nums; }
 .vis-ponto { flex: none; width: 8px; height: 8px; border-radius: 50%; background: #16865D; box-shadow: 0 0 0 0 rgba(22,134,93,.5); animation: visPulso 2.2s infinite; }
 @keyframes visPulso { 70% { box-shadow: 0 0 0 7px rgba(22,134,93,0); } 100% { box-shadow: 0 0 0 0 rgba(22,134,93,0); } }
 @media (prefers-reduced-motion: reduce) { .vis-ponto { animation: none; } }

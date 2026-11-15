@@ -8,13 +8,13 @@
   --c-gabinete: #12239e; --c-emenda: #1aab40; --c-prev: #e044a7;
   --imp: #c4161c;
   --radius: 8px; --gap: 14px; --menu-w: 228px;
-  --mono: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   --sombra: 0 1px 2px rgba(0,0,0,.06), 0 2px 8px rgba(0,0,0,.04);
   color-scheme: light;
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 h1, h2, h3 { margin: 0; line-height: 1.2; }
 a { color: var(--accent-esc); }
 button { font: inherit; }
@@ -45,7 +45,7 @@ button { font: inherit; }
 .segmentacoes label, .seletor-cat label, .comp-topo .busca { display: flex; flex-direction: column; gap: 4px; font-size: 11px; color: var(--muted);
   text-transform: uppercase; letter-spacing: .05em; font-weight: 700; }
 .segmentacoes .busca { flex: 1 1 200px; }
-select, input[type="search"], input[list] { font: 500 14px Inter, system-ui, sans-serif; color: var(--ink); background: #fff;
+select, input[type="search"], input[list] { font: 500 14px "IBM Plex Sans", system-ui, sans-serif; color: var(--ink); background: #fff;
   border: 1px solid var(--line-2); border-radius: 6px; padding: 7px 10px; min-height: 38px; text-transform: none; letter-spacing: 0; }
 select:focus, input:focus { outline: 2px solid var(--accent); outline-offset: 0; border-color: var(--accent); }
 select.mini { min-height: 30px; padding: 3px 8px; font-size: 12px; }
@@ -70,7 +70,7 @@ main { padding: 18px 20px; max-width: 1500px; }
 .kpi { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--sombra);
   border-left: 4px solid var(--k, var(--accent)); }
 .kpi .rot { font-size: 12px; color: var(--muted); font-weight: 600; }
-.kpi .val { font: 700 26px/1.2 Inter, system-ui, sans-serif; margin-top: 4px; letter-spacing: -.01em; }
+.kpi .val { font: 700 26px/1.2 "IBM Plex Sans", system-ui, sans-serif; margin-top: 4px; letter-spacing: -.01em; }
 .kpi .obs { font-size: 12px; color: var(--muted); margin-top: 2px; }
 .delta { font-size: 12px; font-weight: 700; margin-left: 6px; }
 .delta.sobe { color: var(--danger); } .delta.desce { color: var(--ok); }
@@ -143,7 +143,7 @@ tr:hover td { background: #f3f9ff; }
 /* ---------------- mapa (grade de estados) */
 .mapa { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; max-width: 460px; margin: 0 auto; }
 .mapa button { aspect-ratio: 1.15; border: 1px solid rgba(0,0,0,.06); border-radius: 6px; cursor: pointer; padding: 2px;
-  display: flex; flex-direction: column; justify-content: center; align-items: center; font: 700 13px Inter, sans-serif; }
+  display: flex; flex-direction: column; justify-content: center; align-items: center; font: 700 13px "IBM Plex Sans", sans-serif; }
 .mapa button small { font: 500 10px var(--mono); opacity: .9; }
 .mapa button.sel { outline: 3px solid #f2c811; outline-offset: 1px; }
 .mapa button.sem { background: #f0f0f0 !important; color: #aaa !important; cursor: default; }
@@ -189,7 +189,7 @@ dialog::backdrop { background: rgba(31,42,68,.55); }
   width: 36px; height: 36px; border-radius: 50%; font-size: 20px; cursor: pointer; z-index: 2; }
 .d-cab { display: flex; gap: 14px; align-items: center; margin-bottom: 12px; }
 .d-cab img { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; background: var(--line); }
-.d-total { font: 800 32px Inter, sans-serif; color: var(--ink); letter-spacing: -.02em; }
+.d-total { font: 800 32px Manrope, sans-serif; color: var(--ink); letter-spacing: -.02em; }
 .pecas { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 8px; margin: 12px 0; }
 .peca { background: var(--panel-2); border-radius: 6px; padding: 8px 10px; border-left: 4px solid var(--c); }
 .peca .rot { font-size: 11px; color: var(--muted); }
@@ -240,7 +240,7 @@ dialog::backdrop { background: rgba(31,42,68,.55); }
   border-radius: 14px; padding: 34px 20px 26px; margin-bottom: var(--gap); box-shadow: var(--sombra); }
 .destaque h1 { font-size: clamp(22px, 3vw, 30px); letter-spacing: -.01em; margin-bottom: 18px; }
 .destaque-rot { margin: 0; font-size: 16px; color: #3b3a39; }
-.destaque-valor { font: 800 clamp(34px, 7vw, 76px)/1.05 Inter, system-ui, sans-serif; color: var(--imp); letter-spacing: -.03em; margin: 8px 0 6px;
+.destaque-valor { font: 800 clamp(34px, 7vw, 76px)/1.05 Manrope, system-ui, sans-serif; color: var(--imp); letter-spacing: -.03em; margin: 8px 0 6px;
   font-variant-numeric: tabular-nums; }
 .destaque-nota { margin: 0 auto; max-width: 720px; font-size: 13px; color: var(--muted); }
 .contador-linha { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; max-width: 900px; margin: 22px auto 0; }
@@ -273,7 +273,7 @@ dialog::backdrop { background: rgba(31,42,68,.55); }
 .termo { border-bottom: 1px dotted currentColor; cursor: help; text-decoration: none; }
 .termo:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
 .termo-icone { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; border: 1px solid var(--line-2); background: #fff;
-  font: 700 12px Inter, sans-serif; color: var(--muted); align-self: center; }
+  font: 700 12px "IBM Plex Sans", sans-serif; color: var(--muted); align-self: center; }
 .balao { position: fixed; z-index: 60; max-width: 300px; background: #252423; color: #fff; font-size: 13px; line-height: 1.45; padding: 10px 12px;
   border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.25); pointer-events: none; }
 .balao b { display: block; margin-bottom: 2px; color: #f2c811; }
@@ -327,7 +327,7 @@ tr.sub-notas > td { background: var(--panel-2); white-space: normal; padding: 8p
 .combo-campo { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; background: #fff; border: 1px solid var(--line-2); border-radius: 6px;
   padding: 3px 34px 3px 6px; min-height: 38px; position: relative; cursor: text; }
 .combo-campo:focus-within { outline: 2px solid var(--accent); border-color: var(--accent); }
-.combo-campo input { flex: 1 1 120px; min-width: 90px; border: 0; outline: 0 !important; font: 500 14px Inter, system-ui, sans-serif; padding: 4px; background: transparent; color: var(--ink); }
+.combo-campo input { flex: 1 1 120px; min-width: 90px; border: 0; outline: 0 !important; font: 500 14px "IBM Plex Sans", system-ui, sans-serif; padding: 4px; background: transparent; color: var(--ink); }
 .combo-chips { display: contents; }
 .cchip { display: inline-flex; align-items: center; gap: 4px; background: #e8f3ff; color: var(--accent-esc); border-radius: 999px; padding: 2px 4px 2px 10px;
   font-size: 12px; font-weight: 700; max-width: 100%; }
@@ -344,7 +344,7 @@ tr.sub-notas > td { background: var(--panel-2); white-space: normal; padding: 8p
 .combo-lista li[data-co]:hover, .combo-lista li.ativo { background: #f0f6ff; }
 .combo-lista li[aria-selected="true"] { background: #e3f0ff; }
 .co-foto { width: 34px; height: 34px; border-radius: 50%; overflow: hidden; background: #dbe6f4; position: relative; display: grid; place-items: center; }
-.co-foto i { font: 700 12px Inter, sans-serif; color: var(--accent-esc); font-style: normal; }
+.co-foto i { font: 700 12px "IBM Plex Sans", sans-serif; color: var(--accent-esc); font-style: normal; }
 .co-foto img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .co-nome { display: flex; flex-direction: column; min-width: 0; line-height: 1.25; }
 .co-nome small { color: var(--muted); font-weight: 500; font-size: 12px; }
@@ -359,7 +359,7 @@ tr.sub-notas > td { background: var(--panel-2); white-space: normal; padding: 8p
 .mapa-br path { stroke: #fff; stroke-width: 1.2; cursor: pointer; transition: fill .15s; outline: none; }
 .mapa-br path:hover, .mapa-br path:focus-visible { fill: #ffd84d !important; }
 .mapa-br path.sel { fill: var(--accent-esc); }
-.mapa-br .uf-rot { font: 700 14px Inter, sans-serif; fill: #1f2a44; text-anchor: middle; pointer-events: none; }
+.mapa-br .uf-rot { font: 700 14px "IBM Plex Sans", sans-serif; fill: #1f2a44; text-anchor: middle; pointer-events: none; }
 .mapa-br .uf-rot.claro { fill: #fff; }
 .mapa-br .uf-rot.fora { pointer-events: auto; cursor: pointer; text-anchor: start; font-size: 17px; }
 .mapa-br .uf-rot.fora.sel { fill: var(--accent-esc); text-decoration: underline; }
@@ -373,7 +373,7 @@ tr.sub-notas > td { background: var(--panel-2); white-space: normal; padding: 8p
 .autor-card p { margin: 6px 0 0; }
 .autor-cab b { font-size: 17px; display: block; }
 .autor-cab .sub { display: block; }
-.autor-ini { width: 64px; height: 64px; border-radius: 50%; background: #dbe6f4; color: var(--accent-esc); display: grid; place-items: center; font: 800 22px Inter, sans-serif; flex: none; }
+.autor-ini { width: 64px; height: 64px; border-radius: 50%; background: #dbe6f4; color: var(--accent-esc); display: grid; place-items: center; font: 800 22px Manrope, sans-serif; flex: none; }
 .quem-faz .compromissos { margin-top: 6px; }
 
 /* posição no ranking (ficha) */
@@ -404,7 +404,7 @@ tr.sub-notas > td { background: var(--panel-2); white-space: normal; padding: 8p
 .nv-subiu { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 .nv-subiu li { display: grid; grid-template-columns: 62px 1fr; gap: 10px; align-items: start; background: var(--panel-2); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; }
 .nv-salto { font: 800 14px var(--mono, monospace); color: #107c41; background: #e6f4ea; border-radius: 6px; text-align: center; padding: 4px 0; }
-.nv-salto.novo { color: #9c2a6f; background: #fdf0f8; font-family: Inter, sans-serif; }
+.nv-salto.novo { color: #9c2a6f; background: #fdf0f8; font-family: "IBM Plex Sans", sans-serif; }
 .nv-tags { white-space: normal !important; min-width: 140px; }
 .nv-tags span { display: inline-block; font-size: 11px; font-weight: 700; color: var(--c); border: 1px solid var(--c); border-radius: 999px; padding: 0 7px; margin: 0 3px 3px 0; white-space: nowrap; }
 @media (max-width: 600px) {

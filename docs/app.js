@@ -271,7 +271,7 @@ async function fichaSenador(id) {
   blocoGabinete(id).then((h) => { const el = $("#ficha-gab"); if (el) el.innerHTML = h; });
   $("#card-sen").onclick = () => cartaoSenador(s, D, anoN, nd, F);
   if (sa) grafico("g-f-mes", { type: "bar", data: { labels: MESES, datasets: [{ label: "Cota", data: (sa.mensal_ceaps || []).map((v) => v * F), backgroundColor: css("--accent") }] }, options: { maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: tipBRL }, scales: { y: { ticks: { callback: (v) => curto(v) } } } } });
-  grafico("g-f-hist", { type: "bar", data: { labels: hist.map((h) => h[0]), datasets: [{ label: "Salário", data: hist.map(([, y, f]) => y.custos.salario * f), backgroundColor: "#14283F" }, { label: "Cota", data: hist.map(([, y, f]) => y.custos.ceaps * f), backgroundColor: "#2475B8" }] },
+  grafico("g-f-hist", { type: "bar", data: { labels: hist.map((h) => h[0]), datasets: [{ label: "Salário", data: hist.map(([, y, f]) => y.custos.salario * f), backgroundColor: "#10243A" }, { label: "Cota", data: hist.map(([, y, f]) => y.custos.ceaps * f), backgroundColor: "#2463A6" }] },
     options: { maintainAspectRatio: false, plugins: { tooltip: tipBRL }, scales: { x: { stacked: true }, y: { stacked: true, ticks: { callback: (v) => curto(v) } } } } });
   if (nd) {
     const desenhar = () => { const q = semAcento($("#n-q").value.trim());
@@ -302,7 +302,7 @@ async function cartaoSenador(s, D, anoN, nd, F) {
     faixa: pos ? { titulo: pos === 1 ? "Senador mais caro" : caro ? `${pos}º mais caro` : `${n - pos + 1}º mais econômico`, sub: `entre ${n} senadores · ${tot() ? "todos os anos" : "em " + E.ano}`, cor: caro ? "#c4161c" : "#107c41" } : null,
     valorRot: "Custou aos cofres públicos", valor: V(s, "custo"), valorSub: s.meses ? `${brl(V(s, "custo") / s.meses)} por mês, em média` : "",
     destaques,
-    composicao: [["Salário", V(s, "salario"), "#14283F"], ["Cota parlamentar (CEAPS)", V(s, "ceaps"), "#2475B8"]],
+    composicao: [["Salário", V(s, "salario"), "#10243A"], ["Cota parlamentar (CEAPS)", V(s, "ceaps"), "#2463A6"]],
     fonte: `Fonte: Senado Federal (dados abertos)${corrigir() ? " · valores corrigidos pelo IPCA" : ""} · sem a equipe do gabinete`,
     arquivo: `${semAcento(s.nome).replace(/\W+/g, "-")}-${tot() ? "todos-os-anos" : E.ano}`,
   });

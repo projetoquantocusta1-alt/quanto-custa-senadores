@@ -1,0 +1,18 @@
+/* Quanto Custa? · identidade visual (proposta A) aplicada sobre o tema do site.
+   Só cores, fontes e logo: nenhum componente muda. Carregado depois de style.css e tema.css. */
+:root {
+  --marinho: var(--qc-navy); --menu: var(--qc-navy); --imp: var(--qc-navy);
+  --accent: var(--qc-azul); --accent-esc: var(--qc-azul);
+  --ink: var(--qc-navy); --muted: var(--qc-ardosia); --bg: var(--qc-cinza);
+  --c-salario: var(--qc-navy); --c-cota: var(--qc-azul);
+  --serif: var(--qc-fonte-titulo); --mono: var(--qc-fonte-dados);
+}
+body { font-family: var(--qc-fonte-texto); }
+h1, h2, .titulo-secao, .visual h2, .destaque h1, .d-cab h2, .ficha-cab h2 { font-family: var(--qc-fonte-titulo); font-weight: 800; letter-spacing: -.01em; }
+h3 { font-family: var(--qc-fonte-titulo); font-weight: 700; }
+.marca { align-items: center; }
+.marca-col { display: grid; gap: 4px; }
+.marca-logo { display: block; height: 30px; width: auto; min-height: var(--qc-logo-altura-min); }
+.topo-marca { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.topo-marca .marca-logo { height: 24px; }
+.topo-marca small { color: var(--menu-muted, #C9D4E2); font-size: 11px; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

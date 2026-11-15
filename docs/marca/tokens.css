@@ -1,0 +1,26 @@
+/* Quanto Custa? · Tokens da identidade (proposta A, versão 1.0)
+   Fontes: carregar no <head>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Manrope:wght@700;800&display=swap"> */
+
+:root {
+  /* Cores base */
+  --qc-navy: #10243A;          /* principal: marca, títulos, fundos institucionais */
+  --qc-azul: #2463A6;          /* links, gráficos, navegação */
+  --qc-verde: #23966B;         /* só acento; não usar em texto pequeno sobre branco (3,7:1) */
+  --qc-cinza: #F1F4F7;         /* fundo de seções e tabelas */
+  --qc-branco: #FFFFFF;
+  --qc-ardosia: #5B7189;       /* texto secundário, legendas, notas de fonte */
+
+  /* Versões para fundo escuro */
+  --qc-azul-claro: #6FA3DC;
+  --qc-verde-claro: #3FC491;
+
+  /* Tipografia */
+  --qc-fonte-titulo: 'Manrope', 'Segoe UI', system-ui, sans-serif;     /* 800 para títulos, 700 para subtítulos */
+  --qc-fonte-texto: 'IBM Plex Sans', 'Segoe UI', system-ui, sans-serif;
+  --qc-fonte-dados: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+
+  /* Logo */
+  --qc-logo-altura-min: 24px;  /* abaixo disso, usar só o símbolo */
+  --qc-simbolo-min: 16px;
+}
