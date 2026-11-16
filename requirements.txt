@@ -2,3 +2,4 @@ requests>=2.31
 pandas>=2.1
 pytest>=8
 Pillow>=10
+openpyxl>=3.1

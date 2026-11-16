@@ -37,13 +37,19 @@ def main():
         try:
             r = http.get(u, timeout=25)
             txt = r.text
+            if r.content[:2] == b"PK" or b"spreadsheet" in (r.headers.get("Content-Type") or "").encode():
+                # planilha (xlsx): vira texto separado por ";" para poder ser estudada e mascarada
+                import io
+                import pandas as pd
+                folhas = pd.read_excel(io.BytesIO(r.content), sheet_name=None, header=None, dtype=str)
+                txt = "\n\n".join(f"### {n}\n" + f.fillna("").to_csv(sep=";", index=False, header=False) for n, f in folhas.items())
             links = sorted({urljoin(u, m) for m in re.findall(r'href="([^"]+)"', txt)
                             if re.search(r"csv|json|xml|xls|ods|dados|servidor|lotac|moradia|imove|gabinete|remunera|senador|beneficio|despesa", m, re.I)})
             res[u] = {"status": r.status_code, "tipo": r.headers.get("Content-Type"), "tamanho": len(r.content), "links": links[:400],
                       "texto": re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", txt))[:6000]}
             if extras:
                 nome = hashlib.sha1(u.encode()).hexdigest()[:10]
-                (brutos / f"{nome}.txt").write_text(mascarar_cpf_no_texto(r.text[:2_000_000]), "utf-8")  # nunca publica CPF inteiro
+                (brutos / f"{nome}.txt").write_text(mascarar_cpf_no_texto(txt[:2_000_000]), "utf-8")  # nunca publica CPF inteiro
                 res[u]["bruto"] = f"brutos/{nome}.txt"
         except Exception as e:  # noqa: BLE001
             res[u] = {"erro": str(e)}
