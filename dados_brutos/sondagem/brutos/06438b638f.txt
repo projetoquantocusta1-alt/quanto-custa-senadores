@@ -221,8 +221,8 @@
 						</div>
 					</div>
 
-					Domingo
-					15 de Novembro de 2026
+					Segunda-feira
+					16 de Novembro de 2026
 				</div>
 			</div> <!-- Fim topo-uteis  -->
 
@@ -396,9 +396,10 @@
 
 	</header>
 <div>
-<link rel="stylesheet" type="text/css" href="/styles/transparencia/transparencia.css"/>
-	<section>
-	    <div><!DOCTYPE html>
+    <link rel="stylesheet" type="text/css" href="/styles/transparencia/transparencia.css"/>
+    <link rel="stylesheet" type="text/css" href="/styles/print.css" media="print">
+    <section class="no-print">
+        <div><!DOCTYPE html>
 <html>
 
 
@@ -413,8 +414,8 @@
   
   
 
-</html></div> 
-		<div class="no-print">
+</html></div>
+        <div class="no-print">
     <br>
     <div class="container">
         <div class="row">
@@ -431,7 +432,7 @@
                         </div>
                         <div class="single-breadcrumb-wrap active">
                             <span class="sep"><i class="fa fa-caret-right"></i></span>
-                            <span class="breadcrumb">SCD</span>
+                            <span class="breadcrumb">VERBAS INDENIZATÓRIAS</span>
                         </div>
                     </nav>
                 </div>
@@ -439,19 +440,18 @@
         </div>
     </div>
 </div>
-		<div id="titulo">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">SCD
-					</div>
-				</div>
-			</div>
-		</div>
+        <div id="titulo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">DETALHAMENTO DA DESPESA</div>
+                </div>
+            </div>
+        </div>
 
-		<div class="container">
-			<br>
-			<div class="row">
-				<div class="no-print">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="no-print">
 		<div class="col-md-2 nopadding-left">
 			<div class="list-group">
 				<a type="button" href="/transparencia" data-toggle="collapse" data-target="#ta"
@@ -551,8 +551,8 @@
 
 
 				<a type="button" href="/transparencia/credor-empenho-despesa" data-toggle="collapse"
-					data-target="#scd" data-parent="#menu" class="list-group-item list-group-item-action card-header active">Despesas</a>
-				<div id="scd" class="sublinks collapse in">
+					data-target="#scd" data-parent="#menu" class="list-group-item list-group-item-action card-header">Despesas</a>
+				<div id="scd" class="sublinks collapse">
 					<p class="collapse-subitem"><b><a href="/transparencia/credor-empenho-despesa"><i
 									class="fa fa-caret-right"></i>Despesas</a></b></p>
 					<p class="collapse-subitem"><b><a href="/transparencia/credor-empenho-pormenorizada"><i
@@ -624,8 +624,8 @@
 				</div>
 
 				<a type="button" href="/transparencia/" data-toggle="collapse" data-target="#parl"
-					data-parent="#menu" class="list-group-item list-group-item-action card-header">PARLAMENTARES</a>
-				<div id="parl" class="sublinks collapse in">
+					data-parent="#menu" class="list-group-item list-group-item-action card-header active">PARLAMENTARES</a>
+				<div id="parl" class="sublinks collapse in in">
 					<p class="collapse-subitem"><b><a href="/transparencia/relat-atividades-legislativas"><i
 									class="fa fa-caret-right"></i> DADOS DE ATIVIDADES LEGISLATIVAS</a></b></p>
 					<p class="collapse-subitem"><b><a href="/transparencia/verbas-idenizatorias"><i
@@ -655,47 +655,87 @@
 			</div>
 		</div>
 	</div>
-				<div class="col-md-10">
-					<fieldset>
-						<legend>
-							<div class="o-presidente">
-								<div class="titulo-presidente" style="text-transform: uppercase;">Despesas</div>
-							</div>
-						</legend>
-					</fieldset>
-					
-																	Informações atualizadas em
-					Domingo	,
- 					15 de Novembro de 2026<br><br>		
-
-					<div class="row">
-							<div class="col-md-10">					
-										<div class="borda-filtro">
-											<div class="row">
-												<div class="aviso-texto">
-													<p class="sub-title-new" align="justify">
-													As despesas da ALBA podem ser visualizadas no site da Transparência Bahia (link abaixo). 
-													<p class="sub-title-new" align="justify">Para utilizar a ferramenta, selecione: Assembleia Legislativa da Bahia no item órgão: 
-													<a href="https://www.transparencia.ba.gov.br/Despesa/Painel?unidadeOrcamentaria=Secretaria%20da%20Assembleia%20Legislativa" target="_blank">
-													<p><b>https://www.transparencia.ba.gov.br/Despesa/Painel</b></p></a>
-												</div>
-											</div>
-										</div>	
-							</div>
-
-					</div>
-					<div class="row">
-					<p></p>
-							<div class="col-md-10">	
-							<img src="/images/transp/proc01.jpg" >
-							</div>
-					</div>
-
-
-				</div>
-			</div>
-		</div>
-	</section>
+                <div class="col-md-10">
+                    <fieldset>
+                        <legend>
+                            <div class="o-presidente">
+                                <div class="titulo-presidente">
+                                    DEPUTADO (A):
+                                    <span>PEDRO TAVARES (MDB)</span>
+                                </div>
+                            </div>
+                        </legend>
+                    </fieldset>
+                    <div class="titulo-bloco-lista no-margin">
+                        DESPESAS REFERÊNCIA:
+                        <span>216596 - 11/2026</span>
+                    </div>
+                    <div class="fe-div-table fe-table-responsivo">
+                        <table class="tabela-cab table table-bordered divider table-striped">
+                            <thead>
+                            <tr>
+                                <th>CATEGORIA</th>
+                                <th>Nº NOTA/RECIBO</th>
+                                <th>CPF/CNPJ</th>
+                                <th>NOME DO FORNECEDOR</th>
+                                <th>VALOR</th>
+                                <th>GLOSA</th>
+                                <th>ANEXO NF</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="table-itens cinza">
+                                <td><span>Divulgação da  atividade parlamentar</span></td>
+                                <td width="100"><span>23</span></td>
+                                <td width="200"><span>25.197.679/0001-81</span></td>
+                                <td><span>MARCELO PINHEIRO ARAGAO</span></td>
+                                <td width="150">
+                                    <span>R$ 2.000,00</span>
+                                </td>
+                                <td width="150">R$ 0,00</td>
+                                <td><a class="text-leg fe-color-red" target="_blank" href="/fserver/:anexo:PEDRO_TAVARES_16596_NFE_23.pdf" ><span>23</span></a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br>
+                    <div class="fe-div-table">
+                        <html>
+<!--em tela pc-->
+<div class="pull-right a2a_kit no-print compartilhar-medio">
+	<a class="fe-print" href="javascript: void(0);" onclick="window.print(); return false;">
+		<i class="fe-quadrado fa fa-print"></i>&ensp; Imprimir
+	</a>
+	Compartilhar:&ensp;
+	<a class="fe-facebook a2a_button_facebook" href="/#facebook" target="_blank"><i class="fe-quadrado fa fa-facebook"></i>&ensp;facebook</a>
+	<a class="fe-twitter a2a_button_twitter" href="/#twitter" target="_blank"><i class="fe-quadrado fa fa-twitter"></i>&ensp;twitter</a>
+	<a class="fe-whatsapp a2a_button_whatsapp" href="/#whatsapp" target="_blank"><i class="fe-quadrado fa fa-whatsapp"></i>&ensp;whatsapp</a>
+</div>
+<!--em tela mobile-->
+<div class="pull-right a2a_kit no-print compartilhar-pequeno">
+	<a class="fe-print" href="javascript: void(0);" onclick="window.print(); return false;">
+		<i class="fe-quadrado fa fa-print"></i>
+	</a>
+	Compartilhar:&ensp;
+	<a class="fe-facebook a2a_button_facebook" href="/#facebook" target="_blank"><i class="fe-quadrado fa fa-facebook"></i></a>
+	<a class="fe-twitter a2a_button_twitter" href="/#twitter" target="_blank"><i class="fe-quadrado fa fa-twitter"></i></a>
+	<a class="fe-whatsapp a2a_button_whatsapp" href="/#whatsapp" target="_blank"><i class="fe-quadrado fa fa-whatsapp"></i></a>
+</div>
+<script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
+<script src="/scripts/controllers/shared/ShareContent.js" type="module"></script>
+                    </div>
+                    <div class="fe-div-table">
+                        <br><br class="compartilhar-medio">
+                        <div class="right">
+                            <a onclick="goBack()" class="fe-upper btn btn-default btn-pro">
+                                <span><i class="fa fa-reply"></i>&ensp;Voltar para prestação de contas</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 <footer>
 		<div class="rodape">

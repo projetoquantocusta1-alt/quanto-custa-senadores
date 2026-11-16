@@ -221,8 +221,8 @@
 						</div>
 					</div>
 
-					Domingo
-					15 de Novembro de 2026
+					Segunda-feira
+					16 de Novembro de 2026
 				</div>
 			</div> <!-- Fim topo-uteis  -->
 
@@ -395,10 +395,9 @@
 		</div>
 
 	</header>
-<div>
+<div id="apresent">
     <link rel="stylesheet" type="text/css" href="/styles/transparencia/transparencia.css"/>
-    <link rel="stylesheet" type="text/css" href="/styles/print.css" media="print">
-    <section class="no-print">
+    <section>
         <div><!DOCTYPE html>
 <html>
 
@@ -414,7 +413,7 @@
   
   
 
-</html></div>
+</html></div>   
         <div class="no-print">
     <br>
     <div class="container">
@@ -432,7 +431,7 @@
                         </div>
                         <div class="single-breadcrumb-wrap active">
                             <span class="sep"><i class="fa fa-caret-right"></i></span>
-                            <span class="breadcrumb">VERBAS INDENIZATÓRIAS</span>
+                            <span class="breadcrumb">APRESENTAÇÃO</span>
                         </div>
                     </nav>
                 </div>
@@ -443,20 +442,22 @@
         <div id="titulo">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">TRANSPARÊNCIA ALBA</div>
+                    <div class="col-md-12">
+                        TRANSPARÊNCIA
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="container">
-            <br>
+            <br/>
             <div class="row">
                 <div class="no-print">
 		<div class="col-md-2 nopadding-left">
 			<div class="list-group">
 				<a type="button" href="/transparencia" data-toggle="collapse" data-target="#ta"
-					data-parent="#menu" class="list-group-item list-group-item-action card-header">TRANSPARÊNCIA ALBA</a>
-				<div id="ta" class="sublinks collapse">
+					data-parent="#menu" class="list-group-item list-group-item-action card-header active">TRANSPARÊNCIA ALBA</a>
+				<div id="ta" class="sublinks collapse in">
 					 <p class="collapse-subitem"><b><a href="https://atendimento.al.ba.gov.br/carta-de-servico" target="_blank"><i class="fa fa-caret-right"></i> CARTA DE SERVIÇOS</a></b></p>
 
 					<p class="collapse-subitem"><b><a href="/transparencia/estrutura-legislativa"><i
@@ -624,8 +625,8 @@
 				</div>
 
 				<a type="button" href="/transparencia/" data-toggle="collapse" data-target="#parl"
-					data-parent="#menu" class="list-group-item list-group-item-action card-header active">PARLAMENTARES</a>
-				<div id="parl" class="sublinks collapse in in">
+					data-parent="#menu" class="list-group-item list-group-item-action card-header">PARLAMENTARES</a>
+				<div id="parl" class="sublinks collapse in">
 					<p class="collapse-subitem"><b><a href="/transparencia/relat-atividades-legislativas"><i
 									class="fa fa-caret-right"></i> DADOS DE ATIVIDADES LEGISLATIVAS</a></b></p>
 					<p class="collapse-subitem"><b><a href="/transparencia/verbas-idenizatorias"><i
@@ -659,671 +660,153 @@
                     <fieldset>
                         <legend>
                             <div class="o-presidente">
-                                <div class="titulo-presidente" style="text-transform: uppercase;">VERBAS INDENIZATÓRIAS</div>
+                                <div class="titulo-presidente">
+                                    Cargos de Gestão
+                                </div>
                             </div>
                         </legend>
+                        <div class="sub-title-new" style="width:100%!important;"><table width="800" border="1" align="" cellpadding="1" cellspacing="1" summary="">
+    <tbody>
+        <tr>
+            <td style="text-align: center;"><span style="font-weight: bold; font-size: small;">Setor</span></td>
+            <td style="text-align: center;"><span style="font-weight: bold; font-size: small;">Nome</span></td>
+            <td style="text-align: center;"><span style="font-weight: bold; font-size: small;">Cargo</span></td>
+            <td style="text-align: center;"><span style="font-weight: bold; font-size: small;">Contato</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Gabinete da Presidência                          </span>
+            <p class="Standard" style="margin: 0cm; font-family: &quot;Liberation Serif&quot;, serif;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34); font-size: small;"><o:p></o:p></span></p>
+            </td>
+            <td><span style="font-size: small;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34);">Marcílio Flores Seixas</span></span></td>
+            <td><span style="font-size: small;">Chefe de Gabinete da Presidência&nbsp;                          </span>
+            <p class="Standard" style="margin: 0cm; font-family: &quot;Liberation Serif&quot;, serif;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34); font-size: small;"><o:p></o:p></span></p>
+            </td>
+            <td><span style="font-size: small;">3115-4901 / 7029 - presidencia@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Procuradoria Geral</span></td>
+            <td><span style="font-size: small;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34);">Rafael Menezes Trindade Barretto&nbsp;</span></span></td>
+            <td><span style="font-size: small;">Procurador Geral</span></td>
+            <td><span style="font-size: small;">3115-7241 / 7168 -pgeral@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Assessoria de Comunicação Social</span></td>
+            <td><span style="font-size: small;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34);">Luiz Fernando Lima</span>&nbsp;</span></td>
+            <td><span style="font-size: small;">Chefe da Assessoria de Comunicação Social&nbsp;</span></td>
+            <td><span style="font-size: small;">3115-4958 / 4959 - ascom@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Assessoria de Planejamento             </span>
+            <p class="Standard" style="margin: 0cm; font-family: &quot;Liberation Serif&quot;, serif;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34); font-size: small;"><o:p></o:p></span></p>
+            </td>
+            <td><span style="font-size: small;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34);">Ricardo Chagas de Abreu</span>&nbsp;</span></td>
+            <td><span style="font-size: small;">Assessor chefe             </span>
+            <p class="Standard" style="margin: 0cm; font-family: &quot;Liberation Serif&quot;, serif;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34); font-size: small;"><o:p></o:p></span></p>
+            </td>
+            <td><span style="font-size: small;"><span style="color: rgb(34, 34, 34); font-family: &quot;Arial, Helvetica, sans-serif&quot;;">3115-7299 / 4955 - asplan@alba.ba.gov.br</span>&nbsp;</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Auditoria</span></td>
+            <td><span style="color: rgb(34, 34, 34); font-family: &quot;Arial, Helvetica, sans-serif&quot;; font-size: small;">Pablo Oliveira e Silva</span></td>
+            <td><span style="font-size: small;">Auditor Chefe             </span>
+            <p class="Standard" style="margin: 0cm; font-family: &quot;Liberation Serif&quot;, serif;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34); font-size: small;"><o:p></o:p></span></p>
+            </td>
+            <td><span style="font-size: small;">3115-4983 / 2988 - auditoria@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Núcleo de Atendimento ao Cidadão e Transparência</span></td>
+            <td><span style="color: rgb(34, 34, 34); font-family: &quot;Arial, Helvetica, sans-serif&quot;; font-size: small;">Rainildes Cerqueira Rocha</span></td>
+            <td><span style="font-size: small;">Chefe do NACT</span></td>
+            <td><span style="font-size: small;">3115-0909 - ouvidoria@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Superintendência de Recursos Humanos</span></td>
+            <td><span style="font-size: small;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34);">Francisco Carlos Oliveira Raposo</span>&nbsp;</span></td>
+            <td><span style="font-size: small;">Superintendente de Recursos Humanos</span></td>
+            <td><span style="font-size: small;">3115-4968 / 7249 - srh@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Superintendência de Assuntos Parlamentares</span></td>
+            <td><span style="color: rgb(34, 34, 34); font-family: &quot;Arial, Helvetica, sans-serif&quot;; font-size: small;">Marcelino Antonio Martins Galo</span></td>
+            <td><span style="font-size: small;">Superintendente de Assuntos Parlamentares</span></td>
+            <td><span style="font-size: small;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34);">3115-7219 / 7266 -&nbsp; sap@alba.ba.gov.br</span>&nbsp;</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Superintendência de Administração e Finanças</span></td>
+            <td><span style="font-size: small;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34);">Robson José Coutinho Souza</span>&nbsp;</span></td>
+            <td><span style="font-size: small;">Superintendente de Administração e Finanças</span></td>
+            <td><span style="font-size: small;">3115-7100 / 7262 -saf@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Secretaria Geral da Mesa</span></td>
+            <td><span style="font-size: small;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34);">Carlos Lima Cavalcanti Neto</span></span></td>
+            <td><span style="font-size: small;">Secretário Geral da Mesa</span></td>
+            <td><span style="font-size: small;">3115-7231 - sgm@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Secretaria Geral das Comissões</span></td>
+            <td><span style="color: rgb(34, 34, 34); font-family: &quot;Arial, Helvetica, sans-serif&quot;; font-size: small;">Mario Augusto de Almeida Neto</span></td>
+            <td><span style="font-size: small;">Secretário Geral das Comissões</span></td>
+            <td><span style="font-size: small;">3115-7260 - sgc@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Comissão Permanente de Licitação</span></td>
+            <td><span style="font-size: small;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34);">Marcos Antônio Caíres Araújo</span>&nbsp;</span></td>
+            <td><span style="font-size: small;">Chefe da Comissão Permanente de Licitação&nbsp;</span></td>
+            <td><span style="font-size: small;">3115-7276 / 5463 - cpl@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Diretoria Legislativa</span></td>
+            <td><span style="font-size: small;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34);">Clovis Ferraz Meira</span></span></td>
+            <td><span style="font-size: small;">Diretor Legislativo</span></td>
+            <td><span style="font-size: small;">3115-7238 / 4996 - dirlegis@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Diretoria Parlamentar             </span>
+            <p class="Standard" style="margin: 0cm; font-family: &quot;Liberation Serif&quot;, serif;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34); font-size: small;"><o:p></o:p></span></p>
+            </td>
+            <td><span style="font-size: small;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34);">Geraldo Mascarenhas</span>&nbsp;</span></td>
+            <td><span style="font-size: small;">Diretor Parlamentar&nbsp;             </span>
+            <p class="Standard" style="margin: 0cm; font-family: &quot;Liberation Serif&quot;, serif;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34); font-size: small;"><o:p></o:p></span></p>
+            </td>
+            <td><span style="font-size: small;">3115-7274 - dpa@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Diretoria da Escola do Legislativo</span></td>
+            <td><span style="font-size: small;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34);">Fernanda Alencar</span>&nbsp;</span></td>
+            <td><span style="font-size: small;">Diretora da Escola do Legislativo</span></td>
+            <td><span style="font-size: small;">3115-7310 / 5072 - escoladolegislativo@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Diretoria de Promoção à Saúde</span></td>
+            <td><span style="font-size: small;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34);">Laura Letícia Pires de Oliveira Mascarenhas</span>&nbsp;</span></td>
+            <td><span style="font-size: small;">Diretora de Promoção à Saúde</span></td>
+            <td><span style="font-size: small;">3115-7324 - desessaude@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Diretoria de Administração</span></td>
+            <td><span style="color: rgb(34, 34, 34); font-family: &quot;Arial, Helvetica, sans-serif&quot;; font-size: small;">Antonio Fernando S. da Silva</span></td>
+            <td><span style="font-size: small;">Diretor Administrativo</span></td>
+            <td><span style="font-size: small;">3115-7258 / 7280 - da@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Diretoria de Tecnologia da Informação             </span>
+            <p class="Standard" style="margin: 0cm; font-family: &quot;Liberation Serif&quot;, serif;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34); font-size: small;"><o:p></o:p></span></p>
+            </td>
+            <td><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34); font-size: small;">Armando Velloso</span></td>
+            <td><span style="font-size: small;">Diretor de Tecnologia da Informação</span></td>
+            <td><span style="font-size: small;">3115-7298 / 4981 - admin@alba.ba.gov.br</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: small;">Diretoria de Economia e Finanças</span></td>
+            <td><span style="font-size: small;"><span style="font-family: &quot;Arial, Helvetica, sans-serif&quot;; color: rgb(34, 34, 34);">Renato Gaião Peleteiro</span></span></td>
+            <td><span style="font-size: small;">Diretor de Economia e Finanças&nbsp;</span></td>
+            <td><span style="font-size: small;">3115-7255 / 4972 - def@alba.ba.gov.br</span></td>
+        </tr>
+    </tbody>
+</table></div>
                     </fieldset>
-                                        																	Informações atualizadas em
-					Domingo	,
- 					15 de Novembro de 2026
- 					<br></br>
- 					
-                    <!--grid-->
-                    <div class="borda-filtro">
-                        <div class="row">
-                            <div class="fe-texto-cinza">BUSCA POR:</div>
-                            <form action="/transparencia/verbas-idenizatorias" method="get">
-                                <!--categoria-->
-                                <div class="col-md-6 fe-margin-grid">
-                                    <div class="fe-texto-cinza">CATEGORIA</div>
-                                    <div class="fe-select c-tipo">
-                                        <select id="categoria" name="categoria" class="form-control campo-form">
-                                            <option class="fe-select-text" value="">Selecione</option>
-                                            <option value="7">
-                                                <span>Aluguel  de imóveis para escritório; despesas concernentes a eles</span>
-                                            </option>
-                                            <option value="8">
-                                                <span>Aquisição de material de expediente</span>
-                                            </option>
-                                            <option value="9">
-                                                <span>Aquisição ou locação de software; serviços postais  e de segurança; assinaturas de publicações; TV a cabo ou similar; acesso à Internet; e locação de móveis e equipamentos. Telefones.</span>
-                                            </option>
-                                            <option value="11">
-                                                <span>Assessorias</span>
-                                            </option>
-                                            <option value="10">
-                                                <span>Consultorias</span>
-                                            </option>
-                                            <option value="4">
-                                                <span>Consultorias, assessorias, pesquisas  e trabalhos técnicos</span>
-                                            </option>
-                                            <option value="5">
-                                                <span>Divulgação da  atividade parlamentar</span>
-                                            </option>
-                                            <option value="15">
-                                                <span>Divulgação da atividade parlamentar em redes sociais</span>
-                                            </option>
-                                            <option value="17">
-                                                <span>Fretamento</span>
-                                            </option>
-                                            <option value="16">
-                                                <span>Inscrições dos Parlamentares e secretários em cursos, palestras, seminários, simpósios, congressos.</span>
-                                            </option>
-                                            <option value="14">
-                                                <span>Locação de veículo terrestre</span>
-                                            </option>
-                                            <option value="6">
-                                                <span>Locomoção, hospedagem</span>
-                                            </option>
-                                            <option value="12">
-                                                <span>Pesquisas</span>
-                                            </option>
-                                            <option value="13">
-                                                <span>Trabalhos Técnicos</span>
-                                            </option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!--deputado-->
-                                <div class="col-md-6 fe-margin-grid">
-                                    <div class="fe-texto-cinza">DEPUTADO</div>
-                                    <div class="fe-select c-tipo">
-                                        <select id="deputado_no" name="deputado" class="form-control campo-form">
-                                            <option value="">Selecione</option>
-                                            <option value="910629">
-                                                <span>Dep. Adolfo Menezes</span>
-                                            </option>
-                                            <option value="915887">
-                                                <span>Dep. Alan Sanches</span>
-                                            </option>
-                                            <option value="921263">
-                                                <span>Dep. Alex da Piatã</span>
-                                            </option>
-                                            <option value="929445">
-                                                <span>Dep. Angelo Almeida</span>
-                                            </option>
-                                            <option value="932104">
-                                                <span>Dep. Angelo Coronel Filho</span>
-                                            </option>
-                                            <option value="921264">
-                                                <span>Dep. Antonio Henrique Júnior</span>
-                                            </option>
-                                            <option value="932169">
-                                                <span>Dep. Binho Galinha</span>
-                                            </option>
-                                            <option value="921283">
-                                                <span>Dep. Bobô</span>
-                                            </option>
-                                            <option value="932181">
-                                                <span>Dep. Cafu Barreto</span>
-                                            </option>
-                                            <option value="932112">
-                                                <span>Dep. Cláudia Oliveira</span>
-                                            </option>
-                                            <option value="932099">
-                                                <span>Dep. Dr. Diego Castro</span>
-                                            </option>
-                                            <option value="926918">
-                                                <span>Dep. Eduardo Alencar</span>
-                                            </option>
-                                            <option value="921268">
-                                                <span>Dep. Eduardo Salles</span>
-                                            </option>
-                                            <option value="910635">
-                                                <span>Dep. Euclides Fernandes</span>
-                                            </option>
-                                            <option value="932110">
-                                                <span>Dep. Eures Ribeiro</span>
-                                            </option>
-                                            <option value="932777">
-                                                <span>Dep. Fabíola Mansur</span>
-                                            </option>
-                                            <option value="915868">
-                                                <span>Dep. Fabrício Falcão</span>
-                                            </option>
-                                            <option value="910636">
-                                                <span>Dep. Fátima Nunes</span>
-                                            </option>
-                                            <option value="932102">
-                                                <span>Dep. Felipe Duarte</span>
-                                            </option>
-                                            <option value="932105">
-                                                <span>Dep. Hassan</span>
-                                            </option>
-                                            <option value="926902">
-                                                <span>Dep. Hilton Coelho</span>
-                                            </option>
-                                            <option value="915867">
-                                                <span>Dep. Ivana Bastos</span>
-                                            </option>
-                                            <option value="932101">
-                                                <span>Dep. Jordávio Ramos</span>
-                                            </option>
-                                            <option value="915859">
-                                                <span>Dep. Jose de Arimateia</span>
-                                            </option>
-                                            <option value="926901">
-                                                <span>Dep. Júnior Muniz</span>
-                                            </option>
-                                            <option value="932103">
-                                                <span>Dep. Júnior Nascimento</span>
-                                            </option>
-                                            <option value="926897">
-                                                <span>Dep. Jurailton Santos</span>
-                                            </option>
-                                            <option value="935220">
-                                                <span>Dep. Jusmari Oliveira</span>
-                                            </option>
-                                            <option value="926898">
-                                                <span>Dep. Kátia Oliveira</span>
-                                            </option>
-                                            <option value="926922">
-                                                <span>Dep. Laerte do Vando</span>
-                                            </option>
-                                            <option value="932100">
-                                                <span>Dep. Leandro de Jesus</span>
-                                            </option>
-                                            <option value="932106">
-                                                <span>Dep. Luciano Araújo</span>
-                                            </option>
-                                            <option value="921278">
-                                                <span>Dep. Luciano Simões Filho</span>
-                                            </option>
-                                            <option value="934727">
-                                                <span>Dep. Lucinha do MST</span>
-                                            </option>
-                                            <option value="932107">
-                                                <span>Dep. Ludmilla Fiscina</span>
-                                            </option>
-                                            <option value="932118">
-                                                <span>Dep. Manuel Rocha</span>
-                                            </option>
-                                            <option value="926899">
-                                                <span>Dep. Marcelinho Veiga</span>
-                                            </option>
-                                            <option value="934202">
-                                                <span>Dep. Marcelino Galo</span>
-                                            </option>
-                                            <option value="932147">
-                                                <span>Dep. Marcinho Oliveira</span>
-                                            </option>
-                                            <option value="935240">
-                                                <span>Dep. Marcone Amaral</span>
-                                            </option>
-                                            <option value="915885">
-                                                <span>Dep. Maria del Carmen</span>
-                                            </option>
-                                            <option value="919329">
-                                                <span>Dep. Marquinho Viana</span>
-                                            </option>
-                                            <option value="932109">
-                                                <span>Dep. Matheus Ferreira</span>
-                                            </option>
-                                            <option value="903706">
-                                                <span>Dep. Nelson Leal</span>
-                                            </option>
-                                            <option value="932367">
-                                                <span>Dep. Neusa Cadore</span>
-                                            </option>
-                                            <option value="926913">
-                                                <span>Dep. Niltinho</span>
-                                            </option>
-                                            <option value="926908">
-                                                <span>Dep. Olivia Santana</span>
-                                            </option>
-                                            <option value="926914">
-                                                <span>Dep. Osni Cardoso</span>
-                                            </option>
-                                            <option value="932111">
-                                                <span>Dep. Pablo Roberto</span>
-                                            </option>
-                                            <option value="932146">
-                                                <span>Dep. Pancadinha</span>
-                                            </option>
-                                            <option value="932113">
-                                                <span>Dep. Patrick Lopes</span>
-                                            </option>
-                                            <option value="935102">
-                                                <span>Dep. Paulo Câmara</span>
-                                            </option>
-                                            <option value="908845">
-                                                <span>Dep. Paulo Rangel</span>
-                                            </option>
-                                            <option value="915876">
-                                                <span>Dep. Pedro Tavares</span>
-                                            </option>
-                                            <option value="932114">
-                                                <span>Dep. Penalva</span>
-                                            </option>
-                                            <option value="934726">
-                                                <span>Dep. Radiovaldo Costa</span>
-                                            </option>
-                                            <option value="932119">
-                                                <span>Dep. Raimundinho da JR</span>
-                                            </option>
-                                            <option value="932108">
-                                                <span>Dep. Ricardo Rodrigues</span>
-                                            </option>
-                                            <option value="907278">
-                                                <span>Dep. Roberto Carlos</span>
-                                            </option>
-                                            <option value="921265">
-                                                <span>Dep. Robinho</span>
-                                            </option>
-                                            <option value="926905">
-                                                <span>Dep. Robinson Almeida</span>
-                                            </option>
-                                            <option value="932115">
-                                                <span>Dep. Rogério Andrade</span>
-                                            </option>
-                                            <option value="915881">
-                                                <span>Dep. Rosemberg Pinto</span>
-                                            </option>
-                                            <option value="923801">
-                                                <span>Dep. Samuel Junior</span>
-                                            </option>
-                                            <option value="907264">
-                                                <span>Dep. Sandro Régis</span>
-                                            </option>
-                                            <option value="932117">
-                                                <span>Dep. Soane Galvão</span>
-                                            </option>
-                                            <option value="927093">
-                                                <span>Dep. Tiago Correia</span>
-                                            </option>
-                                            <option value="932116">
-                                                <span>Dep. Vitor Azevedo</span>
-                                            </option>
-                                            <option value="921274">
-                                                <span>Dep. Vitor Bonfim</span>
-                                            </option>
-                                            <option value="915869">
-                                                <span>Dep. Zé Raimundo Fontes</span>
-                                            </option>
-                                            <option value="921266">
-                                                <span>Dep. Zó</span>
-                                            </option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!--mes-->
-                                <div class="col-md-6 fe-margin-grid">
-                                    <div class="fe-texto-cinza">MÊS</div>
-                                    <div class="fe-select c-tipo">
-                                        <select id="mes" name="mes" class="form-control campo-form">
-                                            <option value="">Selecione</option>
-                                            <option value="1">
-                                                <span>1</span>
-                                            </option>
-                                            <option value="2">
-                                                <span>2</span>
-                                            </option>
-                                            <option value="3">
-                                                <span>3</span>
-                                            </option>
-                                            <option value="4">
-                                                <span>4</span>
-                                            </option>
-                                            <option value="5">
-                                                <span>5</span>
-                                            </option>
-                                            <option value="6">
-                                                <span>6</span>
-                                            </option>
-                                            <option value="7">
-                                                <span>7</span>
-                                            </option>
-                                            <option value="8">
-                                                <span>8</span>
-                                            </option>
-                                            <option value="9">
-                                                <span>9</span>
-                                            </option>
-                                            <option value="10">
-                                                <span>10</span>
-                                            </option>
-                                            <option value="11">
-                                                <span>11</span>
-                                            </option>
-                                            <option value="12">
-                                                <span>12</span>
-                                            </option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!--ano-->
-                                <div class="col-md-6 fe-margin-grid">
-                                    <div class="fe-texto-cinza">ANO</div>
-                                    <div class="fe-select c-tipo">
-                                        <select id="ano" name="ano" class="form-control campo-form">
-                                            <option value="">Selecione</option>
-                                            <option value="2026" selected="selected">   <span>2026</span>
-                                            </option>
-                                            <option value="2025">   <span>2025</span>
-                                            </option>
-                                            <option value="2024">   <span>2024</span>
-                                            </option>
-                                            <option value="2023">   <span>2023</span>
-                                            </option>
-                                            <option value="2022">   <span>2022</span>
-                                            </option>
-                                            <option value="2021">   <span>2021</span>
-                                            </option>
-                                            <option value="2020">   <span>2020</span>
-                                            </option>
-                                            <option value="2019">   <span>2019</span>
-                                            </option>
-                                            <option value="2018">   <span>2018</span>
-                                            </option>
-                                            <option value="2017">   <span>2017</span>
-                                            </option>
-                                            <option value="2016">   <span>2016</span>
-                                            </option>
-                                            <option value="2015">   <span>2015</span>
-                                            </option>
-                                        </select>
-                                    </div>
-                                </div>
-                                
-                                <!--botões-->
-                                <div class="col-md-12 fe-grid-btn">
-										<button type="submit" class="btn botao-formulario-left"><i class="fa fa-search"></i>&ensp;BUSCAR</button>										
-										<button type="button" class="btn botao-formulario-left" id="btn_clear">LIMPAR</button>
-										<button type="submit" formaction="/transparencia/verbas-idenizatorias-pdf"   class="btn botao-personalizado" target="_blank">
-										<i class="fa fa-file-pdf-o"></i>&ensp;PDF</button>											
-										<button type="submit" formaction="/transparencia/verbas-idenizatorias-excel" class="btn botao-personalizado" target="_blank">
-										<i class="fa fa-file-excel-o"></i>&ensp;Excel</button>
-										
-                                </div>
-                                
-                            </form>
-                        </div>
-                    </div>
-                    
-
-
-                    
-                    <div class="fe-div-table fe-table-responsivo">
-                        <table class="tabela-cab table table-bordered divider table-striped">
-                            <thead>
-                            <tr>
-                                <th>N° PROCESSO</th>
-                                <th>N° NF</th>
-                                <th>COMPETÊNCIA<br>MÊS/ANO</th>
-                                <th>DEPUTADO (A)</th>
-                                <th>CATEGORIA</th>
-                                
-                                <th>VALOR (R$)</th>
-                                <th>AÇÃO</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr class="table-itens cinza">
-                            	
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	<div>
-								<td width="150" style="text-align: center;">216596</td>
-                                <td style="text-align: center;">23</td>
-                                <td style="text-align: center;">11/2026</td>
-                                <td width="150">Pedro Tavares</td>
-                                <td>Divulgação da  atividade parlamentar</td>
-                                
-                                <td width="150">R$ 2.000,00</td>
-                               
-                                <td width="150">
-                                    <a href="/transparencia/verbas-idenizatorias/103050/">
-                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
-                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
-                                        </button>
-                                    </a>
-                                </td>
-                                </div>
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	<div>
-								<td width="150" style="text-align: center;">216583</td>
-                                <td style="text-align: center;">7</td>
-                                <td style="text-align: center;">11/2026</td>
-                                <td width="150">Cláudia Oliveira</td>
-                                <td>Assessorias</td>
-                                
-                                <td width="150">R$ 11.100,00</td>
-                               
-                                <td width="150">
-                                    <a href="/transparencia/verbas-idenizatorias/103049/">
-                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
-                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
-                                        </button>
-                                    </a>
-                                </td>
-                                </div>
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	<div>
-								<td width="150" style="text-align: center;">216587</td>
-                                <td style="text-align: center;">20263894</td>
-                                <td style="text-align: center;">02/2026</td>
-                                <td width="150">Hilton Coelho</td>
-                                <td>Divulgação da  atividade parlamentar</td>
-                                
-                                <td width="150">R$ 8.820,00</td>
-                               
-                                <td width="150">
-                                    <a href="/transparencia/verbas-idenizatorias/103048/">
-                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
-                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
-                                        </button>
-                                    </a>
-                                </td>
-                                </div>
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	<div>
-								<td width="150" style="text-align: center;">216585</td>
-                                <td style="text-align: center;">13</td>
-                                <td style="text-align: center;">05/2026</td>
-                                <td width="150">Cláudia Oliveira</td>
-                                <td>Pesquisas</td>
-                                
-                                <td width="150">R$ 12.700,00</td>
-                               
-                                <td width="150">
-                                    <a href="/transparencia/verbas-idenizatorias/103047/">
-                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
-                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
-                                        </button>
-                                    </a>
-                                </td>
-                                </div>
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	<div>
-								<td width="150" style="text-align: center;">216421</td>
-                                <td style="text-align: center;">2480</td>
-                                <td style="text-align: center;">10/2026</td>
-                                <td width="150">Fátima Nunes</td>
-                                <td>Locação de veículo terrestre</td>
-                                
-                                <td width="150">R$ 12.000,00</td>
-                               
-                                <td width="150">
-                                    <a href="/transparencia/verbas-idenizatorias/103046/">
-                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
-                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
-                                        </button>
-                                    </a>
-                                </td>
-                                </div>
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	<div>
-								<td width="150" style="text-align: center;">216579</td>
-                                <td style="text-align: center;">10</td>
-                                <td style="text-align: center;">11/2026</td>
-                                <td width="150">Ivana Bastos</td>
-                                <td>Aquisição ou locação de software; serviços postais  e de segurança; assinaturas de publicações; TV a cabo ou similar; acesso à Internet; e locação de móveis e equipamentos. Telefones.</td>
-                                
-                                <td width="150">R$ 2.530,00</td>
-                               
-                                <td width="150">
-                                    <a href="/transparencia/verbas-idenizatorias/103040/">
-                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
-                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
-                                        </button>
-                                    </a>
-                                </td>
-                                </div>
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	<div>
-								<td width="150" style="text-align: center;">216579</td>
-                                <td style="text-align: center;">27</td>
-                                <td style="text-align: center;">11/2026</td>
-                                <td width="150">Ivana Bastos</td>
-                                <td>Aquisição ou locação de software; serviços postais  e de segurança; assinaturas de publicações; TV a cabo ou similar; acesso à Internet; e locação de móveis e equipamentos. Telefones.</td>
-                                
-                                <td width="150">R$ 412,00</td>
-                               
-                                <td width="150">
-                                    <a href="/transparencia/verbas-idenizatorias/103041/">
-                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
-                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
-                                        </button>
-                                    </a>
-                                </td>
-                                </div>
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	<div>
-								<td width="150" style="text-align: center;">216581</td>
-                                <td style="text-align: center;">1</td>
-                                <td style="text-align: center;">11/2026</td>
-                                <td width="150">Ivana Bastos</td>
-                                <td>Assessorias</td>
-                                
-                                <td width="150">R$ 12.000,00</td>
-                               
-                                <td width="150">
-                                    <a href="/transparencia/verbas-idenizatorias/103038/">
-                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
-                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
-                                        </button>
-                                    </a>
-                                </td>
-                                </div>
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	<div>
-								<td width="150" style="text-align: center;">216546</td>
-                                <td style="text-align: center;">8</td>
-                                <td style="text-align: center;">10/2026</td>
-                                <td width="150">Leandro de Jesus</td>
-                                <td>Divulgação da  atividade parlamentar</td>
-                                
-                                <td width="150">R$ 7.800,00</td>
-                               
-                                <td width="150">
-                                    <a href="/transparencia/verbas-idenizatorias/103037/">
-                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
-                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
-                                        </button>
-                                    </a>
-                                </td>
-                                </div>
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	<div>
-								<td width="150" style="text-align: center;">216540</td>
-                                <td style="text-align: center;">7</td>
-                                <td style="text-align: center;">10/2026</td>
-                                <td width="150">Leandro de Jesus</td>
-                                <td>Divulgação da  atividade parlamentar</td>
-                                
-                                <td width="150">R$ 15.000,00</td>
-                               
-                                <td width="150">
-                                    <a href="/transparencia/verbas-idenizatorias/103036/">
-                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
-                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
-                                        </button>
-                                    </a>
-                                </td>
-                                </div>
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	
-                            </tr>
-                            <tr class="table-itens cinza">
-                            	
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <!--paginação-->
-                    <div class="fe-ajust-pagination">
-                        <div class="col-md-12 text-right no-print fe-paginacao-mobile fe-center-pag-noticia">
-    <ul class="pagination pagination-centered">
-        <li class="disabled">
-            
-            <span class="paginate-button-previous disabled fe-mobile-hide">Primeiro</span>
-        </li>
-        <li class="disabled">
-            
-            <span class="paginate-button-previous disabled"> <i class="fa fa-arrow-left"></i> <span class="fe-mobile-hide">Anterior</span></span>
-        </li>
-        <li>
-            
-            <span class="paginate-button active fe-paginacao-mobile">1</span>
-        </li>
-        <li>
-            <a class="paginate-button fe-paginacao-mobile" href="?ano=2026&amp;page=1&amp;size=20"><span>2</span></a>
-            
-        </li>
-        <li>
-            <a class="paginate-button fe-paginacao-mobile" href="?ano=2026&amp;page=2&amp;size=20"><span>3</span></a>
-            
-        </li>
-        <li>
-            <a class="paginate-button fe-paginacao-mobile" href="?ano=2026&amp;page=3&amp;size=20"><span>4</span></a>
-            
-        </li>
-        <li>
-            <a class="paginate-button fe-paginacao-mobile" href="?ano=2026&amp;page=4&amp;size=20"><span>5</span></a>
-            
-        </li>
-        <li>
-            <a class="paginate-button-next" href="?ano=2026&amp;page=1&amp;size=20" title="Próxima Página"><span class="fe-mobile-hide">Próximo</span>  <i class="fa fa-arrow-right"></i></a>
-            
-        </li>
-        <li>
-            <a class="paginate-button-next fe-mobile-hide" href="?ano=2026&amp;page=166&amp;size=20" title="Última Página">Último</a>
-            
-        </li>
-    </ul>
-</div>
-                    </div>
+                    <br/>
                 </div>
             </div>
         </div>
