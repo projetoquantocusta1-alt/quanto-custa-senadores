@@ -443,7 +443,7 @@
         <div id="titulo">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">DETALHAMENTO DA DESPESA</div>
+                    <div class="col-md-12">TRANSPARÊNCIA ALBA</div>
                 </div>
             </div>
         </div>
@@ -659,78 +659,830 @@
                     <fieldset>
                         <legend>
                             <div class="o-presidente">
-                                <div class="titulo-presidente">
-                                    DEPUTADO (A):
-                                    <span>PEDRO TAVARES (MDB)</span>
-                                </div>
+                                <div class="titulo-presidente" style="text-transform: uppercase;">VERBAS INDENIZATÓRIAS</div>
                             </div>
                         </legend>
                     </fieldset>
-                    <div class="titulo-bloco-lista no-margin">
-                        DESPESAS REFERÊNCIA:
-                        <span>216596 - 11/2026</span>
+                                        																	Informações atualizadas em
+					Segunda-feira	,
+ 					16 de Novembro de 2026
+ 					<br></br>
+ 					
+                    <!--grid-->
+                    <div class="borda-filtro">
+                        <div class="row">
+                            <div class="fe-texto-cinza">BUSCA POR:</div>
+                            <form action="/transparencia/verbas-idenizatorias" method="get">
+                                <!--categoria-->
+                                <div class="col-md-6 fe-margin-grid">
+                                    <div class="fe-texto-cinza">CATEGORIA</div>
+                                    <div class="fe-select c-tipo">
+                                        <select id="categoria" name="categoria" class="form-control campo-form">
+                                            <option class="fe-select-text" value="">Selecione</option>
+                                            <option value="7">
+                                                <span>Aluguel  de imóveis para escritório; despesas concernentes a eles</span>
+                                            </option>
+                                            <option value="8">
+                                                <span>Aquisição de material de expediente</span>
+                                            </option>
+                                            <option value="9">
+                                                <span>Aquisição ou locação de software; serviços postais  e de segurança; assinaturas de publicações; TV a cabo ou similar; acesso à Internet; e locação de móveis e equipamentos. Telefones.</span>
+                                            </option>
+                                            <option value="11">
+                                                <span>Assessorias</span>
+                                            </option>
+                                            <option value="10">
+                                                <span>Consultorias</span>
+                                            </option>
+                                            <option value="4">
+                                                <span>Consultorias, assessorias, pesquisas  e trabalhos técnicos</span>
+                                            </option>
+                                            <option value="5">
+                                                <span>Divulgação da  atividade parlamentar</span>
+                                            </option>
+                                            <option value="15">
+                                                <span>Divulgação da atividade parlamentar em redes sociais</span>
+                                            </option>
+                                            <option value="17">
+                                                <span>Fretamento</span>
+                                            </option>
+                                            <option value="16">
+                                                <span>Inscrições dos Parlamentares e secretários em cursos, palestras, seminários, simpósios, congressos.</span>
+                                            </option>
+                                            <option value="14">
+                                                <span>Locação de veículo terrestre</span>
+                                            </option>
+                                            <option value="6">
+                                                <span>Locomoção, hospedagem</span>
+                                            </option>
+                                            <option value="12">
+                                                <span>Pesquisas</span>
+                                            </option>
+                                            <option value="13">
+                                                <span>Trabalhos Técnicos</span>
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!--deputado-->
+                                <div class="col-md-6 fe-margin-grid">
+                                    <div class="fe-texto-cinza">DEPUTADO</div>
+                                    <div class="fe-select c-tipo">
+                                        <select id="deputado_no" name="deputado" class="form-control campo-form">
+                                            <option value="">Selecione</option>
+                                            <option value="910629">
+                                                <span>Dep. Adolfo Menezes</span>
+                                            </option>
+                                            <option value="915887">
+                                                <span>Dep. Alan Sanches</span>
+                                            </option>
+                                            <option value="921263">
+                                                <span>Dep. Alex da Piatã</span>
+                                            </option>
+                                            <option value="929445">
+                                                <span>Dep. Angelo Almeida</span>
+                                            </option>
+                                            <option value="932104">
+                                                <span>Dep. Angelo Coronel Filho</span>
+                                            </option>
+                                            <option value="921264">
+                                                <span>Dep. Antonio Henrique Júnior</span>
+                                            </option>
+                                            <option value="932169">
+                                                <span>Dep. Binho Galinha</span>
+                                            </option>
+                                            <option value="921283">
+                                                <span>Dep. Bobô</span>
+                                            </option>
+                                            <option value="932181">
+                                                <span>Dep. Cafu Barreto</span>
+                                            </option>
+                                            <option value="932112">
+                                                <span>Dep. Cláudia Oliveira</span>
+                                            </option>
+                                            <option value="932099">
+                                                <span>Dep. Dr. Diego Castro</span>
+                                            </option>
+                                            <option value="926918">
+                                                <span>Dep. Eduardo Alencar</span>
+                                            </option>
+                                            <option value="921268">
+                                                <span>Dep. Eduardo Salles</span>
+                                            </option>
+                                            <option value="910635">
+                                                <span>Dep. Euclides Fernandes</span>
+                                            </option>
+                                            <option value="932110">
+                                                <span>Dep. Eures Ribeiro</span>
+                                            </option>
+                                            <option value="932777">
+                                                <span>Dep. Fabíola Mansur</span>
+                                            </option>
+                                            <option value="915868">
+                                                <span>Dep. Fabrício Falcão</span>
+                                            </option>
+                                            <option value="910636">
+                                                <span>Dep. Fátima Nunes</span>
+                                            </option>
+                                            <option value="932102">
+                                                <span>Dep. Felipe Duarte</span>
+                                            </option>
+                                            <option value="932105">
+                                                <span>Dep. Hassan</span>
+                                            </option>
+                                            <option value="926902">
+                                                <span>Dep. Hilton Coelho</span>
+                                            </option>
+                                            <option value="915867">
+                                                <span>Dep. Ivana Bastos</span>
+                                            </option>
+                                            <option value="932101">
+                                                <span>Dep. Jordávio Ramos</span>
+                                            </option>
+                                            <option value="915859">
+                                                <span>Dep. Jose de Arimateia</span>
+                                            </option>
+                                            <option value="926901">
+                                                <span>Dep. Júnior Muniz</span>
+                                            </option>
+                                            <option value="932103">
+                                                <span>Dep. Júnior Nascimento</span>
+                                            </option>
+                                            <option value="926897">
+                                                <span>Dep. Jurailton Santos</span>
+                                            </option>
+                                            <option value="935220">
+                                                <span>Dep. Jusmari Oliveira</span>
+                                            </option>
+                                            <option value="926898">
+                                                <span>Dep. Kátia Oliveira</span>
+                                            </option>
+                                            <option value="926922">
+                                                <span>Dep. Laerte do Vando</span>
+                                            </option>
+                                            <option value="932100">
+                                                <span>Dep. Leandro de Jesus</span>
+                                            </option>
+                                            <option value="932106">
+                                                <span>Dep. Luciano Araújo</span>
+                                            </option>
+                                            <option value="921278">
+                                                <span>Dep. Luciano Simões Filho</span>
+                                            </option>
+                                            <option value="934727">
+                                                <span>Dep. Lucinha do MST</span>
+                                            </option>
+                                            <option value="932107">
+                                                <span>Dep. Ludmilla Fiscina</span>
+                                            </option>
+                                            <option value="932118">
+                                                <span>Dep. Manuel Rocha</span>
+                                            </option>
+                                            <option value="926899">
+                                                <span>Dep. Marcelinho Veiga</span>
+                                            </option>
+                                            <option value="934202">
+                                                <span>Dep. Marcelino Galo</span>
+                                            </option>
+                                            <option value="932147">
+                                                <span>Dep. Marcinho Oliveira</span>
+                                            </option>
+                                            <option value="935240">
+                                                <span>Dep. Marcone Amaral</span>
+                                            </option>
+                                            <option value="915885">
+                                                <span>Dep. Maria del Carmen</span>
+                                            </option>
+                                            <option value="919329">
+                                                <span>Dep. Marquinho Viana</span>
+                                            </option>
+                                            <option value="932109">
+                                                <span>Dep. Matheus Ferreira</span>
+                                            </option>
+                                            <option value="903706">
+                                                <span>Dep. Nelson Leal</span>
+                                            </option>
+                                            <option value="932367">
+                                                <span>Dep. Neusa Cadore</span>
+                                            </option>
+                                            <option value="926913">
+                                                <span>Dep. Niltinho</span>
+                                            </option>
+                                            <option value="926908">
+                                                <span>Dep. Olivia Santana</span>
+                                            </option>
+                                            <option value="926914">
+                                                <span>Dep. Osni Cardoso</span>
+                                            </option>
+                                            <option value="932111">
+                                                <span>Dep. Pablo Roberto</span>
+                                            </option>
+                                            <option value="932146">
+                                                <span>Dep. Pancadinha</span>
+                                            </option>
+                                            <option value="932113">
+                                                <span>Dep. Patrick Lopes</span>
+                                            </option>
+                                            <option value="935102">
+                                                <span>Dep. Paulo Câmara</span>
+                                            </option>
+                                            <option value="908845">
+                                                <span>Dep. Paulo Rangel</span>
+                                            </option>
+                                            <option value="915876">
+                                                <span>Dep. Pedro Tavares</span>
+                                            </option>
+                                            <option value="932114">
+                                                <span>Dep. Penalva</span>
+                                            </option>
+                                            <option value="934726">
+                                                <span>Dep. Radiovaldo Costa</span>
+                                            </option>
+                                            <option value="932119">
+                                                <span>Dep. Raimundinho da JR</span>
+                                            </option>
+                                            <option value="932108">
+                                                <span>Dep. Ricardo Rodrigues</span>
+                                            </option>
+                                            <option value="907278">
+                                                <span>Dep. Roberto Carlos</span>
+                                            </option>
+                                            <option value="921265">
+                                                <span>Dep. Robinho</span>
+                                            </option>
+                                            <option value="926905">
+                                                <span>Dep. Robinson Almeida</span>
+                                            </option>
+                                            <option value="932115">
+                                                <span>Dep. Rogério Andrade</span>
+                                            </option>
+                                            <option value="915881">
+                                                <span>Dep. Rosemberg Pinto</span>
+                                            </option>
+                                            <option value="923801">
+                                                <span>Dep. Samuel Junior</span>
+                                            </option>
+                                            <option value="907264">
+                                                <span>Dep. Sandro Régis</span>
+                                            </option>
+                                            <option value="932117">
+                                                <span>Dep. Soane Galvão</span>
+                                            </option>
+                                            <option value="927093">
+                                                <span>Dep. Tiago Correia</span>
+                                            </option>
+                                            <option value="932116">
+                                                <span>Dep. Vitor Azevedo</span>
+                                            </option>
+                                            <option value="921274">
+                                                <span>Dep. Vitor Bonfim</span>
+                                            </option>
+                                            <option value="915869">
+                                                <span>Dep. Zé Raimundo Fontes</span>
+                                            </option>
+                                            <option value="921266">
+                                                <span>Dep. Zó</span>
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!--mes-->
+                                <div class="col-md-6 fe-margin-grid">
+                                    <div class="fe-texto-cinza">MÊS</div>
+                                    <div class="fe-select c-tipo">
+                                        <select id="mes" name="mes" class="form-control campo-form">
+                                            <option value="">Selecione</option>
+                                            <option value="1">
+                                                <span>1</span>
+                                            </option>
+                                            <option value="2">
+                                                <span>2</span>
+                                            </option>
+                                            <option value="3" selected="selected">
+                                                <span>3</span>
+                                            </option>
+                                            <option value="4">
+                                                <span>4</span>
+                                            </option>
+                                            <option value="5">
+                                                <span>5</span>
+                                            </option>
+                                            <option value="6">
+                                                <span>6</span>
+                                            </option>
+                                            <option value="7">
+                                                <span>7</span>
+                                            </option>
+                                            <option value="8">
+                                                <span>8</span>
+                                            </option>
+                                            <option value="9">
+                                                <span>9</span>
+                                            </option>
+                                            <option value="10">
+                                                <span>10</span>
+                                            </option>
+                                            <option value="11">
+                                                <span>11</span>
+                                            </option>
+                                            <option value="12">
+                                                <span>12</span>
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!--ano-->
+                                <div class="col-md-6 fe-margin-grid">
+                                    <div class="fe-texto-cinza">ANO</div>
+                                    <div class="fe-select c-tipo">
+                                        <select id="ano" name="ano" class="form-control campo-form">
+                                            <option value="">Selecione</option>
+                                            <option value="2026">   <span>2026</span>
+                                            </option>
+                                            <option value="2025" selected="selected">   <span>2025</span>
+                                            </option>
+                                            <option value="2024">   <span>2024</span>
+                                            </option>
+                                            <option value="2023">   <span>2023</span>
+                                            </option>
+                                            <option value="2022">   <span>2022</span>
+                                            </option>
+                                            <option value="2021">   <span>2021</span>
+                                            </option>
+                                            <option value="2020">   <span>2020</span>
+                                            </option>
+                                            <option value="2019">   <span>2019</span>
+                                            </option>
+                                            <option value="2018">   <span>2018</span>
+                                            </option>
+                                            <option value="2017">   <span>2017</span>
+                                            </option>
+                                            <option value="2016">   <span>2016</span>
+                                            </option>
+                                            <option value="2015">   <span>2015</span>
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <!--botões-->
+                                <div class="col-md-12 fe-grid-btn">
+										<button type="submit" class="btn botao-formulario-left"><i class="fa fa-search"></i>&ensp;BUSCAR</button>										
+										<button type="button" class="btn botao-formulario-left" id="btn_clear">LIMPAR</button>
+										<button type="submit" formaction="/transparencia/verbas-idenizatorias-pdf"   class="btn botao-personalizado" target="_blank">
+										<i class="fa fa-file-pdf-o"></i>&ensp;PDF</button>											
+										<button type="submit" formaction="/transparencia/verbas-idenizatorias-excel" class="btn botao-personalizado" target="_blank">
+										<i class="fa fa-file-excel-o"></i>&ensp;Excel</button>
+										
+                                </div>
+                                
+                            </form>
+                        </div>
                     </div>
+                    
+
+
+                    
                     <div class="fe-div-table fe-table-responsivo">
                         <table class="tabela-cab table table-bordered divider table-striped">
                             <thead>
                             <tr>
+                                <th>N° PROCESSO</th>
+                                <th>N° NF</th>
+                                <th>COMPETÊNCIA<br>MÊS/ANO</th>
+                                <th>DEPUTADO (A)</th>
                                 <th>CATEGORIA</th>
-                                <th>Nº NOTA/RECIBO</th>
-                                <th>CPF/CNPJ</th>
-                                <th>NOME DO FORNECEDOR</th>
-                                <th>VALOR</th>
-                                <th>GLOSA</th>
-                                <th>ANEXO NF</th>
+                                
+                                <th>VALOR (R$)</th>
+                                <th>AÇÃO</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr class="table-itens cinza">
-                                <td><span>Divulgação da  atividade parlamentar</span></td>
-                                <td width="100"><span>23</span></td>
-                                <td width="200"><span>25.197.679/0001-81</span></td>
-                                <td><span>MARCELO PINHEIRO ARAGAO</span></td>
+                            	<div>
+								<td width="150" style="text-align: center;">205117</td>
+                                <td style="text-align: center;">66673849/03/25</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Antonio Henrique Júnior</td>
+                                <td>Aquisição ou locação de software; serviços postais  e de segurança; assinaturas de publicações; TV a cabo ou similar; acesso à Internet; e locação de móveis e equipamentos. Telefones.</td>
+                                
+                                <td width="150">R$ 1.308,55</td>
+                               
                                 <td width="150">
-                                    <span>R$ 2.000,00</span>
+                                    <a href="/transparencia/verbas-idenizatorias/93983/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
                                 </td>
-                                <td width="150">R$ 0,00</td>
-                                <td><a class="text-leg fe-color-red" target="_blank" href="/fserver/:anexo:PEDRO_TAVARES_16596_NFE_23.pdf" ><span>23</span></a></td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">205063</td>
+                                <td style="text-align: center;">48</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Fabíola Mansur</td>
+                                <td>Divulgação da  atividade parlamentar</td>
+                                
+                                <td width="150">R$ 2.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93981/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">205075</td>
+                                <td style="text-align: center;">529</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Ricardo Rodrigues</td>
+                                <td>Divulgação da  atividade parlamentar</td>
+                                
+                                <td width="150">R$ 3.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/94056/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">205032</td>
+                                <td style="text-align: center;">579</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Eduardo Alencar</td>
+                                <td>Divulgação da  atividade parlamentar</td>
+                                
+                                <td width="150">R$ 9.400,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93980/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">205027</td>
+                                <td style="text-align: center;">747</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Jurailton Santos</td>
+                                <td>Locação de veículo terrestre</td>
+                                
+                                <td width="150">R$ 4.800,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93965/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204446</td>
+                                <td style="text-align: center;">70852</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Fabíola Mansur</td>
+                                <td>Consultorias</td>
+                                
+                                <td width="150">R$ 1.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93947/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204861</td>
+                                <td style="text-align: center;">04</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Kátia Oliveira</td>
+                                <td>Divulgação da  atividade parlamentar</td>
+                                
+                                <td width="150">R$ 5.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93936/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204866</td>
+                                <td style="text-align: center;">2684</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Paulo Câmara</td>
+                                <td>Divulgação da  atividade parlamentar</td>
+                                
+                                <td width="150">R$ 10.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93933/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204795</td>
+                                <td style="text-align: center;">78</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Robinson Almeida</td>
+                                <td>Divulgação da  atividade parlamentar</td>
+                                
+                                <td width="150">R$ 3.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93919/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204780</td>
+                                <td style="text-align: center;">120</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Fabíola Mansur</td>
+                                <td>Divulgação da  atividade parlamentar</td>
+                                
+                                <td width="150">R$ 1.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93916/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204703</td>
+                                <td style="text-align: center;">202592</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Adolfo Menezes</td>
+                                <td>Divulgação da  atividade parlamentar</td>
+                                
+                                <td width="150">R$ 24.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93910/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204790</td>
+                                <td style="text-align: center;">202500000000013</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Robinson Almeida</td>
+                                <td>Divulgação da  atividade parlamentar</td>
+                                
+                                <td width="150">R$ 2.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93905/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204682</td>
+                                <td style="text-align: center;">2309</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Fátima Nunes</td>
+                                <td>Locação de veículo terrestre</td>
+                                
+                                <td width="150">R$ 12.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93893/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204681</td>
+                                <td style="text-align: center;">139</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Alex da Piatã</td>
+                                <td>Consultorias</td>
+                                
+                                <td width="150">R$ 11.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93883/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204490</td>
+                                <td style="text-align: center;">122</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Marcelinho Veiga</td>
+                                <td>Locação de veículo terrestre</td>
+                                
+                                <td width="150">R$ 12.400,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93850/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204505</td>
+                                <td style="text-align: center;">36</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Júnior Muniz</td>
+                                <td>Divulgação da  atividade parlamentar</td>
+                                
+                                <td width="150">R$ 31.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93847/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204472</td>
+                                <td style="text-align: center;">202553</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Júnior Muniz</td>
+                                <td>Locação de veículo terrestre</td>
+                                
+                                <td width="150">R$ 12.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93998/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204480</td>
+                                <td style="text-align: center;">135</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Jurailton Santos</td>
+                                <td>Divulgação da  atividade parlamentar</td>
+                                
+                                <td width="150">R$ 9.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93828/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204461</td>
+                                <td style="text-align: center;">202500176</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Manuel Rocha</td>
+                                <td>Locação de veículo terrestre</td>
+                                
+                                <td width="150">R$ 12.500,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93827/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr class="table-itens cinza">
+                            	<div>
+								<td width="150" style="text-align: center;">204436</td>
+                                <td style="text-align: center;">202500000000018</td>
+                                <td style="text-align: center;">03/2025</td>
+                                <td width="150">Kátia Oliveira</td>
+                                <td>Locação de veículo terrestre</td>
+                                
+                                <td width="150">R$ 12.000,00</td>
+                               
+                                <td width="150">
+                                    <a href="/transparencia/verbas-idenizatorias/93822/">
+                                        <button class="btn fe-btn-alba fe-btn-min-r fe-center-x">
+                                            <i class="fa fa-share-square-o"></i><span>DETALHES</span>
+                                        </button>
+                                    </a>
+                                </td>
+                                </div>
                             </tr>
                             </tbody>
                         </table>
                     </div>
-                    <br>
-                    <div class="fe-div-table">
-                        <html>
-<!--em tela pc-->
-<div class="pull-right a2a_kit no-print compartilhar-medio">
-	<a class="fe-print" href="javascript: void(0);" onclick="window.print(); return false;">
-		<i class="fe-quadrado fa fa-print"></i>&ensp; Imprimir
-	</a>
-	Compartilhar:&ensp;
-	<a class="fe-facebook a2a_button_facebook" href="/#facebook" target="_blank"><i class="fe-quadrado fa fa-facebook"></i>&ensp;facebook</a>
-	<a class="fe-twitter a2a_button_twitter" href="/#twitter" target="_blank"><i class="fe-quadrado fa fa-twitter"></i>&ensp;twitter</a>
-	<a class="fe-whatsapp a2a_button_whatsapp" href="/#whatsapp" target="_blank"><i class="fe-quadrado fa fa-whatsapp"></i>&ensp;whatsapp</a>
+                    <!--paginação-->
+                    <div class="fe-ajust-pagination">
+                        <div class="col-md-12 text-right no-print fe-paginacao-mobile fe-center-pag-noticia">
+    <ul class="pagination pagination-centered">
+        <li>
+            <a class="paginate-button-previous fe-mobile-hide" href="?ano=2025&amp;inicio=2&amp;mes=3&amp;quantidade=20&amp;page=0&amp;size=20" title="Primeira Página">Primeiro</a>
+            
+        </li>
+        <li>
+            <a class="paginate-button-previous" href="?ano=2025&amp;inicio=2&amp;mes=3&amp;quantidade=20&amp;page=1&amp;size=20" title="Página Anterior"> <i class="fa fa-arrow-left"></i> <span class="fe-mobile-hide">Anterior</span></a>
+            
+        </li>
+        <li>
+            <a class="paginate-button fe-paginacao-mobile" href="?ano=2025&amp;inicio=2&amp;mes=3&amp;quantidade=20&amp;page=0&amp;size=20"><span>1</span></a>
+            
+        </li>
+        <li>
+            <a class="paginate-button fe-paginacao-mobile" href="?ano=2025&amp;inicio=2&amp;mes=3&amp;quantidade=20&amp;page=1&amp;size=20"><span>2</span></a>
+            
+        </li>
+        <li>
+            
+            <span class="paginate-button active fe-paginacao-mobile">3</span>
+        </li>
+        <li>
+            <a class="paginate-button fe-paginacao-mobile" href="?ano=2025&amp;inicio=2&amp;mes=3&amp;quantidade=20&amp;page=3&amp;size=20"><span>4</span></a>
+            
+        </li>
+        <li>
+            <a class="paginate-button fe-paginacao-mobile" href="?ano=2025&amp;inicio=2&amp;mes=3&amp;quantidade=20&amp;page=4&amp;size=20"><span>5</span></a>
+            
+        </li>
+        <li>
+            <a class="paginate-button-next" href="?ano=2025&amp;inicio=2&amp;mes=3&amp;quantidade=20&amp;page=3&amp;size=20" title="Próxima Página"><span class="fe-mobile-hide">Próximo</span>  <i class="fa fa-arrow-right"></i></a>
+            
+        </li>
+        <li>
+            <a class="paginate-button-next fe-mobile-hide" href="?ano=2025&amp;inicio=2&amp;mes=3&amp;quantidade=20&amp;page=17&amp;size=20" title="Última Página">Último</a>
+            
+        </li>
+    </ul>
 </div>
-<!--em tela mobile-->
-<div class="pull-right a2a_kit no-print compartilhar-pequeno">
-	<a class="fe-print" href="javascript: void(0);" onclick="window.print(); return false;">
-		<i class="fe-quadrado fa fa-print"></i>
-	</a>
-	Compartilhar:&ensp;
-	<a class="fe-facebook a2a_button_facebook" href="/#facebook" target="_blank"><i class="fe-quadrado fa fa-facebook"></i></a>
-	<a class="fe-twitter a2a_button_twitter" href="/#twitter" target="_blank"><i class="fe-quadrado fa fa-twitter"></i></a>
-	<a class="fe-whatsapp a2a_button_whatsapp" href="/#whatsapp" target="_blank"><i class="fe-quadrado fa fa-whatsapp"></i></a>
-</div>
-<script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
-<script src="/scripts/controllers/shared/ShareContent.js" type="module"></script>
-                    </div>
-                    <div class="fe-div-table">
-                        <br><br class="compartilhar-medio">
-                        <div class="right">
-                            <a onclick="goBack()" class="fe-upper btn btn-default btn-pro">
-                                <span><i class="fa fa-reply"></i>&ensp;Voltar para prestação de contas</span>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
