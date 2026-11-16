@@ -37,7 +37,12 @@ def main():
         try:
             r = http.get(u, timeout=25)
             txt = r.text
-            if r.content[:2] == b"PK" or b"spreadsheet" in (r.headers.get("Content-Type") or "").encode():
+            if r.content[:4] == b"%PDF":
+                # PDF: extrai o texto das páginas (para estudo)
+                import io
+                from pypdf import PdfReader
+                txt = "\n\n".join((pg.extract_text() or "") for pg in PdfReader(io.BytesIO(r.content)).pages[:60])
+            elif r.content[:2] == b"PK" or b"spreadsheet" in (r.headers.get("Content-Type") or "").encode():
                 # planilha (xlsx): vira texto separado por ";" para poder ser estudada e mascarada
                 import io
                 import pandas as pd
