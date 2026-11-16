@@ -396,26 +396,11 @@
 
 	</header>
 <div>
-    <link rel="stylesheet" type="text/css" href="/styles/transparencia/transparencia.css"/>
-    <link rel="stylesheet" type="text/css" href="/styles/print.css" media="print">
-    <section class="no-print">
-        <div><!DOCTYPE html>
-<html>
-
-
-
-
-    
-	            <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 paginatransparencia ajustar_fonte" id="pagina">
-                        <div class="panel panel-primary">
-                            <div class="panel-body ajustar_fonte">
-                            
-  
-  
-
-</html></div>
-        <div class="no-print">
+	<link rel="stylesheet" type="text/css" href="/styles/deputados/deputados.css"/>
+	<link rel="stylesheet" type="text/css" href="/styles/print.css" media="print">
+	<section class="no-print">
+		<div>
+			<div class="no-print">
     <br>
     <div class="container">
         <div class="row">
@@ -428,11 +413,15 @@
                         </div>
                         <div class="single-breadcrumb-wrap">
                             <span class="sep"><i class="fa fa-caret-right"></i></span>
-                            <span class="breadcrumb"><a href="/transparencia">TRANSPARÊNCIA</a></span>
+                            <span class="breadcrumb"><a href="/deputados/deputados-estaduais">Deputados</a></span>
+                        </div>
+                        <div class="single-breadcrumb-wrap">
+                            <span class="sep"><i class="fa fa-caret-right"></i></span>
+                            <span class="breadcrumb"><a href="/deputados/deputados-estaduais">Conheça os Deputados</a></span>
                         </div>
                         <div class="single-breadcrumb-wrap active">
                             <span class="sep"><i class="fa fa-caret-right"></i></span>
-                            <span class="breadcrumb">VERBAS INDENIZATÓRIAS</span>
+                            <span class="breadcrumb">EM EXERCÍCIO</span>
                         </div>
                     </nav>
                 </div>
@@ -440,267 +429,203 @@
         </div>
     </div>
 </div>
-        <div id="titulo">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">DETALHAMENTO DA DESPESA</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <br>
-            <div class="row">
-                <div class="no-print">
-		<div class="col-md-2 nopadding-left">
-			<div class="list-group">
-				<a type="button" href="/transparencia" data-toggle="collapse" data-target="#ta"
-					data-parent="#menu" class="list-group-item list-group-item-action card-header">TRANSPARÊNCIA ALBA</a>
-				<div id="ta" class="sublinks collapse">
-					 <p class="collapse-subitem"><b><a href="https://atendimento.al.ba.gov.br/carta-de-servico" target="_blank"><i class="fa fa-caret-right"></i> CARTA DE SERVIÇOS</a></b></p>
-
-					<p class="collapse-subitem"><b><a href="/transparencia/estrutura-legislativa"><i
-									class="fa fa-caret-right"></i> ESTRUTURA ORGANIZACIONAL</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/legislacao-transp"><i
-									class="fa fa-caret-right"></i> ATOS NORMATIVOS</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/perguntas-respostas#faq"><i
-									class="fa fa-caret-right"></i> PERGUNTAS FREQUENTES</a></b></p>
-					<p class="collapse-subitem"><b><a href="https://radardatransparencia.atricon.org.br"
-								target="_blank"><i class="fa fa-caret-right"></i> RADAR DA TRANSPARÊNCIA</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/sic"><i
-									class="fa fa-caret-right"></i>SIC - Serviço de Informação ao Cidadão</a></b></p>
-					<!-- 					<p class="collapse-subitem"><b><a th:href="@{/transparencia/prest-receitas}"><i class="fa fa-caret-right"></i> RECEITAS</a></b></p> -->
-					<!-- 					<p class="collapse-subitem"><b><a th:href="@{/transparencia/contratos-convenios/convenios-novo}"><i class="fa fa-caret-right"></i> CONVÊNIOS E TRANSFERÊNCIAS</a></b></p> -->
-					<p class="collapse-subitem"><b><a href="/transparencia/concurso-publico"><i
-									class="fa fa-caret-right"></i> CONCURSOS</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/obras"><i
-									class="fa fa-caret-right"></i> OBRAS</a></b></p>
-
-					<p class="collapse-subitem"><b><a href="/transparencia/doc-classificacao"><i
-									class="fa fa-caret-right"></i> CLASSIFICACAO DE INFORMAÇÕES</a></b></p>
-
-
-
-
-					<!-- 						<p class="collapse-subitem"><b><a th:href="@{/transparencia/avisos}"><i class="fa fa-caret-right"></i> LGPD E GOVERNO DIGITAL</a></b></p> -->
-					<!-- 						<p class="collapse-subitem"><b><a th:href="@{/transparencia/avisos2}"><i class="fa fa-caret-right"></i> DADOS ABERTOS</a></b></p> -->
-				</div>
-				<a type="button" data-toggle="collapse" data-target="#ouvidorias" data-parent="#menu"
-					class="list-group-item list-group-item-action card-header">OUVIDORIA</a>
-				<div id="ouvidorias" class="sublinks collapse">
-					 					    <p class="collapse-subitem"><b><a href="https://atendimento.al.ba.gov.br/e-ouv" target="_blank"><i class="fa fa-caret-right"></i> OUVIDORIA</a></b></p>
-				
-					 <p class="collapse-subitem"><b><a href="https://atendimento.al.ba.gov.br/e-ouv/home/estatisticas" target="_blank"><i class="fa fa-caret-right"></i>RELATÓRIOS OUVIDORIA</a></b></p>
-
-				</div>
-
-				<a type="button" data-toggle="collapse" data-target="#informacoes" data-parent="#menu"
-					class="list-group-item list-group-item-action card-header">LGPD E GOVERNO DIGITAL</a>
-				<div id="informacoes" class="sublinks collapse">
-					<!--<p class="collapse-subitem"><b><a th:href="@{/transparencia/avisos}"><i class="fa fa-caret-right"></i> LGPD E GOVERNO DIGITAL</a></b></p>-->
-					<p class="collapse-subitem"><b><a href="/transparencia/lgpd"><i class="fa fa-caret-right"></i>
-								LGPD E GOVERNO DIGITAL</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/lgpd-form-requerimento"><i
-									class="fa fa-caret-right"></i>LGPD – REQUERIMENTO</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/avisos2"><i
-									class="fa fa-caret-right"></i> DADOS ABERTOS</a></b></p>
-				</div>
-
-				<a type="button" href="/transparencia/prest-receitas" data-toggle="collapse"
-					data-target="#receitas" data-parent="#menu"
-					class="list-group-item list-group-item-action card-header">Receitas</a>
-				<div id="receitas" class="sublinks collapse">
-					<p class="collapse-subitem"><b><a href="/transparencia/prest-receitas"><i
-									class="fa fa-caret-right"></i>Receitas</a></b></p>
-					<!-- 				    <p class="collapse-subitem"><b><a th:href="@{/transparencia/transferencia-receitas}"><i class="fa fa-caret-right"></i>Transferências Recebidas do Poder Executivo</a></b></p>	 -->
-					<p class="collapse-subitem"><b><a href="/transparencia/duodecimo"><i
-									class="fa fa-caret-right"></i>Transferências Recebidas do Poder Executivo</a></b>
-					</p>
-				</div>
-
-				<a type="button" href="/transparencia/contratos-convenios/convenios-novo" data-toggle="collapse"
-					data-target="#convenios" data-parent="#menu"
-					class="list-group-item list-group-item-action card-header">CONVÊNIOS E TRANSFERÊNCIAS</a>
-				<div id="convenios" class="sublinks collapse">
-					<p class="collapse-subitem"><b><a href="/transparencia/contratos-convenios/convenios-novo"><i
-									class="fa fa-caret-right"></i> Transferências Realizadas</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/transf-recebidas"><i
-									class="fa fa-caret-right"></i>Transferências Recebidas</a></b></p>
-					<p class="collapse-subitem"><b><a
-								href="/transparencia/contratos-convenios/convenios-novo/sem-recursos"><i
-									class="fa fa-caret-right"></i>Sem Recursos</a></b></p>
-					<p class="collapse-subitem"><b><a
-								href="/transparencia/contratos-convenios/convenios-novo/repasses"><i
-									class="fa fa-caret-right"></i>Repasses Realizados</a></b></p>
-				</div>
-
-				<a type="button" href="/transparencia/contratos-convenios" data-toggle="collapse"
-					data-target="#contrato" data-parent="#menu"
-					class="list-group-item list-group-item-action card-header">Contratos</a>
-				<div id="contrato" class="sublinks collapse">
-					<p class="collapse-subitem"><b><a href="/transparencia/contratos-convenios"><i
-									class="fa fa-caret-right"></i>Contratos</a></b></p>
-					<p class="collapse-subitem"><b><a
-								href="/transparencia/contratos-convenios/fiscais-contratos"><i
-									class="fa fa-caret-right"></i>Fiscais de Contratos</a></b></p>
-					<p class="collapse-subitem"><b><a
-								href="/transparencia/contratos-convenios/pagamento-cronologico"><i
-									class="fa fa-caret-right"></i>Pagamentos Contratos</a></b></p>
-				</div>
-
-
-
-				<a type="button" href="/transparencia/credor-empenho-despesa" data-toggle="collapse"
-					data-target="#scd" data-parent="#menu" class="list-group-item list-group-item-action card-header">Despesas</a>
-				<div id="scd" class="sublinks collapse">
-					<p class="collapse-subitem"><b><a href="/transparencia/credor-empenho-despesa"><i
-									class="fa fa-caret-right"></i>Despesas</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/credor-empenho-pormenorizada"><i
-									class="fa fa-caret-right"></i>Despesas Pormenorizadas</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/credor-empenho"><i
-									class="fa fa-caret-right"></i>Empenhos</a></b></p>
-					<!-- <p class="collapse-subitem"><b><a th:href="@{/transparencia/credor-empenho-licitacao}"><i
-									class="fa fa-caret-right"></i>Empenhos / Licitações</a></b></p>-->
-					<!-- 				<p class="collapse-subitem"><b><a th:href="@{/transparencia/credor-pagamento}"><i class="fa fa-caret-right"></i>Credor/pagamento</a></b></p> -->
-					<p class="collapse-subitem"><b><a href="/transparencia/contrato-sintetico"><i
-									class="fa fa-caret-right"></i>Despesa por Credor/Sintético</a></b></p>
-					<!-- 					    <p class="collapse-subitem"><b><a th:href="@{/transparencia/contrato-analitico}"><i class="fa fa-caret-right"></i>Despesa por Credor/Analítico</a></b></p> -->
-					<!-- 						    <p class="collapse-subitem"><b><a href="https://www.transparencia.ba.gov.br/Receita/Painel" target="_blank"><i class="fa fa-caret-right"></i>Receitas</a></b></p> -->
-				</div>
-
-				<a type="button" data-toggle="collapse" data-target="#rh" data-parent="#menu"
-					class="list-group-item list-group-item-action card-header">RECURSOS HUMANOS</a>
-				<div id="rh" class="sublinks collapse">
-					<p class="collapse-subitem"><b><a href="https://portalrh.alba.ba.gov.br/transparencia"
-								target="_blank"><i class="fa fa-caret-right"></i> PESSOAL</a></b></p>
-					<p class="collapse-subitem"><b><a href="https://portalrh.alba.ba.gov.br/transparencia/estagiarios"
-								target="_blank"><i class="fa fa-caret-right"></i> ESTAGIÁRIOS</a></b></p>
-					<p class="collapse-subitem"><b><a href="https://portalrh.alba.ba.gov.br/transparencia/diarias"
-								target="_blank"><i class="fa fa-caret-right"></i> DIÁRIAS</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/horario" target="_blank"><i
-									class="fa fa-caret-right"></i> HORÁRIO DE TRABALHO</a></b></p>
-					<p class="collapse-subitem"><b><a href="https://portalrh.alba.ba.gov.br/transparencia"
-								target="_blank"><i class="fa fa-caret-right"></i> TABELA REMUNERATÓRIA</a></b></p>
-				</div>
-
-				<a href="http://licita.alba.ba.gov.br/licitacoes-externo" type="button" target="_blank"
-					class="list-group-item list-group-item-action">LICITAÇÕES</a>
-
-				<a type="button" href="/transparencia/financas" data-toggle="collapse" data-target="#gp"
-					data-parent="#menu" class="list-group-item list-group-item-action card-header">PRESTAÇÃO DE CONTAS</a>
-				<div id="gp" class="sublinks collapse">
-					<p class="collapse-subitem"><b><a href="/transparencia/plan-estrategico-inst"><i
-									class="fa fa-caret-right"></i> PLANO ESTRATÉGICO INSTITUCIONAL</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/financas"><i
-									class="fa fa-caret-right"></i> RELATÓRIO DE GESTÃO FISCAL</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/prest-aprec-contas-alba"><i
-									class="fa fa-caret-right"></i> APRECIAÇÃO DAS CONTAS DA ALBA</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/prest-contas"><i
-									class="fa fa-caret-right"></i> PRESTAÇÃO DE CONTAS DA ALBA</a></b></p>
-
-					<p class="collapse-subitem"><b><a href="/transparencia/prest-aprec-contas-pe"><i
-									class="fa fa-caret-right"></i> APRECIAÇÃO DE CONTAS DO PODER EXECUTIVO</a></b></p>
-					<p class="collapse-subitem"><b><a
-								href="https://www.sefaz.ba.gov.br/financas-publicas/balanco-geral-do-estado/"
-								target="_blank"><i class="fa fa-caret-right"></i> PRESTAÇÃO DE CONTAS DO PODER
-								EXECUTIVO</a></b></p>
-				</div>
-
-				<a type="button" href="/transparencia/execucao-orcamentaria" data-toggle="collapse"
-					data-target="#gf" data-parent="#menu" class="list-group-item list-group-item-action card-header">GESTÃO FISCAL</a>
-				<div id="gf" class="sublinks collapse">
-					<p class="collapse-subitem"><b><a href="/transparencia/execucao-orcamentaria"><i
-									class="fa fa-caret-right"></i> EXECUÇÃO ORÇAMENTÁRIA</a></b></p>
-					<p class="collapse-subitem"><b><a href="https://www.seplan.ba.gov.br/orcamento/orcamento-anual/"
-								target="_blank"><i class="fa fa-caret-right"></i> LEI DE ORÇAMENTO ANUAL - LOA</a></b>
-					</p>
-					<p class="collapse-subitem"><b><a
-								href="https://www.seplan.ba.gov.br/orcamento/ldo-lei-de-diretrizes-orcamentarias/"
-								target="_blank"><i class="fa fa-caret-right"></i> LEI DE DIRETRIZES ORÇAMENTÁRIAS -
-								LDO</a></b></p>
-					<p class="collapse-subitem"><b><a
-								href="https://www.seplan.ba.gov.br/planejamento/ppa-plano-plurianual/"
-								target="_blank"><i class="fa fa-caret-right"></i> PLANO PLURIANUAL - PPA</a></b></p>
-				</div>
-
-				<a type="button" href="/transparencia/" data-toggle="collapse" data-target="#parl"
-					data-parent="#menu" class="list-group-item list-group-item-action card-header active">PARLAMENTARES</a>
-				<div id="parl" class="sublinks collapse in in">
-					<p class="collapse-subitem"><b><a href="/transparencia/relat-atividades-legislativas"><i
-									class="fa fa-caret-right"></i> DADOS DE ATIVIDADES LEGISLATIVAS</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/verbas-idenizatorias"><i
-									class="fa fa-caret-right"></i> VERBA INDENIZATÓRIA</a></b></p>
-					<p class="collapse-subitem"><b><a href="/deputados/legislatura-atual"><i
-									class="fa fa-caret-right"></i> DEPUTADOS LEGISLATURA ATUAL</a></b></p>
-					<p class="collapse-subitem"><b><a href="/transparencia/verbas-regula"><i
-									class="fa fa-caret-right"></i> REGULAMENTAÇÕES SOBRE VERBAS</a></b></p>
-					<p class="collapse-subitem"><b><a href="https://albalegis.nopapercloud.com.br/spl/sessoes.aspx"><i
-									class="fa fa-caret-right"></i> FREQUÊNCIA DOS DEPUTADOS</a></b></p>
-					<p class="collapse-subitem"><b><a href="https://www.seplan.ba.gov.br/orcamento/orcamento-anual/"
-								target="_blank"><i class="fa fa-caret-right"></i> EMENDAS PARLAMENTARES</a></b></p>
-				</div>
-				<a href="/transparencia/ativ-legislat" type="button"
-					class="list-group-item list-group-item-action">ATIVIDADES LEGISLATIVAS</a>
-				<a href="/transparencia/legislacao" type="button" class="list-group-item list-group-item-action">LEGISLAÇÃO</a>
-
-
-				<a type="button" id="uteis" data-toggle="collapse" data-target="#links" data-parent="#menu"
-					class="list-group-item list-group-item-action card-header">LINKS ÚTEIS</a>
-				<div id="links" class="sublinks collapse">
-					<p class="collapse-subitem"><b><a href="https://portaldatransparencia.gov.br/" target="_blank"><i
-									class="fa fa-caret-right"></i> TRANSPARÊNCIA GOV FEDERAL</a></b></p>
-					<p class="collapse-subitem"><b><a href="http://www.transparencia.ba.gov.br" target="_blank"><i
-									class="fa fa-caret-right"></i> TRANSPARÊNCIA BAHIA</a></b></p>
+		</div>
+		
+		
+		<div id="titulo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">PERFIL DO DEPUTADO</div>
 				</div>
 			</div>
 		</div>
-	</div>
-                <div class="col-md-10">
-                    <fieldset>
-                        <legend>
-                            <div class="o-presidente">
-                                <div class="titulo-presidente">
-                                    DEPUTADO (A):
-                                    <span>CLÁUDIA OLIVEIRA (PT do B)</span>
-                                </div>
-                            </div>
-                        </legend>
-                    </fieldset>
-                    <div class="titulo-bloco-lista no-margin">
-                        DESPESAS REFERÊNCIA:
-                        <span>216583 - 11/2026</span>
-                    </div>
-                    <div class="fe-div-table fe-table-responsivo">
-                        <table class="tabela-cab table table-bordered divider table-striped">
-                            <thead>
-                            <tr>
-                                <th>CATEGORIA</th>
-                                <th>Nº NOTA/RECIBO</th>
-                                <th>CPF/CNPJ</th>
-                                <th>NOME DO FORNECEDOR</th>
-                                <th>VALOR</th>
-                                <th>GLOSA</th>
-                                <th>ANEXO NF</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr class="table-itens cinza">
-                                <td><span>Assessorias</span></td>
-                                <td width="100"><span>7</span></td>
-                                <td width="200"><span>65.073.990/0001-33</span></td>
-                                <td><span>LB CONTABILIDADE LTDA</span></td>
-                                <td width="150">
-                                    <span>R$ 11.100,00</span>
-                                </td>
-                                <td width="150">R$ 0,00</td>
-                                <td><a class="text-leg fe-color-red" target="_blank" href="/fserver/:anexo:NFE16583.pdf" ><span>7</span></a></td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <br>
-                    <div class="fe-div-table">
-                        <html>
+	</section>
+	<section>
+		<div id="presidente-interna">
+			<div class="container">
+				<br>
+				<div class="row">
+					<div class="no-print">
+    <div class="col-md-2 nopadding-left">
+        <div class="list-group">
+            <a type="button" data-toggle="collapse" data-target="#sm" class="list-group-item list-group-item-action active">CONHEÇA OS DEPUTADOS</a>
+            <div id="sm" class="sub-items collapse in">
+                <p class="collapse-subitem"><a href="/deputados/deputados-estaduais">EM EXERCÍCIO</a></p>
+                <p class="collapse-subitem"><a href="/deputados/ex-deputados-estaduais">EX-DEPUTADOS</a></p>
+                <p class="collapse-subitem"><a href="/deputados/legislatura-atual">LEGISLATURA ATUAL</a></p>
+                <p class="collapse-subitem"><a href="/deputados/todos-deputados">TODOS OS DEPUTADOS</a></p>
+            </div>
+            <a href="/deputados/contatos-deputados" type="button"
+               class="list-group-item list-group-item-action">CONTATO DOS DEPUTADOS</a>
+        </div>
+    </div>
+</div>
+					
+					<div class="fe-veja-ainda col-md-2 col-sm-12">
+						<div>
+    						<div class="titulo-noticias-menor-top text-center">VEJA AINDA</div>
+						</div>
+						<hr class="hr-red-top">
+						<div class="lista-preposicoes1">
+							<div class="tabela-proposicoes">
+								<div class="linha-prop">
+									<div class="tabela-ordem">
+										<div>
+											<div class="titulo2">
+												<a href="/atividade-legislativa/proposicoes?deputado=100" class="fe-ultimas-noticias-home1">
+													PROPOSIÇÕES ATÉ 2021
+												</a>
+											</div>
+											<br>
+											<div class="titulo2">
+												<a href="/atividade-legislativa/proposicoes-normas?deputado=100" class="fe-ultimas-noticias-home1">
+													CONVERTIDAS EM NORMAS ATÉ 2021
+												</a>
+											</div>
+											<br>
+										</div>
+										<div>
+											<div class="titulo2">
+												<a href="/atividade-legislativa-nova/proposicoes?deputado=4049" class="fe-ultimas-noticias-home1">
+													PROPOSIÇÕES APÓS 2021
+												</a>
+											</div>
+											<br>
+											<div class="titulo2">
+												<a href="/atividade-legislativa-nova/proposicoes-normas?deputado=4049" class="fe-ultimas-noticias-home1">
+													CONVERTIDAS EM NORMAS APÓS 2021
+												</a>
+											</div>
+											<br>
+										</div>
+										<div>
+											<div class="titulo2">
+												<a href="/atividade-legislativa/pauta" class="fe-ultimas-noticias-home1">
+													PAUTA
+												</a>
+											</div>
+											<br>
+											<div class="titulo2">
+												<a href="/atividade-legislativa/ordem-do-dia" class="fe-ultimas-noticias-home1">
+													ORDEM DO DIA
+												</a>
+											</div>
+											<br>
+											<div class="titulo2">
+												<a href="/" class="fe-ultimas-noticias-home1">
+													PRESTAÇÃO DE CONTAS
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="clearFloat"></div>
+								</div>
+							</div>
+						</div>
+						<hr class="hr-red-bottom">
+					</div>
+					<div class="col-md-10 fe-text-size">
+						<fieldset>
+							<legend>
+								<div class="o-presidente">
+									<div class="titulo-presidente">
+										<span>Dep. Adolfo Menezes</span>
+									</div>
+								</div>
+							</legend>
+						</fieldset>
+						<div class="row">
+							<!--mensagem-->
+							
+							<div class="col-md-3 print-img-dep-ajust">
+								<div class="cnt-img-deputado">
+									
+										<img src="/fserver/:imagensAlbanet:fotos:AdolfoMenezes.jpg/static:images:shared:avatar.jpg" alt="" title=""/>
+									
+									
+								</div>
+							</div>
+							<div class="col-md-9">
+								<div class="titulo-dados-pessoais">DADOS PESSOAIS</div>
+								<br>
+								<div class="dados-deputado fe-text-size">
+									<p>
+										<strong>Nome: </strong><span>ADOLFO EMANUEL MONTEIRO DE MENEZES</span>
+									</p>
+									<p>
+										<strong>Profissão: </strong><span>Economista</span>
+									</p>
+									<p>
+										<strong>Nascimento: </strong><span>04/11/1958, Campo Formoso-BA</span>
+									</p>
+									
+									<p>
+										<strong>Filiação: </strong><span>Pedro Gonzaga de Menezes e Josefa Monteiro Menezes</span>
+									</p>
+									<p>
+										<strong>Sexo: </strong><span>Masculino</span>
+									</p>
+									
+									<p>
+										<strong>Cônjuge: </strong><span>Denise Edeltrudes S. Belitardo de Menezes</span>
+									</p>
+									<p>
+										<strong>Filhos: </strong><span>Arthur e Caroline</span>
+									</p>
+									
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="fe-dep-dados-ajsut-mobile">
+								<div id="lista-cv" style="margin-top: 20px">
+									<div class="linha-cv">
+										<strong>Formação Educacional</strong> <span>Graduação em Ciências Econômicas, Universidade Católica do Salvador (UCSal) - 1983.</span>
+									</div>
+									<div class="linha-cv">
+										<strong>Atividade Profissional</strong> <span>Secretário assistente do vice governador, 1980-82; assessor da Secretaria de Transportes, Departamento de Aviação-DAB, 1982-85; gerente da Agrobahia, Secretaria da Indústria , Comércio e Turismo, 1986-87 e diretor de 1988-89; gerente da Secretaria da Indústria, Comercio e Turismo- SICT, 1990-92. Secretário de Obras da Prefeitura Municipal de Campo Formoso.</span>
+									</div>
+									<div class="linha-cv">
+										<strong>Mandato Eletivo</strong> <span>Eleito vereador pelo Partido Trabalhista Brasileiro - PTB, 1993-1996; reeleito pelo PTB,  1997-2000, Campo Formoso. Eleito deputado estadual pelo Partido  Republicano  Progressista - PRP, 2007-2011 e reeleito para o período 2011-2015, 2015-2019.  Eleito prefeito de Campo Formoso pelo PSD, 2013-2016. Reeleito deputado estadual pelo PSD, Coligação Força do Trabalho para a Bahia, para o período 2019-2023. Reeleito deputado estadual pelo PSD, para o período 2023-2027. Assumiu interinamente o governo do Estado entre 16/10/2021 e 29/10/2021, e entre 23/12/2022 e 28/12/2022.</span>
+									</div>
+<!-- 								<div class="linha-cv" th:if="${!#httpServletRequest.requestURI.contains('ex-deputado') and !#arrays.isEmpty(deputado?.filiacaoPartidaria)}"> -->
+									<div class="linha-cv">
+										<strong>Filiação Partidária</strong>
+										<div>
+											<span>PST; </span><span>PTB; </span><span>PRP, 2008 - 2011; </span><span>PSD, 2011 - ; </span>
+										</div>
+									</div>
+<!-- 								<div class="linha-cv" th:if="${!#httpServletRequest.requestURI.contains('ex-deputado') and (deputado?.atividadePartidaria !='' and deputado?.atividadePartidaria !=null)}"> -->
+									<div class="linha-cv">
+										<strong>Atividade Partidária</strong> <span>Vice-líder do Bloco Parlamentar PDT/PSC/PRP, ALBA, 2009; vice-líder da Bancada da Maioria Parlamentar,ALBA, 2009-2010; líder do PSD, 2017-2018. Vice-líder do Bloco da Maioria, ALBA, 2019-2020, mar.2025.</span>
+									</div>
+									<div class="linha-cv">
+										<strong>Atividade Parlamentar</strong> <span>Na Assembleia Legislativa da Bahia, PRESIDENTE da MESA DIRETORA 2021-2023, reeleito para os biênios 2023-2025 e 2025-2027, afastado liminarmente pelo STF em 11/02/2025; 1º VICE-PRESIDENTE da MESA DIRETORA, 2015-2017, assumiu interinamente a presidência da Mesa Diretora, 13/14 fev.2015, 29 dez. 2015-7jan.2016, 4mar.2016-. PRESIDENTE DAS COMISSÕES: Direitos Humanos e Segurança Pública (fev./out.2011); Finanças, Orçamento, Fiscalização e Controle (2011, 2013-2014). VICE-PRESIDENTE da Comissão do Meio Ambiente, Seca e Recursos Hídricos (2009). TITULAR DAS COMISSÕES:  Meio Ambiente, Seca e Recursos Hídricos (2007-2010); Constituição e Justiça (2008); Finanças, Orçamento, Fiscalização e Controle (2009); Educação, Cultura, Ciência e Tecnologia e Serviço Público (dez/2015-). SUPLENTE DAS COMISSÕES: Finanças, Orçamento, Fiscalização e Controle (2009-2010); Especial para Reforma do Regimento (2009-2010); Especial da Ferrovia de Integração Oeste-Leste (2011-2014). Procurador parlamentar da Assembléia Legislativa da Bahia, (2007- mar.2009). CPI da Telefonia (ago/2013 - 2014 ). Presidente do Fundo de Previdência Privada da Assembleia Legislativa da Bahia (ALBAPREV), 2015-.</span>
+									</div>
+									<div class="linha-cv">
+										<strong>Condecorações</strong> <span>Comenda da Cidadania Desembargador Jatahy Fonseca, Tribunal Regional Eleitoral da Bahia, 24/03/2021; Medalha 70 anos da Fecomércio, 06/10/2021. Troféu Destaque Parlamentar, Comitê de Imprensa, Assembleia Legislativa do Estado da Bahia, 2021, 2022, 2023, 2024; Título de Amigo da Polícia Militar, Polícia Militar da Bahia, 2022; Medalha Mérito da Segurança Publica, Secretaria de Segurança Pública da Bahia, 2022; Diploma de Amigo da 6ª Região Militar, Ministério da Defesa/Exército Brasileiro, 2022; Medalha &quot;Mérito Professor João Fernandes da Cunha&quot;, Fundação João Fernandes Cunha, 2022; Medalha Desembargador Mário Augusto Albiani Alves, Escola de Magistrados da Bahia, 2022; Medalha da Mineração Baiana, Companhia Baiana de Pesquisa Mineral, 2022 Medalha do Mérito Tamandaré, Marinha do Brasil, 2022; Prêmio Rui Barbosa, Comitê de Imprensa, Assembleia Legislativa do Estado da Bahia, 2022; Medalha da Aviação, Policia Militar do Estado da Bahia, 2022. Medalha do Mérito do Conselho Nacional de Corregedores Gerais do Ministério Público, CNCGMP, 2023. Medalha Mérito Santos Dumont,  Força Aérea Brasileira, 2023. Medalha Amigo da Marinha, 2023; Comendador da Ordem do Mérito da Liga Baiana Contra o Câncer, Liga Baiana Contra o Câncer (LBCC), 2023; Medalha Desembargador Adolfo Leitão Cunha Guerra, Corregedoria Geral do Tribunal de Justiça da Bahia, 2024; Medalha do Mérito do Ministério Público do Estado da Bahia (MPBA), 2024; Medalha Arlindo Fragoso, Academia de Letras da Bahia, ALB, 2024; Medalha do Mérito Marechal Argolo Visconde de Itaparica, Polícia Militar da Bahia, 2024. Comendador da Ordem 2 de Julho - Libertadores da Bahia, Governo do Estado da Bahia, 2024; Medalha do Mérito Acadêmico do Instituto Brasileiro de Segurança Pública - IBSP, 2024. Medalha do Mérito Bombeiro Militar Capitão Leovigildo Cavalcante de Melo - Comandante do Corpo de Bombeiros Militar do Estado da Bahia, 2021.
+Medalha Conselheiro Almeida Couto - Comandante do Corpo de Bombeiros Militar do Estado da Bahia, 2023. Medalha Amigo do Detran, 2024; Medalha Comemorativa dos Duzentos Anos de Criação da Polícia Militar da Bahia, Polícia Militar da Bahia, 2025.</span>
+									</div>
+									
+									
+									
+									<div class="linha-cv col-md-5">
+										<strong>Contato</strong>
+										<p>
+											Endereço: <span>Prédio Anexo, gab. 210, Nelson David Ribeiro</span>
+										</p>
+										<p>
+											Tel.:
+											<span>3115-5403 / </span><span>3115-7081 / </span><span>3115-7145</span>
+										</p>
+										<p>
+											<a href=".email"><span>adolfo.menezes@alba.ba.gov.br</span></a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div id="bread-transparencia" class="col-md-6 fe-ajuste-compart">
+								<html>
 <!--em tela pc-->
 <div class="pull-right a2a_kit no-print compartilhar-medio">
 	<a class="fe-print" href="javascript: void(0);" onclick="window.print(); return false;">
@@ -723,19 +648,88 @@
 </div>
 <script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
 <script src="/scripts/controllers/shared/ShareContent.js" type="module"></script>
-                    </div>
-                    <div class="fe-div-table">
-                        <br><br class="compartilhar-medio">
-                        <div class="right">
-                            <a onclick="goBack()" class="fe-upper btn btn-default btn-pro">
-                                <span><i class="fa fa-reply"></i>&ensp;Voltar para prestação de contas</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+							</div>
+						</div>
+						<div style="margin-top: -45px">
+							<h1 class="titulo-form no-print" id="titulo-form">
+								FALE COM O DEPUTADO <img id="fe-form-seta" src="/images/deputados/down.png" class="fe-open-seta" alt="">
+							</h1>
+							<div id="form-contato" class="form-dpts-estaduais no-print hide">
+								<br> <br>
+								<form action="/deputados/deputado-estadual/910629" method="POST">
+									<input type="hidden" name="emailReceiver" value="adolfo.menezes@alba.ba.gov.br">
+									<!--nome-->
+									<div class="col-md-12 fe-margin-grid">
+										<div class="fe-texto-cinza">NOME</div>
+										<input required class="form-control" type="text" id="nome" name="nome" placeholder="ex.: Bento">
+									</div>
+									<!--telefone-->
+									<div class="col-md-4 fe-margin-grid">
+										<div class="fe-texto-cinza">TELEFONE</div>
+										<input required class="form-control" type="text" id="telefone" name="telefone" placeholder="ex.: 071999999999">
+									</div>
+									<!--email-->
+									<div class="col-md-8 fe-margin-grid">
+										<div class="fe-texto-cinza">E-MAIL</div>
+										<input required class="form-control" type="email" id="email" name="email" placeholder="ex.: seuemail@dominio.com">
+									</div>
+									<!--cidade-->
+									<div class="col-md-9 fe-margin-grid">
+										<div class="fe-texto-cinza">CIDADE</div>
+										<input required class="form-control" type="text" id="cidade" name="cidade" placeholder="ex.: Salvador">
+									</div>
+									<!--estado-->
+									<div class="col-md-3 fe-margin-grid">
+										<div class="fe-texto-cinza">ESTADO</div>
+										<input required class="form-control" type="text" id="estado" name="uf" placeholder="ex.: BA">
+									</div>
+									<!--mensagem-->
+									<div class="col-md-12 fe-margin-grid">
+										<div class="fe-texto-cinza">MENSAGEM</div>
+										<textarea required class="form-control mensagem" type="text" id="mensagem" name="mensagem" placeholder="ex.: Mensagem"></textarea>
+									</div>
+									<div class="captcha">
+										<div class="g-recaptcha" data-sitekey="6LdX3B0UAAAAAF6AiU-kRIZgvkKAQA2jmkVevISr"></div>
+									</div>
+									<input name="_token" type="hidden" value="rDT6qlM4hOVSkpPWnYQhMmhOD8yWQltMuoOd2c5o">
+									<div class="btn-enviar" style="margin-right: 15px;">
+										<button type="submit" class="pull-right">ENVIAR</button>
+										<div class="loader"></div>
+									</div>
+								</form>
+							</div>
+							<div class="border-bottom no-print"></div>
+						</div>
+						<hr class="hr-red-bottom">
+						<div>
+							<strong>Atualização dos dados biográficos:</strong>
+							<p>Departamento de Pesquisa</p>
+							<p>Email: departamentopesquisa@alba.ba.gov.br</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript">
+        $("#titulo-form").click(function () {
+            if ($("#form-contato").hasClass("hide")) {
+                $("#form-contato").removeClass("hide");
+                $("#fe-form-seta").removeClass("fe-open-seta");
+            } else {
+                $("#form-contato").addClass("hide");
+                $("#fe-form-seta").addClass("fe-open-seta");
+            }
+        });
+        $(document).ready(function () {
+            var scroll = $(window).scrollTop();
+            $.ajaxSetup({
+                headers: {
+                    "X-CSRF-TOKEN": $("input[name=_token]").attr("value")
+                }
+            });
+        });
+	</script>
 </div>
 <footer>
 		<div class="rodape">
