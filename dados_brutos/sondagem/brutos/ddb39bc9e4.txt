@@ -1,1 +1,0 @@
-import{i as e}from"./chunk-LRPJIXU2.js";e();var i=class{constructor(t,n){this.httpClient=t,this.API_URL=n}listAll(){return this.httpClient.get(this.API_URL)}removeUndefinedParams(t){let n={};return Object.keys(t).forEach(s=>{t[s]!==void 0&&(n[s]=t[s])}),n}};export{i as a};
