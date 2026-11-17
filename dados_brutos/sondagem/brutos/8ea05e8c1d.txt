@@ -1,0 +1,1676 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="A Assembleia Legislativa do Estado do Rio Grande do Norte constitui o Poder Legislativo, tendo como atribuições legislar, fiscalizar, controlar e investigar.">
+	<meta name="robots" content="index,follow,noodp">
+	<meta name="googlebot" content="index,follow">	
+	<meta name="subject" content="A Assembleia Legislativa do Estado do Rio Grande do Norte constitui o Poder Legislativo, tendo como atribuições legislar, fiscalizar, controlar e investigar.">
+	<meta name="abstract" content="A Assembleia Legislativa do Estado do Rio Grande do Norte constitui o Poder Legislativo, tendo como atribuições legislar, fiscalizar, controlar e investigar.">
+	<meta name="topic" content="A Assembleia Legislativa do Estado do Rio Grande do Norte constitui o Poder Legislativo, tendo como atribuições legislar, fiscalizar, controlar e investigar.">
+	<meta name="summary" content="A Assembleia Legislativa do Estado do Rio Grande do Norte constitui o Poder Legislativo, tendo como atribuições legislar, fiscalizar, controlar e investigar.">
+	<meta property="og:url" content="https://www.al.rn.leg.br">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Assembleia Legislativa do Rio Grande do Norte">
+	<meta property="og:image" content="https://www.al.rn.leg.br/images/favicon/android-icon-192x192.png">
+	<meta property="og:description" content="A Assembleia Legislativa do Estado do Rio Grande do Norte constitui o Poder Legislativo, tendo como atribuições legislar, fiscalizar, controlar e investigar.">
+	<meta property="og:site_name" content="Assembleia Legislativa do Rio Grande do Norte">
+	<meta property="og:locale" content="pt_BR">
+	<meta itemprop="name" content="Assembleia Legislativa do Rio Grande do Norte" >
+	<meta itemprop="description" content="A Assembleia Legislativa do Estado do Rio Grande do Norte constitui o Poder Legislativo, tendo como atribuições legislar, fiscalizar, controlar e investigar.">
+	<meta itemprop="image" content="https://www.al.rn.leg.br/images/favicon/android-icon-192x192.png">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="">
+	<meta name="twitter:url" content="https://www.al.rn.leg.br">
+	<meta name="twitter:title" content="Assembleia Legislativa do Rio Grande do Norte">
+	<meta name="twitter:description" content="A Assembleia Legislativa do Estado do Rio Grande do Norte constitui o Poder Legislativo, tendo como atribuições legislar, fiscalizar, controlar e investigar.">
+	<meta name="twitter:image" content="https://www.al.rn.leg.br/images/favicon/android-icon-192x192.png">
+
+	<title>Assembleia Legislativa do Rio Grande do Norte</title>
+	
+	<base href="https://www.al.rn.leg.br/">
+
+	<link rel="canonical" href="https://www.al.rn.leg.br">
+	<link rel="author" href="maxmeio">
+	<link rel="me" href="https://www.maxmeio.com/" type="text/html">
+	<link rel="me" href="mailto:atendimento@maxmeio.com">
+	<link rel="me" href="sms:+558440088250">
+
+	<link rel="stylesheet" href="https://www.al.rn.leg.br/css/dist/app.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/open-dyslexic-regular.css">
+	<link rel="stylesheet" href="https://www.al.rn.leg.br/css/style.css?v=4.3.3.1.1.1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+	
+	<link rel="stylesheet" href="https://www.al.rn.leg.br/assets/lightbox2/lightbox.min.css">
+	<script src="https://www.al.rn.leg.br/js/jquery-3.5.1.min.js"></script>
+		
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#26408f">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#26408f">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1012745-37"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-1012745-37');
+	</script>
+	
+<meta name="facebook-domain-verification" content="ix2hg7op6amuzv4ii2qnf5emk9xenv" /></head>	<body class="body">
+		<style>
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        position: absolute;
+        transform: translate3d(5px, 28px, 0px);
+        /* distancia entre menu e btn */
+        top: 0px;
+        left: 0px;
+        will-change: transform;
+    }
+
+    .dropdown {
+        display: inline-block;
+        /* deixa o LO do "tamanho do próprio texto" e não da largura inteira da tela*/
+        list-style: none;
+        /* rita a "bolinha" do LI*/
+    }
+</style>
+
+
+
+
+<header class="header-site" style="display:flex; ">
+    <div class="container">
+
+        <div class="d-flex d-lg-none justify-content-center mb-3 align-items-baseline">
+            <a href="https://unale.org.br" class="selo-unale mr-3" title="Selo Unale" target="_blank">
+                <img class="w-100" alt="Selo Unale" src="https://www.al.rn.leg.br/images/Selo_Unale2023_tetracampeoes.png" />
+                
+                
+            </a>
+            
+            <ul class="list-group list-group-horizontal" id="acessibilidadeMobile">
+                <li style="list-style: none;">
+                    <button class="mb-0 btn-accessibility btn-accessibility-mob" id="accessibility">
+                        <span>Acessibilidade</span>
+                        <img src="https://www.al.rn.leg.br/images/min/icon-accessibility.svg" alt="">
+                    </button>
+                </li>
+                <li style="list-style: none;"><a class="inc-font" href="javascript:;">A+</a></li>
+                <li style="list-style: none;"><a class="res-font" href="javascript:;">A</a></li>
+                <li style="list-style: none;"><a class="dec-font" href="javascript:;" title="Diminuir Fonte">A-</a></li>
+                <!-- <li style="list-style: none;"><a href="javascript:void(0)" id="acess-btn"> <i class="fa-solid fa-universal-access"></i></a></li> -->
+                <li style="list-style: none;"><a class="acess-btn"><i class="fa-solid fa-universal-access"></i></a></li>
+            </ul>
+
+        </div>
+
+        <div id="acess-menu" class="hidden">
+            <button onclick="toggleReadingGuide()">Guia de leitura</button>
+            <button onclick="toggleDyslexia()">Dislexia</button>
+            <a href="p/acessibilidade">Guia de acessibilidade</a>
+        </div>
+
+
+
+        <div class="row  justify-content-start justify-content-lg-between align-items-center">
+            <a href="https://www.al.rn.leg.br" class="logo" title="Assembleia Legislativa">
+                                <img class="ml-3" src="https://www.al.rn.leg.br/images/Assembleia-logo.png" alt="Assembleia Legislativa">
+                            </a>
+
+            <div class="d-none d-lg-flex flex-column flex-lg-row align-items-center justify-content-between">
+
+                <div class="text-center mb-3 mb-lg-0">
+                    <!--  <button class="mb-0 btn-accessibility" id="accessibility">
+                        <span>Acessibilidade</span>
+                        <img src="https://www.al.rn.leg.br/images/min/icon-accessibility.svg" alt="">
+                    </button> -->
+                    <ul class="list-group list-group-horizontal" id="acessib">
+                        <li style="list-style: none;">
+                            <button class="mb-0 btn-accessibility" id="accessibility">
+                                <span>Acessibilidade</span>
+                                <img src="https://www.al.rn.leg.br/images/min/icon-accessibility.svg" alt="">
+                            </button>
+                        </li>
+
+                        <li style="list-style: none;">
+                            <a class="inc-font" href="javascript:;">A+</a>
+                        </li>
+
+                        <li style="list-style: none;">
+                            <a class="res-font" href="javascript:;">A</a>
+                        </li>
+
+                        <li style="list-style: none;">
+                            <a class="dec-font" href="javascript:;" title="Diminuir Fonte">A-</a>
+                        </li>
+
+                        <li style="list-style: none;">
+                            <a class="acess-btn">
+                                <i class="fa-solid fa-universal-access"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="text-center text-lg-end">
+                    <a href="https://unale.org.br" class="selo-unale" title="Selo Unale" target="_blank">
+                        <img class="w-50" alt="Selo Unale"
+                            src="https://www.al.rn.leg.br/images/Selo_Unale_2023_tetracampeoes.png">
+                    </a>
+                    
+                    
+                    
+                </div>
+
+                
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+</header>
+<!-- navegador -->
+<div class="navegador">
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <button class="navbar-toggler ml-auto" type="button" data-trigger="#main_nav">
+                <img src="https://www.al.rn.leg.br/images/min/open-menu.png" alt="" class="open-menu" style="width: 40px;">
+            </button>
+            <div class="navbar-collapse" id="main_nav">
+                <div class="offcanvas-header mt-3">
+                    <button class="btn text-white  btn-close float-right"> &times </button>
+
+                </div>
+                <div class="row d-inline w-100">
+                    <div class="col-12">
+                        <ul class="nav nav-tabs menu-principal" id="myTab" role="tablist">
+
+                                                                                    <li class="nav-item menu-dropdown ">
+                                                                <a class="nav-link first-menu active"
+                                    id="assembleia-tab" data-toggle="tab"
+                                    href="#assembleia" role="tab"
+                                    aria-controls="assembleia" aria-selected="true">Assembleia <i class="fa-solid fa-chevron-down dropdown-caret"
+                                        aria-hidden="true"></i></a>
+                                
+                                                                <div class="tab-pane fade" id="assembleia" role="tabpanel"
+                                    aria-labelledby="assembleia-tab">
+                                     
+                                    <div>
+                                        <a href="https://www.al.rn.leg.br/p/institucional" class="to-many-menus">Institucional</a>
+                                        <a href="https://www.al.rn.leg.br/p/historia" class="to-many-menus">História</a>
+                                        <a href="https://www.al.rn.leg.br/p/estrutura-organizacional"
+                                            class="to-many-menus">Estrutura</a>
+                                        <a href="https://www.al.rn.leg.br/p/carta-de-servicos" class="to-many-menus">Carta de
+                                            Serviços</a>
+                                        
+
+                                        
+                                        <a href="https://www.al.rn.leg.br/escola_da_assembleia" class="to-many-menus"
+                                            target="_blank">Escola da Assembleia</a>
+                                        <a href="https://memorial.al.rn.leg.br/" class="to-many-menus"
+                                            target="_blank">Memorial Legislativo</a>
+                                        <a href="https://www.al.rn.leg.br/p/procon-legislativo" class="to-many-menus">Procon
+                                            Legislativo</a>
+                                        
+                                        <a href="https://promulher.al.rn.leg.br/" target="_blank"
+                                            class="to-many-menus">Promulher</a>
+                                        
+                                        <a href="https://transparencia.al.rn.leg.br/ouvidoria" target="_blank"
+                                            class="to-many-menus">Ouvidoria</a>
+                                        <a href="https://www.al.rn.leg.br/fundacao-djalma-marinho" class="to-many-menus">Fundação
+                                            Djalma Marinho</a>
+
+                                    </div>
+                                                                    </div>
+                                                            </li>
+                                                                                    <li class="nav-item menu-dropdown ">
+                                                                <a class="nav-link first-menu "
+                                    id="atividades-tab" data-toggle="tab"
+                                    href="#atividades" role="tab"
+                                    aria-controls="atividades" aria-selected="true">Atividades <i class="fa-solid fa-chevron-down dropdown-caret"
+                                        aria-hidden="true"></i></a>
+                                
+                                                                <div class="tab-pane fade" id="atividades" role="tabpanel"
+                                    aria-labelledby="atividades-tab">
+                                     
+                                    <div>
+
+                                        <a href="https://www.al.rn.leg.br/p/audiencia-publica" class="to-many-menus">Audiência
+                                            Pública</a>
+                                        
+                                        <a href="https://www.al.rn.leg.br/p/blocos-parlamentares" class="to-many-menus">Blocos
+                                            Parlamentares</a>
+                                        <a href="https://www.al.rn.leg.br/p/comissoes" class="to-many-menus">Comissões</a>
+                                        <a href="https://www.al.rn.leg.br/p/frentes-parlamentares" class="to-many-menus">Frentes
+                                            Parlamentares</a>
+                                        <a href="https://www.al.rn.leg.br/p/plenario" class="to-many-menus">Plenário</a>
+                                    </div>
+                                                                    </div>
+                                                            </li>
+                                                                                    <li class="nav-item menu-dropdown ">
+                                                                <a class="nav-link first-menu "
+                                    id="deputados-tab" data-toggle="tab"
+                                    href="#deputados" role="tab"
+                                    aria-controls="deputados" aria-selected="true">Deputados <i class="fa-solid fa-chevron-down dropdown-caret"
+                                        aria-hidden="true"></i></a>
+                                
+                                                                <div class="tab-pane fade" id="deputados" role="tabpanel"
+                                    aria-labelledby="deputados-tab">
+                                                                        <div>
+                                        <a href="https://www.al.rn.leg.br/deputados/mesadiretora" class="to-many-menus">Mesa
+                                            Diretora</a>
+                                        <a href="https://www.al.rn.leg.br/deputados" class="to-many-menus">Atual
+                                            legislatura</a>
+                                        <a href="https://www.al.rn.leg.br/deputados/expresidentes"
+                                            class="to-many-menus">Ex-presidentes</a>
+                                        <a href="https://www.al.rn.leg.br/documentos/LISTA_DE_CONTATOS_DEPUTADOS_2025nn.pdf"
+                                            class="to-many-menus" target="_blank">Contatos</a>
+
+                                    </div>
+                                                                    </div>
+                                                            </li>
+                                                                                    <li class="nav-item menu-dropdown ">
+                                                                <a class="nav-link first-menu "
+                                    id="legislacao-tab" data-toggle="tab"
+                                    href="#legislacao" role="tab"
+                                    aria-controls="legislacao" aria-selected="true">Legislação <i class="fa-solid fa-chevron-down dropdown-caret"
+                                        aria-hidden="true"></i></a>
+                                
+                                                                <div class="tab-pane fade" id="legislacao" role="tabpanel"
+                                    aria-labelledby="legislacao-tab">
+                                     
+                                    <div>
+                                        <a href="https://www.al.rn.leg.br/legislacao/pesquisa" class="to-many-menus">Pesquisa</a>
+                                        <a href="https://iframe.leisestaduais.com.br/rn?origin=instituicao" target="_blank"
+                                            class="to-many-menus">Legislação Estadual</a>
+                                        
+                                        <a href="https://www.al.rn.leg.br/adins" class="to-many-menus">Adins</a>
+                                        <a href="https://www.al.rn.leg.br/legislacao/decretos-legislativos" class="to-many-menus">Decretos
+                                            Legislativos</a>
+
+                                        <a href="https://www.al.rn.leg.br/legislacao/leis-ordinarias" class="to-many-menus">Leis Ordinárias</a>
+                                        <a href="https://www.al.rn.leg.br/legislacao/leis-complementares" class="to-many-menus">Leis
+                                            Complementares</a>
+
+                                        <a href="https://www.al.rn.leg.br/legislacao/resolucoes" class="to-many-menus">Resoluções</a>
+                                        <a href="https://www.al.rn.leg.br/regimento" class="to-many-menus">Regimento</a>
+                                        <a href="https://www.al.rn.leg.br/diariooficial" class="to-many-menus">Diário oficial</a>
+                                        <a href="https://www.al.rn.leg.br/legislacao/manual-processo-legislativo" class="to-many-menus">Manual do Processo
+                                            Legislativo</a>
+
+                                    </div>
+                                                                    </div>
+                                                            </li>
+                                                                                    <li class="nav-item menu-dropdown ">
+                                                                <a class="nav-link first-menu "
+                                    id="projetos-tab" data-toggle="tab"
+                                    href="#projetos" role="tab"
+                                    aria-controls="projetos" aria-selected="true">Projetos <i class="fa-solid fa-chevron-down dropdown-caret"
+                                        aria-hidden="true"></i></a>
+                                
+                                                                <div class="tab-pane fade" id="projetos" role="tabpanel"
+                                    aria-labelledby="projetos-tab">
+                                     
+                                    <div>
+                                        
+                                        <a href="https://www.al.rn.leg.br/p/assembleia-e-voce" class="to-many-menus">Assembleia e
+                                            Você</a>
+                                        <a href="https://www.al.rn.leg.br/p/biblioteca-e-repositorio"
+                                            class="to-many-menus">Biblioteca e Repositório</a>
+                                        <a href="https://www.al.rn.leg.br/p/coral" class="to-many-menus">Coral da Assembleia</a>
+                                        
+                                        <a href="https://www.al.rn.leg.br/p/conexao-cidada" class="to-many-menus">Conexão
+                                            Cidadã</a>
+                                        
+                                        <a href="https://www.al.rn.leg.br/p/conexao-enem" class="to-many-menus">Conexão Enem</a>
+                                        <a href="https://www.al.rn.leg.br/p/conexao-parlamento" class="to-many-menus">Conexão
+                                            Parlamento</a>
+                                        <a href="https://www.al.rn.leg.br/p/movimente-se" class="to-many-menus">Movimente-se</a>
+                                        <a href="https://www.al.rn.leg.br/p/orientacao-juridica-preventiva"
+                                            class="to-many-menus">Orientação Jurídica</a>
+
+                                        <a href="https://www.al.rn.leg.br/p/qualidade-de-vida" class="to-many-menus">Qualidade de
+                                            Vida</a>
+                                    </div>
+                                                                    </div>
+                                                            </li>
+                                                                                    <li class="nav-item menu-dropdown ">
+                                                                <a class="nav-link first-menu "
+                                    id="comunicacao-tab" data-toggle="tab"
+                                    href="#comunicacao" role="tab"
+                                    aria-controls="comunicacao" aria-selected="true">Comunicação <i class="fa-solid fa-chevron-down dropdown-caret"
+                                        aria-hidden="true"></i></a>
+                                
+                                                                <div class="tab-pane fade" id="comunicacao" role="tabpanel"
+                                    aria-labelledby="comunicacao-tab">
+                                     
+                                    <div>
+                                        <a href="https://www.al.rn.leg.br/noticias" class="to-many-menus">Notícias</a>
+                                        <a href="https://www.al.rn.leg.br/albuns" class="to-many-menus">Álbum de fotos</a>
+                                        <a href="https://www.al.rn.leg.br/jornalistas" class="to-many-menus">Receba as Notícias</a>
+                                        <a href="https://www.al.rn.leg.br/radio" class="to-many-menus">Rádio Assembleia</a>
+                                        <a href="https://www.al.rn.leg.br/tvs" class="to-many-menus">TV Assembleia</a>
+                                        <a href="https://www.al.rn.leg.br/revistas" class="to-many-menus">Revista Assembleia</a>
+                                        <a href="https://www.al.rn.leg.br/p/cerimonial" class="to-many-menus">Cerimonial</a>
+                                        <a href="https://www.al.rn.leg.br/p/campanhas" class="to-many-menus">Campanhas</a>
+                                        <a href="https://www.al.rn.leg.br/publicacoes" class="to-many-menus">Publicações</a>
+                                        <a href="https://www.al.rn.leg.br/boletins" class="to-many-menus">Boletins</a>
+                                    </div>
+                                                                    </div>
+                                                            </li>
+                                                                                    <li class="nav-item menu-dropdown menu-dropdown-right">
+                                                                <a class="nav-link first-menu "
+                                    id="governanca-tab" data-toggle="tab"
+                                    href="#governanca" role="tab"
+                                    aria-controls="governanca" aria-selected="true">Governança <i class="fa-solid fa-chevron-down dropdown-caret"
+                                        aria-hidden="true"></i></a>
+                                
+                                                                <div class="tab-pane fade" id="governanca" role="tabpanel"
+                                    aria-labelledby="governanca-tab">
+                                     
+                                    <div>
+                                        <a href="https://www.al.rn.leg.br/governanca#planejamento" class="to-many-menus">Planejamento Estratégico</a>
+                                        <a href="https://www.al.rn.leg.br/sustentabilidade" class="to-many-menus">Sustentabilidade</a>
+                                        <a href="https://www.al.rn.leg.br/governanca#execucao" class="to-many-menus">Execução da Estratégia</a>
+                                        <a href="https://www.al.rn.leg.br/governanca#monitoramento" class="to-many-menus">Monitoramento e Avaliação</a>
+                                        <a href="https://www.al.rn.leg.br/governanca#cadeia" class="to-many-menus">Cadeia de Valor e Arquitetura de Processos</a>
+                                        <a href="https://www.al.rn.leg.br/governanca#gestao" class="to-many-menus">Gestão de Processos</a>
+                                        <a href="https://www.al.rn.leg.br/governanca#relatorio" class="to-many-menus">Relatório de Gestão</a>
+                                        <a href="https://www.al.rn.leg.br/governanca#gestaoRisco" class="to-many-menus">Gestão de Risco</a>
+                                        <a href="https://www.al.rn.leg.br/governanca#contato-planejamento" class="to-many-menus">Contato</a>
+                                    </div>
+                                                                    </div>
+                                                            </li>
+                                                                                    <li class="nav-item  ">
+                                                                <a class="nav-link first-menu "
+                                    href="https://www.al.rn.leg.br/fale-conosco">Contato</a>
+                                
+                                                            </li>
+                                                    </ul>
+                    </div>
+
+                </div>
+
+
+
+            </div> <!-- navbar-collapse.// -->
+        </nav>
+
+    </div>
+</div>
+
+<script>
+    $('.first-menu').on('mouseover', function(){
+   	$('.first-menu').removeClass('active');
+   	$(this).addClass('active')
+
+
+    $('.menu-principal .tab-pane').removeClass('active').removeClass('show');
+    var attr = $(this).attr("href");
+    if (attr && attr.indexOf('#') === 0) {
+        $(attr).addClass('active').addClass('show');
+    }
+});
+
+$('#myTab.menu-principal').on('mouseleave', function(){
+    $('.menu-principal .tab-pane').removeClass('active').removeClass('show');
+});
+</script>
+<!-- vlibras -->
+<div vw class="enabled" style="top: auto;
+    bottom: 20px;">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+<script async src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script defer>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>		<section class="section-search">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<form action="https://www.al.rn.leg.br/buscar" method="POST" class="form-search">
+	<input type="text" name="buscar" class="input-search white" placeholder="Buscar">
+	 
+		<button class="btn-search"><img src="https://www.al.rn.leg.br/images/min/icon-search.svg" alt=""></button>
+	</form>			</div>
+		</div>
+	</div>
+</section>			
+		
+
+
+
+<section class="transparencia">
+	<div class="col-12 my-4 my-md-5">
+		<h1 class="title-page mb-0">Transparência</h1>
+	</div>
+	<div class="my-4 my-md-5 py-3" style="background-color: #26408f;">
+	<div class="container">	
+	<div class="row">
+		<div class="col-md-4 my-2 my-md-0">
+			<a href="https://transparencialegislativa.al.rn.leg.br" target="_blank"><img class="img-fluid w-100" src="https://www.al.rn.leg.br/assets/images/legislativa.png" alt="Legistlativa"></a>
+		</div>
+		<div class="col-md-4 my-2 my-md-0">
+			<a href="https://transparencia.al.rn.leg.br/transparencia" target="_blank"><img class="img-fluid w-100" src="https://www.al.rn.leg.br/assets/images/legis3.png" alt="Administratia e financeira"></a>
+		</div>
+		<div class="col-md-4 my-2 my-md-0">
+			<a href="https://www.al.rn.leg.br/diariooficial" target="_blank"><img class="img-fluid w-100" src="https://www.al.rn.leg.br/assets/images/legis2.png" alt="Diário legislativo eletrônico"></a>
+		</div>	
+	</div>
+	</div>
+
+</div>
+</section>
+
+
+
+<div class="container">
+     <div class="row">
+        <div class="col-12">
+         <a href="https://forms.gle/152FZmdNv2mpWcm56" target="_blank"><img src="https://www.al.rn.leg.br/images/banner/2026/banner_dia-21.png" alt="" class="img-fluid d-none d-lg-block"></a>
+        </div>
+        <div class="col-12 mb-4">
+           <a href="https://forms.gle/152FZmdNv2mpWcm56" target="_blank"><img src="https://www.al.rn.leg.br/images/banner/2026/banner_dia-21.png" alt="" class="img-fluid d-lg-none"></a>
+        </div>
+    </div> 
+</div>
+
+
+<section class="section-news" id="noticias">
+	
+		<div class="container"><!--container-->
+		<div class="card-new card-new-main"><!--card new-->
+			<div class="row"><!--row-->
+				<div class="col-12 col-lg-7 no-padding-lg no-padding-right-lg"><!--col12 collg7-->
+					<div class="owl-carousel gallery-new-carousel" id="gallery-new-carousel">
+						<a href="https://www.al.rn.leg.br/noticia/33906/francisco-do-pt-destaca-pleitos-do-rn-para-emendas-de-bancada-do-orcamento-de-2027">
+															<div class="gallery-new" style="background-image: url('https://www.al.rn.leg.br/storage/noticias/2026/11/17/3jarsGdiGKrrt09aUvlL0ejbKvEBZ1FavwlPZ8M4.jpg');"></div>
+													</a>
+					</div>
+				</div><!--end col12 collg7-->
+				<div class="col-12 col-lg-5 no-padding-lg no-padding-left-lg"><!--col12 collg5-->
+					<div class="body-new">
+						<a href="https://www.al.rn.leg.br/noticia/33906/francisco-do-pt-destaca-pleitos-do-rn-para-emendas-de-bancada-do-orcamento-de-2027">
+							<span class="publish-new">17/11/2026</span>
+							<strong class="title-new new-destaque">Francisco do PT destaca pleitos do RN para emendas de bancada do Orçamento de 2027</strong>
+							
+						</a>
+						<!-- <div class="d-flex justify-content-start align-items-center">
+							<a href="https://www.al.rn.leg.br/noticia/33906" class="link-know-more"><i class="fa fa-plus-circle icon_plus" aria-hidden="true"></i> Saiba mais</a>
+						</div> -->
+					</div>
+				</div><!--end col12 collg5-->
+			</div><!--end row-->
+		</div><!--end card new-->
+	</div><!--end container-->
+	
+
+		
+	<div class="container no-padding-lg d-lg-none">
+		<div class="owl-carousel news-carousel d-lg-flex flew-wrap" id="news-carousel">
+												
+						<div class="card-new">
+							<a href="https://www.al.rn.leg.br/noticia/33905/deputados-estaduais-comentam-reuniao-com-bancada-federal-sobre-emendas">
+																	<div class="gallery-new" style="background-image: url('https://www.al.rn.leg.br/storage/noticias/2026/11/17/0r8IqOM6YlHSPHYBhwtt86toraOCAgZWZKsexBV0.jpg');"></div>
+															</a>
+							<div class="body-new">
+								<a href="https://www.al.rn.leg.br/noticia/33905/deputados-estaduais-comentam-reuniao-com-bancada-federal-sobre-emendas">
+									<p class="publish-new">17/11/2026</p>
+									<strong class="title-new titulo-noticia">Deputados estaduais comentam reunião com bancada federal sobre emendas</strong><br>
+								</a>
+								<!-- <div class="d-flex justify-content-end align-items-center">
+									<a href="https://www.al.rn.leg.br/noticia/33905" class="link-know-more"><i class="fa fa-plus-circle icon_plus" aria-hidden="true" style="color: #26408f;"></i> Saiba mais</a>
+								</div> -->
+							</div>
+						</div>
+				
+									
+						<div class="card-new">
+							<a href="https://www.al.rn.leg.br/noticia/33904/kleber-rodrigues-repudia-informacoes-falsas-e-recebe-solidariedade-dos-deputados-na-alrn">
+																	<div class="gallery-new" style="background-image: url('https://www.al.rn.leg.br/storage/noticias/2026/11/17/flHCFsc4jV2KKs4urJjQQRYsGurJBO7D51hxu2CT.jpg');"></div>
+															</a>
+							<div class="body-new">
+								<a href="https://www.al.rn.leg.br/noticia/33904/kleber-rodrigues-repudia-informacoes-falsas-e-recebe-solidariedade-dos-deputados-na-alrn">
+									<p class="publish-new">17/11/2026</p>
+									<strong class="title-new titulo-noticia">Kleber Rodrigues repudia informações falsas e recebe solidariedade dos deputados na ALRN</strong><br>
+								</a>
+								<!-- <div class="d-flex justify-content-end align-items-center">
+									<a href="https://www.al.rn.leg.br/noticia/33904" class="link-know-more"><i class="fa fa-plus-circle icon_plus" aria-hidden="true" style="color: #26408f;"></i> Saiba mais</a>
+								</div> -->
+							</div>
+						</div>
+				
+									
+						<div class="card-new">
+							<a href="https://www.al.rn.leg.br/noticia/33903/ccj-da-assembleia-aprova-projetos-de-valorizacao-cultural-e-religiosa-do-rn">
+																	<div class="gallery-new" style="background-image: url('https://www.al.rn.leg.br/storage/noticias/2026/11/17/oP6FgvVmd6XEWHpwpNFgLuqUx6im1wXYVT6I7XME.jpg');"></div>
+															</a>
+							<div class="body-new">
+								<a href="https://www.al.rn.leg.br/noticia/33903/ccj-da-assembleia-aprova-projetos-de-valorizacao-cultural-e-religiosa-do-rn">
+									<p class="publish-new">17/11/2026</p>
+									<strong class="title-new titulo-noticia">CCJ da Assembleia aprova projetos de valorização cultural e religiosa do RN</strong><br>
+								</a>
+								<!-- <div class="d-flex justify-content-end align-items-center">
+									<a href="https://www.al.rn.leg.br/noticia/33903" class="link-know-more"><i class="fa fa-plus-circle icon_plus" aria-hidden="true" style="color: #26408f;"></i> Saiba mais</a>
+								</div> -->
+							</div>
+						</div>
+				
+									
+						<div class="card-new">
+							<a href="https://www.al.rn.leg.br/noticia/33902/alrn-homenageia-profissionais-do-turismo-e-entrega-titulos">
+																	<div class="gallery-new" style="background-image: url('https://www.al.rn.leg.br/storage/noticias/2026/11/16/nIul1vHV2NPU4WuBJu6rF3zIp8BuIGRHING8TUlY.jpg');"></div>
+															</a>
+							<div class="body-new">
+								<a href="https://www.al.rn.leg.br/noticia/33902/alrn-homenageia-profissionais-do-turismo-e-entrega-titulos">
+									<p class="publish-new">16/11/2026</p>
+									<strong class="title-new titulo-noticia">ALRN homenageia profissionais do turismo e entrega títulos</strong><br>
+								</a>
+								<!-- <div class="d-flex justify-content-end align-items-center">
+									<a href="https://www.al.rn.leg.br/noticia/33902" class="link-know-more"><i class="fa fa-plus-circle icon_plus" aria-hidden="true" style="color: #26408f;"></i> Saiba mais</a>
+								</div> -->
+							</div>
+						</div>
+				
+									
+						<div class="card-new">
+							<a href="https://www.al.rn.leg.br/noticia/33900/assembleia-legislativa-destaca-potencialidades-do-rn-na-xxii-fenacam-em-natal">
+																	<div class="gallery-new" style="background-image: url('https://www.al.rn.leg.br/storage/noticias/2026/11/16/ermiyKioKCgRhDTFMbaoliI8Mz931yCuYAVBlKoo.png');"></div>
+															</a>
+							<div class="body-new">
+								<a href="https://www.al.rn.leg.br/noticia/33900/assembleia-legislativa-destaca-potencialidades-do-rn-na-xxii-fenacam-em-natal">
+									<p class="publish-new">16/11/2026</p>
+									<strong class="title-new titulo-noticia">ALRN destaca potencialidades do RN na XXII FENACAM em Natal</strong><br>
+								</a>
+								<!-- <div class="d-flex justify-content-end align-items-center">
+									<a href="https://www.al.rn.leg.br/noticia/33900" class="link-know-more"><i class="fa fa-plus-circle icon_plus" aria-hidden="true" style="color: #26408f;"></i> Saiba mais</a>
+								</div> -->
+							</div>
+						</div>
+				
+									
+						<div class="card-new">
+							<a href="https://www.al.rn.leg.br/noticia/33901/alrn-fortalece-compromisso-e-marca-presenca-no-sustentabilidade-em-acao">
+																	<div class="gallery-new" style="background-image: url('https://www.al.rn.leg.br/storage/noticias/2026/11/16/BGgJuEtzhv4nAjVDsUHwpGCWUjUQDuGPEN7gZ6CK.jpg');"></div>
+															</a>
+							<div class="body-new">
+								<a href="https://www.al.rn.leg.br/noticia/33901/alrn-fortalece-compromisso-e-marca-presenca-no-sustentabilidade-em-acao">
+									<p class="publish-new">16/11/2026</p>
+									<strong class="title-new titulo-noticia">ALRN fortalece compromisso e marca presença no ‘Sustentabilidade em Ação’</strong><br>
+								</a>
+								<!-- <div class="d-flex justify-content-end align-items-center">
+									<a href="https://www.al.rn.leg.br/noticia/33901" class="link-know-more"><i class="fa fa-plus-circle icon_plus" aria-hidden="true" style="color: #26408f;"></i> Saiba mais</a>
+								</div> -->
+							</div>
+						</div>
+				
+									</div>
+	</div>
+
+	
+	<div class="container d-none d-lg-block news_plus">
+		<div class="row">
+									
+				<div class="col-lg-4">
+					<div class="card-new">
+						<a href="https://www.al.rn.leg.br/noticia/33905/deputados-estaduais-comentam-reuniao-com-bancada-federal-sobre-emendas">
+															<div class="gallery-new" style="background-image: url('https://www.al.rn.leg.br/storage/noticias/2026/11/17/0r8IqOM6YlHSPHYBhwtt86toraOCAgZWZKsexBV0.jpg');"></div>
+													</a>
+						<div class="body-new">
+							<a href="https://www.al.rn.leg.br/noticia/33905/deputados-estaduais-comentam-reuniao-com-bancada-federal-sobre-emendas">
+								<p class="publish-new">17/11/2026</p>
+								<strong class="title-new titulo-noticia">Deputados estaduais comentam reunião com bancada federal sobre emendas</strong><br>
+							</a>
+							<!-- <div class="d-flex justify-content-end align-items-center">
+								<a href="https://www.al.rn.leg.br/noticia/33905" class="link-know-more"><i class="fa fa-plus-circle icon_plus" aria-hidden="true" style="color: #26408f;"></i> Saiba mais</a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			
+						
+				<div class="col-lg-4">
+					<div class="card-new">
+						<a href="https://www.al.rn.leg.br/noticia/33904/kleber-rodrigues-repudia-informacoes-falsas-e-recebe-solidariedade-dos-deputados-na-alrn">
+															<div class="gallery-new" style="background-image: url('https://www.al.rn.leg.br/storage/noticias/2026/11/17/flHCFsc4jV2KKs4urJjQQRYsGurJBO7D51hxu2CT.jpg');"></div>
+													</a>
+						<div class="body-new">
+							<a href="https://www.al.rn.leg.br/noticia/33904/kleber-rodrigues-repudia-informacoes-falsas-e-recebe-solidariedade-dos-deputados-na-alrn">
+								<p class="publish-new">17/11/2026</p>
+								<strong class="title-new titulo-noticia">Kleber Rodrigues repudia informações falsas e recebe solidariedade dos deputados na ALRN</strong><br>
+							</a>
+							<!-- <div class="d-flex justify-content-end align-items-center">
+								<a href="https://www.al.rn.leg.br/noticia/33904" class="link-know-more"><i class="fa fa-plus-circle icon_plus" aria-hidden="true" style="color: #26408f;"></i> Saiba mais</a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			
+						
+				<div class="col-lg-4">
+					<div class="card-new">
+						<a href="https://www.al.rn.leg.br/noticia/33903/ccj-da-assembleia-aprova-projetos-de-valorizacao-cultural-e-religiosa-do-rn">
+															<div class="gallery-new" style="background-image: url('https://www.al.rn.leg.br/storage/noticias/2026/11/17/oP6FgvVmd6XEWHpwpNFgLuqUx6im1wXYVT6I7XME.jpg');"></div>
+													</a>
+						<div class="body-new">
+							<a href="https://www.al.rn.leg.br/noticia/33903/ccj-da-assembleia-aprova-projetos-de-valorizacao-cultural-e-religiosa-do-rn">
+								<p class="publish-new">17/11/2026</p>
+								<strong class="title-new titulo-noticia">CCJ da Assembleia aprova projetos de valorização cultural e religiosa do RN</strong><br>
+							</a>
+							<!-- <div class="d-flex justify-content-end align-items-center">
+								<a href="https://www.al.rn.leg.br/noticia/33903" class="link-know-more"><i class="fa fa-plus-circle icon_plus" aria-hidden="true" style="color: #26408f;"></i> Saiba mais</a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			
+						
+				<div class="col-lg-4">
+					<div class="card-new">
+						<a href="https://www.al.rn.leg.br/noticia/33902/alrn-homenageia-profissionais-do-turismo-e-entrega-titulos">
+															<div class="gallery-new" style="background-image: url('https://www.al.rn.leg.br/storage/noticias/2026/11/16/nIul1vHV2NPU4WuBJu6rF3zIp8BuIGRHING8TUlY.jpg');"></div>
+													</a>
+						<div class="body-new">
+							<a href="https://www.al.rn.leg.br/noticia/33902/alrn-homenageia-profissionais-do-turismo-e-entrega-titulos">
+								<p class="publish-new">16/11/2026</p>
+								<strong class="title-new titulo-noticia">ALRN homenageia profissionais do turismo e entrega títulos</strong><br>
+							</a>
+							<!-- <div class="d-flex justify-content-end align-items-center">
+								<a href="https://www.al.rn.leg.br/noticia/33902" class="link-know-more"><i class="fa fa-plus-circle icon_plus" aria-hidden="true" style="color: #26408f;"></i> Saiba mais</a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			
+						
+				<div class="col-lg-4">
+					<div class="card-new">
+						<a href="https://www.al.rn.leg.br/noticia/33900/assembleia-legislativa-destaca-potencialidades-do-rn-na-xxii-fenacam-em-natal">
+															<div class="gallery-new" style="background-image: url('https://www.al.rn.leg.br/storage/noticias/2026/11/16/ermiyKioKCgRhDTFMbaoliI8Mz931yCuYAVBlKoo.png');"></div>
+													</a>
+						<div class="body-new">
+							<a href="https://www.al.rn.leg.br/noticia/33900/assembleia-legislativa-destaca-potencialidades-do-rn-na-xxii-fenacam-em-natal">
+								<p class="publish-new">16/11/2026</p>
+								<strong class="title-new titulo-noticia">ALRN destaca potencialidades do RN na XXII FENACAM em Natal</strong><br>
+							</a>
+							<!-- <div class="d-flex justify-content-end align-items-center">
+								<a href="https://www.al.rn.leg.br/noticia/33900" class="link-know-more"><i class="fa fa-plus-circle icon_plus" aria-hidden="true" style="color: #26408f;"></i> Saiba mais</a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			
+						
+				<div class="col-lg-4">
+					<div class="card-new">
+						<a href="https://www.al.rn.leg.br/noticia/33901/alrn-fortalece-compromisso-e-marca-presenca-no-sustentabilidade-em-acao">
+															<div class="gallery-new" style="background-image: url('https://www.al.rn.leg.br/storage/noticias/2026/11/16/BGgJuEtzhv4nAjVDsUHwpGCWUjUQDuGPEN7gZ6CK.jpg');"></div>
+													</a>
+						<div class="body-new">
+							<a href="https://www.al.rn.leg.br/noticia/33901/alrn-fortalece-compromisso-e-marca-presenca-no-sustentabilidade-em-acao">
+								<p class="publish-new">16/11/2026</p>
+								<strong class="title-new titulo-noticia">ALRN fortalece compromisso e marca presença no ‘Sustentabilidade em Ação’</strong><br>
+							</a>
+							<!-- <div class="d-flex justify-content-end align-items-center">
+								<a href="https://www.al.rn.leg.br/noticia/33901" class="link-know-more"><i class="fa fa-plus-circle icon_plus" aria-hidden="true" style="color: #26408f;"></i> Saiba mais</a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			
+								</div>
+	</div>
+	</section>
+
+
+
+
+	
+	<section class="section-live" id="manual">
+    <div class="container">
+    	<div class="row">
+            <div class="col-12">
+                <a href="https://www.al.rn.leg.br/legislacao/manual-processo-legislativo" class="d-none d-lg-block"><img src="https://www.al.rn.leg.br/images/banner/banner_manual_processo_legislativo.png" alt="" class="img-fluid"></a>
+
+               
+           	</div>
+
+            <div class="col-12">
+               
+
+                <a href="https://www.al.rn.leg.br/legislacao/manual-processo-legislativo" class="d-lg-none"><img src="https://www.al.rn.leg.br/images/banner/banner_manual_processo_legislativo_mobile.png" alt="" width="400" class="img-fluid"></a>
+            </div>
+           	
+    	</div>
+    </div>
+</section>
+
+
+  
+	
+
+
+<section class="section-last-new" id="ultimas-noticias">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="title-section blue">Outras Notícias</h1>
+			</div>
+		</div>
+		
+				<div class="owl-carousel d-lg-flex flex-wrap" id="last-new-carousel">
+							<div class="col-12 col-lg-3">
+					<div class="card-last-new">
+						<a href="https://www.al.rn.leg.br/noticia/33907/alrn-aprova-politica-industrial-do-rn-e-estabelece-diretrizes-para-o-setor" class="link-know-more"><small class="publish-last-new">17/11/2026</small><br></a>
+						<a href="https://www.al.rn.leg.br/noticia/33907/alrn-aprova-politica-industrial-do-rn-e-estabelece-diretrizes-para-o-setor" class="link-know-more"><strong class="title-last-new">ALRN aprova Política Industrial do RN e estabelece diretrizes para o setor</strong></a>
+
+						<div class="d-flex justify-content-start align-items-center">
+							<a href="https://www.al.rn.leg.br/noticia/33907/alrn-aprova-politica-industrial-do-rn-e-estabelece-diretrizes-para-o-setor" class="link-know-more"><i class="fa-solid fa-circle-plus ml-1" aria-hidden="true" style="color: #26408f;"></i>&nbsp;&nbsp;Saiba mais</a>
+						</div>
+					</div>
+				</div>
+							<div class="col-12 col-lg-3">
+					<div class="card-last-new">
+						<a href="https://www.al.rn.leg.br/noticia/33896/coronel-azevedo-comenta-falta-de-refeicoes-para-servidores-e-acompanhantes-no-walfredo" class="link-know-more"><small class="publish-last-new">12/11/2026</small><br></a>
+						<a href="https://www.al.rn.leg.br/noticia/33896/coronel-azevedo-comenta-falta-de-refeicoes-para-servidores-e-acompanhantes-no-walfredo" class="link-know-more"><strong class="title-last-new">Coronel Azevedo comenta falta de refeições para servidores e acompanhantes no Walfredo</strong></a>
+
+						<div class="d-flex justify-content-start align-items-center">
+							<a href="https://www.al.rn.leg.br/noticia/33896/coronel-azevedo-comenta-falta-de-refeicoes-para-servidores-e-acompanhantes-no-walfredo" class="link-know-more"><i class="fa-solid fa-circle-plus ml-1" aria-hidden="true" style="color: #26408f;"></i>&nbsp;&nbsp;Saiba mais</a>
+						</div>
+					</div>
+				</div>
+							<div class="col-12 col-lg-3">
+					<div class="card-last-new">
+						<a href="https://www.al.rn.leg.br/noticia/33886/eudiane-macedo-repudia-violencia-contra-mulheres-citando-caso-de-vereadora" class="link-know-more"><small class="publish-last-new">10/11/2026</small><br></a>
+						<a href="https://www.al.rn.leg.br/noticia/33886/eudiane-macedo-repudia-violencia-contra-mulheres-citando-caso-de-vereadora" class="link-know-more"><strong class="title-last-new">Eudiane Macedo repudia violência contra mulheres citando caso de vereadora</strong></a>
+
+						<div class="d-flex justify-content-start align-items-center">
+							<a href="https://www.al.rn.leg.br/noticia/33886/eudiane-macedo-repudia-violencia-contra-mulheres-citando-caso-de-vereadora" class="link-know-more"><i class="fa-solid fa-circle-plus ml-1" aria-hidden="true" style="color: #26408f;"></i>&nbsp;&nbsp;Saiba mais</a>
+						</div>
+					</div>
+				</div>
+							<div class="col-12 col-lg-3">
+					<div class="card-last-new">
+						<a href="https://www.al.rn.leg.br/noticia/33878/21-dias-de-ativismo-pelo-fim-da-violencia-contra-a-mulher-seminario-e-acoes" class="link-know-more"><small class="publish-last-new">05/11/2026</small><br></a>
+						<a href="https://www.al.rn.leg.br/noticia/33878/21-dias-de-ativismo-pelo-fim-da-violencia-contra-a-mulher-seminario-e-acoes" class="link-know-more"><strong class="title-last-new">21 Dias de Ativismo pelo Fim da Violência contra a Mulher: Seminário e Ações</strong></a>
+
+						<div class="d-flex justify-content-start align-items-center">
+							<a href="https://www.al.rn.leg.br/noticia/33878/21-dias-de-ativismo-pelo-fim-da-violencia-contra-a-mulher-seminario-e-acoes" class="link-know-more"><i class="fa-solid fa-circle-plus ml-1" aria-hidden="true" style="color: #26408f;"></i>&nbsp;&nbsp;Saiba mais</a>
+						</div>
+					</div>
+				</div>
+					</div>
+				<div class="row d-flex justify-content-center mt-5">
+			<a href="https://www.al.rn.leg.br/noticias" class="btn btn-noticias btn-md active" role="button" aria-pressed="true" >Ver todas as notícias</a>
+		</div>
+	</div>
+</section>
+<section class="section-live" id="ao-vivo">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<a href="https://legisvideos.al.rn.leg.br" target="_blank" class="d-none d-lg-block"><img src="https://www.al.rn.leg.br/images/banner legis-videos-nov2023.png" alt="" class="img-fluid"></a>
+			
+				<a href="https://legisvideos.al.rn.leg.br" target="_blank" class="d-lg-none"><img src="https://www.al.rn.leg.br/images/banner legis-videos-nov2023.png" alt="" class="img-fluid"></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-video" id="video">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="title-section blue">TV Assembleia RN</h1>
+			</div>
+			<div class="col-12 col-lg-7">
+				<!--<iframe src="https://www.logicahost.com.br/fundacao/tv.html" width="100%" height="350px" style="border:none;" allowfullscreen=""></iframe>-->
+				<iframe src="https://saopaulo01.com.br/fundacao/assembleiarn.html" width="100%" height="350px" style="border:none;" allowfullscreen=""></iframe>
+			</div>
+			<div class="col-12 col-lg-5">
+				<a href="https://www.al.rn.leg.br/tvs" class="box-tv mb30" style="background-image: url('https://www.al.rn.leg.br/images/min/bg-tv-assembleia.jpg');">
+					<img src="https://www.al.rn.leg.br/images/min/icon-tv.svg" alt="" class="icon-box-tv">
+					<div>
+						<h3 class="title-box-tv">Acesse a página da</h3> 
+						<h2 class="subtitle-box-tv">Tv Assembleia RN</h2>
+					</div>
+				</a>
+				<a href="https://www.al.rn.leg.br/radio" class="box-tv" style="background-image: url('https://www.al.rn.leg.br/images/min/bg-assembleia-ao-vivo.jpg');">
+					<img src="https://www.al.rn.leg.br/images/min/icon-microfone.svg" alt="" class="icon-box-tv">
+					<div>
+						<h3 class="title-box-tv">Acesse a página da </h3>
+						<h2 class="subtitle-box-tv">Rádio Assembleia RN</h2>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="section-live" id="revista">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-12">
+                    <a href="https://www.al.rn.leg.br/storage/revistas/2025/LGUAw8OBJxNEJiFgbTLJtkbLR41rMli8EAnhzIFq.pdf" target="_blank" class="d-none d-lg-block"><img src="https://www.al.rn.leg.br/images/banner/banner-revista-ALRN-2025.png" alt="" class="img-fluid"></a>
+                </div>
+
+                <div class="col-12 mb-4">
+                    <a href="https://www.al.rn.leg.br/storage/revistas/2025/LGUAw8OBJxNEJiFgbTLJtkbLR41rMli8EAnhzIFq.pdf" target="_blank" class="d-lg-none"><img src="https://www.al.rn.leg.br/images/banner/banner-revista-ALRN-2025.png" alt="" class="img-fluid"></a>
+                </div>
+
+            </div>
+        </div>
+
+
+    
+
+
+   
+    
+     
+    
+    
+
+
+</section>
+<section class="section-gallery" id="galeria">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="title-section blue">Galeria de Fotos</h1>
+			</div>
+			<div class="owl-carousel" id="gallery-carousel">
+								<div class="p-3">
+					
+
+					<small>
+						17/11/2026
+					</small>
+					<a href="https://www.al.rn.leg.br/album/8701/al-sessao-ordinaria-17112026-ft-joao-gilberto">
+						<h5 class="titulo-noticia">
+							AL - Sessão Ordinária. 17.11.2026 Ft. João Gilberto
+						</h5>
+					</a>
+				</div>
+								<div class="p-3">
+					
+
+					<small>
+						17/11/2026
+					</small>
+					<a href="https://www.al.rn.leg.br/album/8700/al-reuniao-da-alrn-e-governo-fazem-analise-tecnica-de-ploa-2027-17112026-ft-eduardo-maia">
+						<h5 class="titulo-noticia">
+							AL - Reunião da ALRN e Governo fazem análise técnica de PLOA 2027. 17.11.2026 Ft. Eduardo Maia
+						</h5>
+					</a>
+				</div>
+								<div class="p-3">
+					
+
+					<small>
+						17/11/2026
+					</small>
+					<a href="https://www.al.rn.leg.br/album/8699/al-reuniao-da-comissao-de-constituicao-justica-e-redacao-17112026-ft-eduardo-maia">
+						<h5 class="titulo-noticia">
+							AL - Reunião da Comissão de Constituição Justiça e Redação. 17.11.2026 Ft. Eduardo Maia
+						</h5>
+					</a>
+				</div>
+								<div class="p-3">
+					
+
+					<small>
+						16/11/2026
+					</small>
+					<a href="https://www.al.rn.leg.br/album/8698/al-sustentabilidade-em-acao-16112026-ft-joao-gilberto">
+						<h5 class="titulo-noticia">
+							AL - Sustentabilidade em Ação. 16.11.2026 Ft. João Gilberto
+						</h5>
+					</a>
+				</div>
+								<div class="p-3">
+					
+
+					<small>
+						16/11/2026
+					</small>
+					<a href="https://www.al.rn.leg.br/album/8697/al-sessao-solene-em-homenagem-ao-dia-internacional-do-turismo-e-entrega-de-titulos-de-cidadao-norte-rio-grandense-16112026-ft-joao-gilberto">
+						<h5 class="titulo-noticia">
+							AL - Sessão Solene em Homenagem ao Dia Internacional do Turismo e Entrega de Títulos de Cidadão Norte-Rio-Grandense. 16.11.2026 Ft. João Gilberto
+						</h5>
+					</a>
+				</div>
+								<div class="p-3">
+					
+
+					<small>
+						16/11/2026
+					</small>
+					<a href="https://www.al.rn.leg.br/album/8695/al-encerramento-do-projeto-integra-enem-2026-na-escola-da-assembleia-legislativa-do-rn-14112026-ft-joao-gilberto">
+						<h5 class="titulo-noticia">
+							AL - Encerramento do Projeto Integra ENEM 2026, na Escola da Assembleia Legislativa do RN. 14.11.2026 Ft. João Gilberto
+						</h5>
+					</a>
+				</div>
+								<div class="p-3">
+					
+
+					<small>
+						13/11/2026
+					</small>
+					<a href="https://www.al.rn.leg.br/album/8694/al-mesa-redonda-com-os-candidatos-a-comissao-da-previdencia-complementar-da-alrn-13112026-ft-eduardo-maia">
+						<h5 class="titulo-noticia">
+							AL - Mesa redonda com os candidatos à comissão da previdência complementar da ALRN. 13.11.2026 Ft. Eduardo Maia
+						</h5>
+					</a>
+				</div>
+								<div class="p-3">
+					
+
+					<small>
+						12/11/2026
+					</small>
+					<a href="https://www.al.rn.leg.br/album/8693/al-sessao-solene-pelo-dia-estadual-da-literatura-potiguar-12112026-ft-eduardo-maia">
+						<h5 class="titulo-noticia">
+							AL - Sessão Solene pelo dia Estadual da Literatura Potiguar. 12.11.2026 Ft. Eduardo Maia
+						</h5>
+					</a>
+				</div>
+								<div class="p-3">
+					
+
+					<small>
+						12/11/2026
+					</small>
+					<a href="https://www.al.rn.leg.br/album/8692/al-sessao-ordinaria-12112026-ft-joao-gilberto">
+						<h5 class="titulo-noticia">
+							AL - Sessão Ordinária. 12.11.2026 Ft. João Gilberto
+						</h5>
+					</a>
+				</div>
+							</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-deputies" id="deputados">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="title-section white">Deputados</h1>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<div class="row d-flex justify-content-center align-items-center">
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/137/adjuto-dias" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/vTxKM0fjNPkTHMTRdlvsdwe2qUqRP4BMt6n2ayXm.png')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Adjuto Dias</strong>
+											<p class="party-deputies">Partido Liberal</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/126/coronel-azevedo" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/w2GYvQqnmJlyz1CjkHhhxTwpQMXgBV5mrDQBnJQJ.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Coronel Azevedo</strong>
+											<p class="party-deputies">Partido Liberal</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/114/cristiane-dantas" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/5w0TsWrC23UeEb7HyjRSkEKu6MayxYl3FBgJMpti.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Cristiane Dantas</strong>
+											<p class="party-deputies">Partido da Social Democracia Brasileira</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/138/divaneide-basilio" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/h5zMRSVE68IzGCO9Z2xLeYWAVSXDAfx2D5pF5tWS.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Divaneide Basílio</strong>
+											<p class="party-deputies">Partido dos Trabalhadores</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/124/dr-bernardo" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/C89ttGU8fmwxLRaaUvyL5OU5VJchH8oHDiDwkiqG.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Dr. Bernardo</strong>
+											<p class="party-deputies">Partido Verde</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/132/dr-kerginaldo" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2025/f3CyxRwLeYpd1Cph4SnrVe25GCr7fiANjxODFYE7.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Dr. Kerginaldo</strong>
+											<p class="party-deputies">Partido Liberal</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/119/eudiane-macedo" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/NvfEhvmt6DDg2j9UINDU1TfvUHvzz35WbF219hMm.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Eudiane Macedo</strong>
+											<p class="party-deputies">Partido Verde</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/72/ezequiel-ferreira" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/zhk7GNtanpuvJ7Kb2dFPpuVh5KCRfQzxoswcc1j2.png')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Ezequiel Ferreira</strong>
+											<p class="party-deputies">Partido da Social Democracia Brasileira</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/122/francisco-do-pt" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/flm554yo2Z6blr3ipwnCtgT54wYjEAjcl0ibQR3B.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Francisco do PT</strong>
+											<p class="party-deputies">Partido dos Trabalhadores</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/110/galeno-torquato" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/6mRdjxYT4aRRfMC8jiYv0FQYW0dZm8Zo1NLKSiLO.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Galeno Torquato</strong>
+											<p class="party-deputies">União Brasil</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/77/gustavo-carvalho" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/RMfAHCegtgJ05zHKp5KkqmPqmbiSEIIpWc9GS6R3.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Gustavo Carvalho</strong>
+											<p class="party-deputies">Partido Liberal</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/100/hermano-morais" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/j1Hq6guRZc9Nu1QOtxMa2YBJCurZJixkqnlcQaeW.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Hermano Morais</strong>
+											<p class="party-deputies">Movimento Democrático Brasileiro</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/120/isolda-dantas" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/BA42v1lumieVQoLT1rp3ctnuHtEwFiI8tpztJudQ.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Isolda Dantas</strong>
+											<p class="party-deputies">Partido dos Trabalhadores</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/133/ivanilson-oliveira" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/ECDJHTp0Esbc2fK5VnAT8GZvEkRWqXlNc8N2S9Fa.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Ivanilson Oliveira</strong>
+											<p class="party-deputies">Partido Verde</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/79/jose-dias" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/P64JTe4GPXslJO8rbjzwSysZzuAJzbPIoDHHmFVJ.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">José Dias</strong>
+											<p class="party-deputies">Partido Liberal</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/123/kleber-rodrigues" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/PFjlO8soECF3R0KGdKnYorQyhQr9H4fMJu7Y0Pi2.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Kleber Rodrigues</strong>
+											<p class="party-deputies">Partido Progressista</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/136/luiz-eduardo" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/bYwhGf8ZSQCwQuCalgug6GWm2KBC3QgBat8WikKP.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Luiz Eduardo</strong>
+											<p class="party-deputies">Partido Liberal</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/134/neilton-diogenes" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2024/06RdpGkhsHbdNhL2ZQq9EzpM2M150Jfn8xEbDeHP.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Neilton Diógenes</strong>
+											<p class="party-deputies">Partido Progressista</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/85/nelter-queiroz" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/w8YTkqoTu1py7ga2UITwHLuD2wK9KuzYkgZgYx64.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Nelter Queiroz</strong>
+											<p class="party-deputies">Partido Progressista</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/135/taveira-junior" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/cppb73aFa1HLlhCrP9wWsB1GRQKljAX9Ivg8v5et.png')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Taveira Júnior</strong>
+											<p class="party-deputies">Partido da Social Democracia Brasileira</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/131/terezinha-maia" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/FH1s3WqiQM6tGRxA29z2QE0lQQcLLTmcadtDUCIq.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Terezinha Maia</strong>
+											<p class="party-deputies">Partido Liberal</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/99/tomba-farias" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2023/kwOqpXWmB9gjJtc28bGnL7ZyXW5EJUCIxGTA4lDZ.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Tomba Farias</strong>
+											<p class="party-deputies">Partido Liberal</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/125/ubaldo-fernandes" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2025/aIdRZ4LNpr7mvzjnTkqoFlN6hLHs3kLBD9xLK7cJ.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Ubaldo Fernandes</strong>
+											<p class="party-deputies">Partido Verde</p>
+										</div>
+									</div>
+								</a>
+						</div>
+											<div class="col-6 col-md-2">
+
+								<a href="https://www.al.rn.leg.br/deputado/92/vivaldo-costa" class="card-deputies ">
+																			<div class="image-deputies" style="background-size: contain; background-image: url('https://www.al.rn.leg.br/storage/deputados/2024/NEKs2BxJ2GxT3ftBpRXdzE6wq73MgPaX0uhBq8Km.jpg')">
+									
+									</div>
+									<div class="div-body">
+										<div class="text-deputies">
+											<strong class="name-deputies">Vivaldo Costa</strong>
+											<p class="party-deputies">Partido Verde</p>
+										</div>
+									</div>
+								</a>
+						</div>
+									</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+ <section class="section-live" id="livro">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a href="https://www.al.rn.leg.br/documentos/ALRN_Livro_Historia_Municipios_do_RN.pdf" target="_blank" class="d-none d-lg-block"><img src="https://www.al.rn.leg.br/images/banner/banner-historia-ALRN.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="col-12">
+                <a href="https://www.al.rn.leg.br/documentos/ALRN_Livro_Historia_Municipios_do_RN.pdf" target="_blank" class="d-lg-none"><img src="https://www.al.rn.leg.br/images/banner/banner-historia-ALRN-mobile.png" alt="" width="400" class="img-fluid"></a>
+             </div>
+        </div>
+    </div>
+</section>
+
+
+  	
+
+		<section class="section-quick-access" id="acesso-rapido">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="title-section blue">Acesso Rápido</h1>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container d-none d-lg-block">
+		<div class="row">
+			<div class="col-12 col-lg-3">
+	<a href="https://portalservidor.al.rn.leg.br/" class="card-quick-access">
+		<span class="icon-quick-access agenda"></span>
+		<strong class="title-quick-access">Portal do Servidor</strong>
+	</a>
+</div>
+
+<div class="col-12 col-lg-3">
+	<a href="https://www.al.rn.leg.br/empresa/licitacoes" class="card-quick-access">
+		<span class="icon-quick-access licitacao"></span>
+		<strong class="title-quick-access">Licitação</strong>
+	</a>
+</div>
+<div class="col-12 col-lg-3">
+	<a href="https://www.al.rn.leg.br/escola_da_assembleia" class="card-quick-access">
+		<span class="icon-quick-access escola-da-assembleia"></span>
+		<strong class="title-quick-access">Escola da Assembleia</strong>
+	</a>
+</div>
+<div class="col-12 col-lg-3">
+	<a href="https://legispad.al.rn.leg.br/autenticacao/login" class="card-quick-access" target="_blank">
+		<span class="icon-quick-access legislacao"></span>
+		<strong class="title-quick-access">LEGIS-PAD</strong>
+	</a>
+</div>
+
+		</div>
+	</div>
+	
+	<div class="container-fluid d-lg-none">
+		<div class="row">
+			<div class="owl-carousel" id="quick-access-carousel">
+				<div class="col-12 col-lg-3">
+	<a href="https://portalservidor.al.rn.leg.br/" class="card-quick-access">
+		<span class="icon-quick-access agenda"></span>
+		<strong class="title-quick-access">Portal do Servidor</strong>
+	</a>
+</div>
+
+<div class="col-12 col-lg-3">
+	<a href="https://www.al.rn.leg.br/empresa/licitacoes" class="card-quick-access">
+		<span class="icon-quick-access licitacao"></span>
+		<strong class="title-quick-access">Licitação</strong>
+	</a>
+</div>
+<div class="col-12 col-lg-3">
+	<a href="https://www.al.rn.leg.br/escola_da_assembleia" class="card-quick-access">
+		<span class="icon-quick-access escola-da-assembleia"></span>
+		<strong class="title-quick-access">Escola da Assembleia</strong>
+	</a>
+</div>
+<div class="col-12 col-lg-3">
+	<a href="https://legispad.al.rn.leg.br/autenticacao/login" class="card-quick-access" target="_blank">
+		<span class="icon-quick-access legislacao"></span>
+		<strong class="title-quick-access">LEGIS-PAD</strong>
+	</a>
+</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="section-networks" id="redes-sociais">
+	<div class="container bg-networks d-flex justify-content-center">
+		<div class="title-network social-unified">
+			<span class="social-icon-circle" title="Redes Sociais">
+				<i class="fa-solid fa-users" aria-hidden="true"></i>
+			</span>
+			<h3>@AssembleiaRN</h3>
+		</div>
+	</div>
+</section>
+
+
+<footer class="footer-site">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-4">
+				<a href="https://www.al.rn.leg.br" class="logo" title="Assembleia Legislativa">
+					<img src="https://www.al.rn.leg.br/images/Assembleia-logo-negativo.png" alt="Assembleia Legislativa"
+						class="img-fluid">
+				</a>
+				<ul class="list-info">
+					<li><img src="https://www.al.rn.leg.br/images/min/icon-pin.svg" alt=""><a
+							href="https://www.google.com/maps/place/Pra%C3%A7a+Sete+de+Setembro+-+Cidade+Alta,+Natal+-+RN,+59025-275/@-5.7846304,-35.2106885,17z/data=!3m1!4b1!4m5!3m4!1s0x7b3007399e6f1f7:0xcc2f1f8432ff9774!8m2!3d-5.7846304!4d-35.2084998"
+							target="_blank">Praça Sete de Setembro, 120 <br><br>Cidade Alta Natal/RN - CEP 59025-300</a>
+					</li>
+					<li><img src="https://www.al.rn.leg.br/images/min/icon-phone.svg" alt=""><a href="tel:+558431320180"
+							target="_blank"> (84) 3132.0180</a></li>
+					<li><img src="https://www.al.rn.leg.br/images/min/icon-mail.svg" alt=""><a
+							href="mailto:protocolo@al.rn.leg.br" target="_blank">protocolo@al.rn.leg.br</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-12 col-lg-2 no-padding-lg border-footer">
+				<ul class="list-menu">
+					<li class="first-menu"><a href="javascript:;" title="ASSEMBLEIA">ASSEMBLEIA</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/institucional"
+							title="Institucional">Institucional</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/historia" title="História">História</a>
+					</li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/estrutura-organizacional"
+							title="Estrutura">Estrutura</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/carta-de-servicos"
+							title="Carta de Serviços">Carta de Serviços</a></li>
+					
+					
+
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/escola_da_assembleia" target="_blank">Escola da
+							Assembleia</a></li>
+					<li class="too-many-menus"><a href="https://memorial.al.rn.leg.br/" target="_blank">Memorial
+							Legislativo</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/procon-legislativo">Procon Legislativo</a>
+					</li>
+					
+					<li class="too-many-menus"><a href="https://promulher.al.rn.leg.br/" target="_blank">Promulher</a>
+					</li>
+					
+					<li class="too-many-menus"><a href="https://transparencia.al.rn.leg.br/ouvidoria"
+							target="_blank">Ouvidoria</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/fundacao-djalma-marinho">Fundação Djalma
+							Marinho</a></li>
+
+				</ul>
+
+				<ul class="list-menu">
+					<li class="first-menu"><a href="javascript:;" title="ATIVIDADES">ATIVIDADES</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/audiencia-publica"
+							title="Audiência Pública">Audiência Pública</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/blocos-parlamentares"
+							title="Blocos Parlamentares">Blocos Parlamentares</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/comissoes" title="Comissões">Comissões</a>
+					</li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/frentes-parlamentares"
+							title="Frentes Parlamentares">Frentes Parlamentares</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/plenario" title="Plenário">Plenário</a>
+					</li>
+				</ul>
+
+			</div>
+			<div class="col-12 col-lg-2 no-padding-lg border-footer">
+				<ul class="list-menu">
+					<li class="first-menu"><a href="javascript:;" title="DEPUTADOS">DEPUTADOS</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/deputados/mesadiretora" title="Mesa Diretora">Mesa
+							Diretora</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/deputados" title="Atual legislatura">Atual
+							legislatura</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/deputados/expresidentes"
+							title="Ex-presidentes">Ex-presidentes</a>
+					</li>
+					<li class="too-many-menus"><a
+							href="https://www.al.rn.leg.br/documentos/LISTA_DE_CONTATOS_DEPUTADOS_2025nn.pdf"
+							target="_blank">Contatos</a></li>
+				</ul>
+
+				<ul class="list-menu">
+					<li class="first-menu"><a href="javascript:;" title="LEGISLAÇÃO">LEGISLAÇÃO</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/legislacao/pesquisa"
+							title="Pesquisa">Pesquisa</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/leisestaduais"
+							title="Legislação Estadual">Legislação Estadual</a></li>
+					
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/adins" title="Adins">Adins</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/legislacao/decretos-legislativos">Decretos Legislativos</a>
+					</li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/legislacao/leis-ordinarias" title="Leis Ordinárias">Leis
+							Ordinárias</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/legislacao/leis-complementares"
+							title="Leis Complementares">Leis Complementares</a></li>
+
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/legislacao/resolucoes">Resoluções</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/regimento" title="Regimento">Regimento</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/diariooficial" title="Diário oficial">Diário
+							oficial</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/legislacao/manual-processo-legislativo">Manual do Processo
+							Legislativo</a></li>
+
+				</ul>
+			</div>
+			<div class="col-12 col-lg-2 no-padding-lg border-footer">
+
+				<ul class="list-menu">
+					<li class="first-menu"><a href="javascript:;" title="PROJETOS">PROJETOS</a></li>
+					
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/assembleia-e-voce"
+							title="Assembleia e Você">Assembleia e Você</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/biblioteca-e-repositorio">Biblioteca e
+							Repositório</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/coral" title="Coral da Assembleia">Coral da
+							Assembleia</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/coleta-seletiva-solidaria"
+							title="Coleta Solidária">Coleta Solidária</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/conexao-cidada"
+							title="Conexão Cidadã">Conexão Cidadã</a></li>
+					
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/conexao-enem" title="Conexão Enem">Conexão
+							Enem</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/conexao-parlamento"
+							title="Conexão Parlamento">Conexão Parlamento</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/movimente-se"
+							title="Movimente-se">Movimente-se</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/orientacao-juridica-preventiva"
+							title="Orientação Jurídica">Orientação Jurídica</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/qualidade-de-vida"
+							title="Qualidade de Vida">Qualidade de Vida</a></li>
+				</ul>
+			</div>
+			<div class="col-12 col-lg-2 no-padding-lg border-footer">
+				<ul class="list-menu">
+					<li class="first-menu"><a href="javascript:;" title="COMUNICAÇÃO">COMUNICAÇÃO</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/noticias" title="Notícias">Notícias</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/albuns" title="Álbum de fotos">Álbum de
+							fotos</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/jornalistas" title="Receba as Notícias">Receba
+							as Notícias</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/radio" title="Rádio Assembleia">Rádio
+							Assembleia</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/tvs" title="TV Assembleia">TV Assembleia</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/revistas" title="Revista Assembleia">Revista
+							Assembleia</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/cerimonial"
+							title="Cerimonial">Cerimonial</a></li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/p/campanhas" title="Campanhas">Campanhas</a>
+					</li>
+					<li class="too-many-menus"><a href="https://www.al.rn.leg.br/publicacoes" title="Publicações">Publicações</a>
+					</li>
+				</ul>
+				<ul class="list-menu">
+					<li class="first-menu"><a href="https://www.al.rn.leg.br/empresa/licitacoes" title="LICITAÇÃO">LICITAÇÃO</a></li>
+				</ul>
+				<ul class="list-menu">
+					<li class="first-menu"><a href="https://www.al.rn.leg.br/fale-conosco" title="FALE CONOSCO">FALE CONOSCO</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>		<script type="text/javascript" src="https://www.al.rn.leg.br/js/jquery-3.5.1.min.js"></script>
+
+
+<script src="https://www.al.rn.leg.br/js/dist/app.js"></script>
+
+
+<!-- input mask -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+<script src="https://www.al.rn.leg.br/assets/lightbox2/lightbox.js"></script>
+<script src="https://www.al.rn.leg.br/js/script.js?v=2.2.2.2"></script>
+
+
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script async defer>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+
+
+
+
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js'></script>
+
+
+
+		<div id="reading-guide"></div>
+	</body>
+</html>
