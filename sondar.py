@@ -35,7 +35,10 @@ def main():
     # com endereços pedidos, consulta só eles e guarda o conteúdo inteiro (até 2 MB) para estudo
     for u in (extras or PAGINAS):
         try:
-            r = http.get(u, timeout=25)
+            # cabeçalhos extras (opcional, JSON na variável CABECALHOS), como um navegador que vem da página do órgão
+            import os
+            cab = json.loads(os.environ.get("CABECALHOS") or "{}")
+            r = http.get(u, timeout=25, headers=cab) if cab else http.get(u, timeout=25)
             txt = r.text
             if r.content[:4] == b"%PDF":
                 # PDF: extrai o texto das páginas (para estudo)

@@ -7,6 +7,10 @@ on:
         description: "Endereços extras, separados por espaço (opcional)"
         required: false
         default: ""
+      cabecalhos:
+        description: "Cabeçalhos extras em JSON (opcional)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -30,6 +34,7 @@ jobs:
         timeout-minutes: 35
         env:
           URLS: ${{ github.event.inputs.urls }}
+          CABECALHOS: ${{ github.event.inputs.cabecalhos }}
         run: python sondar.py $URLS
       - name: Publicar
         if: always()
