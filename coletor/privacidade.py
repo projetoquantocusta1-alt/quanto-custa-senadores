@@ -11,7 +11,13 @@ import re
 CPF_NO_TEXTO = re.compile(r"(?<!\d)(?<!\d[./-])(\d{3})\.?(\d{3})\.?(\d{3})-?(\d{2})(?![\d./-]*\d)")
 _LETRA = re.compile(r"[A-Za-zÀ-ÿ]")
 _CPF_MASCARA_CNPJ = re.compile(r"^(\d{3})\.(\d{3})\.(\d{3})/(\d{2})\s*-?\s*$")
-_CPF_FORMATADO = re.compile(r"^\d{3}\.\d{3}\.\d{3}-\d{2}$")
+# CPF com a pontuação completa (123.456.789-01) no meio de qualquer texto, mesmo com algo colado depois
+# ("CPF: 123.456.789-01-2", "123.456.789-01.366"). Só não conta quando é a continuação de um número maior
+# (ex.: nº de processo "300.156.088.202.123.456-29").
+_CPF_PONTUADO = re.compile(r"(?<!\d)(?<!\d[./-])(\d{3})\.(\d{3})\.(\d{3})-(\d{2})(?!\d)")
+# "CPF" escrito antes do número: mascara em qualquer formato ("CPF 12345678901-2", "CPF: 123.456.789-01.366")
+# (o que vier grudado depois, como ".366.843-88", também some: pode ser o resto de outro número da pessoa)
+_CPF_ROTULADO = re.compile(r"(CPF\W{0,4})(\d{3})\.?(\d{3})\.?(\d{3})-?(\d{2})(?!\d)(?:[./-]\d+)*", re.I)
 
 
 def mascarar_cpf_no_texto(s):
@@ -21,8 +27,8 @@ def mascarar_cpf_no_texto(s):
     m = _CPF_MASCARA_CNPJ.match(s.strip())      # CPF no formato de CNPJ da Câmara: "123.456.789/01  -"
     if m:
         return f"***.{m.group(2)}.{m.group(3)}-**"
-    if _CPF_FORMATADO.match(s.strip()):          # campo que é só um CPF com pontuação (ex.: digitado como nº do documento)
-        return CPF_NO_TEXTO.sub(lambda m: f"***.{m.group(2)}.{m.group(3)}-**", s)
+    s = _CPF_ROTULADO.sub(lambda m: f"{m.group(1)}***.{m.group(3)}.{m.group(4)}-**", s)
+    s = _CPF_PONTUADO.sub(lambda m: f"***.{m.group(2)}.{m.group(3)}-**", s)   # inclui o campo que é só um CPF
     if not _LETRA.search(s):                     # número puro sem pontuação: nº de documento, não mexe
         return s
     return CPF_NO_TEXTO.sub(_trocar, s)
@@ -70,7 +76,7 @@ def limpar_pastas(*pastas) -> int:
     for pasta in pastas:
         for p in Path(pasta).rglob("*.json"):
             txt = p.read_text("utf-8")
-            if not (CPF_NO_TEXTO.search(txt) or re.search(r'\d{3}\.\d{3}\.\d{3}/\d{2}\s*-?\s*"', txt)):
+            if not (CPF_NO_TEXTO.search(txt) or _CPF_PONTUADO.search(txt) or _CPF_ROTULADO.search(txt) or re.search(r'\d{3}\.\d{3}\.\d{3}/\d{2}\s*-?\s*"', txt)):
                 continue
             novo = json.dumps(limpar_json(json.loads(txt)), ensure_ascii=False, separators=(",", ":"))
             if novo != txt:
