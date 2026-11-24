@@ -7,11 +7,11 @@
   const B = {
     ativo: true,
     versao: 2,
-    titulo: "Bem-vindo ao Projeto Quanto Custa",
+    titulo: "Bem-vindo ao Quanto Custa",
     texto: [
       "Este projeto nasceu para acompanhar os gastos públicos e mostrar a cada brasileiro o que está sendo feito com o nosso dinheiro.",
       "Os dados são oficiais, abertos e atualizados todos os dias. Use-os para acompanhar quem você elegeu, comparar, perguntar e cobrar. Fiscalizar é um direito e também um dever de todo cidadão.",
-      "Pesquisadores, estudantes e jornalistas: os dados são livres para uso. Pedimos apenas que citem o Projeto Quanto Custa como fonte.",
+      "Pesquisadores, estudantes e jornalistas: os dados são livres para uso. Pedimos apenas que citem o Quanto Custa como fonte.",
       "Este trabalho é independente e feito com muita dedicação, para que a informação pública seja, de fato, pública.",
       "<b>Por um Brasil mais forte e mais justo.</b>",
       "<i>— Sociedade do Progresso</i>",
@@ -28,7 +28,7 @@
       el.className = "bv-fundo"; el.id = "bv";
       el.setAttribute("role", "dialog"); el.setAttribute("aria-modal", "true"); el.setAttribute("aria-labelledby", "bv-tit");
       el.innerHTML = `<div class="bv-caixa"><button class="fechar" id="bv-fechar" type="button" aria-label="Fechar">×</button>
-        <p class="selo">Projeto Quanto Custa</p><h2 id="bv-tit"></h2><div id="bv-texto"></div>
+        <p class="selo">Quanto Custa</p><h2 id="bv-tit"></h2><div id="bv-texto"></div>
         <p><button class="btn" id="bv-ok" type="button">Começar</button></p></div>`;
       document.body.appendChild(el);
     }

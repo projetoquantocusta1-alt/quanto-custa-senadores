@@ -1,4 +1,4 @@
-/* Projeto Quanto Custa — Senadores */
+/* Quanto Custa — Senadores */
 (() => {
 "use strict";
 const $ = (s, el = document) => el.querySelector(s);

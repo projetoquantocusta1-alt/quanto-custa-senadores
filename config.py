@@ -1,4 +1,4 @@
-"""Projeto Quanto Custa — Senadores (configuração)."""
+"""Quanto Custa — Senadores (configuração)."""
 from datetime import date
 
 ANO_INICIAL = 2009

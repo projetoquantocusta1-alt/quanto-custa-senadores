@@ -149,7 +149,7 @@
   async function compartilhar() {
     const b = await blob(), arq = new File([b], (C.dados.arquivo || "quanto-custa") + ".png", { type: "image/png" });
     if (navigator.canShare && navigator.canShare({ files: [arq] })) {
-      try { await navigator.share({ files: [arq], title: "Projeto Quanto Custa", text: "Veja mais em " + location.origin + location.pathname }); } catch (e) { /* cancelado */ }
+      try { await navigator.share({ files: [arq], title: "Quanto Custa", text: "Veja mais em " + location.origin + location.pathname }); } catch (e) { /* cancelado */ }
     } else baixar();
   }
   function carregarFoto(url) {
