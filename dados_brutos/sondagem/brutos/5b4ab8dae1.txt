@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /</title>
+ </head>
+ <body>
+<h1>Index of /</h1>
+<ul><li><a href="2020_trimestre_01/"> 2020_trimestre_01/</a></li>
+<li><a href="2020_trimestre_02/"> 2020_trimestre_02/</a></li>
+<li><a href="2020_trimestre_03/"> 2020_trimestre_03/</a></li>
+<li><a href="2020_trimestre_04/"> 2020_trimestre_04/</a></li>
+<li><a href="2021_trimestre_01/"> 2021_trimestre_01/</a></li>
+<li><a href="2021_trimestre_02/"> 2021_trimestre_02/</a></li>
+<li><a href="2021_trimestre_03/"> 2021_trimestre_03/</a></li>
+<li><a href="2021_trimestre_04/"> 2021_trimestre_04/</a></li>
+<li><a href="2022_trimestre_01/"> 2022_trimestre_01/</a></li>
+<li><a href="2022_trimestre_02/"> 2022_trimestre_02/</a></li>
+<li><a href="2022_trimestre_03/"> 2022_trimestre_03/</a></li>
+<li><a href="2022_trimestre_04/"> 2022_trimestre_04/</a></li>
+<li><a href="2023_trimestre_01/"> 2023_trimestre_01/</a></li>
+<li><a href="2023_trimestre_02/"> 2023_trimestre_02/</a></li>
+<li><a href="2023_trimestre_03/"> 2023_trimestre_03/</a></li>
+<li><a href="2023_trimestre_04/"> 2023_trimestre_04/</a></li>
+<li><a href="2024_trimestre_01/"> 2024_trimestre_01/</a></li>
+<li><a href="2024_trimestre_02/"> 2024_trimestre_02/</a></li>
+<li><a href="2024_trimestre_03/"> 2024_trimestre_03/</a></li>
+<li><a href="2024_trimestre_04/"> 2024_trimestre_04/</a></li>
+<li><a href="2025_trimestre_01/"> 2025_trimestre_01/</a></li>
+<li><a href="2025_trimestre_02/"> 2025_trimestre_02/</a></li>
+<li><a href="2025_trimestre_03/"> 2025_trimestre_03/</a></li>
+<li><a href="2025_trimestre_04/"> 2025_trimestre_04/</a></li>
+<li><a href="2026_trimestre_01/"> 2026_trimestre_01/</a></li>
+<li><a href="2026_trimestre_02/"> 2026_trimestre_02/</a></li>
+<li><a href="2026_trimestre_03/"> 2026_trimestre_03/</a></li>
+<li><a href="Dados_abertos_FGTS.zip"> Dados_abertos_FGTS.zip</a></li>
+<li><a href="Dados_abertos_Nao_Previdenciario.zip"> Dados_abertos_Nao_Previdenciario.zip</a></li>
+<li><a href="Dados_abertos_Previdenciario.zip"> Dados_abertos_Previdenciario.zip</a></li>
+<li><a href="Portal_da_Cidadania_Tributaria/"> Portal_da_Cidadania_Tributaria/</a></li>
+</ul>
+</body></html>
