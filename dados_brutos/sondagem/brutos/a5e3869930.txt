@@ -1,0 +1,1 @@
+{"gerado_em":"2026-11-24T15:06:17+00:00","situacao":{"cronograma":"ok","focus":"ok","populacao":"reserva: 404 Client Error: Not Found for url: https://servicodados.ibge.gov.br/api/v1/projecoes/populacao","series":"ok","bancos":"ok"}}

@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dívida Pública — Quanto Custa</title>
+<link rel="icon" href="marca/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://quantocustaum.com/quanto-custa-divida/">
+<meta property="og:title" content="Quanto Custa a Dívida Pública — Quanto Custa">
+<meta property="og:description" content="Quanto custa a dívida pública do Brasil: dívida bruta e líquida, juros pagos por segundo, quem recebe, composição, vencimentos, projeção e os bancos que mais aplicam em títulos. Dados oficiais do Banco Central, atualizados todo dia.">
+<meta property="og:image" content="https://quantocustaum.com/og.png">
+<meta property="og:url" content="https://quantocustaum.com/quanto-custa-divida/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="description" content="Quanto custa a dívida pública do Brasil: dívida bruta e líquida, juros pagos por segundo, quem recebe, composição, vencimentos, projeção e os bancos que mais aplicam em títulos. Dados oficiais do Banco Central, atualizados todo dia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=1">
+<link rel="stylesheet" href="tema.css?v=1">
+<link rel="stylesheet" href="divida.css?v=1">
+<link rel="stylesheet" href="marca/tokens.css?v=1">
+<link rel="stylesheet" href="marca/marca.css?v=1">
+</head>
+<body>
+<aside class="menu" id="menu" aria-label="Menu">
+  <a class="marca" href="https://quantocustaum.com/" title="Voltar ao início do Quanto Custa"><span class="marca-col"><img class="marca-logo" src="marca/logo-horizontal-negativo.svg" alt="Quanto Custa?" width="164" height="30"><small class="marca-sub">Dívida Pública</small></span></a>
+  <nav>
+    <a class="hub-link" href="https://quantocustaum.com/" title="Voltar ao início do Quanto Custa">← Todas as esferas</a>
+    <button data-pag="inicio">Início</button>
+    <button data-pag="evolucao">Evolução</button>
+    <button data-pag="juros">Juros</button>
+    <button data-pag="composicao">Composição</button>
+    <button data-pag="vencimentos">Vencimentos</button>
+    <button data-pag="previsao">Previsão</button>
+    <button data-pag="bancos">Bancos</button>
+    <button data-pag="dava">O que dava pra fazer?</button>
+    <button data-pag="metodo">Metodologia</button>
+  </nav>
+  <p class="menu-rodape" id="atualizado"></p>
+</aside>
+<div class="veu" id="veu" hidden></div>
+
+<div class="conteudo">
+  <header class="topo-movel">
+    <button class="hamburguer" id="abrir-menu" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <span class="topo-marca"><img class="marca-logo" src="marca/logo-horizontal-negativo.svg" alt="Quanto Custa?" width="131" height="24"><small>Dívida Pública</small></span>
+    <a class="hub-link topo" href="https://quantocustaum.com/">← Início</a>
+  </header>
+  <section class="segmentacoes" aria-label="Filtros">
+    <label>Período dos gráficos<select id="f-periodo">
+      <option value="5">Últimos 5 anos</option><option value="10" selected>Últimos 10 anos</option><option value="20">Últimos 20 anos</option><option value="0">Desde 2001</option></select></label>
+    <label class="chave"><input id="f-ipca" type="checkbox" checked><span>Valores de hoje<small id="ipca-ref">corrigidos pelo IPCA</small></span></label>
+  </section>
+  <p class="aviso" id="aviso" hidden></p>
+
+  <main>
+    <!-- INÍCIO -->
+    <section class="pagina" data-pag="inicio">
+      <div class="destaque">
+        <div class="visitas-linha" data-visitas hidden><span class="visitas"><span class="vis-ponto" aria-hidden="true"></span><b>—</b> visitas ao Quanto Custa</span></div>
+        <p class="selo">Transparência independente · dados oficiais do Banco Central</p>
+        <h1>Quanto custa a dívida pública?</h1>
+        <p class="hero-sub">Tudo o que o governo deve (União, estados e municípios) e quanto paga de juros por isso — de onde vem, para quem vai, quando vence e para onde está indo.</p>
+        <p class="destaque-rot" id="i-rot">Dívida bruta do governo, agora</p>
+        <div class="destaque-valor" id="i-total">—</div>
+        <p class="extenso" id="i-ext"></p>
+        <p class="destaque-nota" id="i-nota"></p>
+      </div>
+      <div class="kpis" id="i-kpis"></div>
+      <div class="grade">
+        <article class="visual span-8"><header><h2>A dívida em relação ao tamanho da economia (% do PIB)</h2><span class="dica">linha tracejada: projeção se o ritmo atual continuar</span></header>
+          <div class="canvas-box alto"><canvas id="g-i-pib"></canvas></div></article>
+        <article class="visual span-4"><header><h2>Por que a dívida cresce</h2><span class="dica" id="i-cresce-dica"></span></header>
+          <div id="i-cresce"></div></article>
+        <article class="visual span-6"><header><h2>Quem paga os juros (12 meses)</h2></header><div id="i-esferas"></div></article>
+        <article class="visual span-6"><header><h2>Juros da dívida, por ano</h2><span class="dica" id="i-juros-dica"></span></header>
+          <div class="canvas-box"><canvas id="g-i-juros"></canvas></div></article>
+      </div>
+    </section>
+
+    <!-- EVOLUÇÃO -->
+    <section class="pagina" data-pag="evolucao">
+      <div class="kpis" id="e-kpis"></div>
+      <div class="grade">
+        <article class="visual span-12"><header><h2>Dívida bruta e dívida líquida, em reais</h2><span class="dica" id="e-reais-dica"></span></header>
+          <div class="canvas-box alto"><canvas id="g-e-reais"></canvas></div></article>
+        <article class="visual span-6"><header><h2>Em % do PIB</h2></header><div class="canvas-box"><canvas id="g-e-pib"></canvas></div></article>
+        <article class="visual span-6"><header><h2>Quanto a dívida bruta cresceu em cada ano</h2><span class="dica">diferença entre dezembro e dezembro</span></header><div class="canvas-box"><canvas id="g-e-cresc"></canvas></div></article>
+      </div>
+      <article class="visual"><header><h2>Ano a ano</h2><span class="dica">dívida no fim do ano (ou no último mês publicado) · juros e resultado somados no ano</span></header>
+        <div class="tabela-rolagem"><table class="ranking" id="e-tab"></table></div></article>
+    </section>
+
+    <!-- JUROS -->
+    <section class="pagina" data-pag="juros">
+      <div class="kpis" id="j-kpis"></div>
+      <div class="grade">
+        <article class="visual span-12"><header><h2>Juros pagos por mês</h2><span class="dica" id="j-mes-dica"></span></header>
+          <div class="canvas-box alto"><canvas id="g-j-mes"></canvas></div></article>
+        <article class="visual span-6"><header><h2>Juros por esfera, por ano</h2><span class="dica">União, Banco Central, estados, municípios e estatais</span></header>
+          <div class="canvas-box alto"><canvas id="g-j-esf"></canvas></div></article>
+        <article class="visual span-6"><header><h2>Juros × resultado das contas (primário)</h2><span class="dica">acima de zero = o governo precisou se endividar</span></header>
+          <div class="canvas-box alto"><canvas id="g-j-prim"></canvas></div></article>
+        <article class="visual span-7"><header><h2>Selic e inflação</h2><span class="dica">a Selic corrige mais da metade da dívida</span></header>
+          <div class="canvas-box"><canvas id="g-j-selic"></canvas></div></article>
+        <article class="visual span-5 texto"><header><h2>Como ler</h2></header>
+          <p><b>Juros nominais</b> são o custo da dívida no mês: os juros e a correção (Selic, inflação, prefixados) que o governo deve sobre tudo o que já deve. Boa parte não é paga em dinheiro: é somada à dívida e "rolada".</p>
+          <p><b>Resultado primário</b> é a conta do governo <b>sem</b> os juros: arrecadação menos gastos. Quando falta dinheiro (déficit primário), a dívida cresce ainda mais.</p>
+          <p><b>Resultado nominal</b> = primário + juros. É o quanto o governo precisou se endividar no período.</p>
+          <p id="j-texto-selic"></p></article>
+      </div>
+    </section>
+
+    <!-- COMPOSIÇÃO -->
+    <section class="pagina" data-pag="composicao">
+      <div class="kpis" id="c-kpis"></div>
+      <div class="grade">
+        <article class="visual span-5"><header><h2>Como a dívida em títulos é corrigida</h2><span class="dica" id="c-idx-dica"></span></header>
+          <div class="canvas-box alto"><canvas id="g-c-idx"></canvas></div></article>
+        <article class="visual span-7"><header><h2>Indexadores ao longo do tempo</h2><span class="dica">% da dívida mobiliária federal</span></header>
+          <div class="canvas-box alto"><canvas id="g-c-idx-hist"></canvas></div></article>
+        <article class="visual span-6"><header><h2>Quem deve: dívida líquida por esfera</h2><span class="dica" id="c-esf-dica"></span></header>
+          <div id="c-esf"></div></article>
+        <article class="visual span-6"><header><h2>Títulos do Tesouro: com o mercado × com o Banco Central</h2></header>
+          <div class="canvas-box"><canvas id="g-c-bc"></canvas></div></article>
+        <article class="visual span-6"><header><h2>Títulos em mercado, por tipo</h2><span class="dica" id="c-tit-dica"></span></header>
+          <div class="canvas-box"><canvas id="g-c-tit"></canvas></div></article>
+        <article class="visual span-6"><header><h2>Prazo médio da dívida em títulos</h2><span class="dica">em meses · quanto maior, menos pressão para rolar a dívida</span></header>
+          <div class="canvas-box"><canvas id="g-c-prazo"></canvas></div></article>
+      </div>
+      <article class="visual texto"><header><h2>Os títulos, em português claro</h2></header><div id="c-glossario"></div></article>
+    </section>
+
+    <!-- VENCIMENTOS -->
+    <section class="pagina" data-pag="vencimentos">
+      <div class="kpis" id="v-kpis"></div>
+      <article class="visual"><header><h2>Quanto vence em cada ano</h2><span class="dica" id="v-dica"></span></header>
+        <div class="canvas-box alto"><canvas id="g-v-ano"></canvas></div></article>
+      <article class="visual"><header><h2>Próximos vencimentos (13 meses)</h2><span class="dica">valores em mercado, sem a carteira do Banco Central</span></header>
+        <div class="tabela-rolagem"><table class="ranking" id="v-tab"></table></div></article>
+    </section>
+
+    <!-- PREVISÃO -->
+    <section class="pagina" data-pag="previsao">
+      <div class="selos-legenda"><span class="selo-t t-es">Estimativa</span><small>Projeção simples, feita pelo Quanto Custa com as séries oficiais. Não é previsão oficial. As expectativas do mercado (Focus, Banco Central) aparecem separadas.</small></div>
+      <div class="kpis" id="p-kpis"></div>
+      <div class="grade">
+        <article class="visual span-12"><header><h2>Dívida bruta (% do PIB): histórico e projeção</h2><span class="dica">faixa: 90% de chance, se o ritmo dos últimos 12 meses continuar</span></header>
+          <div class="canvas-box alto"><canvas id="g-p-pib"></canvas></div></article>
+        <article class="visual span-6"><header><h2>Em reais</h2><span class="dica">valores da época (sem correção)</span></header><div class="canvas-box"><canvas id="g-p-reais"></canvas></div></article>
+        <article class="visual span-6"><header><h2>O que o mercado espera (Focus)</h2><span class="dica" id="p-focus-dica"></span></header><div id="p-focus"></div></article>
+      </div>
+      <article class="visual"><header><h2>Projeção mês a mês</h2></header><div class="tabela-rolagem"><table class="ranking" id="p-tab"></table></div>
+        <button class="btn-sec mais" id="p-mais" type="button" hidden>Mostrar todos os meses</button></article>
+      <article class="visual texto"><header><h2>Como a projeção é feita</h2></header><div id="p-como"></div></article>
+    </section>
+
+    <!-- BANCOS -->
+    <section class="pagina" data-pag="bancos">
+      <div class="aviso-bancos" id="b-aviso"><b>Leia antes:</b> nenhum órgão publica, empresa por empresa, quanto o governo deve a cada uma (os títulos da dívida são protegidos por sigilo bancário). O que existe é o <b>balanço oficial de cada banco e financeira</b>, entregue ao Banco Central (IF.data). Aqui mostramos quanto cada um tem aplicado em <b>títulos e valores mobiliários</b> — onde fica a maior parte da dívida do governo que está com os bancos, <b>mas que também inclui títulos de empresas privadas</b>. Por isso, os valores são um <b>teto</b>, não a dívida exata de cada um.</div>
+      <div class="kpis" id="b-kpis"></div>
+      <div class="grade">
+        <article class="visual span-7"><header><h2>Os 15 maiores em títulos</h2><span class="dica" id="b-top-dica"></span></header>
+          <div class="canvas-box muito-alto"><canvas id="g-b-top"></canvas></div></article>
+        <article class="visual span-5"><header><h2>Por controle</h2></header><div class="canvas-box"><canvas id="g-b-ctrl"></canvas></div>
+          <h2 class="d-sec">Por segmento</h2><div id="b-seg"></div></article>
+      </div>
+      <article class="visual"><header><h2>Ranking: bancos e financeiras por títulos em carteira</h2>
+        <span class="filtros-tabela"><input id="b-q" class="mini-busca" type="search" placeholder="Nome do banco ou financeira">
+        <select id="b-seg-f" class="mini"><option value="">Todos os segmentos</option></select>
+        <select id="b-ctrl-f" class="mini"><option value="">Todo controle</option></select></span>
+        <span class="dica">clique no título da coluna para ordenar · no nome para ver os detalhes</span></header>
+        <div class="tabela-rolagem"><table class="ranking" id="b-tab"></table></div>
+        <button class="btn-sec mais" id="b-mais" type="button" hidden>Mostrar mais</button></article>
+      <div class="grade">
+        <article class="visual span-12 texto"><header><h2>Juros: o que o governo paga e o que os bancos recebem</h2></header><div id="b-juros"></div></article>
+      </div>
+    </section>
+
+    <!-- O QUE DAVA PRA FAZER -->
+    <section class="pagina" data-pag="dava">
+      <div class="selos-legenda"><span class="selo-t t-es">Análise</span><small>Comparação ilustrativa: o valor dos juros da dívida em 12 meses, trocado por obras e serviços com custos de referência públicos. Não é um cálculo oficial.</small></div>
+      <div class="dava-topo visual"><p class="sub" id="dv-sub"></p><div class="destaque-valor" id="dv-total">—</div><p class="extenso" id="dv-ext"></p><p class="sub" id="dv-regra"></p></div>
+      <div class="dava-cards" id="dv-cards"></div>
+      <article class="visual texto"><header><h2>Custos de referência e fontes</h2></header><div id="dv-fontes"></div></article>
+    </section>
+
+    <!-- MÉTODO -->
+    <section class="pagina texto" data-pag="metodo">
+      <article class="visual">
+        <h2>De onde vêm os dados</h2>
+        <ul>
+          <li><b>Dívida, juros e resultado das contas</b>: séries oficiais do Banco Central (Sistema Gerenciador de Séries Temporais, SGS), que fazem parte das Estatísticas Fiscais publicadas todo mês. A lista com o código de cada série está no fim desta página.</li>
+          <li><b>Vencimentos dos títulos</b>: cronograma de vencimentos dos títulos federais em mercado, do Departamento de Operações do Mercado Aberto do Banco Central (Demab).</li>
+          <li><b>Expectativas do mercado</b>: pesquisa Focus do Banco Central (mediana das respostas).</li>
+          <li><b>Bancos e financeiras</b>: IF.data, do Banco Central — o balanço e o resultado de cada conglomerado e instituição, trimestral.</li>
+          <li><b>População</b>: IBGE. <b>Inflação (IPCA)</b>: IBGE, via Banco Central.</li>
+        </ul>
+        <h2>O que é cada dívida</h2>
+        <p><b>Dívida bruta do governo geral</b>: tudo o que a União, o INSS, os estados e os municípios devem — títulos do Tesouro com o mercado, operações compromissadas do Banco Central, empréstimos de bancos e dívida externa. É a medida mais usada para comparar países.</p>
+        <p><b>Dívida líquida do setor público</b>: a dívida bruta menos o que o setor público tem a receber (reservas internacionais, créditos do Tesouro com o BNDES, dinheiro em caixa), incluindo também o Banco Central e as estatais (exceto Petrobras e Eletrobras e os bancos públicos).</p>
+        <p><b>% do PIB</b>: o Banco Central divide a dívida pelo PIB dos 12 meses anteriores. É o jeito de saber se a dívida cresce mais ou menos que a economia.</p>
+        <h2>Valores de hoje</h2>
+        <p>Com "Valores de hoje" ligado, os valores em reais dos gráficos e tabelas são corrigidos pelo IPCA até o último mês divulgado. Desligado, aparecem em valores da época. Os números da página inicial e as razões em % do PIB não mudam.</p>
+        <h2>Estimativas (sempre marcadas)</h2>
+        <p><b>Dívida "agora"</b> e <b>juros por segundo</b>: o último número oficial avança no ritmo médio dos últimos 12 meses (dívida) ou dos juros dos últimos 12 meses (juros). O Banco Central publica a dívida com cerca de 1 mês e meio de atraso.</p>
+        <p><b>Projeção</b>: ver a página Previsão. <b>Juros estimados por banco</b>: carteira de títulos × custo médio da dívida em 12 meses (juros de 12 meses ÷ dívida bruta média). É só uma ordem de grandeza.</p>
+        <h2>Limitações</h2>
+        <ul>
+          <li><b>Quem é credor de cada título não é público.</b> O Tesouro publica os detentores da dívida apenas por grupo (bancos, fundos, previdência, estrangeiros, seguradoras, governo), e o site do Tesouro Transparente não responde aos nossos robôs. Por isso não há uma lista de "empresas a quem o governo deve".</li>
+          <li><b>Carteira de títulos dos bancos inclui títulos privados</b> (debêntures, letras etc.). O IF.data não separa títulos públicos e privados.</li>
+          <li><b>Juros</b>: são os juros "por competência" das Estatísticas Fiscais (o custo do mês), não só o que saiu do caixa. Incluem o resultado das operações do Banco Central.</li>
+          <li><b>Estatais</b> fora da conta: Petrobras, Eletrobras e os bancos públicos não entram nas estatísticas da dívida (regra do Banco Central).</li>
+        </ul>
+        <h2>Séries usadas</h2>
+        <div id="m-series"></div>
+        <p id="m-situacao" class="sub"></p>
+      </article>
+    </section>
+  </main>
+  <p class="rodape">Quanto Custa · projeto independente, sem vínculo com o Banco Central nem com o Tesouro Nacional · dados públicos · <a href="https://quantocustaum.com/sobre/">Sobre</a> · <a href="#" data-boas-vindas>Boas-vindas</a> · <a href="https://quantocustaum.com/privacidade/">Privacidade</a> · <a href="https://github.com/projetoquantocusta1-alt/projetoquantocusta1-alt.github.io/issues">Pedir correção</a> · <a href="https://github.com/projetoquantocusta1-alt/quanto-custa-divida">Código aberto</a></p>
+</div>
+
+<div class="veu-ficha" id="ficha" hidden role="dialog" aria-modal="true">
+  <div class="ficha-caixa"><button class="fechar" id="ficha-fechar" type="button" aria-label="Fechar">×</button><div id="ficha-corpo"></div></div>
+</div>
+
+<script src="vendor/chart.umd.js"></script>
+<script src="referencias.js?v=1"></script>
+<script src="boasvindas.js?v=1" data-site="d"></script>
+<script src="app.js?v=1"></script>
+<!-- contador de visitas sem cookies e sem dados pessoais (GoatCounter) -->
+<script data-goatcounter="https://quantocustaum.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<script>/* número de visitas: selo no topo; some se o GoatCounter não responder */
+(function () {
+  fetch("https://quantocustaum.goatcounter.com/counter/TOTAL.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+    var n = d && parseInt(String(d.count || "").replace(/\D/g, ""), 10);
+    if (!n) return;
+    var fmt = function (x) { return x.toLocaleString("pt-BR"); };
+    var alvo = document.querySelector("[data-visitas]");
+    if (!alvo) return;
+    var b = alvo.querySelector("b"); alvo.hidden = false;
+    alvo.querySelector(".visitas").lastChild.textContent = n === 1 ? " visita ao Quanto Custa" : " visitas ao Quanto Custa";
+    if (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) { b.textContent = fmt(n); return; }
+    var t0 = null, dur = 1200;
+    (function passo(t) { if (!t0) t0 = t; var k = Math.min(1, (t - t0) / dur); b.textContent = fmt(Math.round(n * (1 - Math.pow(1 - k, 3)))); if (k < 1) requestAnimationFrame(passo); })(performance.now());
+  }).catch(function () {});
+})();
+</script>
+</body>
+</html>
