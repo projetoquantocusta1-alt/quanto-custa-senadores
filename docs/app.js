@@ -97,7 +97,7 @@ async function rInicio() {
       if (E.pag === "inicio") E.tick = requestAnimationFrame(passo); };
     passo();
     $("#i-nota").innerHTML = `${corrigir() ? "em valores de hoje, <b>corrigidos pela inflação (IPCA)</b>" : "em valores da época"} · salário + cota parlamentar (CEAPS) · é um piso: a equipe do gabinete ainda não entra<br>
-      <span class="ritmo">O valor avança em tempo real, no ritmo previsto: <b>+${brl(porSeg, 2)} por segundo</b> · ${curto(porSeg * 86400)} por dia · previsão para ${r.ano}: <b>${curto(t + rest)}</b> (estimativa)</span>`;
+      <span class="ritmo">O valor avança em tempo real, no ritmo previsto: <b style="white-space:nowrap">+${brl(porSeg, 2)} por segundo</b> · <span style="white-space:nowrap">${curto(porSeg * 86400)} por dia</span> · previsão para ${r.ano}: <b style="white-space:nowrap">${curto(t + rest)}</b> (estimativa)</span>`;
   } else {
     $("#i-total").textContent = brl(t); $("#i-ext").textContent = porExtenso(t);
     $("#i-nota").innerHTML = `${corrigir() ? "em valores de hoje, <b>corrigidos pela inflação (IPCA)</b>" : "em valores da época"} · salário + cota parlamentar (CEAPS) · é um piso: a equipe do gabinete ainda não entra`;
@@ -389,7 +389,7 @@ async function iniciar() {
   $("#f-ano").innerHTML = `<option value="total">Todos os anos</option>` + anos.map((a) => `<option value="${a}">${a}</option>`).join("");
   $("#f-ano").value = E.ano;
   if (E.meta.ipca_referencia) $("#ipca-ref").textContent = `IPCA até ${E.meta.ipca_referencia}`;
-  $("#atualizado").textContent = `Atualizado em ${new Date(E.meta.gerado_em).toLocaleString("pt-BR")}`;
+  $("#atualizado").textContent = `Atualizado em ${new Date(E.meta.gerado_em).toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" })}`;
   const todos = (await Promise.all(anos.slice(0, 4).map(resumo))).filter(Boolean).flatMap((r) => r.senadores);
   $("#f-uf").innerHTML = `<option value="">Todos</option>` + [...new Set(todos.map((s) => s.uf).filter(Boolean))].sort().map((u) => `<option>${u}</option>`).join("");
   $("#f-partido").innerHTML = `<option value="">Todos</option>` + [...new Set(todos.map((s) => s.partido).filter(Boolean))].sort().map((u) => `<option>${u}</option>`).join("");
