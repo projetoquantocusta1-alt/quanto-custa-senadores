@@ -61,10 +61,10 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" />
 <meta name="google-site-verification" content="0xsqjtdtsDBBtioOs0mVatXrERRPLIriMF3Lik_jImY" />
 
-<link rel="canonical" href="https://www.almg.gov.br/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?ano=2025&amp;id=10002" />
+<link rel="canonical" href="https://www.almg.gov.br/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=10002" />
 <meta property="fb:pages" content="115931765148387" /><meta property="fb:app_id" content="1154754775193384" /><meta property="og:site_name" content="Portal da Assembleia Legislativa de Minas Gerais" />
 <meta property="og:title" content="Prestação de contas: Carlos Henrique / REPUBLICANOS - Assembleia Legislativa de Minas Gerais" />
-<meta property="og:url" content="https://www.almg.gov.br/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?ano=2025&amp;id=10002" />
+<meta property="og:url" content="https://www.almg.gov.br/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=10002" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="A Assembleia de Minas é o Poder Legislativo do Estado de Minas Gerais, com 77 deputados eleitos pelo voto popular" />
 <meta property="og:image" content="https://www.almg.gov.br/a-assembleia/deputados/legislatura-atual/fotos/10002.jpg" />
@@ -212,7 +212,14 @@
 		const anchorLink = document.getElementById(anchorId);
 		if(anchorLink) anchorLink.classList.add("show");
 	});
-</script></head>
+</script><script>
+				/*$(document).ready(function() {
+					$("html, body").animate({
+						scrollTop: $("#js_anchorPoint").offset().top
+					}, 500);
+				});*/
+			</script>
+		</head>
 
 	<body id="Carlos-Henrique-/-REPUBLICANOS">
 		<!-- Google Tag Manager (noscript) -->
@@ -858,7 +865,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							abril de 2025</option>
 					<option  value="052025">
 							maio de 2025</option>
-					<option  value="062025">
+					<option selected value="062025">
 							junho de 2025</option>
 					<option  value="072025">
 							julho de 2025</option>
@@ -890,7 +897,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							agosto de 2026</option>
 					<option  value="092026">
 							setembro de 2026</option>
-					<option selected value="102026">
+					<option  value="102026">
 							outubro de 2026</option>
 					</select>
 		</div>
@@ -915,15 +922,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	function printPage(printTarget){
 		console.log('printTarget: ');
 		if(printTarget=='comissoes-reuniao'){
-			window.open('print.html?idTipo=&idCom=&dia=&mes=&ano=2025&hr=');
+			window.open('print.html?idTipo=&idCom=&dia=&mes=&ano=&hr=');
 		}else if(printTarget=='plenario-reuniao'){
-			window.open('print.html?idTipo=&idCom=&dia=&mes=&ano=2025&hr=');
+			window.open('print.html?idTipo=&idCom=&dia=&mes=&ano=&hr=');
 		}else if(printTarget=='leis-texto'){
-			window.open('/atividade-parlamentar/leis/legislacao-mineira/lei/texto/print.html?tipo=&num=&ano=2025&comp=&cons=');
+			window.open('/atividade-parlamentar/leis/legislacao-mineira/lei/texto/print.html?tipo=&num=&ano=&comp=&cons=');
 		}else if(printTarget=='projetos-de-lei-texto'){
-			window.open('/atividade-parlamentar/projetos-de-lei/texto/print.html?tipo=&num=&ano=2025');
+			window.open('/atividade-parlamentar/projetos-de-lei/texto/print.html?tipo=&num=&ano=');
 		}else if(printTarget=='projetos-de-lei-documento'){
-			window.open('/atividade-parlamentar/projetos-de-lei/documento/print.html?tipo=&num=&ano=2025&expr=');
+			window.open('/atividade-parlamentar/projetos-de-lei/documento/print.html?tipo=&num=&ano=&expr=');
 		}else if(printTarget=='deputados'){
 			window.open('/a-assembleia/deputados/inicial/print.html?pesquisou=&aba=&codSituacao=&q=&partido=&bloco=&grupoParlamentar=&frenteParlamentar=&legislatura=');
 		}else{
@@ -1075,7 +1082,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							abril de 2025</option>
 					<option  value="052025">
 							maio de 2025</option>
-					<option  value="062025">
+					<option selected value="062025">
 							junho de 2025</option>
 					<option  value="072025">
 							julho de 2025</option>
@@ -1107,7 +1114,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							agosto de 2026</option>
 					<option  value="092026">
 							setembro de 2026</option>
-					<option selected value="102026">
+					<option  value="102026">
 							outubro de 2026</option>
 					</select>
 		</div>
@@ -1149,7 +1156,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVerba0" aria-expanded="true" aria-controls="collapseVerba0">
 											<div class="d-flex align-items-start w-100 pe-4">
 												<div class="me-auto">Combustível e lubrificante</div>
-												<span class="badge bg-khaki text-white">R$ 3.596,62</span>
+												<span class="badge bg-khaki text-white">R$ 4.379,03</span>
 											</div>
 										</button>
 									</h2>
@@ -1166,28 +1173,60 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 												</thead>
 												<tbody>
 													<tr>
-															<td class="text-start">Novo Posto Seabra Ltda.</td>
-															<td>28309020000168</td>
-															<td>04/10/2026</td>
-															<td>598319</td>
-															<td>R$ 305,61</td>
-															<td>R$ 305,61</td>
+															<td class="text-start">Auto Posto Filadelfia Ltda.</td>
+															<td>25357111000180</td>
+															<td>26/06/2025</td>
+															<td>147986</td>
+															<td>R$ 170,48</td>
+															<td>R$ 170,48</td>
+														</tr>
+													<tr>
+															<td class="text-start">Petrol Combustiveis Araçuai Ltda.</td>
+															<td>29902195000147</td>
+															<td>30/06/2025</td>
+															<td>382447</td>
+															<td>R$ 264,24</td>
+															<td>R$ 264,24</td>
+														</tr>
+													<tr>
+															<td class="text-start">Posto de Combustiveis Souza & Souza Ltda.</td>
+															<td>06283330000118</td>
+															<td>27/06/2025</td>
+															<td>498435</td>
+															<td>R$ 278,29</td>
+															<td>R$ 278,29</td>
 														</tr>
 													<tr>
 															<td class="text-start">Posto Hugo Werneck Ltda.</td>
 															<td>25723479000115</td>
-															<td>08/10/2026</td>
-															<td>000000976</td>
-															<td>R$ 2.915,50</td>
-															<td>R$ 2.915,50</td>
+															<td>05/06/2025</td>
+															<td>000000876</td>
+															<td>R$ 3.000,00</td>
+															<td>R$ 3.000,00</td>
+														</tr>
+													<tr>
+															<td class="text-start">Posto Veraneio Ltda.</td>
+															<td>17005646000164</td>
+															<td>26/06/2025</td>
+															<td>913500</td>
+															<td>R$ 244,51</td>
+															<td>R$ 244,51</td>
+														</tr>
+													<tr>
+															<td class="text-start">Posto Vila Sukata Ltda.</td>
+															<td>30897694000172</td>
+															<td>08/06/2025</td>
+															<td>793761</td>
+															<td>R$ 149,23</td>
+															<td>R$ 149,23</td>
 														</tr>
 													<tr>
 															<td class="text-start">Rede Ornelas Petroleo Ltda.</td>
 															<td>51709591000101</td>
-															<td>03/10/2026</td>
-															<td>161010</td>
-															<td>R$ 375,51</td>
-															<td>R$ 375,51</td>
+															<td>27/06/2025</td>
+															<td>29298</td>
+															<td>R$ 272,28</td>
+															<td>R$ 272,28</td>
 														</tr>
 													</tbody>
 											</table>
@@ -1199,7 +1238,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVerba1" aria-expanded="true" aria-controls="collapseVerba1">
 											<div class="d-flex align-items-start w-100 pe-4">
 												<div class="me-auto">Divulgação da atividade parlamentar</div>
-												<span class="badge bg-khaki text-white">R$ 39.980,00</span>
+												<span class="badge bg-khaki text-white">R$ 17.310,02</span>
 											</div>
 										</button>
 									</h2>
@@ -1216,12 +1255,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 												</thead>
 												<tbody>
 													<tr>
+															<td class="text-start">Facebook Serviços Online do Brasil Ltda.</td>
+															<td>13347016000117</td>
+															<td>02/06/2025</td>
+															<td>110970401</td>
+															<td>R$ 1.562,49</td>
+															<td>R$ 1.562,49</td>
+														</tr>
+													<tr>
 															<td class="text-start">Rb Elo Serviços Gráficos Ltda.</td>
 															<td>49552077000163</td>
-															<td>30/10/2026</td>
-															<td>77</td>
-															<td>R$ 39.980,00</td>
-															<td>R$ 39.980,00</td>
+															<td>27/06/2025</td>
+															<td>2025/35</td>
+															<td>R$ 17.310,00</td>
+															<td>R$ 14.154,53</td>
+														</tr>
+													<tr>
+															<td class="text-start">Revitto Servico Tecnologico Ltda.</td>
+															<td>37845480000100</td>
+															<td>04/06/2025</td>
+															<td>2025/51</td>
+															<td>R$ 1.593,00</td>
+															<td>R$ 1.593,00</td>
 														</tr>
 													</tbody>
 											</table>
@@ -1233,7 +1288,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVerba2" aria-expanded="true" aria-controls="collapseVerba2">
 											<div class="d-flex align-items-start w-100 pe-4">
 												<div class="me-auto">Locação de imóvel e despesas a ele concernentes</div>
-												<span class="badge bg-khaki text-white">R$ 619,00</span>
+												<span class="badge bg-khaki text-white">R$ 1.152,00</span>
 											</div>
 										</button>
 									</h2>
@@ -1252,10 +1307,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 													<tr>
 															<td class="text-start">Starlink Brazil Serviços de Internet Ltda.</td>
 															<td>40154884000153</td>
-															<td>21/10/2026</td>
-															<td>013768105</td>
-															<td>R$ 619,00</td>
-															<td>R$ 619,00</td>
+															<td>29/05/2025</td>
+															<td>6385961</td>
+															<td>R$ 576,00</td>
+															<td>R$ 576,00</td>
+														</tr>
+													<tr>
+															<td class="text-start">Starlink Brazil Serviços de Internet Ltda.</td>
+															<td>40154884000153</td>
+															<td>22/06/2025</td>
+															<td>6915615</td>
+															<td>R$ 576,00</td>
+															<td>R$ 576,00</td>
 														</tr>
 													</tbody>
 											</table>
@@ -1267,7 +1330,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVerba3" aria-expanded="true" aria-controls="collapseVerba3">
 											<div class="d-flex align-items-start w-100 pe-4">
 												<div class="me-auto">Locação e fretamento de veículos</div>
-												<span class="badge bg-khaki text-white">R$ 13.843,44</span>
+												<span class="badge bg-khaki text-white">R$ 17.734,09</span>
 											</div>
 										</button>
 									</h2>
@@ -1286,18 +1349,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 													<tr>
 															<td class="text-start">Vip Loc Veiculos Ltda.</td>
 															<td>10186946000148</td>
-															<td>05/10/2026</td>
-															<td>004624</td>
-															<td>R$ 6.562,33</td>
-															<td>R$ 5.687,35</td>
+															<td>30/04/2025</td>
+															<td>004012</td>
+															<td>R$ 7.300,00</td>
+															<td>R$ 7.300,00</td>
 														</tr>
 													<tr>
 															<td class="text-start">Vip Loc Veiculos Ltda.</td>
 															<td>10186946000148</td>
-															<td>05/10/2026</td>
-															<td>004623</td>
-															<td>R$ 9.062,33</td>
-															<td>R$ 8.156,09</td>
+															<td>29/05/2025</td>
+															<td>004026</td>
+															<td>R$ 7.300,00</td>
+															<td>R$ 7.300,00</td>
+														</tr>
+													<tr>
+															<td class="text-start">Unidas Locadora S/A</td>
+															<td>45736131000170</td>
+															<td>05/06/2025</td>
+															<td>17595</td>
+															<td>R$ 3.134,09</td>
+															<td>R$ 3.134,09</td>
 														</tr>
 													</tbody>
 											</table>
@@ -1309,7 +1380,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVerba4" aria-expanded="true" aria-controls="collapseVerba4">
 											<div class="d-flex align-items-start w-100 pe-4">
 												<div class="me-auto">Passagens, hospedagem e alimentação</div>
-												<span class="badge bg-khaki text-white">R$ 3.906,82</span>
+												<span class="badge bg-khaki text-white">R$ 3.096,19</span>
 											</div>
 										</button>
 									</h2>
@@ -1326,28 +1397,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 												</thead>
 												<tbody>
 													<tr>
-															<td class="text-start">Gol Linhas Aereas S/A</td>
-															<td>07575651000159</td>
-															<td>08/10/2026</td>
-															<td>YIRCVN</td>
-															<td>R$ 2.776,03</td>
-															<td>R$ 2.776,03</td>
+															<td class="text-start">Azul Linhas Aereas Brasileiras S/A</td>
+															<td>09296295000160</td>
+															<td>16/06/2025</td>
+															<td>PI4NXF</td>
+															<td>R$ 1.522,19</td>
+															<td>R$ 1.522,19</td>
 														</tr>
 													<tr>
-															<td class="text-start">Hotel Soul Flats Ltda.</td>
-															<td>27391243000154</td>
-															<td>04/10/2026</td>
-															<td>11038</td>
-															<td>R$ 350,00</td>
-															<td>R$ 350,00</td>
+															<td class="text-start">Jequitiara Hotel Ltda.</td>
+															<td>09688744000115</td>
+															<td>30/06/2025</td>
+															<td>23660/2025</td>
+															<td>R$ 1.067,00</td>
+															<td>R$ 1.067,00</td>
 														</tr>
 													<tr>
-															<td class="text-start">Tam Linhas Aéreas S/A</td>
-															<td>02012862000160</td>
-															<td>08/10/2026</td>
-															<td>YGSYBW</td>
-															<td>R$ 780,79</td>
-															<td>R$ 780,79</td>
+															<td class="text-start">Ky Pousada Pedra Azul Ltda.</td>
+															<td>43961539000110</td>
+															<td>28/06/2025</td>
+															<td>5857/2025</td>
+															<td>R$ 507,00</td>
+															<td>R$ 507,00</td>
 														</tr>
 													</tbody>
 											</table>
@@ -1355,7 +1426,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									</div>
 								</div>
 							<div class="accordion-item rounded-bottom py-3 px-5 bg-gray-300 text-dark text-end">
-								<span class="pe-5"><strong>Total</strong> R$ 61.945,88</span>
+								<span class="pe-5"><strong>Total</strong> R$ 43.671,33</span>
 							</div>
 						</div>
 					</div>
