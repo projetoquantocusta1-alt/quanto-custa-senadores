@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="hCGoEo8czlBRkKyKyCfrjwLJrCxJviDsBYy2moMb">
+
+    <title>DOCIGP - Descentralização Orçamentária - Alerj</title>
+
+    <!-- Scripts -->
+    <script src="/js/app.js?id=aa9fab5c91012027fb59d8acf57c6dc4" defer></script>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+
+    <!-- Styles -->
+    <link href="/css/app.css?id=2eddd9dc2614afc7c5e88f7015f9ca81" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://docigp.alerj.rj.gov.br/vendor/megaphone/css/megaphone.css">
+
+    <script>
+    window.laravel = {"app":{"name":"DOCIGP","key":null,"id":"hCGoEo8czlBRkKyKyCfrjwLJrCxJviDsBYy2moMb","version":"1.0"},"env":{"default_joined_checkbox":true,"default_selected_legislature_number":12},"form":{"mode":"show"},"token":"hCGoEo8czlBRkKyKyCfrjwLJrCxJviDsBYy2moMb","captcha_enabled":true,"captcha_siteKey":null,"debug":false,"session":{"lifetime":"120","frontend":{"lifetime":null,"warning":null}},"user":null,"timestamp":"2026-11-26 17:12:26","old":[],"events":{"confirmation":{"enabled":null}},"broadcast":{"driver":"pusher"},"pusher":{"server":null,"key":"1f0d59ff52932cab7af2","options":{"cluster":"us2","encrypted":true,"host":"127.0.0.1","port":"6001","scheme":"http"}},"tables":{"legislatures":[{"id":2,"number":12,"year_start":2023,"year_end":2027,"created_by_id":4,"updated_by_id":null,"created_at":"2022-12-26T21:28:53.000000Z","updated_at":"2022-12-26T21:28:53.000000Z"},{"id":1,"number":11,"year_start":2019,"year_end":2023,"created_by_id":1,"updated_by_id":null,"created_at":"2019-05-03T13:34:21.000000Z","updated_at":"2019-05-03T13:34:21.000000Z"}]}}</script>
+
+    <style >[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="container-fluid">
+    <div class="row long-name text-center">
+        <div class="col-12">
+            DOCIGP - Descentralização Orçamentária de Custeio Individualizado para Gabinete Parlamentar - Alerj
+        </div>
+    </div>
+
+</div>
+<nav class="navbar navbar-expand-md navbar-light shadow bg-white">
+    <div class="container-fluid">
+
+        <a class="py-1 navbar-brand" href="https://docigp.alerj.rj.gov.br" >
+            <img src="/img/logo-alerj-docigp.png" class="img-fluid logo-alerj " alt="">
+        </a>
+
+        <div class="d-flex ml-auto">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#globalNavbar" aria-controls="globalNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="globalNavbar" style="">
+
+
+            <ul class="navbar-nav mr-auto">
+
+                                    <li class="nav-item">
+                        <a class="nav-link" href="https://docigp.alerj.rj.gov.br/login">Entrar</a>
+                    </li>
+                
+
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+        <main class="py-4">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col">
+                            <div class="row">
+        <div class="col text-right">
+            <a href="https://docigp.alerj.rj.gov.br/storage/docigp.pdf" class="btn btn-primary btn-sm" download>
+                <i class="fa fa-cloud-download-alt"></i> Baixar Ato N/MD/ nº 641/2019
+            </a>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="vue-entries">
+        <app-account></app-account>
+    </div>
+
+                        <div>
+                                                    </div>
+                    </div>
+                </div>
+
+                <div class="row text-center mt-5">
+                    <div class="col">
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77343191-8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-77343191-8');
+    </script>
+    <script src="/vendor/livewire/livewire.js?id=90730a3b0e7144480175" data-turbo-eval="false" data-turbolinks-eval="false" ></script><script data-turbo-eval="false" data-turbolinks-eval="false" >window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'hCGoEo8czlBRkKyKyCfrjwLJrCxJviDsBYy2moMb';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+    <script src="/js/alpine.js?id=db57222b495c01b7b6f4e17c15deabb2" defer></script>
+        </body>
+
+
+</html>

@@ -1,9 +1,0 @@
-User-agent: *
-Disallow: /web
-Disallow: /StaticFile
-Disallow: /repositorio/contratos
-Disallow: /repositorio/legislacao/seo/
-Disallow: /legis/seo/
-Sitemap: https://www.al.sp.gov.br/sitemap.xml
-Sitemap: https://www.al.sp.gov.br/sitemap-legis.xml
-Sitemap: https://www.al.sp.gov.br/sitemap-normas.xml
