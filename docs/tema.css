@@ -5,7 +5,7 @@
    ===================================================================== */
 :root {
   --bg: #F0F3F6; --panel: #FFFFFF; --panel-2: #F7F9FB; --line: #DDE3EA; --line-2: #C3CDD8;
-  --ink: #1B2733; --muted: #5B6878; --accent: #2463A6; --accent-esc: #2463A6; --danger: #C84C4C; --ok: #16865D;
+  --ink: #1B2733; --muted: #5B6878; --accent: #2463A6; --accent-esc: #2463A6; --danger: #c4161c; --ok: #16865D;
   --atencao: #D69A32; --marinho: #10243A;
   --menu: #10243A; --menu-ink: #FFFFFF; --menu-muted: #C9D4E2;
   --c-salario: #10243A; --c-ajuda: #8FA3B8; --c-auxilio: #D69A32; --c-cota: #2463A6; --c-gabinete: #16865D; --c-emenda: #6B8E23;
@@ -64,7 +64,7 @@ h1, h2, .titulo-secao, .visual h2, .destaque h1 { font-family: var(--serif); col
 .destaque h1 { font-size: clamp(28px, 4vw, 44px); margin-bottom: 8px; }
 .destaque .hero-sub { margin: 0 auto 18px; max-width: 640px; color: var(--muted); font-size: 17px; }
 .destaque .selo { color: var(--accent); letter-spacing: .1em; }
-.destaque-valor { color: #C84C4C; font-family: "IBM Plex Mono", ui-monospace, monospace; letter-spacing: -.04em; }
+.destaque-valor { color: #c4161c; font-family: "IBM Plex Mono", ui-monospace, monospace; letter-spacing: -.04em; }
 .busca-grande { display: flex; align-items: center; gap: 10px; max-width: 620px; margin: 0 auto 24px; background: #fff;
   border: 2px solid var(--marinho); border-radius: 12px; padding: 4px 4px 4px 14px; }
 .busca-grande svg { width: 20px; height: 20px; fill: none; stroke: var(--muted); stroke-width: 2; flex: none; }
