@@ -4,9 +4,9 @@
 		<meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Prestação de contas - Assembleia Legislativa de Minas Gerais</title>
-<meta name="description" content="Lista de demonstrativos de execução fiscal e financeira da ALMG, conforme determina a Lei de Responsabilidade Fiscal" />
-<meta name="keywords" content="lei de responsabilidade fiscal, demonstrativos, execução fiscal, execução finaneira, despesa com pessoal, remuneração dos deputados, custeio, execução orçamentária, gestão fiscal, relatório de atividades, verba indenizatória, contratos, convênios, assembleia legislativa, almg, minas, mg" />
+<title>Deputados: Remuneração e custeio - Assembleia Legislativa de Minas Gerais</title>
+<meta name="description" content="A Assembleia de Minas é o Poder Legislativo do Estado de Minas Gerais, com 77 deputados eleitos pelo voto popular" />
+<meta name="keywords" content="assembleia,legislativa,minas,gerais" />
 <meta name="author" content="Assembleia Legislativa de Minas Gerais" />
 <link rel="icon" href="/favicon.ico" />
 <link rel="shortcut icon" href="/favicon.ico" />
@@ -22,12 +22,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" />
 <meta name="google-site-verification" content="0xsqjtdtsDBBtioOs0mVatXrERRPLIriMF3Lik_jImY" />
 
-<link rel="canonical" href="https://www.almg.gov.br/transparencia/prestacao-de-contas/inicial/" />
+<link rel="canonical" href="https://www.almg.gov.br/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/" />
 <meta property="fb:pages" content="115931765148387" /><meta property="fb:app_id" content="1154754775193384" /><meta property="og:site_name" content="Portal da Assembleia Legislativa de Minas Gerais" />
-<meta property="og:title" content="Prestação de contas - Assembleia Legislativa de Minas Gerais" />
-<meta property="og:url" content="https://www.almg.gov.br/transparencia/prestacao-de-contas/inicial/" />
+<meta property="og:title" content="Deputados: Remuneração e custeio - Assembleia Legislativa de Minas Gerais" />
+<meta property="og:url" content="https://www.almg.gov.br/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/" />
 <meta property="og:type" content="website" />
-<meta property="og:description" content="Lista de demonstrativos de execução fiscal e financeira da ALMG, conforme determina a Lei de Responsabilidade Fiscal" />
+<meta property="og:description" content="A Assembleia de Minas é o Poder Legislativo do Estado de Minas Gerais, com 77 deputados eleitos pelo voto popular" />
 <meta property="og:image" content="" />
 <meta property="og:locale" content="pt_BR" />
 <link rel="image_src" type="image/jpeg" href="" />
@@ -36,8 +36,8 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@assembleiamg" />
 <meta name="twitter:domain" content="www.almg.gov.br" />
-<meta name="twitter:title" content="Prestação de contas - Assembleia Legislativa de Minas Gerais" />
-<meta name="twitter:description" content="Lista de demonstrativos de execução fiscal e financeira da ALMG, conforme determina a Lei de Responsabilidade Fiscal" />
+<meta name="twitter:title" content="Deputados: Remuneração e custeio - Assembleia Legislativa de Minas Gerais" />
+<meta name="twitter:description" content="A Assembleia de Minas é o Poder Legislativo do Estado de Minas Gerais, com 77 deputados eleitos pelo voto popular" />
 <meta name="twitter:image" content="" />
 <meta name="twitter:app:id:iphone" content="683275346" /><meta name="twitter:app:url:iphone" content="https://itunes.apple.com/br/app/almg/id683275346?mt=8" /><script src="/system/modules/br.gov.almg.portal/resources/js/gtm.js"></script>
 		<script src="/system/modules/br.gov.almg.portal/resources/js/ga_dom_selectors.js"></script>
@@ -175,7 +175,7 @@
 	});
 </script></head>
 
-	<body id="Prestação-de-contas">
+	<body id="Remuneração-e-custeio">
 		<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4XQ6H"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -328,7 +328,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<li class="border-0 border-top "><a onclick="var s = $(this).find('.spinner-grow'); s.removeClass('d-none'); setTimeout(function(){ s.addClass('d-none'); }, 20000);" href="/transparencia/diario-do-legislativo/" class="link-primary list-group-item bg-transparent border-0 fs-6 py-2 ps-3 pe-0 lh-sm gt-menu-subitem"><i class="bi bi-dot text-primary"></i> Diário do Legislativo<span class="spinner-grow spinner-grow-sm text-gray-400 ms-2 d-none" role="status" aria-hidden="true"></span></a></li>
 								<li class="border-0 border-top "><a onclick="var s = $(this).find('.spinner-grow'); s.removeClass('d-none'); setTimeout(function(){ s.addClass('d-none'); }, 20000);" href="/transparencia/licitacoes/" class="link-primary list-group-item bg-transparent border-0 fs-6 py-2 ps-3 pe-0 lh-sm gt-menu-subitem"><i class="bi bi-dot text-primary"></i> Licitações<span class="spinner-grow spinner-grow-sm text-gray-400 ms-2 d-none" role="status" aria-hidden="true"></span></a></li>
 								<li class="border-0 border-top "><a onclick="var s = $(this).find('.spinner-grow'); s.removeClass('d-none'); setTimeout(function(){ s.addClass('d-none'); }, 20000);" href="/transparencia/contratos/" class="link-primary list-group-item bg-transparent border-0 fs-6 py-2 ps-3 pe-0 lh-sm gt-menu-subitem"><i class="bi bi-dot text-primary"></i> Contratos e convênios<span class="spinner-grow spinner-grow-sm text-gray-400 ms-2 d-none" role="status" aria-hidden="true"></span></a></li>
-								<li class="border-0 border-top active "><a onclick="var s = $(this).find('.spinner-grow'); s.removeClass('d-none'); setTimeout(function(){ s.addClass('d-none'); }, 20000);" href="/transparencia/prestacao-de-contas/inicial/" class="link-primary list-group-item bg-transparent border-0 fs-6 py-2 ps-3 pe-0 lh-sm gt-menu-subitem"><i class="bi bi-dot text-primary"></i> Prestação de contas<span class="spinner-grow spinner-grow-sm text-gray-400 ms-2 d-none" role="status" aria-hidden="true"></span></a></li>
+								<li class="border-0 border-top "><a onclick="var s = $(this).find('.spinner-grow'); s.removeClass('d-none'); setTimeout(function(){ s.addClass('d-none'); }, 20000);" href="/transparencia/prestacao-de-contas/inicial/" class="link-primary list-group-item bg-transparent border-0 fs-6 py-2 ps-3 pe-0 lh-sm gt-menu-subitem"><i class="bi bi-dot text-primary"></i> Prestação de contas<span class="spinner-grow spinner-grow-sm text-gray-400 ms-2 d-none" role="status" aria-hidden="true"></span></a></li>
 								<li class="border-0 border-top "><a onclick="var s = $(this).find('.spinner-grow'); s.removeClass('d-none'); setTimeout(function(){ s.addClass('d-none'); }, 20000);" href="/transparencia/concursos-publicos/vigentes/" class="link-primary list-group-item bg-transparent border-0 fs-6 py-2 ps-3 pe-0 lh-sm gt-menu-subitem"><i class="bi bi-dot text-primary"></i> Concursos públicos<span class="spinner-grow spinner-grow-sm text-gray-400 ms-2 d-none" role="status" aria-hidden="true"></span></a></li>
 								<li class="border-0 border-top "><a onclick="var s = $(this).find('.spinner-grow'); s.removeClass('d-none'); setTimeout(function(){ s.addClass('d-none'); }, 20000);" href="/transparencia/direcionamento-estrategico/ciclo-2020-2030/inicial/" class="link-primary list-group-item bg-transparent border-0 fs-6 py-2 ps-3 pe-0 lh-sm gt-menu-subitem"><i class="bi bi-dot text-primary"></i> Direcionamento Estratégico<span class="spinner-grow spinner-grow-sm text-gray-400 ms-2 d-none" role="status" aria-hidden="true"></span></a></li>
 								<li class="border-0 border-top "><a onclick="var s = $(this).find('.spinner-grow'); s.removeClass('d-none'); setTimeout(function(){ s.addClass('d-none'); }, 20000);" href="/transparencia/protecao-de-dados-pessoais/lei-geral-de-protecao-de-dados/" class="link-primary list-group-item bg-transparent border-0 fs-6 py-2 ps-3 pe-0 lh-sm gt-menu-subitem"><i class="bi bi-dot text-primary"></i> Proteção de dados pessoais<span class="spinner-grow spinner-grow-sm text-gray-400 ms-2 d-none" role="status" aria-hidden="true"></span></a></li>
@@ -595,7 +595,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<a href="/transparencia/diario-do-legislativo/" class="dropdown-item border-bottom border-gray-100 gt-menu-subitem fw-semibold ">Diário do Legislativo</a>
 										<a href="/transparencia/licitacoes/" class="dropdown-item border-bottom border-gray-100 gt-menu-subitem fw-semibold ">Licitações</a>
 										<a href="/transparencia/contratos/" class="dropdown-item border-bottom border-gray-100 gt-menu-subitem fw-semibold ">Contratos e convênios</a>
-										<a href="/transparencia/prestacao-de-contas/inicial/" class="dropdown-item border-bottom border-gray-100 gt-menu-subitem fw-semibold active ">Prestação de contas</a>
+										<a href="/transparencia/prestacao-de-contas/inicial/" class="dropdown-item border-bottom border-gray-100 gt-menu-subitem fw-semibold ">Prestação de contas</a>
 										<a href="/transparencia/concursos-publicos/vigentes/" class="dropdown-item border-bottom border-gray-100 gt-menu-subitem fw-semibold ">Concursos públicos</a>
 										<a href="/transparencia/direcionamento-estrategico/ciclo-2020-2030/inicial/" class="dropdown-item border-bottom border-gray-100 gt-menu-subitem fw-semibold ">Direcionamento Estratégico</a>
 										<a href="/transparencia/protecao-de-dados-pessoais/lei-geral-de-protecao-de-dados/" class="dropdown-item border-bottom border-gray-100 gt-menu-subitem fw-semibold ">Proteção de dados pessoais</a>
@@ -648,7 +648,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		//console.log(infoUsuario);
 		$('.js_loginToggle').toggleClass('d-none');
 	}
-</script><section class="d-none d-lg-block bg-gray-100">
+</script><div class="d-block d-lg-none bg-gray-100 p-2 lh-1">
+		<a href="/transparencia/prestacao-de-contas/" class="badge rounded-pill bg-light text-primary-alt bg-white text-nowrap m-1 shadow-sm gt-breadcrumb-back"><i class='bx bx-chevron-left fs-6 ms-n1'></i>Prestação de Contas</a>
+	</div>
+<section class="d-none d-lg-block bg-gray-100">
 	<div class="position-relative container-fluid container-lg py-3">
 		<nav class="justify-content-center d-flex" aria-label="breadcrumb">
 				<ul class="breadcrumb fw-semibold mb-0">
@@ -689,51 +692,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 												</ul>
 										</div>
 									</li>
+						<li class="breadcrumb-item">
+								<div class="dropdown d-inline-block">
+											<a class="fw-semibold" href="#" role="button" id="Deputados" data-bs-toggle="dropdown" aria-expanded="false">
+												<i class='bi bi-list fs-6 align-middle'></i>
+												Deputados</a>
+											<ul class="dropdown-menu border-1 border-gray-200" aria-labelledby="Deputados">
+												<li><a class="dropdown-item py-2 lh-sm fw-semibold border-bottom border-gray-100  gt-breadcrumb-item" href="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/">Remuneração e custeio</a></li>
+												<li><a class="dropdown-item py-2 lh-sm fw-semibold  gt-breadcrumb-item" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/">Verba indenizatória</a></li>
+												</ul>
+										</div>
+									</li>
 						<li class="breadcrumb-item fw-semibold active text-gray-550" aria-current="page">Esta página</li>
 						</ul>
 			</nav>
 		</div>
 </section>
 
-<section class="position-relative bg-gray-100  ">
-		<div class="position-relative container-fluid container-lg py-3 pb-lg-4 pt-lg-0">
-			<div class="row align-items-center">
-				<div class="col-12 mx-auto text-center">
-			<style>
-					/* Busca local e Share */
-					button.mobileIconTrigger[aria-expanded=true] i {
-						transition: all 0.5s;
-					}
-					button.mobileIconTrigger[aria-expanded=true] i, /* accordion */
-					body.modal-open button.mobileIconTrigger[data-bs-toggle=modal] i /* modal */ {
-						font-weight: bold;
-						color:var(--bs-secondary) !important;
-					}
-				</style>
-
-				<!-- Mobile -->
-				<div class="d-block d-lg-none">
-					<div class="h1 fw-bold text-uppercase text-gray-800 ls--1 lh-1 mb-0 d-flex justify-content-center align-items-center">
-						<span class="align-middle">Prestação de contas</span>
-						<button type="button" aria-label="Compartilhar" class="mobileIconTrigger btn bg-transparent shadow-none text-center p-0 m-0 ms-1 border-0 rounded-0 align-middle"
-								data-bs-toggle="modal"
-								data-bs-target="#modal-share">
-							<i class="bx bx-share-alt fs-3 text-khaki align-middle"></i><span class="d-none">Compartilhar</span>
-						</button>
-					</div>
-					</div>
-
-				<!-- Desktop -->
-				<div class="d-none d-lg-block">
-					<h1 class="fw-bold text-uppercase text-gray-800 ls--2 mb-0">
-						<span class="align-middle">Prestação de contas</span>
-						</h1>
-					</div>
-
-			</div>
-				</div>
-			</div>
-	</section>
 </header>
 		
 		<main>
@@ -763,7 +738,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="col-12  d-lg-none  px-2 d-flex align-items-center align-middle">
 				<!-- 1.a) Última etapa breadcrumb -->
 				<nav class="m-0 me-auto ms-2 p-0 lh-1">
-						</nav>
+						<span class="d-block lh-1 text-uppercase fw-normal text-gray-550 px-0 py-3 small">Deputados</span>
+								</nav>
 				<!-- 1.b) Menu local -->
 				<button type="button" aria-label="Menu Local" class="btn bg-transparent shadow-none text-center px-2 border-0 rounded-0 collapsed" aria-expanded="false"
 						data-bs-toggle="collapse" data-bs-target="#collapseSecondaryMenu" aria-controls="collapseSecondaryMenu"><!--me-auto-->
@@ -774,67 +750,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<!-- 2) Navegacao Local - Desktop -->
 				<div class="d-none d-lg-flex justify-content-between align-items-center px-0">
 					<!-- 2.a) Backlink -->
-					<div class="lh-1 ms-2 mt-2 align-self-start"></div>
+					<div class="lh-1 ms-2 mt-2 align-self-start"><a href="/transparencia/prestacao-de-contas/" class="badge rounded-pill bg-light text-primary-alt bg-white text-nowrap ms-1"><i class='bx bx-chevron-left fs-6 ms-n1'></i>Prestação de Contas</a></div>
 					<div class="px-0">
 						<nav class="col-12 nav-custom3">
 							<!-- 2.b) Submenu -->
 							<ul class="nav justify-content-center flex-row p-0 m-0 rounded-0 overflow-hidden fs-6">
 								<li class="nav-item text-center">
-										<a class="nav-link fw-semibold ps-3 border-0  active  gt-menulocal" data-resource-name="/transparencia/prestacao-de-contas/inicial/" data-resquest-folder-uri="/transparencia/prestacao-de-contas/inicial/" aria-current="page" href="/transparencia/prestacao-de-contas/inicial/">Inicial</a>
+										<a class="nav-link fw-semibold ps-3 border-0  active  gt-menulocal" data-resource-name="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/" data-resquest-folder-uri="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/" aria-current="page" href="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/">Remuneração e custeio</a>
 											</li>
 								<li class="nav-item text-center">
-										<a class="nav-link ps-3 dropdown-toggle fw-semibold border-0  " data-request-folder-uri="/transparencia/prestacao-de-contas/inicial/" data-parent-folder-name="/transparencia/prestacao-de-contas/deputados/" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true"  role="button" aria-expanded="false">Deputados<i class='bx bx-chevron-down ms-1'></i></a>
-												<ul class="dropdown-menu m-0 py-2 px-2 border-0 border-bottom bg-white" data-bs-popper="none">
-													<li class="border-0 border-light   bg-transparent">
-															<a class="dropdown-item border-0 bg-transparent fw-semibold  " href="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/"><i class="bi bi-dot text-gray-500 ms-n2 me-1"></i>Remuneração e custeio</a>
-																</li>
-													<li class="border-0 border-light  border-top  bg-transparent">
-															<a class="dropdown-item border-0 bg-transparent fw-semibold  " href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/"><i class="bi bi-dot text-gray-500 ms-n2 me-1"></i>Verba indenizatória</a>
-																</li>
-													</ul>
-											</li>
-								<li class="nav-item text-center">
-										<a class="nav-link ps-3 dropdown-toggle fw-semibold border-0  " data-request-folder-uri="/transparencia/prestacao-de-contas/inicial/" data-parent-folder-name="/transparencia/prestacao-de-contas/despesa-com-pessoal/" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true"  role="button" aria-expanded="false">Pessoal<i class='bx bx-chevron-down ms-1'></i></a>
-												<ul class="dropdown-menu m-0 py-2 px-2 border-0 border-bottom bg-white" data-bs-popper="none">
-													<li class="border-0 border-light   bg-transparent">
-															<a class="dropdown-item border-0 bg-transparent fw-semibold  " href="/transparencia/prestacao-de-contas/despesa-com-pessoal/estrutura-de-cargos-e-vencimentos/"><i class="bi bi-dot text-gray-500 ms-n2 me-1"></i>Estrutura de cargos e vencimentos</a>
-																</li>
-													<li class="border-0 border-light  border-top  bg-transparent">
-															<a class="dropdown-item border-0 bg-transparent fw-semibold  " href="/transparencia/prestacao-de-contas/despesa-com-pessoal/relatorios-trimestrais/"><i class="bi bi-dot text-gray-500 ms-n2 me-1"></i>Despesa trimestral</a>
-																</li>
-													<li class="border-0 border-light  border-top  bg-transparent">
-															<a class="dropdown-item border-0 bg-transparent fw-semibold  " href="/transparencia/prestacao-de-contas/despesa-com-pessoal/folha-de-pagamento/"><i class="bi bi-dot text-gray-500 ms-n2 me-1"></i>Folha de pagamento</a>
-																</li>
-													</ul>
-											</li>
-								<li class="nav-item text-center">
-										<a class="nav-link fw-semibold ps-3 border-0   gt-menulocal" data-resource-name="/transparencia/prestacao-de-contas/gestao-fiscal/" data-resquest-folder-uri="/transparencia/prestacao-de-contas/inicial/" aria-current="page" href="/transparencia/prestacao-de-contas/gestao-fiscal/">Gestão fiscal</a>
-											</li>
-								<li class="nav-item text-center">
-										<a class="nav-link ps-3 dropdown-toggle fw-semibold border-0  " data-request-folder-uri="/transparencia/prestacao-de-contas/inicial/" data-parent-folder-name="/transparencia/prestacao-de-contas/execucao-orcamentaria/" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true"  role="button" aria-expanded="false">Execução orçamentária<i class='bx bx-chevron-down ms-1'></i></a>
-												<ul class="dropdown-menu m-0 py-2 px-2 border-0 border-bottom bg-white" data-bs-popper="none">
-													<li class="border-0 border-light   bg-transparent">
-															<a class="dropdown-item border-0 bg-transparent fw-semibold  " href="/transparencia/prestacao-de-contas/execucao-orcamentaria/por-elemento-de-despesa/"><i class="bi bi-dot text-gray-500 ms-n2 me-1"></i>Por elemento de despesa</a>
-																</li>
-													<li class="border-0 border-light  border-top  bg-transparent">
-															<a class="dropdown-item border-0 bg-transparent fw-semibold  " href="/transparencia/prestacao-de-contas/execucao-orcamentaria/por-grupo-de-despesa/"><i class="bi bi-dot text-gray-500 ms-n2 me-1"></i>Por grupo de despesa</a>
-																</li>
-													<li class="border-0 border-light  border-top  bg-transparent">
-															<a class="dropdown-item border-0 bg-transparent fw-semibold  " href="/transparencia/prestacao-de-contas/execucao-orcamentaria/despesas-publicidade/"><i class="bi bi-dot text-gray-500 ms-n2 me-1"></i>Despesas com publicidade</a>
-																</li>
-													<li class="border-0 border-light  border-top  bg-transparent">
-															<a class="dropdown-item border-0 bg-transparent fw-semibold  " href="/transparencia/prestacao-de-contas/execucao-orcamentaria/receitas-e-arrecadacoes/"><i class="bi bi-dot text-gray-500 ms-n2 me-1"></i>Receitas e arrecadações</a>
-																</li>
-													<li class="border-0 border-light  border-top  bg-transparent">
-															<a class="dropdown-item border-0 bg-transparent fw-semibold  " href="/transparencia/prestacao-de-contas/execucao-orcamentaria/pagamentos-a-pessoas-fisicas-e-juridicas/"><i class="bi bi-dot text-gray-500 ms-n2 me-1"></i>Pagamentos a pessoas físicas e jurídicas</a>
-																</li>
-													</ul>
+										<a class="nav-link fw-semibold ps-3 border-0   gt-menulocal" data-resource-name="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/" data-resquest-folder-uri="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/" aria-current="page" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/">Verba indenizatória</a>
 											</li>
 								</ul>
 						</nav>
 					</div>
 					<div class="lh-1 ms-2 invisible">
-						</div>
+						<a href="/transparencia/prestacao-de-contas/" class="badge rounded-pill bg-light text-primary-alt bg-white text-nowrap ms-1"><i class='bx bx-chevron-left fs-6 ms-n1'></i>Prestação de Contas</a></div>
 				</div>
 
 				<!-- 3) Navegacao Local - Mobile -->
@@ -843,67 +774,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<nav class="col-12 nav-custom3">
 							<ul class="nav justify-content-center flex-column p-0 mx-2 mt-0 mb-3 rounded-0 overflow-hidden fs-6">
 								<li class="nav-item text-start">
-										<a class="nav-link px-3 py-2 rounded-0 fw-semibold border-0 border-light border-top  active  gt-menulocal" aria-current="page" href="/transparencia/prestacao-de-contas/inicial/">Inicial<i class='bx bx-chevron-right ms-1'></i></a>
+										<a class="nav-link px-3 py-2 rounded-0 fw-semibold border-0 border-light border-top  active  gt-menulocal" aria-current="page" href="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/">Remuneração e custeio<i class='bx bx-chevron-right ms-1'></i></a>
 											</li>
 								<li class="nav-item text-start">
-										<span id="accordion_1" class="accordion accordion-flush">
-													<span class="accordion-item">
-														<a class="accordion-button collapsed shadow-none nav-link px-3 py-2 rounded-0 fw-semibold border-0 border-light border-top  " href="#" data-bs-toggle="collapse" data-bs-target="#accordion-collapse_1" aria-expanded="false" aria-controls="accordion-collapse_1">Deputados</a>
-														<ul id="accordion-collapse_1" class="accordion-collapse collapse rounded-0 m-0 p-0 border-0 bg-gray-100" data-bs-parent="#accordion_1">
-															<li class="border-0 bg-transparent">
-																	<a class="dropdown-item border-0 border-bottom py-2 py-lg-0 border-gray-300 bg-transparent fw-semibold ps-3 pe-0  " href="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/"><i class="bi bi-dot text-gray-500 ms-n1 me-1"></i>Remuneração e custeio</a>
-																		</li>
-															<li class="border-0 bg-transparent">
-																	<a class="dropdown-item border-0 border-bottom py-2 py-lg-0 border-gray-300 bg-transparent fw-semibold ps-3 pe-0  " href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/"><i class="bi bi-dot text-gray-500 ms-n1 me-1"></i>Verba indenizatória</a>
-																		</li>
-															</ul>
-													</span>
-												</span>
-											</li>
-								<li class="nav-item text-start">
-										<span id="accordion_2" class="accordion accordion-flush">
-													<span class="accordion-item">
-														<a class="accordion-button collapsed shadow-none nav-link px-3 py-2 rounded-0 fw-semibold border-0 border-light border-top  " href="#" data-bs-toggle="collapse" data-bs-target="#accordion-collapse_2" aria-expanded="false" aria-controls="accordion-collapse_2">Pessoal</a>
-														<ul id="accordion-collapse_2" class="accordion-collapse collapse rounded-0 m-0 p-0 border-0 bg-gray-100" data-bs-parent="#accordion_2">
-															<li class="border-0 bg-transparent">
-																	<a class="dropdown-item border-0 border-bottom py-2 py-lg-0 border-gray-300 bg-transparent fw-semibold ps-3 pe-0  " href="/transparencia/prestacao-de-contas/despesa-com-pessoal/estrutura-de-cargos-e-vencimentos/"><i class="bi bi-dot text-gray-500 ms-n1 me-1"></i>Estrutura de cargos e vencimentos</a>
-																		</li>
-															<li class="border-0 bg-transparent">
-																	<a class="dropdown-item border-0 border-bottom py-2 py-lg-0 border-gray-300 bg-transparent fw-semibold ps-3 pe-0  " href="/transparencia/prestacao-de-contas/despesa-com-pessoal/relatorios-trimestrais/"><i class="bi bi-dot text-gray-500 ms-n1 me-1"></i>Despesa trimestral</a>
-																		</li>
-															<li class="border-0 bg-transparent">
-																	<a class="dropdown-item border-0 border-bottom py-2 py-lg-0 border-gray-300 bg-transparent fw-semibold ps-3 pe-0  " href="/transparencia/prestacao-de-contas/despesa-com-pessoal/folha-de-pagamento/"><i class="bi bi-dot text-gray-500 ms-n1 me-1"></i>Folha de pagamento</a>
-																		</li>
-															</ul>
-													</span>
-												</span>
-											</li>
-								<li class="nav-item text-start">
-										<a class="nav-link px-3 py-2 rounded-0 fw-semibold border-0 border-light border-top   gt-menulocal" aria-current="page" href="/transparencia/prestacao-de-contas/gestao-fiscal/">Gestão fiscal<i class='bx bx-chevron-right ms-1'></i></a>
-											</li>
-								<li class="nav-item text-start">
-										<span id="accordion_4" class="accordion accordion-flush">
-													<span class="accordion-item">
-														<a class="accordion-button collapsed shadow-none nav-link px-3 py-2 rounded-0 fw-semibold border-0 border-light border-top  " href="#" data-bs-toggle="collapse" data-bs-target="#accordion-collapse_4" aria-expanded="false" aria-controls="accordion-collapse_4">Execução orçamentária</a>
-														<ul id="accordion-collapse_4" class="accordion-collapse collapse rounded-0 m-0 p-0 border-0 bg-gray-100" data-bs-parent="#accordion_4">
-															<li class="border-0 bg-transparent">
-																	<a class="dropdown-item border-0 border-bottom py-2 py-lg-0 border-gray-300 bg-transparent fw-semibold ps-3 pe-0  " href="/transparencia/prestacao-de-contas/execucao-orcamentaria/por-elemento-de-despesa/"><i class="bi bi-dot text-gray-500 ms-n1 me-1"></i>Por elemento de despesa</a>
-																		</li>
-															<li class="border-0 bg-transparent">
-																	<a class="dropdown-item border-0 border-bottom py-2 py-lg-0 border-gray-300 bg-transparent fw-semibold ps-3 pe-0  " href="/transparencia/prestacao-de-contas/execucao-orcamentaria/por-grupo-de-despesa/"><i class="bi bi-dot text-gray-500 ms-n1 me-1"></i>Por grupo de despesa</a>
-																		</li>
-															<li class="border-0 bg-transparent">
-																	<a class="dropdown-item border-0 border-bottom py-2 py-lg-0 border-gray-300 bg-transparent fw-semibold ps-3 pe-0  " href="/transparencia/prestacao-de-contas/execucao-orcamentaria/despesas-publicidade/"><i class="bi bi-dot text-gray-500 ms-n1 me-1"></i>Despesas com publicidade</a>
-																		</li>
-															<li class="border-0 bg-transparent">
-																	<a class="dropdown-item border-0 border-bottom py-2 py-lg-0 border-gray-300 bg-transparent fw-semibold ps-3 pe-0  " href="/transparencia/prestacao-de-contas/execucao-orcamentaria/receitas-e-arrecadacoes/"><i class="bi bi-dot text-gray-500 ms-n1 me-1"></i>Receitas e arrecadações</a>
-																		</li>
-															<li class="border-0 bg-transparent">
-																	<a class="dropdown-item border-0 border-bottom py-2 py-lg-0 border-gray-300 bg-transparent fw-semibold ps-3 pe-0  " href="/transparencia/prestacao-de-contas/execucao-orcamentaria/pagamentos-a-pessoas-fisicas-e-juridicas/"><i class="bi bi-dot text-gray-500 ms-n1 me-1"></i>Pagamentos a pessoas físicas e jurídicas</a>
-																		</li>
-															</ul>
-													</span>
-												</span>
+										<a class="nav-link px-3 py-2 rounded-0 fw-semibold border-0 border-light border-top   gt-menulocal" aria-current="page" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/">Verba indenizatória<i class='bx bx-chevron-right ms-1'></i></a>
 											</li>
 								</ul>
 						</nav>
@@ -913,10 +787,98 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 </section></div><div class="d-none">
 				<h1>
-					Prestação de contas</h1>
+					Deputados: Remuneração e custeio</h1>
 				</div>
 			
-			<div  id="premaincontainer" ></div><div class="container-fluid container-lg px-xl-15 my-4 my-lg-5 mt-3 mt-lg-4" data-debug="templatePadraoSize">
+			<style>
+					/* Busca local e Share */
+					.mobileActionBar {
+						transition: all 0.5s;
+					}
+					.mobileActionBar.active {
+						background-color:var(--bs-gray-100);
+					}
+					.mobileActionBar button[aria-expanded=true] i, /* accordion */
+					body.modal-open .mobileActionBar button[data-bs-toggle='modal'] i /* modal */ {
+						font-weight: bold;
+					}
+				</style>
+				<section>
+					<!-- Mobile -->
+					<div class="d-block d-lg-none  active   mobileActionBar">
+						<div class="d-flex align-items-start">
+							<div class="flex-grow-1 text-start pt-3 pb-2 ps-3"><div class="d-none m-0 p-0 fw-semibold text-uppercase lh-sm text-khaki pt-2 pb-1 fs-5">Deputados</div>
+									<div class="h1 m-0 p-0 fw-bold text-uppercase text-gray-800 ls--1 lh-1">Remuneração e custeio</div>
+									</div>
+							<div class="btn-group pt-2 pe-3">
+								<button type="button" aria-label="Pesquisar" class="btn bg-transparent shadow-none text-center p-1 border-0 rounded-0 me-1 " aria-expanded="true"
+										data-bs-toggle="collapse"
+										data-bs-target="#collapseSearch_mobile" aria-controls="collapseSearch_mobile"
+										onclick="document.querySelectorAll('.mobileActionBar').forEach(el=>el.classList.toggle('active'));">
+										<i class="bx bx-search display-4 lh-2 text-secondary"></i><span class="d-none">Pesquisar</span>
+									</button>
+								<button type="button" aria-label="Compartilhar" class="btn bg-transparent shadow-none text-center p-1 border-0 rounded-0"
+									data-bs-toggle="modal"
+									data-bs-target="#modal-share">
+									<i class="bx bx-share-alt display-4 lh-2 text-secondary"></i><span class="d-none">Compartilhar</span>
+								</button>
+							</div>
+						</div>
+						<div class="collapse d-lg-none p-0 show" id="collapseSearch_mobile" data-bs-parent="#CollapseMobileBar">
+	<div class="accordion accordion-custom2 px-2 py-2" id="accordionSearch_mobile">
+		<div class="accordion-item bg-transparent border-0">
+			<div id="collapseItem_mobile" class="accordion-collapse collapse show" aria-labelledby="accordionHeader_mobile" data-bs-parent="#accordionHeader_mobile">
+				<div class="accordion-body p-0 pb-3">
+					<div class="nav-custom2 mt-0 mt-lg-3">
+						<form method="get" name="buscaDespesas" action="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/">
+	<div class="input-group">
+		<label for="ano_mobile" class="input-group-text">
+			Ano
+		</label>
+		<select class="form-select" aria-label="Default select" name="ano" id="ano_mobile" onchange="this.form.submit()">
+				<option value="0">Selecione</option>
+				<option value="2026" selected="selected">2026</option>
+				<option value="2025" >2025</option>
+				<option value="2024" >2024</option>
+				<option value="2023" >2023</option>
+				<option value="2022" >2022</option>
+				<option value="2021" >2021</option>
+				<option value="2020" >2020</option>
+				<option value="2019" >2019</option>
+				<option value="2018" >2018</option>
+				<option value="2017" >2017</option>
+				<option value="2016" >2016</option>
+				<option value="2015" >2015</option>
+				<option value="2014" >2014</option>
+				<option value="2013" >2013</option>
+				<option value="2012" >2012</option>
+				<option value="2011" >2011</option>
+				<option value="2010" >2010</option>
+				<option value="2009" >2009</option>
+				<option value="2008" >2008</option>
+				<option value="2007" >2007</option>
+				<option value="2006" >2006</option>
+				<option value="2005" >2005</option>
+				<option value="2004" >2004</option>
+				<option value="2003" >2003</option>
+				</select>
+	</div>
+</form></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div>
+					<!-- Desktop -->
+					<div class="  container px-xl-15   d-none d-lg-block ">
+						<div class="col-12 text-uppercase mt-5">
+							<div class="h5 m-0 p-0 text-khaki">Deputados</div>
+							<div class="h1 m-0 p-0 text-dark ">
+									Remuneração e custeio</div>
+							</div>
+					</div>
+				</section>
+			<div  id="premaincontainer" ></div><div class="container-fluid container-lg px-xl-15 my-4 my-lg-5" data-debug="templatePadraoSize">
 				<div class="row "><div class="col-12">
 						<script>
 	function printPage(printTarget){
@@ -1010,65 +972,188 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</aside>
 <div  id="maincontainer" ><div class="compAlmgTexto">
 		<div  class="   mb-4 ">
-			<p>A ALMG divulga os demonstrativos de sua <mark>execução orçamentária e financeira</mark>. Essa é uma determinação da <strong>Lei de Responsabilidade Fiscal</strong> (<a href="http://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm" title="Ir para a Lei de Responsabilidade Fiscal" target="_blank" rel="noopener"><strong>Lei Complementar 101, de 2000</strong></a>),&nbsp;</p>
-<p>O demonstrativo da despesa com pessoal é divulgado a cada trimestre, conforme a <strong>Lei de Diretrizes Orçamentárias (LDO)</strong>.</p>
-<p>Também estão disponíveis:</p>
-<ul>
-<li>Informações sobre a <strong>remuneração dos deputados</strong></li>
-<li><strong>Demonstrativos das despesas do mandato</strong> parlamentar, para fins de recebimento da <strong>verba indenizatória</strong>.</li>
-</ul></div>
-	</div>
-<div class="compAlmgTexto">
-		<div  class="   mb-4 ">
-			<h2>Consulte</h2></div>
+			<p>A&nbsp;<strong>remuneração do deputado</strong> é um subsídio mensal, no valor correspondente a <strong>75% da remuneração do deputado federal</strong>, conforme o parágrafo 2º do artigo 27 da Constituição Federal e a <a href="/atividade-parlamentar/leis/legislacao-mineira/lei/?tipo=LEI&amp;num=24266&amp;ano=2022&amp;comp=&amp;cons=" title="Ir para a Lei 24.266, de 2022">Lei 24.266, de 2022</a>.</p>
+<p><strong>O total bruto</strong> da remuneração mensal do deputado estadual (subsídio mensal) é de <mark class="active">R$ 34.774,64.</mark></p></div>
 	</div>
 <div>
-	<div class="   mb-4 ">
-
-		<div  class="list-unstyled list-group">
-			<a class="list-group-item actve list-group-item-action py-3 gt-item-lista" href="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/" ><i class="me-2 bx bx-chevron-right"></i>Deputados</a><a class="list-group-item actve list-group-item-action py-3 gt-item-lista" href="/transparencia/prestacao-de-contas/despesa-com-pessoal/" ><i class="me-2 bx bx-chevron-right"></i>Pessoal</a><a class="list-group-item actve list-group-item-action py-3 gt-item-lista" href="/transparencia/prestacao-de-contas/gestao-fiscal/" ><i class="me-2 bx bx-chevron-right"></i>Gestão fiscal</a><a class="list-group-item actve list-group-item-action py-3 gt-item-lista" href="/transparencia/prestacao-de-contas/execucao-orcamentaria/" ><i class="me-2 bx bx-chevron-right"></i>Execução orçamentária</a></div>
-</div>
-</div><div>
-	<div class="  mt-4  mb-4 ">
-		<div class="d-md-flex bg-light justify-content-between align-items-center p-4 p-xl-6 border-start border-5 border-primary">
-			<div class="me-4 w-auto  w-md-60 w-lg-70">
-				<!--Title-->
-				<h2 class="mb-3 fs-2">
-					Glossário</h2>
-				<!--text-->
-				<p class="mb-0">Entenda os termos relacionados à prestação de contas.</p>
-				</div>
-			<a class="btn btn-primary btn-hover-arrow mt-4 mt-md-0" href="https://mediaserver.almg.gov.br/acervo/708/354/1708354.pdf" >
-				<span>Consulte</span>
-			</a>
-		</div>
-	</div>
-</div>
-</div></div>
-					<div  id="posmaincontainer" ></div></div>
+	<div class="accordion    mb-4 " id="accordion-1">
+		<div class="accordion-item">
+				<h2 class="accordion-header bg-light" id="headingOne">
+					<a name="link-Outrosvalores" class="accordion-button collapsed fs-4" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-9aba9524-2ca1-11ee-93b8-00505681efca-1" aria-expanded="true" aria-controls="collapse-9aba9524-2ca1-11ee-93b8-00505681efca-1">
+						Outros valores</a>
+				</h2>
+				<div id="collapse-9aba9524-2ca1-11ee-93b8-00505681efca-1" class="accordion-collapse collapse" aria-labelledby="heading_1_1" data-bs-parent="#accordion-1">
+					<div class="accordion-body">
+						<ul>
+<li><strong>Parcela</strong> correspondente ao <strong>valor do subsídio</strong>, a ser paga no mês de <strong>dezembro</strong>, <strong>proporcionalmente ao efetivo exercício</strong> do mandato parlamentar no ano</li>
+<li><strong>Ajuda de custo</strong> correspondente ao <strong>valor do subsídio</strong>, no <strong>início</strong> e no <strong>final</strong> do mandato parlamentar</li>
+</ul>
+<p>É <strong>vedada</strong> a concessão da ajuda de custo ao suplente reconvocado dentro da mesma legislatura.</p>
+<p>O deputado estadual pode optar pela&nbsp;<strong>remuneração simbólica</strong>&nbsp;de um salário mínimo, conforme dispõe a <a href="/atividade-parlamentar/leis/legislacao-mineira/lei/?tipo=RAL&amp;num=5154&amp;ano=1994&amp;comp=&amp;cons=" title="Ir para a página da Resolução da Mesa da ALMG 5.154, de 1994">Resolução da Mesa da ALMG 5.154, de 1994</a>.</p><div ></div></div>
+					</div>
 			</div>
-			<div  id="footercontainer" ><div>
-		<div class="">
-			<aside class="bg-light position-relative">
-				<div class="container-fluid container-lg position-relative z-index-1">
-					<div class="row grid-separator align-items-stretch  mx-lg-20 ">
-						<div class="col-lg-12 py-lg-6 py-4">
-								<div class="h4 mb-3 text-gray-800"><i class="bi bi-arrow-right-short fs-4 align-middle"></i>
-									Fale com o Centro de Atendimento ao Cidadão (CAC)</div>
-								<p>Solicitações fundamentadas na Lei de Acesso à Informação (LAI).</p><div class="ms-4">
-									<div ><div>
-	<div class="d-grid justify-content-end    ">
-		<a class="btn btn-primary text-decoration-none " href="/apps/fale-com/assembleia"  role="button"  >
-			Contato</a>
+		<div class="accordion-item">
+				<h2 class="accordion-header bg-light" id="headingOne">
+					<a name="link-Auxliomoradia" class="accordion-button collapsed fs-4" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-9aba9524-2ca1-11ee-93b8-00505681efca-2" aria-expanded="true" aria-controls="collapse-9aba9524-2ca1-11ee-93b8-00505681efca-2">
+						Auxílio-moradia</a>
+				</h2>
+				<div id="collapse-9aba9524-2ca1-11ee-93b8-00505681efca-2" class="accordion-collapse collapse" aria-labelledby="heading_1_2" data-bs-parent="#accordion-1">
+					<div class="accordion-body">
+						<p>O pagamento do auxílio-moradia está regulamentado pela <a href="/atividade-parlamentar/leis/legislacao-mineira/lei/?tipo=DLB&amp;num=2701&amp;ano=2019&amp;comp=&amp;cons=" title="Ir para Deliberação da Mesa 2.701, de 2019">Deliberação da Mesa 2.701, de 2019</a>. A ALMG segue os <mark>critérios previstos para o Poder Judiciário</mark> e para o Ministério Público da União, contidos na <a href="https://atos.cnj.jus.br/atos/detalhar/atos-normativos?documento=279" title="Ir para Resolução do Conselho Nacional de Justiça 274, de 2018">Resolução do Conselho Nacional de Justiça 274, de 2018</a>, e na <a href="https://biblioteca.mpf.mp.br/server/api/core/bitstreams/10d4133f-d059-45a1-b31d-e2ffaa5758f1/content" title="Ir para a Portaria PGR/MPU, de 2023" target="_blank" rel="noopener">Portaria PGR/MPU 264, de 2023</a>.&nbsp;</p>
+<p>Têm <strong>direito ao auxílio-moradia</strong> apenas os deputados que:</p>
+<ul>
+<li>Não possuem imóvel em Belo Horizonte</li>
+<li>Não tenham sido proprietários de imóvel em Belo Horizonte nos 12 meses que antecedem o início do mandato</li>
+</ul>
+<p>O valor do auxílio-moradia é de <mark>até 25%</mark> do valor do subsídio do deputado estadual. O pagamento é feito por <strong>reembolso</strong> da quantia efetivamente gasta e comprovada com aluguel ou hospedagem.</p><div ></div></div>
+					</div>
+			</div>
+		</div>
+</div>
+</div><div class="collapse d-none d-lg-block p-0" id="collapseSearch_desktop">
+	<div class="accordion accordion-custom p-0" id="accordionSearch_desktop">
+		<div class="accordion-item bg-transparent border-0">
+
+			<h2 class="accordion-header" id="accordionHeader_desktop">
+					<button class="accordion-button  btn-secondary text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapseItem_desktop" aria-expanded="false" aria-controls="collapseItem_desktop" id="collapseSearch_desktop">
+						<i class="bi bi-search fs-5 me-2 lh-1"></i>Pesquisar Remuneração e custeio</button>
+				</h2>
+			<div id="collapseItem_desktop" class="accordion-collapse collapse show" aria-labelledby="accordionHeader_desktop" data-bs-parent="#accordionHeader_desktop">
+				<div class="accordion-body bg-light border rounded-bottom">
+					<div class="nav-custom2 mt-0 mt-lg-3">
+
+						<form method="get" name="buscaDespesas" action="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/">
+	<div class="input-group">
+		<label for="ano_desktop" class="input-group-text">
+			Ano
+		</label>
+		<select class="form-select" aria-label="Default select" name="ano" id="ano_desktop" onchange="this.form.submit()">
+				<option value="0">Selecione</option>
+				<option value="2026" selected="selected">2026</option>
+				<option value="2025" >2025</option>
+				<option value="2024" >2024</option>
+				<option value="2023" >2023</option>
+				<option value="2022" >2022</option>
+				<option value="2021" >2021</option>
+				<option value="2020" >2020</option>
+				<option value="2019" >2019</option>
+				<option value="2018" >2018</option>
+				<option value="2017" >2017</option>
+				<option value="2016" >2016</option>
+				<option value="2015" >2015</option>
+				<option value="2014" >2014</option>
+				<option value="2013" >2013</option>
+				<option value="2012" >2012</option>
+				<option value="2011" >2011</option>
+				<option value="2010" >2010</option>
+				<option value="2009" >2009</option>
+				<option value="2008" >2008</option>
+				<option value="2007" >2007</option>
+				<option value="2006" >2006</option>
+				<option value="2005" >2005</option>
+				<option value="2004" >2004</option>
+				<option value="2003" >2003</option>
+				</select>
 	</div>
-</div></div></div>
-							</div>
-						</div>
+</form></div>
 				</div>
-			</aside>
+			</div>
+
+
 		</div>
 	</div>
-</div></main>
+</div></div>
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 mt-2">
+			<!-- List -->
+<!-- br.gov.almg.opencms.jsp.beans.PaginacaoBean -->
+<!-- String -->
+<!-- Boolean -->
+<!-- Numero de itens de paginacao -->
+<!-- Tratamento label e genero resultados -->
+<div class="row">
+		<div class="col-12  text-end small lh-1 my-2">
+						10 arquivos encontrados<i class="bi bi-arrow-down-short fs-5 align-middle"></i>
+					</div>
+				<div>
+					<div class="row">
+						<div class="col-12  mt-3  bg-light ">
+	<a href="https://mediaserver.almg.gov.br/acervo/664/576/2664576.pdf" class="gt-resultadopesquisa-pg1-item1 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
+		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
+		<span>Remuneração e custeio da atividade parlamentar - Outubro de 2026</span>
+	</a>
+</div><div class="col-12   ">
+	<a href="https://mediaserver.almg.gov.br/acervo/647/403/2647403.pdf" class="gt-resultadopesquisa-pg1-item2 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
+		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
+		<span>Remuneração e custeio da atividade parlamentar - Setembro de 2026</span>
+	</a>
+</div><div class="col-12   bg-light ">
+	<a href="https://mediaserver.almg.gov.br/acervo/634/471/2634471.pdf" class="gt-resultadopesquisa-pg1-item3 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
+		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
+		<span>Remuneração e custeio da atividade parlamentar - Agosto de 2026</span>
+	</a>
+</div><div class="col-12   ">
+	<a href="https://mediaserver.almg.gov.br/acervo/619/467/2619467.pdf" class="gt-resultadopesquisa-pg1-item4 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
+		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
+		<span>Remuneração e custeio da atividade parlamentar - Julho de 2026</span>
+	</a>
+</div><div class="col-12   bg-light ">
+	<a href="https://mediaserver.almg.gov.br/acervo/601/615/2601615.pdf" class="gt-resultadopesquisa-pg1-item5 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
+		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
+		<span>Remuneração e custeio da atividade parlamentar - Junho de 2026</span>
+	</a>
+</div><div class="col-12   ">
+	<a href="https://mediaserver.almg.gov.br/acervo/582/269/2582269.pdf" class="gt-resultadopesquisa-pg1-item6 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
+		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
+		<span>Remuneração e custeio da atividade parlamentar - Maio de 2026</span>
+	</a>
+</div><div class="col-12   bg-light ">
+	<a href="https://mediaserver.almg.gov.br/acervo/559/348/2559348.pdf" class="gt-resultadopesquisa-pg1-item7 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
+		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
+		<span>Remuneração e custeio da atividade parlamentar - Abril de 2026</span>
+	</a>
+</div><div class="col-12   ">
+	<a href="https://mediaserver.almg.gov.br/acervo/541/683/2541683.pdf" class="gt-resultadopesquisa-pg1-item8 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
+		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
+		<span>Remuneração e custeio da atividade parlamentar - Março de 2026</span>
+	</a>
+</div><div class="col-12   bg-light ">
+	<a href="https://mediaserver.almg.gov.br/acervo/520/156/2520156.pdf" class="gt-resultadopesquisa-pg1-item9 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
+		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
+		<span>Remuneração e custeio da atividade parlamentar - Fevereiro de 2026</span>
+	</a>
+</div><div class="col-12   ">
+	<a href="https://mediaserver.almg.gov.br/acervo/512/677/2512677.pdf" class="gt-resultadopesquisa-pg1-item10 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
+		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
+		<span>Remuneração e custeio da atividade parlamentar - Janeiro de 2026</span>
+	</a>
+</div></div>
+				</div>
+
+				</div></div>
+		
+	<div  id="posmaincontainer" ></div></div>
+			</div>
+			<div  id="footercontainer" ></div></main>
 		
 		<footer aria-label="Rodapé do Portal">
 			<div class="bg-primary text-white position-relative d-print-none">
@@ -1231,7 +1316,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	window.dataLayer.push({
 		'event': 'page_view',
 		'page': {
-			'title': 'Prestação de contas - Assembleia Legislativa de Minas Gerais',
+			'title': 'Deputados: Remuneração e custeio - Assembleia Legislativa de Minas Gerais',
 			//'category': 'secao',
 			'page_date': ''
 		},
