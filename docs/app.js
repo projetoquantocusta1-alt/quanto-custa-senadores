@@ -61,7 +61,7 @@ const temFiltro = () => !!($("#f-uf").value || $("#f-partido").value || $("#f-bu
 const V = (s, k) => (k === "custo" ? s.custo : k === "salario" ? s.custos.salario : s.custos.ceaps) * s.F;
 const rotAno = () => (tot() ? `${E.meta.anos[0]}–${E.meta.anos[E.meta.anos.length - 1]}` : E.ano);
 
-function kpis(el, itens) { $(el).innerHTML = itens.map(([r, v, o]) => `<div class="kpi"><div class="rot">${r}</div><div class="val num">${v}</div><div class="obs">${o || ""}</div></div>`).join(""); }
+function kpis(el, itens) { $(el).innerHTML = itens.map(([r, v, o]) => `<div class="kpi"><div class="rot">${esc(r)}</div><div class="val num">${v}</div><div class="obs">${esc(o || "")}</div></div>`).join(""); }
 function grafico(id, cfg) { E.graf[id]?.destroy(); E.graf[id] = new Chart($("#" + id), cfg); }
 const tipBRL = { callbacks: { label: (c) => `${c.dataset.label ? c.dataset.label + ": " : ""}${brl(c.parsed.x ?? c.parsed.y ?? c.parsed)}` } };
 
