@@ -1,10 +1,44 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Pessoal: Folha de pagamento - Assembleia Legislativa de Minas Gerais</title>
+<title>Deputados: Portal da Assembleia Legislativa de Minas Gerais</title>
 <meta name="description" content="A Assembleia de Minas é o Poder Legislativo do Estado de Minas Gerais, com 77 deputados eleitos pelo voto popular" />
 <meta name="keywords" content="assembleia,legislativa,minas,gerais" />
 <meta name="author" content="Assembleia Legislativa de Minas Gerais" />
@@ -22,10 +56,10 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" />
 <meta name="google-site-verification" content="0xsqjtdtsDBBtioOs0mVatXrERRPLIriMF3Lik_jImY" />
 
-<link rel="canonical" href="https://www.almg.gov.br/transparencia/prestacao-de-contas/despesa-com-pessoal/folha-de-pagamento/" />
+<link rel="canonical" href="https://www.almg.gov.br/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/?leg=20" />
 <meta property="fb:pages" content="115931765148387" /><meta property="fb:app_id" content="1154754775193384" /><meta property="og:site_name" content="Portal da Assembleia Legislativa de Minas Gerais" />
-<meta property="og:title" content="Pessoal: Folha de pagamento - Assembleia Legislativa de Minas Gerais" />
-<meta property="og:url" content="https://www.almg.gov.br/transparencia/prestacao-de-contas/despesa-com-pessoal/folha-de-pagamento/" />
+<meta property="og:title" content="Deputados: Portal da Assembleia Legislativa de Minas Gerais" />
+<meta property="og:url" content="https://www.almg.gov.br/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/?leg=20" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="A Assembleia de Minas é o Poder Legislativo do Estado de Minas Gerais, com 77 deputados eleitos pelo voto popular" />
 <meta property="og:image" content="" />
@@ -36,7 +70,7 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@assembleiamg" />
 <meta name="twitter:domain" content="www.almg.gov.br" />
-<meta name="twitter:title" content="Pessoal: Folha de pagamento - Assembleia Legislativa de Minas Gerais" />
+<meta name="twitter:title" content="Deputados: Portal da Assembleia Legislativa de Minas Gerais" />
 <meta name="twitter:description" content="A Assembleia de Minas é o Poder Legislativo do Estado de Minas Gerais, com 77 deputados eleitos pelo voto popular" />
 <meta name="twitter:image" content="" />
 <meta name="twitter:app:id:iphone" content="683275346" /><meta name="twitter:app:url:iphone" content="https://itunes.apple.com/br/app/almg/id683275346?mt=8" /><script src="/system/modules/br.gov.almg.portal/resources/js/gtm.js"></script>
@@ -173,9 +207,16 @@
 		const anchorLink = document.getElementById(anchorId);
 		if(anchorLink) anchorLink.classList.add("show");
 	});
-</script></head>
+</script><script>
+				$(document).ready(function() {
+					$("html, body").animate({
+						scrollTop: $("#js_anchorPoint").offset().top
+					}, 500);
+				});
+			</script>
+		</head>
 
-	<body id="Folha-de-pagamento">
+	<body id="">
 		<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4XQ6H"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -694,13 +735,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									</li>
 						<li class="breadcrumb-item">
 								<div class="dropdown d-inline-block">
-											<a class="fw-semibold" href="#" role="button" id="Pessoal" data-bs-toggle="dropdown" aria-expanded="false">
+											<a class="fw-semibold" href="#" role="button" id="Deputados" data-bs-toggle="dropdown" aria-expanded="false">
 												<i class='bi bi-list fs-6 align-middle'></i>
-												Pessoal</a>
-											<ul class="dropdown-menu border-1 border-gray-200" aria-labelledby="Pessoal">
-												<li><a class="dropdown-item py-2 lh-sm fw-semibold border-bottom border-gray-100  gt-breadcrumb-item" href="/transparencia/prestacao-de-contas/despesa-com-pessoal/estrutura-de-cargos-e-vencimentos/">Estrutura de cargos e vencimentos</a></li>
-												<li><a class="dropdown-item py-2 lh-sm fw-semibold border-bottom border-gray-100  gt-breadcrumb-item" href="/transparencia/prestacao-de-contas/despesa-com-pessoal/relatorios-trimestrais/">Despesa trimestral</a></li>
-												<li><a class="dropdown-item py-2 lh-sm fw-semibold  gt-breadcrumb-item" href="/transparencia/prestacao-de-contas/despesa-com-pessoal/folha-de-pagamento/">Folha de pagamento</a></li>
+												Deputados</a>
+											<ul class="dropdown-menu border-1 border-gray-200" aria-labelledby="Deputados">
+												<li><a class="dropdown-item py-2 lh-sm fw-semibold border-bottom border-gray-100  gt-breadcrumb-item" href="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/">Remuneração e custeio</a></li>
+												<li><a class="dropdown-item py-2 lh-sm fw-semibold  gt-breadcrumb-item" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/">Verba indenizatória</a></li>
 												</ul>
 										</div>
 									</li>
@@ -739,7 +779,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="col-12  d-lg-none  px-2 d-flex align-items-center align-middle">
 				<!-- 1.a) Última etapa breadcrumb -->
 				<nav class="m-0 me-auto ms-2 p-0 lh-1">
-						<span class="d-block lh-1 text-uppercase fw-normal text-gray-550 px-0 py-3 small">Pessoal</span>
+						<span class="d-block lh-1 text-uppercase fw-normal text-gray-550 px-0 py-3 small">Deputados</span>
 								</nav>
 				<!-- 1.b) Menu local -->
 				<button type="button" aria-label="Menu Local" class="btn bg-transparent shadow-none text-center px-2 border-0 rounded-0 collapsed" aria-expanded="false"
@@ -757,13 +797,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<!-- 2.b) Submenu -->
 							<ul class="nav justify-content-center flex-row p-0 m-0 rounded-0 overflow-hidden fs-6">
 								<li class="nav-item text-center">
-										<a class="nav-link fw-semibold ps-3 border-0   gt-menulocal" data-resource-name="/transparencia/prestacao-de-contas/despesa-com-pessoal/estrutura-de-cargos-e-vencimentos/" data-resquest-folder-uri="/transparencia/prestacao-de-contas/despesa-com-pessoal/folha-de-pagamento/" aria-current="page" href="/transparencia/prestacao-de-contas/despesa-com-pessoal/estrutura-de-cargos-e-vencimentos/">Estrutura de cargos e vencimentos</a>
+										<a class="nav-link fw-semibold ps-3 border-0   gt-menulocal" data-resource-name="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/" data-resquest-folder-uri="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/" aria-current="page" href="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/">Remuneração e custeio</a>
 											</li>
 								<li class="nav-item text-center">
-										<a class="nav-link fw-semibold ps-3 border-0   gt-menulocal" data-resource-name="/transparencia/prestacao-de-contas/despesa-com-pessoal/relatorios-trimestrais/" data-resquest-folder-uri="/transparencia/prestacao-de-contas/despesa-com-pessoal/folha-de-pagamento/" aria-current="page" href="/transparencia/prestacao-de-contas/despesa-com-pessoal/relatorios-trimestrais/">Despesa trimestral</a>
-											</li>
-								<li class="nav-item text-center">
-										<a class="nav-link fw-semibold ps-3 border-0  active  gt-menulocal" data-resource-name="/transparencia/prestacao-de-contas/despesa-com-pessoal/folha-de-pagamento/" data-resquest-folder-uri="/transparencia/prestacao-de-contas/despesa-com-pessoal/folha-de-pagamento/" aria-current="page" href="/transparencia/prestacao-de-contas/despesa-com-pessoal/folha-de-pagamento/">Folha de pagamento</a>
+										<a class="nav-link fw-semibold ps-3 border-0  active  gt-menulocal" data-resource-name="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/" data-resquest-folder-uri="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/" aria-current="page" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/">Verba indenizatória</a>
 											</li>
 								</ul>
 						</nav>
@@ -778,13 +815,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<nav class="col-12 nav-custom3">
 							<ul class="nav justify-content-center flex-column p-0 mx-2 mt-0 mb-3 rounded-0 overflow-hidden fs-6">
 								<li class="nav-item text-start">
-										<a class="nav-link px-3 py-2 rounded-0 fw-semibold border-0 border-light border-top   gt-menulocal" aria-current="page" href="/transparencia/prestacao-de-contas/despesa-com-pessoal/estrutura-de-cargos-e-vencimentos/">Estrutura de cargos e vencimentos<i class='bx bx-chevron-right ms-1'></i></a>
+										<a class="nav-link px-3 py-2 rounded-0 fw-semibold border-0 border-light border-top   gt-menulocal" aria-current="page" href="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/">Remuneração e custeio<i class='bx bx-chevron-right ms-1'></i></a>
 											</li>
 								<li class="nav-item text-start">
-										<a class="nav-link px-3 py-2 rounded-0 fw-semibold border-0 border-light border-top   gt-menulocal" aria-current="page" href="/transparencia/prestacao-de-contas/despesa-com-pessoal/relatorios-trimestrais/">Despesa trimestral<i class='bx bx-chevron-right ms-1'></i></a>
-											</li>
-								<li class="nav-item text-start">
-										<a class="nav-link px-3 py-2 rounded-0 fw-semibold border-0 border-light border-top  active  gt-menulocal" aria-current="page" href="/transparencia/prestacao-de-contas/despesa-com-pessoal/folha-de-pagamento/">Folha de pagamento<i class='bx bx-chevron-right ms-1'></i></a>
+										<a class="nav-link px-3 py-2 rounded-0 fw-semibold border-0 border-light border-top  active  gt-menulocal" aria-current="page" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/">Verba indenizatória<i class='bx bx-chevron-right ms-1'></i></a>
 											</li>
 								</ul>
 						</nav>
@@ -794,7 +828,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 </section></div><div class="d-none">
 				<h1>
-					Pessoal: Folha de pagamento</h1>
+					Deputados: Verba Indenizatória</h1>
 				</div>
 			
 			<style>
@@ -814,8 +848,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<!-- Mobile -->
 					<div class="d-block d-lg-none  active   mobileActionBar">
 						<div class="d-flex align-items-start">
-							<div class="flex-grow-1 text-start pt-3 pb-2 ps-3"><div class="d-none m-0 p-0 fw-semibold text-uppercase lh-sm text-khaki pt-2 pb-1 fs-5">Pessoal</div>
-									<div class="h1 m-0 p-0 fw-bold text-uppercase text-gray-800 ls--1 lh-1">Folha de pagamento</div>
+							<div class="flex-grow-1 text-start pt-3 pb-2 ps-3"><div class="d-none m-0 p-0 fw-semibold text-uppercase lh-sm text-khaki pt-2 pb-1 fs-5">Deputados</div>
+									<div class="h1 m-0 p-0 fw-bold text-uppercase text-gray-800 ls--1 lh-1">Verba Indenizatória</div>
 									</div>
 							<div class="btn-group pt-2 pe-3">
 								<button type="button" aria-label="Pesquisar" class="btn bg-transparent shadow-none text-center p-1 border-0 rounded-0 me-1 " aria-expanded="true"
@@ -837,28 +871,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div id="collapseItem_mobile" class="accordion-collapse collapse show" aria-labelledby="accordionHeader_mobile" data-bs-parent="#accordionHeader_mobile">
 				<div class="accordion-body p-0 pb-3">
 					<div class="nav-custom2 mt-0 mt-lg-3">
-						<form method="get" name="buscaDespesas" action="/transparencia/prestacao-de-contas/despesa-com-pessoal/folha-de-pagamento/">
+						<clienteLegislaturas:obterLegislaturaAtual varResultados="legislaturaAtual" />
+<form method="get" name="buscaVerbas">
 	<div class="input-group">
-		<label for="ano_mobile" class="input-group-text">
-			Ano
+		<label for="leg_mobile" class="input-group-text">
+			Legislatura
 		</label>
-		<select class="form-select" aria-label="Default select" name="ano" id="ano_mobile" onchange="this.form.submit()">
-				<option value="0">Selecione</option>
-				<option value="2026" selected="selected">2026</option>
-				<option value="2025" >2025</option>
-				<option value="2024" >2024</option>
-				<option value="2023" >2023</option>
-				<option value="2022" >2022</option>
-				<option value="2021" >2021</option>
-				<option value="2020" >2020</option>
-				<option value="2019" >2019</option>
-				<option value="2018" >2018</option>
-				<option value="2017" >2017</option>
-				<option value="2016" >2016</option>
-				<option value="2015" >2015</option>
-				<option value="2014" >2014</option>
-				<option value="2013" >2013</option>
-				</select>
+		<select class="form-select" aria-label="Default select" name="leg" id="leg_mobile" onchange="this.form.submit()">
+			<option value="20" selected>20&ordf; legislatura</option>
+			<option value="19" >19&ordf; legislatura</option>
+			</select>
 	</div>
 </form></div>
 				</div>
@@ -869,9 +891,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<!-- Desktop -->
 					<div class="  container px-xl-15   d-none d-lg-block ">
 						<div class="col-12 text-uppercase mt-5">
-							<div class="h5 m-0 p-0 text-khaki">Pessoal</div>
+							<div class="h5 m-0 p-0 text-khaki">Deputados</div>
 							<div class="h1 m-0 p-0 text-dark ">
-									Folha de pagamento</div>
+									Verba Indenizatória</div>
 							</div>
 					</div>
 				</section>
@@ -969,7 +991,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</aside>
 <div  id="maincontainer" ><div class="compAlmgTexto">
 		<div  class="   mb-4 ">
-			<p>Divulgação mensal da <strong>folha de pagamento da ALMG</strong>, de acordo com a&nbsp;<a href="/consulte/legislacao/completa/completa.html?tipo=DLB&amp;num=2555&amp;comp=&amp;ano=2013" title="Deliberação da Mesa 2.555">Deliberação da Mesa 2.555, de 2013.</a></p></div>
+			<p>Os parlamentares têm direito a uma <strong>verba para indenização</strong> de <mark>despesas do mandato</mark>. A <strong>verba indenizatória</strong> é liberada mediante requerimento e comprovação dos gastos.</p>
+<p>O limite mensal de gastos e as regras completas sobre a verba indenizatória estão na <a  title="Ir para o texto da Deliberação da Mesa 2.446, de 2009" data-oc-broken-link=true>Deliberação da Mesa 2.446, de 2009</a>. Entenda como é calculada a <a href="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/" title="Ir para cálculo da remuneração dos deputados">remuneração dos deputados</a>.</p></div>
 	</div>
 </div><div class="collapse d-none d-lg-block p-0" id="collapseSearch_desktop">
 	<div class="accordion accordion-custom p-0" id="accordionSearch_desktop">
@@ -977,34 +1000,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 			<h2 class="accordion-header" id="accordionHeader_desktop">
 					<button class="accordion-button  btn-secondary text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapseItem_desktop" aria-expanded="false" aria-controls="collapseItem_desktop" id="collapseSearch_desktop">
-						<i class="bi bi-search fs-5 me-2 lh-1"></i>Pesquisar Folha de pagamento</button>
+						<i class="bi bi-search fs-5 me-2 lh-1"></i>Pesquisar Verba Indenizatória</button>
 				</h2>
 			<div id="collapseItem_desktop" class="accordion-collapse collapse show" aria-labelledby="accordionHeader_desktop" data-bs-parent="#accordionHeader_desktop">
 				<div class="accordion-body bg-light border rounded-bottom">
 					<div class="nav-custom2 mt-0 mt-lg-3">
 
-						<form method="get" name="buscaDespesas" action="/transparencia/prestacao-de-contas/despesa-com-pessoal/folha-de-pagamento/">
+						<clienteLegislaturas:obterLegislaturaAtual varResultados="legislaturaAtual" />
+<form method="get" name="buscaVerbas">
 	<div class="input-group">
-		<label for="ano_desktop" class="input-group-text">
-			Ano
+		<label for="leg_desktop" class="input-group-text">
+			Legislatura
 		</label>
-		<select class="form-select" aria-label="Default select" name="ano" id="ano_desktop" onchange="this.form.submit()">
-				<option value="0">Selecione</option>
-				<option value="2026" selected="selected">2026</option>
-				<option value="2025" >2025</option>
-				<option value="2024" >2024</option>
-				<option value="2023" >2023</option>
-				<option value="2022" >2022</option>
-				<option value="2021" >2021</option>
-				<option value="2020" >2020</option>
-				<option value="2019" >2019</option>
-				<option value="2018" >2018</option>
-				<option value="2017" >2017</option>
-				<option value="2016" >2016</option>
-				<option value="2015" >2015</option>
-				<option value="2014" >2014</option>
-				<option value="2013" >2013</option>
-				</select>
+		<select class="form-select" aria-label="Default select" name="leg" id="leg_desktop" onchange="this.form.submit()">
+			<option value="20" selected>20&ordf; legislatura</option>
+			<option value="19" >19&ordf; legislatura</option>
+			</select>
 	</div>
 </form></div>
 				</div>
@@ -1014,27 +1025,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 	</div>
 </div></div>
-					
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-12 mt-2">
+					<div class="col-12 lh-sm" id="js_anchorPoint">
+			<h3 class="d-none">20&ordf; Legislatura</h3>
 			<!-- List -->
 <!-- br.gov.almg.opencms.jsp.beans.PaginacaoBean -->
 <!-- String -->
@@ -1042,66 +1034,793 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Numero de itens de paginacao -->
 <!-- Tratamento label e genero resultados -->
 <div class="row">
+		<div class="col-12 mt-0 mt-lg-4 mb-0 d-none d-lg-block">
+				<h2 class="ls--1 text-gray-550 h3 m-0 ">
+					Em exercício</h2>
+			</div>
+			<div class="col-12 mt-0 mt-lg-2 mb-0 d-block d-lg-none">
+				<h2 class="ls--1 text-gray-550 h3 m-0 ">
+					Em exercício</h2>
+			</div>
 		<div class="col-12  text-end small lh-1 my-2">
-						10 arquivos encontrados<i class="bi bi-arrow-down-short fs-5 align-middle"></i>
+						77 deputados encontrados<i class="bi bi-arrow-down-short fs-5 align-middle"></i>
 					</div>
 				<div>
 					<div class="row">
-						<div class="col-12  mt-3  bg-light ">
-	<a href="https://mediaserver.almg.gov.br/acervo/678/794/2678794.pdf" class="gt-resultadopesquisa-pg1-item1 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Folha de Pagamento - Outubro de 2026</span>
-	</a>
-</div><div class="col-12   ">
-	<a href="https://mediaserver.almg.gov.br/acervo/655/234/2655234.pdf" class="gt-resultadopesquisa-pg1-item2 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Folha de Pagamento - Setembro de 2026</span>
-	</a>
-</div><div class="col-12   bg-light ">
-	<a href="https://mediaserver.almg.gov.br/acervo/655/233/2655233.pdf" class="gt-resultadopesquisa-pg1-item3 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Folha de Pagamento - Agosto de 2026</span>
-	</a>
-</div><div class="col-12   ">
-	<a href="https://mediaserver.almg.gov.br/acervo/655/232/2655232.pdf" class="gt-resultadopesquisa-pg1-item4 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Folha de Pagamento - Julho de 2026</span>
-	</a>
-</div><div class="col-12   bg-light ">
-	<a href="https://mediaserver.almg.gov.br/acervo/655/231/2655231.pdf" class="gt-resultadopesquisa-pg1-item5 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Folha de Pagamento - Junho de 2026</span>
-	</a>
-</div><div class="col-12   ">
-	<a href="https://mediaserver.almg.gov.br/acervo/655/230/2655230.pdf" class="gt-resultadopesquisa-pg1-item6 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Folha de Pagamento - Maio de 2026</span>
-	</a>
-</div><div class="col-12   bg-light ">
-	<a href="https://mediaserver.almg.gov.br/acervo/655/229/2655229.pdf" class="gt-resultadopesquisa-pg1-item7 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Folha de Pagamento - Abril de 2026</span>
-	</a>
-</div><div class="col-12   ">
-	<a href="https://mediaserver.almg.gov.br/acervo/549/528/2549528.pdf" class="gt-resultadopesquisa-pg1-item8 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Folha de Pagamento - Março de 2026</span>
-	</a>
-</div><div class="col-12   bg-light ">
-	<a href="https://mediaserver.almg.gov.br/acervo/526/775/2526775.pdf" class="gt-resultadopesquisa-pg1-item9 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Folha de Pagamento - Fevereiro de 2026</span>
-	</a>
-</div><div class="col-12   ">
-	<a href="https://mediaserver.almg.gov.br/acervo/520/45/2520045.pdf" class="gt-resultadopesquisa-pg1-item10 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Folha de Pagamento - Janeiro de 2026</span>
-	</a>
-</div></div>
+						<div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item1" title="Adalclever Lopes" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=12193&leg=20" data-img="/a-assembleia/deputados/fotos/12193.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/12193.jpg_1522201833.jpg" width="128" height="128" alt="Adalclever Lopes" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Adalclever Lopes" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=12193&leg=20" class="gt-resultadopesquisa-pg1-item1 text-dark">
+					Dep.&nbsp;Adalclever Lopes</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PV</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item2" title="Adriano Alvarenga" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28859&leg=20" data-img="/a-assembleia/deputados/fotos/28859.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28859.jpg_1522201833.jpg" width="128" height="128" alt="Adriano Alvarenga" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Adriano Alvarenga" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28859&leg=20" class="gt-resultadopesquisa-pg1-item2 text-dark">
+					Dep.&nbsp;Adriano Alvarenga</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PP</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item3" title="Alê Portela" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=16234&leg=20" data-img="/a-assembleia/deputados/fotos/16234.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/16234.jpg_1522201833.jpg" width="128" height="128" alt="Alê Portela" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Alê Portela" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=16234&leg=20" class="gt-resultadopesquisa-pg1-item3 text-dark">
+					Dep.&nbsp;Alê Portela</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PL</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item4" title="Amanda Teixeira Dias" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=30238&leg=20" data-img="/a-assembleia/deputados/fotos/30238.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/30238.jpg_1522201833.jpg" width="128" height="128" alt="Amanda Teixeira Dias" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Amanda Teixeira Dias" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=30238&leg=20" class="gt-resultadopesquisa-pg1-item4 text-dark">
+					Dep.&nbsp;Amanda Teixeira Dias</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PL</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item5" title="Ana Paula Siqueira" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=19150&leg=20" data-img="/a-assembleia/deputados/fotos/19150.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/19150.jpg_1522201833.jpg" width="128" height="128" alt="Ana Paula Siqueira" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Ana Paula Siqueira" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=19150&leg=20" class="gt-resultadopesquisa-pg1-item5 text-dark">
+					Dep.&nbsp;Ana Paula Siqueira</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item6" title="Andréia de Jesus" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26143&leg=20" data-img="/a-assembleia/deputados/fotos/26143.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26143.jpg_1522201833.jpg" width="128" height="128" alt="Andréia de Jesus" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Andréia de Jesus" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26143&leg=20" class="gt-resultadopesquisa-pg1-item6 text-dark">
+					Dep.&nbsp;Andréia de Jesus</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item7" title="Antonio Carlos Arantes" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=7327&leg=20" data-img="/a-assembleia/deputados/fotos/7327.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/7327.jpg_1522201833.jpg" width="128" height="128" alt="Antonio Carlos Arantes" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Antonio Carlos Arantes" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=7327&leg=20" class="gt-resultadopesquisa-pg1-item7 text-dark">
+					Dep.&nbsp;Antonio Carlos Arantes</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PL</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item8" title="Arlen Santiago" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=9652&leg=20" data-img="/a-assembleia/deputados/fotos/9652.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/9652.jpg_1522201833.jpg" width="128" height="128" alt="Arlen Santiago" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Arlen Santiago" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=9652&leg=20" class="gt-resultadopesquisa-pg1-item8 text-dark">
+					Dep.&nbsp;Arlen Santiago</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">MDB</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item9" title="Arnaldo Silva" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22514&leg=20" data-img="/a-assembleia/deputados/fotos/22514.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/22514.jpg_1522201833.jpg" width="128" height="128" alt="Arnaldo Silva" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Arnaldo Silva" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22514&leg=20" class="gt-resultadopesquisa-pg1-item9 text-dark">
+					Dep.&nbsp;Arnaldo Silva</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">UNIÃO</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item10" title="Beatriz Cerqueira" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26098&leg=20" data-img="/a-assembleia/deputados/fotos/26098.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26098.jpg_1522201833.jpg" width="128" height="128" alt="Beatriz Cerqueira" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Beatriz Cerqueira" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26098&leg=20" class="gt-resultadopesquisa-pg1-item10 text-dark">
+					Dep.&nbsp;Beatriz Cerqueira</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item11" title="Bella Gonçalves" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28860&leg=20" data-img="/a-assembleia/deputados/fotos/28860.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28860.jpg_1522201833.jpg" width="128" height="128" alt="Bella Gonçalves" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Bella Gonçalves" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28860&leg=20" class="gt-resultadopesquisa-pg1-item11 text-dark">
+					Dep.&nbsp;Bella Gonçalves</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item12" title="Betão" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26145&leg=20" data-img="/a-assembleia/deputados/fotos/26145.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26145.jpg_1522201833.jpg" width="128" height="128" alt="Betão" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Betão" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26145&leg=20" class="gt-resultadopesquisa-pg1-item12 text-dark">
+					Dep.&nbsp;Betão</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item13" title="Betinho Pinto Coelho" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=13425&leg=20" data-img="/a-assembleia/deputados/fotos/13425.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/13425.jpg_1522201833.jpg" width="128" height="128" alt="Betinho Pinto Coelho" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Betinho Pinto Coelho" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=13425&leg=20" class="gt-resultadopesquisa-pg1-item13 text-dark">
+					Dep.&nbsp;Betinho Pinto Coelho</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">UNIÃO</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item14" title="Bim da Ambulância" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28861&leg=20" data-img="/a-assembleia/deputados/fotos/28861.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28861.jpg_1522201833.jpg" width="128" height="128" alt="Bim da Ambulância" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Bim da Ambulância" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28861&leg=20" class="gt-resultadopesquisa-pg1-item14 text-dark">
+					Dep.&nbsp;Bim da Ambulância</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">AVANTE</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item15" title="Bosco" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18857&leg=20" data-img="/a-assembleia/deputados/fotos/18857.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/18857.jpg_1522201833.jpg" width="128" height="128" alt="Bosco" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Bosco" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18857&leg=20" class="gt-resultadopesquisa-pg1-item15 text-dark">
+					Dep.&nbsp;Bosco</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item16" title="Bruno Engler" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26148&leg=20" data-img="/a-assembleia/deputados/fotos/26148.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26148.jpg_1522201833.jpg" width="128" height="128" alt="Bruno Engler" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Bruno Engler" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26148&leg=20" class="gt-resultadopesquisa-pg1-item16 text-dark">
+					Dep.&nbsp;Bruno Engler</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PL</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item17" title="Caporezzo" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28862&leg=20" data-img="/a-assembleia/deputados/fotos/28862.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28862.jpg_1522201833.jpg" width="128" height="128" alt="Caporezzo" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Caporezzo" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28862&leg=20" class="gt-resultadopesquisa-pg1-item17 text-dark">
+					Dep.&nbsp;Caporezzo</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PL</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item18" title="Carlos Henrique" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=10002&leg=20" data-img="/a-assembleia/deputados/fotos/10002.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/10002.jpg_1522201833.jpg" width="128" height="128" alt="Carlos Henrique" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Carlos Henrique" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=10002&leg=20" class="gt-resultadopesquisa-pg1-item18 text-dark">
+					Dep.&nbsp;Carlos Henrique</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">REPUBLICANOS</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item19" title="Carlos Pimenta" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=7758&leg=20" data-img="/a-assembleia/deputados/fotos/7758.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/7758.jpg_1522201833.jpg" width="128" height="128" alt="Carlos Pimenta" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Carlos Pimenta" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=7758&leg=20" class="gt-resultadopesquisa-pg1-item19 text-dark">
+					Dep.&nbsp;Carlos Pimenta</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSB</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item20" title="Carol Caram" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=15330&leg=20" data-img="/a-assembleia/deputados/fotos/15330.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/15330.jpg_1522201833.jpg" width="128" height="128" alt="Carol Caram" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Carol Caram" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=15330&leg=20" class="gt-resultadopesquisa-pg1-item20 text-dark">
+					Dep.&nbsp;Carol Caram</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">AVANTE</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item21" title="Cassio Soares" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18848&leg=20" data-img="/a-assembleia/deputados/fotos/18848.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/18848.jpg_1522201833.jpg" width="128" height="128" alt="Cassio Soares" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Cassio Soares" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18848&leg=20" class="gt-resultadopesquisa-pg1-item21 text-dark">
+					Dep.&nbsp;Cassio Soares</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item22" title="Celinho Sintrocel" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18849&leg=20" data-img="/a-assembleia/deputados/fotos/18849.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/18849.jpg_1522201833.jpg" width="128" height="128" alt="Celinho Sintrocel" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Celinho Sintrocel" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18849&leg=20" class="gt-resultadopesquisa-pg1-item22 text-dark">
+					Dep.&nbsp;Celinho Sintrocel</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PCdoB</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item23" title="Charles Santos" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26062&leg=20" data-img="/a-assembleia/deputados/fotos/26062.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26062.jpg_1522201833.jpg" width="128" height="128" alt="Charles Santos" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Charles Santos" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26062&leg=20" class="gt-resultadopesquisa-pg1-item23 text-dark">
+					Dep.&nbsp;Charles Santos</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">REPUBLICANOS</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item24" title="Chiara Biondini" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28863&leg=20" data-img="/a-assembleia/deputados/fotos/28863.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28863.jpg_1522201833.jpg" width="128" height="128" alt="Chiara Biondini" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Chiara Biondini" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28863&leg=20" class="gt-resultadopesquisa-pg1-item24 text-dark">
+					Dep.&nbsp;Chiara Biondini</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PL</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item25" title="Coronel Henrique" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26149&leg=20" data-img="/a-assembleia/deputados/fotos/26149.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26149.jpg_1522201833.jpg" width="128" height="128" alt="Coronel Henrique" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Coronel Henrique" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26149&leg=20" class="gt-resultadopesquisa-pg1-item25 text-dark">
+					Dep.&nbsp;Coronel Henrique</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PL</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item26" title="Cristiano Silveira" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22523&leg=20" data-img="/a-assembleia/deputados/fotos/22523.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/22523.jpg_1522201833.jpg" width="128" height="128" alt="Cristiano Silveira" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Cristiano Silveira" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22523&leg=20" class="gt-resultadopesquisa-pg1-item26 text-dark">
+					Dep.&nbsp;Cristiano Silveira</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item27" title="Dalmo Ribeiro" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=9655&leg=20" data-img="/a-assembleia/deputados/fotos/9655.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/9655.jpg_1522201833.jpg" width="128" height="128" alt="Dalmo Ribeiro" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Dalmo Ribeiro" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=9655&leg=20" class="gt-resultadopesquisa-pg1-item27 text-dark">
+					Dep.&nbsp;Dalmo Ribeiro</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSDB</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item28" title="Delegada Sheila" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26164&leg=20" data-img="/a-assembleia/deputados/fotos/26164.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26164.jpg_1522201833.jpg" width="128" height="128" alt="Delegada Sheila" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Delegada Sheila" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26164&leg=20" class="gt-resultadopesquisa-pg1-item28 text-dark">
+					Dep.&nbsp;Delegada Sheila</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PL</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item29" title="Delegado Christiano Xavier" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28864&leg=20" data-img="/a-assembleia/deputados/fotos/28864.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28864.jpg_1522201833.jpg" width="128" height="128" alt="Delegado Christiano Xavier" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Delegado Christiano Xavier" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28864&leg=20" class="gt-resultadopesquisa-pg1-item29 text-dark">
+					Dep.&nbsp;Delegado Christiano Xavier</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item30" title="Doorgal Andrada" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26151&leg=20" data-img="/a-assembleia/deputados/fotos/26151.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26151.jpg_1522201833.jpg" width="128" height="128" alt="Doorgal Andrada" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Doorgal Andrada" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26151&leg=20" class="gt-resultadopesquisa-pg1-item30 text-dark">
+					Dep.&nbsp;Doorgal Andrada</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PP</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item31" title="Doutor Jean Freire" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22581&leg=20" data-img="/a-assembleia/deputados/fotos/22581.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/22581.jpg_1522201833.jpg" width="128" height="128" alt="Doutor Jean Freire" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Doutor Jean Freire" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22581&leg=20" class="gt-resultadopesquisa-pg1-item31 text-dark">
+					Dep.&nbsp;Doutor Jean Freire</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item32" title="Doutor Paulo" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26152&leg=20" data-img="/a-assembleia/deputados/fotos/26152.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26152.jpg_1522201833.jpg" width="128" height="128" alt="Doutor Paulo" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Doutor Paulo" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26152&leg=20" class="gt-resultadopesquisa-pg1-item32 text-dark">
+					Dep.&nbsp;Doutor Paulo</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">UNIÃO</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item33" title="Doutor Wilson Batista" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18850&leg=20" data-img="/a-assembleia/deputados/fotos/18850.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/18850.jpg_1522201833.jpg" width="128" height="128" alt="Doutor Wilson Batista" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Doutor Wilson Batista" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18850&leg=20" class="gt-resultadopesquisa-pg1-item33 text-dark">
+					Dep.&nbsp;Doutor Wilson Batista</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item34" title="Dr. Maurício" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28865&leg=20" data-img="/a-assembleia/deputados/fotos/28865.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28865.jpg_1522201833.jpg" width="128" height="128" alt="Dr. Maurício" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Dr. Maurício" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28865&leg=20" class="gt-resultadopesquisa-pg1-item34 text-dark">
+					Dep.&nbsp;Dr. Maurício</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">NOVO</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item35" title="Duarte Bechir" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=17919&leg=20" data-img="/a-assembleia/deputados/fotos/17919.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/17919.jpg_1522201833.jpg" width="128" height="128" alt="Duarte Bechir" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Duarte Bechir" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=17919&leg=20" class="gt-resultadopesquisa-pg1-item35 text-dark">
+					Dep.&nbsp;Duarte Bechir</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item36" title="Eduardo Azevedo" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28866&leg=20" data-img="/a-assembleia/deputados/fotos/28866.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28866.jpg_1522201833.jpg" width="128" height="128" alt="Eduardo Azevedo" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Eduardo Azevedo" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28866&leg=20" class="gt-resultadopesquisa-pg1-item36 text-dark">
+					Dep.&nbsp;Eduardo Azevedo</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PL</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item37" title="Elismar Prado" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18852&leg=20" data-img="/a-assembleia/deputados/fotos/18852.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/18852.jpg_1522201833.jpg" width="128" height="128" alt="Elismar Prado" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Elismar Prado" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18852&leg=20" class="gt-resultadopesquisa-pg1-item37 text-dark">
+					Dep.&nbsp;Elismar Prado</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item38" title="Enes Cândido" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28867&leg=20" data-img="/a-assembleia/deputados/fotos/28867.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28867.jpg_1522201833.jpg" width="128" height="128" alt="Enes Cândido" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Enes Cândido" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28867&leg=20" class="gt-resultadopesquisa-pg1-item38 text-dark">
+					Dep.&nbsp;Enes Cândido</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item39" title="Gil Pereira" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=7762&leg=20" data-img="/a-assembleia/deputados/fotos/7762.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/7762.jpg_1522201833.jpg" width="128" height="128" alt="Gil Pereira" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Gil Pereira" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=7762&leg=20" class="gt-resultadopesquisa-pg1-item39 text-dark">
+					Dep.&nbsp;Gil Pereira</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item40" title="Grego da Fundação" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28868&leg=20" data-img="/a-assembleia/deputados/fotos/28868.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28868.jpg_1522201833.jpg" width="128" height="128" alt="Grego da Fundação" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Grego da Fundação" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28868&leg=20" class="gt-resultadopesquisa-pg1-item40 text-dark">
+					Dep.&nbsp;Grego da Fundação</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">UNIÃO</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item41" title="Gustavo Santana" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=24621&leg=20" data-img="/a-assembleia/deputados/fotos/24621.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/24621.jpg_1522201833.jpg" width="128" height="128" alt="Gustavo Santana" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Gustavo Santana" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=24621&leg=20" class="gt-resultadopesquisa-pg1-item41 text-dark">
+					Dep.&nbsp;Gustavo Santana</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PL</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item42" title="Gustavo Valadares" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=12202&leg=20" data-img="/a-assembleia/deputados/fotos/12202.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/12202.jpg_1522201833.jpg" width="128" height="128" alt="Gustavo Valadares" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Gustavo Valadares" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=12202&leg=20" class="gt-resultadopesquisa-pg1-item42 text-dark">
+					Dep.&nbsp;Gustavo Valadares</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item43" title="Ione Pinheiro" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=8095&leg=20" data-img="/a-assembleia/deputados/fotos/8095.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/8095.jpg_1522201833.jpg" width="128" height="128" alt="Ione Pinheiro" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Ione Pinheiro" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=8095&leg=20" class="gt-resultadopesquisa-pg1-item43 text-dark">
+					Dep.&nbsp;Ione Pinheiro</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">UNIÃO</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item44" title="João Magalhães" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22561&leg=20" data-img="/a-assembleia/deputados/fotos/22561.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/22561.jpg_1522201833.jpg" width="128" height="128" alt="João Magalhães" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="João Magalhães" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22561&leg=20" class="gt-resultadopesquisa-pg1-item44 text-dark">
+					Dep.&nbsp;João Magalhães</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item45" title="Leandro Genaro" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=10434&leg=20" data-img="/a-assembleia/deputados/fotos/10434.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/10434.jpg_1522201833.jpg" width="128" height="128" alt="Leandro Genaro" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Leandro Genaro" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=10434&leg=20" class="gt-resultadopesquisa-pg1-item45 text-dark">
+					Dep.&nbsp;Leandro Genaro</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item46" title="Leleco Pimentel" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=12552&leg=20" data-img="/a-assembleia/deputados/fotos/12552.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/12552.jpg_1522201833.jpg" width="128" height="128" alt="Leleco Pimentel" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Leleco Pimentel" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=12552&leg=20" class="gt-resultadopesquisa-pg1-item46 text-dark">
+					Dep.&nbsp;Leleco Pimentel</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item47" title="Leninha" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26153&leg=20" data-img="/a-assembleia/deputados/fotos/26153.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26153.jpg_1522201833.jpg" width="128" height="128" alt="Leninha" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Leninha" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26153&leg=20" class="gt-resultadopesquisa-pg1-item47 text-dark">
+					Dep.&nbsp;Leninha</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item48" title="Leonídio Bouças" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=7769&leg=20" data-img="/a-assembleia/deputados/fotos/7769.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/7769.jpg_1522201833.jpg" width="128" height="128" alt="Leonídio Bouças" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Leonídio Bouças" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=7769&leg=20" class="gt-resultadopesquisa-pg1-item48 text-dark">
+					Dep.&nbsp;Leonídio Bouças</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSDB</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item49" title="Lohanna" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28869&leg=20" data-img="/a-assembleia/deputados/fotos/28869.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28869.jpg_1522201833.jpg" width="128" height="128" alt="Lohanna" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Lohanna" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28869&leg=20" class="gt-resultadopesquisa-pg1-item49 text-dark">
+					Dep.&nbsp;Lohanna</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PV</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item50" title="Lucas Lasmar" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28870&leg=20" data-img="/a-assembleia/deputados/fotos/28870.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28870.jpg_1522201833.jpg" width="128" height="128" alt="Lucas Lasmar" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Lucas Lasmar" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28870&leg=20" class="gt-resultadopesquisa-pg1-item50 text-dark">
+					Dep.&nbsp;Lucas Lasmar</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">REDE</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item51" title="Lud Falcão" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28871&leg=20" data-img="/a-assembleia/deputados/fotos/28871.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28871.jpg_1522201833.jpg" width="128" height="128" alt="Lud Falcão" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Lud Falcão" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28871&leg=20" class="gt-resultadopesquisa-pg1-item51 text-dark">
+					Dep.&nbsp;Lud Falcão</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">REPUBLICANOS</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item52" title="Luizinho" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28872&leg=20" data-img="/a-assembleia/deputados/fotos/28872.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28872.jpg_1522201833.jpg" width="128" height="128" alt="Luizinho" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Luizinho" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28872&leg=20" class="gt-resultadopesquisa-pg1-item52 text-dark">
+					Dep.&nbsp;Luizinho</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item53" title="Macaé Evaristo" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28873&leg=20" data-img="/a-assembleia/deputados/fotos/28873.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28873.jpg_1522201833.jpg" width="128" height="128" alt="Macaé Evaristo" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Macaé Evaristo" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28873&leg=20" class="gt-resultadopesquisa-pg1-item53 text-dark">
+					Dep.&nbsp;Macaé Evaristo</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item54" title="Maria Clara Marra" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28874&leg=20" data-img="/a-assembleia/deputados/fotos/28874.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28874.jpg_1522201833.jpg" width="128" height="128" alt="Maria Clara Marra" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Maria Clara Marra" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28874&leg=20" class="gt-resultadopesquisa-pg1-item54 text-dark">
+					Dep.&nbsp;Maria Clara Marra</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSDB</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item55" title="Mário Henrique Caixa" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=21125&leg=20" data-img="/a-assembleia/deputados/fotos/21125.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/21125.jpg_1522201833.jpg" width="128" height="128" alt="Mário Henrique Caixa" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Mário Henrique Caixa" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=21125&leg=20" class="gt-resultadopesquisa-pg1-item55 text-dark">
+					Dep.&nbsp;Mário Henrique Caixa</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PV</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item56" title="Marli Ribeiro" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28875&leg=20" data-img="/a-assembleia/deputados/fotos/28875.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28875.jpg_1522201833.jpg" width="128" height="128" alt="Marli Ribeiro" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Marli Ribeiro" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28875&leg=20" class="gt-resultadopesquisa-pg1-item56 text-dark">
+					Dep.&nbsp;Marli Ribeiro</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PL</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item57" title="Marquinho Lemos" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=4458&leg=20" data-img="/a-assembleia/deputados/fotos/4458.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/4458.jpg_1522201833.jpg" width="128" height="128" alt="Marquinho Lemos" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Marquinho Lemos" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=4458&leg=20" class="gt-resultadopesquisa-pg1-item57 text-dark">
+					Dep.&nbsp;Marquinho Lemos</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item58" title="Mauro Tramonte" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26111&leg=20" data-img="/a-assembleia/deputados/fotos/26111.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26111.jpg_1522201833.jpg" width="128" height="128" alt="Mauro Tramonte" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Mauro Tramonte" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26111&leg=20" class="gt-resultadopesquisa-pg1-item58 text-dark">
+					Dep.&nbsp;Mauro Tramonte</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">REPUBLICANOS</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item59" title="Nayara Rocha" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18022&leg=20" data-img="/a-assembleia/deputados/fotos/18022.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/18022.jpg_1522201833.jpg" width="128" height="128" alt="Nayara Rocha" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Nayara Rocha" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18022&leg=20" class="gt-resultadopesquisa-pg1-item59 text-dark">
+					Dep.&nbsp;Nayara Rocha</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PP</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item60" title="Neilando Pimenta" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18863&leg=20" data-img="/a-assembleia/deputados/fotos/18863.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/18863.jpg_1522201833.jpg" width="128" height="128" alt="Neilando Pimenta" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Neilando Pimenta" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18863&leg=20" class="gt-resultadopesquisa-pg1-item60 text-dark">
+					Dep.&nbsp;Neilando Pimenta</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">REPUBLICANOS</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item61" title="Noraldino Júnior" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22521&leg=20" data-img="/a-assembleia/deputados/fotos/22521.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/22521.jpg_1522201833.jpg" width="128" height="128" alt="Noraldino Júnior" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Noraldino Júnior" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22521&leg=20" class="gt-resultadopesquisa-pg1-item61 text-dark">
+					Dep.&nbsp;Noraldino Júnior</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSB</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item62" title="Oscar Teixeira" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28876&leg=20" data-img="/a-assembleia/deputados/fotos/28876.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28876.jpg_1522201833.jpg" width="128" height="128" alt="Oscar Teixeira" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Oscar Teixeira" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28876&leg=20" class="gt-resultadopesquisa-pg1-item62 text-dark">
+					Dep.&nbsp;Oscar Teixeira</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PP</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item63" title="Professor Cleiton" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26119&leg=20" data-img="/a-assembleia/deputados/fotos/26119.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26119.jpg_1522201833.jpg" width="128" height="128" alt="Professor Cleiton" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Professor Cleiton" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26119&leg=20" class="gt-resultadopesquisa-pg1-item63 text-dark">
+					Dep.&nbsp;Professor Cleiton</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PV</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item64" title="Professor Wendel Mesquita" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=17872&leg=20" data-img="/a-assembleia/deputados/fotos/17872.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/17872.jpg_1522201833.jpg" width="128" height="128" alt="Professor Wendel Mesquita" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Professor Wendel Mesquita" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=17872&leg=20" class="gt-resultadopesquisa-pg1-item64 text-dark">
+					Dep.&nbsp;Professor Wendel Mesquita</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">UNIÃO</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item65" title="Rafael Martins" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26138&leg=20" data-img="/a-assembleia/deputados/fotos/26138.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26138.jpg_1522201833.jpg" width="128" height="128" alt="Rafael Martins" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Rafael Martins" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26138&leg=20" class="gt-resultadopesquisa-pg1-item65 text-dark">
+					Dep.&nbsp;Rafael Martins</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item66" title="Raul Belém" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26114&leg=20" data-img="/a-assembleia/deputados/fotos/26114.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26114.jpg_1522201833.jpg" width="128" height="128" alt="Raul Belém" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Raul Belém" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26114&leg=20" class="gt-resultadopesquisa-pg1-item66 text-dark">
+					Dep.&nbsp;Raul Belém</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item67" title="Ricardo Campos" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=11307&leg=20" data-img="/a-assembleia/deputados/fotos/11307.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/11307.jpg_1522201833.jpg" width="128" height="128" alt="Ricardo Campos" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Ricardo Campos" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=11307&leg=20" class="gt-resultadopesquisa-pg1-item67 text-dark">
+					Dep.&nbsp;Ricardo Campos</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item68" title="Roberto Andrade" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22607&leg=20" data-img="/a-assembleia/deputados/fotos/22607.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/22607.jpg_1522201833.jpg" width="128" height="128" alt="Roberto Andrade" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Roberto Andrade" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22607&leg=20" class="gt-resultadopesquisa-pg1-item68 text-dark">
+					Dep.&nbsp;Roberto Andrade</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PRD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item69" title="Rodrigo Lopes" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28877&leg=20" data-img="/a-assembleia/deputados/fotos/28877.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28877.jpg_1522201833.jpg" width="128" height="128" alt="Rodrigo Lopes" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Rodrigo Lopes" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28877&leg=20" class="gt-resultadopesquisa-pg1-item69 text-dark">
+					Dep.&nbsp;Rodrigo Lopes</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">UNIÃO</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item70" title="Sargento Rodrigues" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=9673&leg=20" data-img="/a-assembleia/deputados/fotos/9673.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/9673.jpg_1522201833.jpg" width="128" height="128" alt="Sargento Rodrigues" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Sargento Rodrigues" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=9673&leg=20" class="gt-resultadopesquisa-pg1-item70 text-dark">
+					Dep.&nbsp;Sargento Rodrigues</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PL</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item71" title="Tadeu Leite" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18860&leg=20" data-img="/a-assembleia/deputados/fotos/18860.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/18860.jpg_1522201833.jpg" width="128" height="128" alt="Tadeu Leite" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Tadeu Leite" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18860&leg=20" class="gt-resultadopesquisa-pg1-item71 text-dark">
+					Dep.&nbsp;Tadeu Leite</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">MDB</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item72" title="Thiago Cota" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22515&leg=20" data-img="/a-assembleia/deputados/fotos/22515.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/22515.jpg_1522201833.jpg" width="128" height="128" alt="Thiago Cota" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Thiago Cota" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22515&leg=20" class="gt-resultadopesquisa-pg1-item72 text-dark">
+					Dep.&nbsp;Thiago Cota</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PDT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item73" title="Tito Torres" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22616&leg=20" data-img="/a-assembleia/deputados/fotos/22616.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/22616.jpg_1522201833.jpg" width="128" height="128" alt="Tito Torres" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Tito Torres" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=22616&leg=20" class="gt-resultadopesquisa-pg1-item73 text-dark">
+					Dep.&nbsp;Tito Torres</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PSD</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item74" title="Ulysses Gomes" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18867&leg=20" data-img="/a-assembleia/deputados/fotos/18867.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/18867.jpg_1522201833.jpg" width="128" height="128" alt="Ulysses Gomes" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Ulysses Gomes" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=18867&leg=20" class="gt-resultadopesquisa-pg1-item74 text-dark">
+					Dep.&nbsp;Ulysses Gomes</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PT</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item75" title="Vitório Júnior" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28878&leg=20" data-img="/a-assembleia/deputados/fotos/28878.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28878.jpg_1522201833.jpg" width="128" height="128" alt="Vitório Júnior" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Vitório Júnior" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28878&leg=20" class="gt-resultadopesquisa-pg1-item75 text-dark">
+					Dep.&nbsp;Vitório Júnior</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PP</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item76" title="Zé Guilherme" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26105&leg=20" data-img="/a-assembleia/deputados/fotos/26105.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/26105.jpg_1522201833.jpg" width="128" height="128" alt="Zé Guilherme" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Zé Guilherme" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=26105&leg=20" class="gt-resultadopesquisa-pg1-item76 text-dark">
+					Dep.&nbsp;Zé Guilherme</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">PP</span>
+			</span>
+		</div>
+	</div><div class="col-12 col-md-6 p-2" data-scope="deputado">
+	<div class="d-flex align-items-center">
+			<a class="gt-resultadopesquisa-pg1-item77" title="Zé Laviola" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28879&leg=20" data-img="/a-assembleia/deputados/fotos/28879.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+				<img src="/export/sites/portal/a-assembleia/deputados/fotos/28879.jpg_1522201833.jpg" width="128" height="128" alt="Zé Laviola" class="avatar rounded-circle border width-10x height-10x width-sm-12x height-sm-12x width-md-9x height-md-9x ms-2" /></a>
+			<span class="ms-2">
+				<a title="Zé Laviola" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?id=28879&leg=20" class="gt-resultadopesquisa-pg1-item77 text-dark">
+					Dep.&nbsp;Zé Laviola</a>
+				<span class="badge badge-pill bg-gray-200 text-dark ms-1">NOVO</span>
+			</span>
+		</div>
+	</div></div>
 				</div>
 
 				</div></div>
-		
 	<div  id="posmaincontainer" ></div></div>
 			</div>
 			<div  id="footercontainer" ></div></main>
@@ -1267,7 +1986,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	window.dataLayer.push({
 		'event': 'page_view',
 		'page': {
-			'title': 'Pessoal: Folha de pagamento - Assembleia Legislativa de Minas Gerais',
+			'title': 'Deputados: Portal da Assembleia Legislativa de Minas Gerais',
 			//'category': 'secao',
 			'page_date': ''
 		},

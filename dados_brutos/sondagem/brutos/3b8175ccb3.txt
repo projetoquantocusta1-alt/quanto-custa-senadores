@@ -1,10 +1,49 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- true -->
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Deputados: Remuneração e custeio - Assembleia Legislativa de Minas Gerais</title>
+<title>Prestação de contas: Carlos Henrique / REPUBLICANOS - Assembleia Legislativa de Minas Gerais</title>
 <meta name="description" content="A Assembleia de Minas é o Poder Legislativo do Estado de Minas Gerais, com 77 deputados eleitos pelo voto popular" />
 <meta name="keywords" content="assembleia,legislativa,minas,gerais" />
 <meta name="author" content="Assembleia Legislativa de Minas Gerais" />
@@ -22,23 +61,23 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" />
 <meta name="google-site-verification" content="0xsqjtdtsDBBtioOs0mVatXrERRPLIriMF3Lik_jImY" />
 
-<link rel="canonical" href="https://www.almg.gov.br/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/" />
+<link rel="canonical" href="https://www.almg.gov.br/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?ano=2025&amp;id=10002" />
 <meta property="fb:pages" content="115931765148387" /><meta property="fb:app_id" content="1154754775193384" /><meta property="og:site_name" content="Portal da Assembleia Legislativa de Minas Gerais" />
-<meta property="og:title" content="Deputados: Remuneração e custeio - Assembleia Legislativa de Minas Gerais" />
-<meta property="og:url" content="https://www.almg.gov.br/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/" />
+<meta property="og:title" content="Prestação de contas: Carlos Henrique / REPUBLICANOS - Assembleia Legislativa de Minas Gerais" />
+<meta property="og:url" content="https://www.almg.gov.br/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/detalhe.html?ano=2025&amp;id=10002" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="A Assembleia de Minas é o Poder Legislativo do Estado de Minas Gerais, com 77 deputados eleitos pelo voto popular" />
-<meta property="og:image" content="" />
+<meta property="og:image" content="https://www.almg.gov.br/a-assembleia/deputados/legislatura-atual/fotos/10002.jpg" />
 <meta property="og:locale" content="pt_BR" />
-<link rel="image_src" type="image/jpeg" href="" />
+<link rel="image_src" type="image/jpeg" href="https://www.almg.gov.br/a-assembleia/deputados/legislatura-atual/fotos/10002.jpg" />
 <meta name="facebook-domain-verification" content="j34f0cvb19o98z8901l5ju5supg2ed" />
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@assembleiamg" />
 <meta name="twitter:domain" content="www.almg.gov.br" />
-<meta name="twitter:title" content="Deputados: Remuneração e custeio - Assembleia Legislativa de Minas Gerais" />
+<meta name="twitter:title" content="Prestação de contas: Carlos Henrique / REPUBLICANOS - Assembleia Legislativa de Minas Gerais" />
 <meta name="twitter:description" content="A Assembleia de Minas é o Poder Legislativo do Estado de Minas Gerais, com 77 deputados eleitos pelo voto popular" />
-<meta name="twitter:image" content="" />
+<meta name="twitter:image" content="https://www.almg.gov.br/a-assembleia/deputados/legislatura-atual/fotos/10002.jpg" />
 <meta name="twitter:app:id:iphone" content="683275346" /><meta name="twitter:app:url:iphone" content="https://itunes.apple.com/br/app/almg/id683275346?mt=8" /><script src="/system/modules/br.gov.almg.portal/resources/js/gtm.js"></script>
 		<script src="/system/modules/br.gov.almg.portal/resources/js/ga_dom_selectors.js"></script>
 		<script src="/system/modules/br.gov.almg.portal/resources/js/ga_custom_vars.js"></script>
@@ -175,7 +214,7 @@
 	});
 </script></head>
 
-	<body id="Remuneração-e-custeio">
+	<body id="Carlos-Henrique-/-REPUBLICANOS">
 		<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4XQ6H"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -649,7 +688,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		$('.js_loginToggle').toggleClass('d-none');
 	}
 </script><div class="d-block d-lg-none bg-gray-100 p-2 lh-1">
-		<a href="/transparencia/prestacao-de-contas/" class="badge rounded-pill bg-light text-primary-alt bg-white text-nowrap m-1 shadow-sm gt-breadcrumb-back"><i class='bx bx-chevron-left fs-6 ms-n1'></i>Prestação de Contas</a>
+		<a href="/transparencia/prestacao-de-contas/verba-indenizatoria/" class="badge rounded-pill bg-light text-primary-alt bg-white text-nowrap m-1 shadow-sm gt-breadcrumb-back"><i class='bx bx-chevron-left fs-6 ms-n1'></i>Voltar</a>
 	</div>
 <section class="d-none d-lg-block bg-gray-100">
 	<div class="position-relative container-fluid container-lg py-3">
@@ -712,82 +751,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </header>
 		
 		<main>
-			<div  id="topcontainer" ><section class="bg-gray-200 d-print-none ">
-	<style>
-		/* Menu local - Mobile */
-		#barraMenuSecundario button[aria-expanded=true] i {
-			color:var(--bs-primary) !important;
-			font-weight: bold;
-		}
-		#barraMenuSecundario .accordion-button:after {
-			font-size: 1.0rem;
-			margin-left: 5px;
-		}
-		#barraMenuSecundario .accordion-button:not(.collapsed):not(:hover):after {
-			color: initial;
-		}
-		/* Menu local - Desktop */
-		#barraMenuSecundario .dropdown-item.show {
-			background: var(--bs-gray-100) !important;
-			text-decoration:underline;
-		}
-	</style>
-    <div class="container-fluid container-lg position-relative" id="barraMenuSecundario">
-		<div class="row">
-			<!-- 1) Barra de Ações - Mobile -->
-			<div class="col-12  d-lg-none  px-2 d-flex align-items-center align-middle">
-				<!-- 1.a) Última etapa breadcrumb -->
-				<nav class="m-0 me-auto ms-2 p-0 lh-1">
-						<span class="d-block lh-1 text-uppercase fw-normal text-gray-550 px-0 py-3 small">Deputados</span>
-								</nav>
-				<!-- 1.b) Menu local -->
-				<button type="button" aria-label="Menu Local" class="btn bg-transparent shadow-none text-center px-2 border-0 rounded-0 collapsed" aria-expanded="false"
-						data-bs-toggle="collapse" data-bs-target="#collapseSecondaryMenu" aria-controls="collapseSecondaryMenu"><!--me-auto-->
-						<i class="bx bx-menu display-4 lh-2 text-gray-600"></i><span class="d-none">Menu Local</span>
-					</button>
-				</div>
-			
-			<!-- 2) Navegacao Local - Desktop -->
-				<div class="d-none d-lg-flex justify-content-between align-items-center px-0">
-					<!-- 2.a) Backlink -->
-					<div class="lh-1 ms-2 mt-2 align-self-start"><a href="/transparencia/prestacao-de-contas/" class="badge rounded-pill bg-light text-primary-alt bg-white text-nowrap ms-1"><i class='bx bx-chevron-left fs-6 ms-n1'></i>Prestação de Contas</a></div>
-					<div class="px-0">
-						<nav class="col-12 nav-custom3">
-							<!-- 2.b) Submenu -->
-							<ul class="nav justify-content-center flex-row p-0 m-0 rounded-0 overflow-hidden fs-6">
-								<li class="nav-item text-center">
-										<a class="nav-link fw-semibold ps-3 border-0  active  gt-menulocal" data-resource-name="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/" data-resquest-folder-uri="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/" aria-current="page" href="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/">Remuneração e custeio</a>
-											</li>
-								<li class="nav-item text-center">
-										<a class="nav-link fw-semibold ps-3 border-0   gt-menulocal" data-resource-name="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/" data-resquest-folder-uri="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/" aria-current="page" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/">Verba indenizatória</a>
-											</li>
-								</ul>
-						</nav>
-					</div>
-					<div class="lh-1 ms-2 invisible">
-						<a href="/transparencia/prestacao-de-contas/" class="badge rounded-pill bg-light text-primary-alt bg-white text-nowrap ms-1"><i class='bx bx-chevron-left fs-6 ms-n1'></i>Prestação de Contas</a></div>
-				</div>
-
-				<!-- 3) Navegacao Local - Mobile -->
-				<div class="d-block d-lg-none px-0">
-					<div class="collapse px-0" id="collapseSecondaryMenu" data-bs-parent="#CollapseMobileBar">
-						<nav class="col-12 nav-custom3">
-							<ul class="nav justify-content-center flex-column p-0 mx-2 mt-0 mb-3 rounded-0 overflow-hidden fs-6">
-								<li class="nav-item text-start">
-										<a class="nav-link px-3 py-2 rounded-0 fw-semibold border-0 border-light border-top  active  gt-menulocal" aria-current="page" href="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/">Remuneração e custeio<i class='bx bx-chevron-right ms-1'></i></a>
-											</li>
-								<li class="nav-item text-start">
-										<a class="nav-link px-3 py-2 rounded-0 fw-semibold border-0 border-light border-top   gt-menulocal" aria-current="page" href="/transparencia/prestacao-de-contas/deputados/verba-indenizatoria/">Verba indenizatória<i class='bx bx-chevron-right ms-1'></i></a>
-											</li>
-								</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-	</div>
-</section></div><div class="d-none">
+			<div  id="topcontainer" ></div><div class="d-none">
 				<h1>
-					Deputados: Remuneração e custeio</h1>
+					Prestação de contas: Verba indenizatória</h1>
 				</div>
 			
 			<style>
@@ -807,8 +773,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<!-- Mobile -->
 					<div class="d-block d-lg-none  active   mobileActionBar">
 						<div class="d-flex align-items-start">
-							<div class="flex-grow-1 text-start pt-3 pb-2 ps-3"><div class="d-none m-0 p-0 fw-semibold text-uppercase lh-sm text-khaki pt-2 pb-1 fs-5">Deputados</div>
-									<div class="h1 m-0 p-0 fw-bold text-uppercase text-gray-800 ls--1 lh-1">Remuneração e custeio</div>
+							<div class="flex-grow-1 text-start pt-3 pb-2 ps-3"><div class="d-none m-0 p-0 fw-semibold text-uppercase lh-sm text-khaki pt-2 pb-1 fs-5">Prestação de contas</div>
+									<div class="h1 m-0 p-0 fw-bold text-uppercase text-gray-800 ls--1 lh-1">Verba indenizatória</div>
 									</div>
 							<div class="btn-group pt-2 pe-3">
 								<button type="button" aria-label="Pesquisar" class="btn bg-transparent shadow-none text-center p-1 border-0 rounded-0 me-1 " aria-expanded="true"
@@ -830,39 +796,104 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div id="collapseItem_mobile" class="accordion-collapse collapse show" aria-labelledby="accordionHeader_mobile" data-bs-parent="#accordionHeader_mobile">
 				<div class="accordion-body p-0 pb-3">
 					<div class="nav-custom2 mt-0 mt-lg-3">
-						<form method="get" name="buscaDespesas" action="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/">
+						<form method="post">
 	<div class="input-group">
-		<label for="ano_mobile" class="input-group-text">
-			Ano
+		<label for="periodo_mobile" class="input-group-text">
+			Despesas em <h3 class="d-none"><span class="text-capitalize"></span> de </h3>
 		</label>
-		<select class="form-select" aria-label="Default select" name="ano" id="ano_mobile" onchange="this.form.submit()">
-				<option value="0">Selecione</option>
-				<option value="2026" selected="selected">2026</option>
-				<option value="2025" >2025</option>
-				<option value="2024" >2024</option>
-				<option value="2023" >2023</option>
-				<option value="2022" >2022</option>
-				<option value="2021" >2021</option>
-				<option value="2020" >2020</option>
-				<option value="2019" >2019</option>
-				<option value="2018" >2018</option>
-				<option value="2017" >2017</option>
-				<option value="2016" >2016</option>
-				<option value="2015" >2015</option>
-				<option value="2014" >2014</option>
-				<option value="2013" >2013</option>
-				<option value="2012" >2012</option>
-				<option value="2011" >2011</option>
-				<option value="2010" >2010</option>
-				<option value="2009" >2009</option>
-				<option value="2008" >2008</option>
-				<option value="2007" >2007</option>
-				<option value="2006" >2006</option>
-				<option value="2005" >2005</option>
-				<option value="2004" >2004</option>
-				<option value="2003" >2003</option>
-				</select>
-	</div>
+		<select name="periodo" id="periodo_mobile" class="form-select" onchange="this.form.submit()">
+				<option  value="022023">
+							fevereiro de 2023</option>
+					<option  value="032023">
+							março de 2023</option>
+					<option  value="042023">
+							abril de 2023</option>
+					<option  value="052023">
+							maio de 2023</option>
+					<option  value="062023">
+							junho de 2023</option>
+					<option  value="072023">
+							julho de 2023</option>
+					<option  value="082023">
+							agosto de 2023</option>
+					<option  value="092023">
+							setembro de 2023</option>
+					<option  value="102023">
+							outubro de 2023</option>
+					<option  value="112023">
+							novembro de 2023</option>
+					<option  value="122023">
+							dezembro de 2023</option>
+					<option  value="012024">
+							janeiro de 2024</option>
+					<option  value="022024">
+							fevereiro de 2024</option>
+					<option  value="032024">
+							março de 2024</option>
+					<option  value="042024">
+							abril de 2024</option>
+					<option  value="052024">
+							maio de 2024</option>
+					<option  value="062024">
+							junho de 2024</option>
+					<option  value="072024">
+							julho de 2024</option>
+					<option  value="082024">
+							agosto de 2024</option>
+					<option  value="092024">
+							setembro de 2024</option>
+					<option  value="102024">
+							outubro de 2024</option>
+					<option  value="112024">
+							novembro de 2024</option>
+					<option  value="122024">
+							dezembro de 2024</option>
+					<option  value="012025">
+							janeiro de 2025</option>
+					<option  value="022025">
+							fevereiro de 2025</option>
+					<option  value="032025">
+							março de 2025</option>
+					<option  value="042025">
+							abril de 2025</option>
+					<option  value="052025">
+							maio de 2025</option>
+					<option  value="062025">
+							junho de 2025</option>
+					<option  value="072025">
+							julho de 2025</option>
+					<option  value="082025">
+							agosto de 2025</option>
+					<option  value="092025">
+							setembro de 2025</option>
+					<option  value="102025">
+							outubro de 2025</option>
+					<option  value="112025">
+							novembro de 2025</option>
+					<option  value="122025">
+							dezembro de 2025</option>
+					<option  value="012026">
+							janeiro de 2026</option>
+					<option  value="022026">
+							fevereiro de 2026</option>
+					<option  value="032026">
+							março de 2026</option>
+					<option  value="042026">
+							abril de 2026</option>
+					<option  value="052026">
+							maio de 2026</option>
+					<option  value="062026">
+							junho de 2026</option>
+					<option  value="072026">
+							julho de 2026</option>
+					<option  value="082026">
+							agosto de 2026</option>
+					<option  value="092026">
+							setembro de 2026</option>
+					<option selected value="102026">
+							outubro de 2026</option>
+					</select>
+		</div>
 </form></div>
 				</div>
 			</div>
@@ -870,29 +901,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 </div></div>
 					<!-- Desktop -->
-					<div class="  container px-xl-15   d-none d-lg-block ">
+					<div class=" container    d-none d-lg-block ">
 						<div class="col-12 text-uppercase mt-5">
-							<div class="h5 m-0 p-0 text-khaki">Deputados</div>
+							<div class="h5 m-0 p-0 text-khaki">Prestação de contas</div>
 							<div class="h1 m-0 p-0 text-dark ">
-									Remuneração e custeio</div>
+									Verba indenizatória</div>
 							</div>
 					</div>
 				</section>
-			<div  id="premaincontainer" ></div><div class="container-fluid container-lg px-xl-15 my-4 my-lg-5" data-debug="templatePadraoSize">
+			<div  id="premaincontainer" ></div><div class="container-fluid container-lg my-4 my-lg-5" data-debug="templatePadraoSize">
 				<div class="row "><div class="col-12">
 						<script>
 	function printPage(printTarget){
 		console.log('printTarget: ');
 		if(printTarget=='comissoes-reuniao'){
-			window.open('print.html?idTipo=&idCom=&dia=&mes=&ano=&hr=');
+			window.open('print.html?idTipo=&idCom=&dia=&mes=&ano=2025&hr=');
 		}else if(printTarget=='plenario-reuniao'){
-			window.open('print.html?idTipo=&idCom=&dia=&mes=&ano=&hr=');
+			window.open('print.html?idTipo=&idCom=&dia=&mes=&ano=2025&hr=');
 		}else if(printTarget=='leis-texto'){
-			window.open('/atividade-parlamentar/leis/legislacao-mineira/lei/texto/print.html?tipo=&num=&ano=&comp=&cons=');
+			window.open('/atividade-parlamentar/leis/legislacao-mineira/lei/texto/print.html?tipo=&num=&ano=2025&comp=&cons=');
 		}else if(printTarget=='projetos-de-lei-texto'){
-			window.open('/atividade-parlamentar/projetos-de-lei/texto/print.html?tipo=&num=&ano=');
+			window.open('/atividade-parlamentar/projetos-de-lei/texto/print.html?tipo=&num=&ano=2025');
 		}else if(printTarget=='projetos-de-lei-documento'){
-			window.open('/atividade-parlamentar/projetos-de-lei/documento/print.html?tipo=&num=&ano=&expr=');
+			window.open('/atividade-parlamentar/projetos-de-lei/documento/print.html?tipo=&num=&ano=2025&expr=');
 		}else if(printTarget=='deputados'){
 			window.open('/a-assembleia/deputados/inicial/print.html?pesquisou=&aba=&codSituacao=&q=&partido=&bloco=&grupoParlamentar=&frenteParlamentar=&legislatura=');
 		}else{
@@ -970,91 +1001,116 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 		</div>
 	</aside>
-<div  id="maincontainer" ><div class="compAlmgTexto">
-		<div  class="   mb-4 ">
-			<p>A&nbsp;<strong>remuneração do deputado</strong> é um subsídio mensal, no valor correspondente a <strong>75% da remuneração do deputado federal</strong>, conforme o parágrafo 2º do artigo 27 da Constituição Federal e a <a href="/atividade-parlamentar/leis/legislacao-mineira/lei/?tipo=LEI&amp;num=24266&amp;ano=2022&amp;comp=&amp;cons=" title="Ir para a Lei 24.266, de 2022">Lei 24.266, de 2022</a>.</p>
-<p><strong>O total bruto</strong> da remuneração mensal do deputado estadual (subsídio mensal) é de <mark class="active">R$ 34.774,64.</mark></p></div>
-	</div>
-<div>
-	<div class="accordion    mb-4 " id="accordion-1">
-		<div class="accordion-item">
-				<h2 class="accordion-header bg-light" id="headingOne">
-					<a name="link-Outrosvalores" class="accordion-button collapsed fs-4" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-9aba9524-2ca1-11ee-93b8-00505681efca-1" aria-expanded="true" aria-controls="collapse-9aba9524-2ca1-11ee-93b8-00505681efca-1">
-						Outros valores</a>
-				</h2>
-				<div id="collapse-9aba9524-2ca1-11ee-93b8-00505681efca-1" class="accordion-collapse collapse" aria-labelledby="heading_1_1" data-bs-parent="#accordion-1">
-					<div class="accordion-body">
-						<ul>
-<li><strong>Parcela</strong> correspondente ao <strong>valor do subsídio</strong>, a ser paga no mês de <strong>dezembro</strong>, <strong>proporcionalmente ao efetivo exercício</strong> do mandato parlamentar no ano</li>
-<li><strong>Ajuda de custo</strong> correspondente ao <strong>valor do subsídio</strong>, no <strong>início</strong> e no <strong>final</strong> do mandato parlamentar</li>
-</ul>
-<p>É <strong>vedada</strong> a concessão da ajuda de custo ao suplente reconvocado dentro da mesma legislatura.</p>
-<p>O deputado estadual pode optar pela&nbsp;<strong>remuneração simbólica</strong>&nbsp;de um salário mínimo, conforme dispõe a <a href="/atividade-parlamentar/leis/legislacao-mineira/lei/?tipo=RAL&amp;num=5154&amp;ano=1994&amp;comp=&amp;cons=" title="Ir para a página da Resolução da Mesa da ALMG 5.154, de 1994">Resolução da Mesa da ALMG 5.154, de 1994</a>.</p><div ></div></div>
-					</div>
-			</div>
-		<div class="accordion-item">
-				<h2 class="accordion-header bg-light" id="headingOne">
-					<a name="link-Auxliomoradia" class="accordion-button collapsed fs-4" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-9aba9524-2ca1-11ee-93b8-00505681efca-2" aria-expanded="true" aria-controls="collapse-9aba9524-2ca1-11ee-93b8-00505681efca-2">
-						Auxílio-moradia</a>
-				</h2>
-				<div id="collapse-9aba9524-2ca1-11ee-93b8-00505681efca-2" class="accordion-collapse collapse" aria-labelledby="heading_1_2" data-bs-parent="#accordion-1">
-					<div class="accordion-body">
-						<p>O pagamento do auxílio-moradia está regulamentado pela <a href="/atividade-parlamentar/leis/legislacao-mineira/lei/?tipo=DLB&amp;num=2701&amp;ano=2019&amp;comp=&amp;cons=" title="Ir para Deliberação da Mesa 2.701, de 2019">Deliberação da Mesa 2.701, de 2019</a>. A ALMG segue os <mark>critérios previstos para o Poder Judiciário</mark> e para o Ministério Público da União, contidos na <a href="https://atos.cnj.jus.br/atos/detalhar/atos-normativos?documento=279" title="Ir para Resolução do Conselho Nacional de Justiça 274, de 2018">Resolução do Conselho Nacional de Justiça 274, de 2018</a>, e na <a href="https://biblioteca.mpf.mp.br/server/api/core/bitstreams/10d4133f-d059-45a1-b31d-e2ffaa5758f1/content" title="Ir para a Portaria PGR/MPU, de 2023" target="_blank" rel="noopener">Portaria PGR/MPU 264, de 2023</a>.&nbsp;</p>
-<p>Têm <strong>direito ao auxílio-moradia</strong> apenas os deputados que:</p>
-<ul>
-<li>Não possuem imóvel em Belo Horizonte</li>
-<li>Não tenham sido proprietários de imóvel em Belo Horizonte nos 12 meses que antecedem o início do mandato</li>
-</ul>
-<p>O valor do auxílio-moradia é de <mark>até 25%</mark> do valor do subsídio do deputado estadual. O pagamento é feito por <strong>reembolso</strong> da quantia efetivamente gasta e comprovada com aluguel ou hospedagem.</p><div ></div></div>
-					</div>
-			</div>
-		</div>
-</div>
-</div><div class="collapse d-none d-lg-block p-0" id="collapseSearch_desktop">
+<div  id="maincontainer" ></div><div class="collapse d-none d-lg-block p-0" id="collapseSearch_desktop">
 	<div class="accordion accordion-custom p-0" id="accordionSearch_desktop">
 		<div class="accordion-item bg-transparent border-0">
 
 			<h2 class="accordion-header" id="accordionHeader_desktop">
 					<button class="accordion-button  btn-secondary text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapseItem_desktop" aria-expanded="false" aria-controls="collapseItem_desktop" id="collapseSearch_desktop">
-						<i class="bi bi-search fs-5 me-2 lh-1"></i>Pesquisar Remuneração e custeio</button>
+						<i class="bi bi-search fs-5 me-2 lh-1"></i>Pesquisar Verba indenizatória</button>
 				</h2>
 			<div id="collapseItem_desktop" class="accordion-collapse collapse show" aria-labelledby="accordionHeader_desktop" data-bs-parent="#accordionHeader_desktop">
 				<div class="accordion-body bg-light border rounded-bottom">
 					<div class="nav-custom2 mt-0 mt-lg-3">
 
-						<form method="get" name="buscaDespesas" action="/transparencia/prestacao-de-contas/deputados/remuneracao-dos-deputados-e-custeio/">
+						<form method="post">
 	<div class="input-group">
-		<label for="ano_desktop" class="input-group-text">
-			Ano
+		<label for="periodo_desktop" class="input-group-text">
+			Despesas em <h3 class="d-none"><span class="text-capitalize"></span> de </h3>
 		</label>
-		<select class="form-select" aria-label="Default select" name="ano" id="ano_desktop" onchange="this.form.submit()">
-				<option value="0">Selecione</option>
-				<option value="2026" selected="selected">2026</option>
-				<option value="2025" >2025</option>
-				<option value="2024" >2024</option>
-				<option value="2023" >2023</option>
-				<option value="2022" >2022</option>
-				<option value="2021" >2021</option>
-				<option value="2020" >2020</option>
-				<option value="2019" >2019</option>
-				<option value="2018" >2018</option>
-				<option value="2017" >2017</option>
-				<option value="2016" >2016</option>
-				<option value="2015" >2015</option>
-				<option value="2014" >2014</option>
-				<option value="2013" >2013</option>
-				<option value="2012" >2012</option>
-				<option value="2011" >2011</option>
-				<option value="2010" >2010</option>
-				<option value="2009" >2009</option>
-				<option value="2008" >2008</option>
-				<option value="2007" >2007</option>
-				<option value="2006" >2006</option>
-				<option value="2005" >2005</option>
-				<option value="2004" >2004</option>
-				<option value="2003" >2003</option>
-				</select>
-	</div>
+		<select name="periodo" id="periodo_desktop" class="form-select" onchange="this.form.submit()">
+				<option  value="022023">
+							fevereiro de 2023</option>
+					<option  value="032023">
+							março de 2023</option>
+					<option  value="042023">
+							abril de 2023</option>
+					<option  value="052023">
+							maio de 2023</option>
+					<option  value="062023">
+							junho de 2023</option>
+					<option  value="072023">
+							julho de 2023</option>
+					<option  value="082023">
+							agosto de 2023</option>
+					<option  value="092023">
+							setembro de 2023</option>
+					<option  value="102023">
+							outubro de 2023</option>
+					<option  value="112023">
+							novembro de 2023</option>
+					<option  value="122023">
+							dezembro de 2023</option>
+					<option  value="012024">
+							janeiro de 2024</option>
+					<option  value="022024">
+							fevereiro de 2024</option>
+					<option  value="032024">
+							março de 2024</option>
+					<option  value="042024">
+							abril de 2024</option>
+					<option  value="052024">
+							maio de 2024</option>
+					<option  value="062024">
+							junho de 2024</option>
+					<option  value="072024">
+							julho de 2024</option>
+					<option  value="082024">
+							agosto de 2024</option>
+					<option  value="092024">
+							setembro de 2024</option>
+					<option  value="102024">
+							outubro de 2024</option>
+					<option  value="112024">
+							novembro de 2024</option>
+					<option  value="122024">
+							dezembro de 2024</option>
+					<option  value="012025">
+							janeiro de 2025</option>
+					<option  value="022025">
+							fevereiro de 2025</option>
+					<option  value="032025">
+							março de 2025</option>
+					<option  value="042025">
+							abril de 2025</option>
+					<option  value="052025">
+							maio de 2025</option>
+					<option  value="062025">
+							junho de 2025</option>
+					<option  value="072025">
+							julho de 2025</option>
+					<option  value="082025">
+							agosto de 2025</option>
+					<option  value="092025">
+							setembro de 2025</option>
+					<option  value="102025">
+							outubro de 2025</option>
+					<option  value="112025">
+							novembro de 2025</option>
+					<option  value="122025">
+							dezembro de 2025</option>
+					<option  value="012026">
+							janeiro de 2026</option>
+					<option  value="022026">
+							fevereiro de 2026</option>
+					<option  value="032026">
+							março de 2026</option>
+					<option  value="042026">
+							abril de 2026</option>
+					<option  value="052026">
+							maio de 2026</option>
+					<option  value="062026">
+							junho de 2026</option>
+					<option  value="072026">
+							julho de 2026</option>
+					<option  value="082026">
+							agosto de 2026</option>
+					<option  value="092026">
+							setembro de 2026</option>
+					<option selected value="102026">
+							outubro de 2026</option>
+					</select>
+		</div>
 </form></div>
 				</div>
 			</div>
@@ -1063,94 +1119,248 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 	</div>
 </div></div>
-					
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-12 mt-2">
-			<!-- List -->
-<!-- br.gov.almg.opencms.jsp.beans.PaginacaoBean -->
-<!-- String -->
-<!-- Boolean -->
-<!-- Numero de itens de paginacao -->
-<!-- Tratamento label e genero resultados -->
-<div class="row">
-		<div class="col-12  text-end small lh-1 my-2">
-						10 arquivos encontrados<i class="bi bi-arrow-down-short fs-5 align-middle"></i>
+					<div class="col-12 mt-4">
+			<div class="row">
+				<div class="col-9 col-sm-6 col-xl-2 mx-auto pe-6">
+					<div class="text-center">
+			<div>
+				<a title="Carlos Henrique" href="/deputados/carlos-henrique/10002?legislatura=20" data-img="/a-assembleia/deputados/fotos/10002.jpg" data-debug="br.gov.almg.sipub.modelo.deputados.DeputadoDetalheSipub">
+					<img src="/export/sites/portal/a-assembleia/deputados/fotos/10002.jpg_349207111.jpg" width="455" height="455" alt="Carlos Henrique" class="border img-fluid rounded-circle" /></a>
+			</div>
+			<div class="d-block d-lg-none"><!--Mobile-->
+				<div class="badge badge-pill almg-css_partido almg-css_partido-REPUBLICANOS my-2" onclick="location.href='/a-assembleia/deputados/inicial/?pesquisou=true&aba=partido&partido=9'" role="button">REPUBLICANOS</div>
+				<div class="h6 link-gray-800 d-blockls--1">Carlos Henrique</div>
+			</div>
+			<div class="d-none d-lg-block"><!--Desktop-->
+				<div class="badge badge-pill almg-css_partido almg-css_partido-REPUBLICANOS my-2 fs-6" onclick="location.href='/a-assembleia/deputados/inicial/?pesquisou=true&aba=partido&partido=9'" role="button">REPUBLICANOS</div>
+				<div class="h5 link-gray-800 d-blockls--1">Carlos Henrique</div>
+			</div>
+		</div>
+	</div>
+				<div class="col-12 col-xl-10" id="js_anchorPoint">
+					<h2 class="d-none">Carlos Henrique</h2>
+					<div class="accordion accordion-flush" id="accordionVerbas">
+							<div class="accordion-item p-3 d-inline-flex align-items-center">
+								<h4 class="h3 m-0 me-auto text-dark">Grupo de despesas</h4>
+								<span class="badge bg-secondary rounded-pill text-white ms-3">Reembolsável</span>
+							</div>
+							<div class="accordion-item bg-light">
+									<h2 class="accordion-header" id="heading0">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVerba0" aria-expanded="true" aria-controls="collapseVerba0">
+											<div class="d-flex align-items-start w-100 pe-4">
+												<div class="me-auto">Combustível e lubrificante</div>
+												<span class="badge bg-khaki text-white">R$ 3.596,62</span>
+											</div>
+										</button>
+									</h2>
+									<div id="collapseVerba0" class="accordion-collapse collapse" aria-labelledby="heading0" data-bs-parent="#accordionVerbas">
+										<div class="accordion-body table-responsive">
+											<table class="table bg-white table-bordered table-striped table-hover small text-center m-0 lh-sm">
+												<thead>
+													<th class="fw-bold text-start">Emitente</th>
+													<th class="fw-bold">CNPJ/CPF</th>
+													<th class="fw-bold">Data</th>
+													<th class="fw-bold">Número</th>
+													<th class="fw-bold">Valor</th>
+													<th class="fw-bold">Reembolsável</th>
+												</thead>
+												<tbody>
+													<tr>
+															<td class="text-start">Novo Posto Seabra Ltda.</td>
+															<td>28309020000168</td>
+															<td>04/10/2026</td>
+															<td>598319</td>
+															<td>R$ 305,61</td>
+															<td>R$ 305,61</td>
+														</tr>
+													<tr>
+															<td class="text-start">Posto Hugo Werneck Ltda.</td>
+															<td>25723479000115</td>
+															<td>08/10/2026</td>
+															<td>000000976</td>
+															<td>R$ 2.915,50</td>
+															<td>R$ 2.915,50</td>
+														</tr>
+													<tr>
+															<td class="text-start">Rede Ornelas Petroleo Ltda.</td>
+															<td>51709591000101</td>
+															<td>03/10/2026</td>
+															<td>161010</td>
+															<td>R$ 375,51</td>
+															<td>R$ 375,51</td>
+														</tr>
+													</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							<div class="accordion-item bg-white">
+									<h2 class="accordion-header" id="heading1">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVerba1" aria-expanded="true" aria-controls="collapseVerba1">
+											<div class="d-flex align-items-start w-100 pe-4">
+												<div class="me-auto">Divulgação da atividade parlamentar</div>
+												<span class="badge bg-khaki text-white">R$ 39.980,00</span>
+											</div>
+										</button>
+									</h2>
+									<div id="collapseVerba1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionVerbas">
+										<div class="accordion-body table-responsive">
+											<table class="table bg-white table-bordered table-striped table-hover small text-center m-0 lh-sm">
+												<thead>
+													<th class="fw-bold text-start">Emitente</th>
+													<th class="fw-bold">CNPJ/CPF</th>
+													<th class="fw-bold">Data</th>
+													<th class="fw-bold">Número</th>
+													<th class="fw-bold">Valor</th>
+													<th class="fw-bold">Reembolsável</th>
+												</thead>
+												<tbody>
+													<tr>
+															<td class="text-start">Rb Elo Serviços Gráficos Ltda.</td>
+															<td>49552077000163</td>
+															<td>30/10/2026</td>
+															<td>77</td>
+															<td>R$ 39.980,00</td>
+															<td>R$ 39.980,00</td>
+														</tr>
+													</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							<div class="accordion-item bg-light">
+									<h2 class="accordion-header" id="heading2">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVerba2" aria-expanded="true" aria-controls="collapseVerba2">
+											<div class="d-flex align-items-start w-100 pe-4">
+												<div class="me-auto">Locação de imóvel e despesas a ele concernentes</div>
+												<span class="badge bg-khaki text-white">R$ 619,00</span>
+											</div>
+										</button>
+									</h2>
+									<div id="collapseVerba2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionVerbas">
+										<div class="accordion-body table-responsive">
+											<table class="table bg-white table-bordered table-striped table-hover small text-center m-0 lh-sm">
+												<thead>
+													<th class="fw-bold text-start">Emitente</th>
+													<th class="fw-bold">CNPJ/CPF</th>
+													<th class="fw-bold">Data</th>
+													<th class="fw-bold">Número</th>
+													<th class="fw-bold">Valor</th>
+													<th class="fw-bold">Reembolsável</th>
+												</thead>
+												<tbody>
+													<tr>
+															<td class="text-start">Starlink Brazil Serviços de Internet Ltda.</td>
+															<td>40154884000153</td>
+															<td>21/10/2026</td>
+															<td>013768105</td>
+															<td>R$ 619,00</td>
+															<td>R$ 619,00</td>
+														</tr>
+													</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							<div class="accordion-item bg-white">
+									<h2 class="accordion-header" id="heading3">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVerba3" aria-expanded="true" aria-controls="collapseVerba3">
+											<div class="d-flex align-items-start w-100 pe-4">
+												<div class="me-auto">Locação e fretamento de veículos</div>
+												<span class="badge bg-khaki text-white">R$ 13.843,44</span>
+											</div>
+										</button>
+									</h2>
+									<div id="collapseVerba3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionVerbas">
+										<div class="accordion-body table-responsive">
+											<table class="table bg-white table-bordered table-striped table-hover small text-center m-0 lh-sm">
+												<thead>
+													<th class="fw-bold text-start">Emitente</th>
+													<th class="fw-bold">CNPJ/CPF</th>
+													<th class="fw-bold">Data</th>
+													<th class="fw-bold">Número</th>
+													<th class="fw-bold">Valor</th>
+													<th class="fw-bold">Reembolsável</th>
+												</thead>
+												<tbody>
+													<tr>
+															<td class="text-start">Vip Loc Veiculos Ltda.</td>
+															<td>10186946000148</td>
+															<td>05/10/2026</td>
+															<td>004624</td>
+															<td>R$ 6.562,33</td>
+															<td>R$ 5.687,35</td>
+														</tr>
+													<tr>
+															<td class="text-start">Vip Loc Veiculos Ltda.</td>
+															<td>10186946000148</td>
+															<td>05/10/2026</td>
+															<td>004623</td>
+															<td>R$ 9.062,33</td>
+															<td>R$ 8.156,09</td>
+														</tr>
+													</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							<div class="accordion-item bg-light">
+									<h2 class="accordion-header" id="heading4">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVerba4" aria-expanded="true" aria-controls="collapseVerba4">
+											<div class="d-flex align-items-start w-100 pe-4">
+												<div class="me-auto">Passagens, hospedagem e alimentação</div>
+												<span class="badge bg-khaki text-white">R$ 3.906,82</span>
+											</div>
+										</button>
+									</h2>
+									<div id="collapseVerba4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionVerbas">
+										<div class="accordion-body table-responsive">
+											<table class="table bg-white table-bordered table-striped table-hover small text-center m-0 lh-sm">
+												<thead>
+													<th class="fw-bold text-start">Emitente</th>
+													<th class="fw-bold">CNPJ/CPF</th>
+													<th class="fw-bold">Data</th>
+													<th class="fw-bold">Número</th>
+													<th class="fw-bold">Valor</th>
+													<th class="fw-bold">Reembolsável</th>
+												</thead>
+												<tbody>
+													<tr>
+															<td class="text-start">Gol Linhas Aereas S/A</td>
+															<td>07575651000159</td>
+															<td>08/10/2026</td>
+															<td>YIRCVN</td>
+															<td>R$ 2.776,03</td>
+															<td>R$ 2.776,03</td>
+														</tr>
+													<tr>
+															<td class="text-start">Hotel Soul Flats Ltda.</td>
+															<td>27391243000154</td>
+															<td>04/10/2026</td>
+															<td>11038</td>
+															<td>R$ 350,00</td>
+															<td>R$ 350,00</td>
+														</tr>
+													<tr>
+															<td class="text-start">Tam Linhas Aéreas S/A</td>
+															<td>02012862000160</td>
+															<td>08/10/2026</td>
+															<td>YGSYBW</td>
+															<td>R$ 780,79</td>
+															<td>R$ 780,79</td>
+														</tr>
+													</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							<div class="accordion-item rounded-bottom py-3 px-5 bg-gray-300 text-dark text-end">
+								<span class="pe-5"><strong>Total</strong> R$ 61.945,88</span>
+							</div>
+						</div>
 					</div>
-				<div>
-					<div class="row">
-						<div class="col-12  mt-3  bg-light ">
-	<a href="https://mediaserver.almg.gov.br/acervo/664/576/2664576.pdf" class="gt-resultadopesquisa-pg1-item1 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Remuneração e custeio da atividade parlamentar - Outubro de 2026</span>
-	</a>
-</div><div class="col-12   ">
-	<a href="https://mediaserver.almg.gov.br/acervo/647/403/2647403.pdf" class="gt-resultadopesquisa-pg1-item2 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Remuneração e custeio da atividade parlamentar - Setembro de 2026</span>
-	</a>
-</div><div class="col-12   bg-light ">
-	<a href="https://mediaserver.almg.gov.br/acervo/634/471/2634471.pdf" class="gt-resultadopesquisa-pg1-item3 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Remuneração e custeio da atividade parlamentar - Agosto de 2026</span>
-	</a>
-</div><div class="col-12   ">
-	<a href="https://mediaserver.almg.gov.br/acervo/619/467/2619467.pdf" class="gt-resultadopesquisa-pg1-item4 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Remuneração e custeio da atividade parlamentar - Julho de 2026</span>
-	</a>
-</div><div class="col-12   bg-light ">
-	<a href="https://mediaserver.almg.gov.br/acervo/601/615/2601615.pdf" class="gt-resultadopesquisa-pg1-item5 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Remuneração e custeio da atividade parlamentar - Junho de 2026</span>
-	</a>
-</div><div class="col-12   ">
-	<a href="https://mediaserver.almg.gov.br/acervo/582/269/2582269.pdf" class="gt-resultadopesquisa-pg1-item6 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Remuneração e custeio da atividade parlamentar - Maio de 2026</span>
-	</a>
-</div><div class="col-12   bg-light ">
-	<a href="https://mediaserver.almg.gov.br/acervo/559/348/2559348.pdf" class="gt-resultadopesquisa-pg1-item7 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Remuneração e custeio da atividade parlamentar - Abril de 2026</span>
-	</a>
-</div><div class="col-12   ">
-	<a href="https://mediaserver.almg.gov.br/acervo/541/683/2541683.pdf" class="gt-resultadopesquisa-pg1-item8 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Remuneração e custeio da atividade parlamentar - Março de 2026</span>
-	</a>
-</div><div class="col-12   bg-light ">
-	<a href="https://mediaserver.almg.gov.br/acervo/520/156/2520156.pdf" class="gt-resultadopesquisa-pg1-item9 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Remuneração e custeio da atividade parlamentar - Fevereiro de 2026</span>
-	</a>
-</div><div class="col-12   ">
-	<a href="https://mediaserver.almg.gov.br/acervo/512/677/2512677.pdf" class="gt-resultadopesquisa-pg1-item10 fs-6 py-3 px-2 m-0 lh-sm text-dark fw-semibold fw-normal d-flex align-items-center">
-		<span class="me-2 text-primary"><i class="bi bi-filetype-pdf fs-4"></i></span>
-		<span>Remuneração e custeio da atividade parlamentar - Janeiro de 2026</span>
-	</a>
-</div></div>
-				</div>
-
-				</div></div>
-		
+			</div>
+		</div>
 	<div  id="posmaincontainer" ></div></div>
 			</div>
 			<div  id="footercontainer" ></div></main>
@@ -1316,7 +1526,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	window.dataLayer.push({
 		'event': 'page_view',
 		'page': {
-			'title': 'Deputados: Remuneração e custeio - Assembleia Legislativa de Minas Gerais',
+			'title': 'Prestação de contas: Carlos Henrique / REPUBLICANOS - Assembleia Legislativa de Minas Gerais',
 			//'category': 'secao',
 			'page_date': ''
 		},
